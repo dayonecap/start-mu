@@ -212,7 +212,7 @@ export const residency: ServiceEntry[] = [
       { label: "Work", value: "No gainful employment on the permit itself. Investment in a business is permitted provided the holder is not employed by it. Employment in specific sectors is possible through a separate work permit or Occupation Permit" },
       { label: "Character", value: "Police clearance covering the last ten years, less than six months old" },
       { label: "Dependents", value: "Spouse or common-law partner and dependent children" },
-      { label: "Permanent residence", value: "Eligible for a 20-year Permanent Residence Permit after five years, with aggregate transfers of at least USD 200,000 over the five years preceding the application" },
+      { label: "Permanent residence", value: "Eligible to apply for a 20-year Permanent Residence Permit after five years, with aggregate transfers of at least USD 200,000 over the five years preceding the application" },
     ],
     sections: [
       {
@@ -343,7 +343,7 @@ export const residency: ServiceEntry[] = [
     metaTitle: "Mauritius Golden Visa | start.mu",
     metaDescription:
       "The Mauritius Golden Visa: USD 1 million investment within twelve months, a two-year multiple-entry permit, and eligibility for twenty-year permanent residence. Current status and what to expect.",
-    index: { audience: "High-net-worth families", threshold: "USD 1 million within 12 months", duration: "2 years, then 20-year PR" },
+    index: { audience: "High-net-worth families", threshold: "USD 1 million within 12 months", duration: "2 years, then eligible to apply for 20-year PR" },
   },
   {
     slug: "premium-visa",

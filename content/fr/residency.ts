@@ -119,7 +119,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
       { label: "Travail", value: "Aucune activité rémunérée au titre du permis lui-même. L'investissement dans une entreprise est permis à condition de ne pas y être employé. Un emploi dans certains secteurs est possible avec un permis de travail ou un Occupation Permit distinct" },
       { label: "Moralité", value: "Extrait de casier judiciaire couvrant les dix dernières années, de moins de six mois" },
       { label: "Personnes à charge", value: "Conjoint ou concubin et enfants à charge" },
-      { label: "Résidence permanente", value: "Éligible à un permis de résidence permanente de 20 ans après cinq ans, avec des transferts cumulés d'au moins 200 000 USD sur les cinq années précédant la demande" },
+      { label: "Résidence permanente", value: "Éligible pour demander un permis de résidence permanente de 20 ans après cinq ans, avec des transferts cumulés d'au moins 200 000 USD sur les cinq années précédant la demande" },
     ],
     sections: [
       { heading: "À qui il convient", body: [
@@ -215,7 +215,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     ],
     metaTitle: "Golden Visa de Maurice | start.mu",
     metaDescription: "Le Golden Visa de Maurice : 1 million USD investis en douze mois, un permis de deux ans à entrées multiples et l'éligibilité à une résidence permanente de vingt ans. État actuel et ce qu'il faut attendre.",
-    index: { audience: "Familles fortunées", threshold: "1 million USD en 12 mois", duration: "2 ans, puis résidence permanente de 20 ans" },
+    index: { audience: "Familles fortunées", threshold: "1 million USD en 12 mois", duration: "2 ans, puis éligible pour demander une RP de 20 ans" },
   },
   "premium-visa": {
     title: "Premium Visa",

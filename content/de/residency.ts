@@ -119,7 +119,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Arbeit", value: "Keine Erwerbstätigkeit auf Grundlage der Genehmigung selbst. Beteiligungen an Unternehmen sind zulässig, sofern der Inhaber dort nicht angestellt ist. Eine Beschäftigung in bestimmten Branchen ist über eine gesonderte Arbeitserlaubnis oder ein Occupation Permit möglich" },
       { label: "Führungszeugnis", value: "Polizeiliches Führungszeugnis über die letzten zehn Jahre, nicht älter als sechs Monate" },
       { label: "Familienangehörige", value: "Ehepartner oder Lebenspartner und unterhaltsberechtigte Kinder" },
-      { label: "Dauerhafter Aufenthalt", value: "Nach fünf Jahren berechtigt zu einer 20-jährigen Permanent Residence Permit, bei Überweisungen von insgesamt mindestens 200.000 USD in den fünf Jahren vor dem Antrag" },
+      { label: "Dauerhafter Aufenthalt", value: "Nach fünf Jahren berechtigt, eine 20-jährige Permanent Residence Permit zu beantragen, bei Überweisungen von insgesamt mindestens 200.000 USD in den fünf Jahren vor dem Antrag" },
     ],
     sections: [
       { heading: "Für wen es passt", body: [
@@ -215,7 +215,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     metaTitle: "Golden Visa Mauritius | start.mu",
     metaDescription: "Das Golden Visa von Mauritius: 1 Million USD Investition innerhalb von zwölf Monaten, eine zweijährige Genehmigung für mehrfache Einreise und die Berechtigung, zwanzig Jahre dauerhaften Aufenthalt zu beantragen. Aktueller Stand und was zu erwarten ist.",
-    index: { audience: "Vermögende Familien", threshold: "1 Million USD in 12 Monaten", duration: "2 Jahre, dann 20 Jahre dauerhafter Aufenthalt" },
+    index: { audience: "Vermögende Familien", threshold: "1 Million USD in 12 Monaten", duration: "2 Jahre, dann Antrag auf 20-jährige PR möglich" },
   },
   "premium-visa": {
     title: "Premium Visa",
