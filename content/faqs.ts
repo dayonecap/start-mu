@@ -137,7 +137,7 @@ export const faqs: Record<string, Faq[]> = {
     },
     {
       q: "How does it compare with the Investor permit?",
-      a: "It requires ten times the capital but leads to a twenty-year permanent residence after the first year, rather than a ten-year permit with turnover conditions. The Investor permit suits someone who will run a business; the Golden Visa suits someone who will deploy capital.",
+      a: "It requires ten times the capital but opens the way to applying for twenty-year permanent residence after the first year, rather than a ten-year permit with turnover conditions. The Investor permit suits someone who will run a business; the Golden Visa suits someone who will deploy capital.",
     },
   ],
   "premium-visa": [
@@ -187,7 +187,7 @@ export const faqs: Record<string, Faq[]> = {
     },
     {
       q: "Does the Golden Visa lead to permanent residence sooner?",
-      a: "Yes. Completing the USD 1 million investment within twelve months makes the holder eligible for the twenty-year permit, once the scheme is operational.",
+      a: "Potentially. Completing the USD 1 million investment within twelve months makes the holder eligible to apply for the twenty-year permit, once the scheme is operational. It is an eligibility route, not an automatic grant.",
     },
   ],
   "domestic-company": [
@@ -197,7 +197,7 @@ export const faqs: Record<string, Faq[]> = {
     },
     {
       q: "How is the company taxed?",
-      a: "At 15% on chargeable income, with partial exemptions for certain classes. There is no capital gains tax and dividends are exempt in the shareholder's hands.",
+      a: "At 15% on chargeable income, with partial exemptions for certain classes. There is no capital gains tax and dividends are exempt from income tax in the shareholder's hands, though for an individual resident they count towards the MUR 12 million Fair Share Contribution threshold.",
     },
     {
       q: "Can the company own a home under the property schemes?",

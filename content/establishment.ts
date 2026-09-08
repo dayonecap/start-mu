@@ -13,7 +13,7 @@ export const establishment: ServiceEntry[] = [
       { label: "Registered office", value: "Required in Mauritius. We provide it" },
       { label: "Company secretary", value: "Required for a company with more than one director, or in practice for any company holding a permit or bank account. We provide it" },
       { label: "Timing", value: "Incorporation typically within a few working days of a complete file. A bank account takes longer" },
-      { label: "Tax", value: "15% on chargeable income. No capital gains tax. Dividends paid to shareholders are exempt in their hands" },
+      { label: "Tax", value: "15% on chargeable income. No capital gains tax. Dividends paid to shareholders are exempt from income tax in their hands, but count towards an individual resident's Fair Share Contribution threshold" },
       { label: "Annual obligations", value: "Annual return, financial statements, tax return, and for permit holders, turnover declarations to the EDB" },
     ],
     sections: [

@@ -3,7 +3,10 @@ export const site = {
   byline: "start.mu by Intrasia",
   legalName: "Intrasia Corporate Services Limited",
   tagline: "Clear guidance for living, investing and doing business in Mauritius",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://start.mu",
+  // Canonical host. Every absolute URL on the site derives from this one value:
+  // canonicals, hreflang, sitemap, robots, Open Graph and JSON-LD. Trailing slashes are
+  // stripped so a stray "https://start.mu/" in the environment cannot produce "//residency".
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://start.mu").replace(/\/+$/, ""),
   email: "hello@start.mu",
   phone: "+230 260 8180",
   phoneHref: "tel:+2302608180",

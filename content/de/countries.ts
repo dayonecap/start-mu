@@ -107,7 +107,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       },
       {
         q: "Ist Mauritius eine Steueroase?",
-        a: "Nein. Es ist eine niedrig besteuernde, abkommenskonforme Jurisdiktion mit Substanzanforderungen, 15 % Körperschaftsteuer, persönlichen Sätzen bis höchstens 20 % und einer Remittance-Basis für ausländische Einkünfte. Sie steht auf keiner aktuellen schwarzen Liste, und genau deshalb funktioniert sie für britische Ansässige.",
+        a: "Nein. Es ist eine niedrig besteuernde, abkommenskonforme Jurisdiktion mit Substanzanforderungen, 15 % Körperschaftsteuer, persönlichen Sätzen bis höchstens 20 % zuzüglich einer Fair Share Contribution von 15 % oberhalb von 12 Millionen MUR bis zum 30. Juni 2028, und einer Remittance-Basis für ausländische Einkünfte. Sie steht auf keiner aktuellen schwarzen Liste, und genau deshalb funktioniert sie für britische Ansässige.",
       },
     ],
   },

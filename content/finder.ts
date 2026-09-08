@@ -143,7 +143,7 @@ export const finder: Record<Locale, FinderStrings> = {
       golden: {
         title: "Golden Visa, once operational",
         why: [
-          "USD 1 million invested within twelve months leads to a twenty-year permanent residence permit, without the obligation to run a business.",
+          "USD 1 million invested within twelve months makes you eligible to apply for a twenty-year permanent residence permit, without the obligation to run a business. Approval is not automatic.",
           "The EDB's guidelines are still awaited; until then the Investor permit or residence through property are the working alternatives.",
         ],
       },
@@ -285,7 +285,7 @@ export const finder: Record<Locale, FinderStrings> = {
       golden: {
         title: "Le Golden Visa, une fois opérationnel",
         why: [
-          "Un million de dollars investi dans les douze mois conduit à un permis de résidence permanente de vingt ans, sans obligation de diriger une entreprise.",
+          "Un million de dollars investi dans les douze mois vous rend éligible pour demander un permis de résidence permanente de vingt ans, sans obligation de diriger une entreprise. L'octroi n'est pas automatique.",
           "Les lignes directrices de l'EDB sont encore attendues ; d'ici là, le permis Investisseur ou la résidence par l'immobilier sont les solutions praticables.",
         ],
       },
@@ -427,7 +427,7 @@ export const finder: Record<Locale, FinderStrings> = {
       golden: {
         title: "Golden Visa, sobald es läuft",
         why: [
-          "Eine Million USD, innerhalb von zwölf Monaten investiert, führt zu einer zwanzigjährigen Permanent Residence Permit, ohne die Pflicht, ein Unternehmen zu führen.",
+          "Eine Million USD, innerhalb von zwölf Monaten investiert, berechtigt Sie, eine zwanzigjährige Permanent Residence Permit zu beantragen, ohne die Pflicht, ein Unternehmen zu führen. Die Erteilung erfolgt nicht automatisch.",
           "Die Richtlinien des EDB stehen noch aus; bis dahin sind das Investor Permit oder der Aufenthalt über eine Immobilie die praktikablen Alternativen.",
         ],
       },

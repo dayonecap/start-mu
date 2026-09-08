@@ -295,14 +295,14 @@ export const residency: ServiceEntry[] = [
     title: "Golden Visa",
     summary: "A new route for high-net-worth families committing USD 1 million within twelve months.",
     intro:
-      "The Golden Visa is a multiple-entry visa for high-net-worth individuals and their immediate dependents, approved by Cabinet in April 2026 and legislated through the 2026-27 Budget measures. A holder who invests USD 1 million in Mauritius within twelve months of issue becomes eligible for a twenty-year Permanent Residence Permit.",
+      "The Golden Visa is a multiple-entry visa for high-net-worth individuals and their immediate dependents, approved by Cabinet in April 2026 and legislated through the 2026-27 Budget measures. A holder who invests USD 1 million in Mauritius within twelve months of issue becomes eligible to apply for a twenty-year Permanent Residence Permit. Eligibility is not the same as approval: the application is assessed on its merits, and completing the investment does not convert the visa automatically.",
     status:
       "The framework has been enacted in principle but the EDB's application guidelines and the commencement of the scheme remain to be finalised. We are tracking the guidelines closely and will confirm the operative requirements before accepting any instruction.",
     facts: [
       { label: "Investment undertaking", value: "USD 1 million, invested within twelve months of issue, confirmed by a written undertaking at application" },
       { label: "Qualifying investment", value: "Any business activity other than the acquisition of residential property under the EDB property schemes. Sectors highlighted include fintech, artificial intelligence, biotechnology, renewable energy and global treasury" },
       { label: "Initial permit", value: "Up to two years, multiple entry, renewable" },
-      { label: "On completion of the investment", value: "Eligibility for a 20-year Permanent Residence Permit" },
+      { label: "On completion of the investment", value: "Eligible to apply for a 20-year Permanent Residence Permit. Not an automatic conversion" },
       { label: "Dependents", value: "Spouse and dependent children" },
       { label: "Processing target", value: "Five working days, announced by the Prime Minister" },
       { label: "Expected volume", value: "Around 100 recipients a year" },

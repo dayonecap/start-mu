@@ -60,7 +60,7 @@ export const countries: CountryPage[] = [
     faqs: [
       { q: "Can I keep my UK state pension?", a: "Yes. It is paid abroad, and Mauritius is among the countries where the UK state pension is uprated annually under a social security agreement. Confirm the current position with the Department for Work and Pensions before relying on it." },
       { q: "Do I need a visa to enter while the permit is processed?", a: "British citizens enter Mauritius visa-free as visitors. The permit process itself starts before travel and is completed in person once approved in principle." },
-      { q: "Is Mauritius a tax haven?", a: "No. It is a low-tax, treaty-compliant jurisdiction with substance requirements, a 15% corporate rate, personal rates that top out at 20% and a remittance basis for foreign income. It is on no current blacklist, and that is precisely why it works for British residents." },
+      { q: "Is Mauritius a tax haven?", a: "No. It is a low-tax, treaty-compliant jurisdiction with substance requirements, a 15% corporate rate, personal rates up to 20% with a further 15% Fair Share Contribution above MUR 12 million until 30 June 2028, and a remittance basis for foreign income. It is on no current blacklist, and that is precisely why it works for British residents." },
     ],
   },
   {

@@ -180,14 +180,14 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     title: "Golden Visa",
     summary: "Une nouvelle voie pour les familles fortunées engageant 1 million USD en douze mois.",
     intro:
-      "Le Golden Visa est un visa à entrées multiples pour les personnes fortunées et leurs proches à charge, approuvé par le Conseil des ministres en avril 2026 et introduit par les mesures du Budget 2026-27. Un titulaire qui investit 1 million USD à Maurice dans les douze mois suivant la délivrance devient éligible à un permis de résidence permanente de vingt ans.",
+      "Le Golden Visa est un visa à entrées multiples pour les personnes fortunées et leurs proches à charge, approuvé par le Conseil des ministres en avril 2026 et introduit par les mesures du Budget 2026-27. Un titulaire qui investit 1 million USD à Maurice dans les douze mois suivant la délivrance devient éligible pour demander un permis de résidence permanente de vingt ans. L'éligibilité n'est pas l'octroi : la demande est appréciée au fond, et l'achèvement de l'investissement ne convertit pas le visa automatiquement.",
     status:
       "Le cadre a été adopté dans son principe, mais les lignes directrices de l'EDB et l'entrée en vigueur du dispositif restent à finaliser. Nous suivons ces lignes directrices de près et confirmerons les exigences applicables avant d'accepter tout mandat.",
     facts: [
       { label: "Engagement d'investissement", value: "1 million USD, investis dans les douze mois suivant la délivrance, confirmés par un engagement écrit lors de la demande" },
       { label: "Investissement éligible", value: "Toute activité économique autre que l'acquisition d'un bien résidentiel sous les programmes immobiliers de l'EDB. Les secteurs mis en avant sont la fintech, l'intelligence artificielle, la biotechnologie, les énergies renouvelables et la trésorerie internationale" },
       { label: "Permis initial", value: "Jusqu'à deux ans, entrées multiples, renouvelable" },
-      { label: "À l'achèvement de l'investissement", value: "Éligibilité à un permis de résidence permanente de 20 ans" },
+      { label: "À l'achèvement de l'investissement", value: "Éligible pour demander un permis de résidence permanente de 20 ans. Pas une conversion automatique" },
       { label: "Personnes à charge", value: "Conjoint et enfants à charge" },
       { label: "Objectif de traitement", value: "Cinq jours ouvrables, annoncés par le Premier ministre" },
       { label: "Volume attendu", value: "Environ 100 bénéficiaires par an" },
@@ -375,7 +375,7 @@ export const faqsFr: Record<string, Faq[]> = {
     { q: "Le Golden Visa est-il disponible maintenant ?", a: "Le cadre a été approuvé par le Conseil des ministres en avril 2026 et introduit par les mesures budgétaires, mais les lignes directrices de l'EDB et l'entrée en vigueur du dispositif restent à finaliser. Nous confirmerons les exigences applicables avant d'accepter tout mandat." },
     { q: "L'achat d'un logement compte-t-il dans le million USD ?", a: "Non. Les biens résidentiels sous les programmes de l'EDB sont exclus de l'investissement éligible. Vous pouvez acheter un logement sous les programmes en plus de celui-ci." },
     { q: "Puis-je travailler à Maurice avec le Golden Visa ?", a: "Le visa ne confère pas, à lui seul, le droit de travailler. L'attente est un investissement dans des secteurs éligibles plutôt qu'un emploi." },
-    { q: "Comment se compare-t-il au permis Investisseur ?", a: "Il exige dix fois plus de capital mais mène à une résidence permanente de vingt ans après la première année, plutôt qu'à un permis de dix ans assorti de conditions de chiffre d'affaires. Le permis Investisseur convient à celui qui dirigera une entreprise ; le Golden Visa à celui qui déploiera des capitaux." },
+    { q: "Comment se compare-t-il au permis Investisseur ?", a: "Il exige dix fois plus de capital mais ouvre la voie à une demande de résidence permanente de vingt ans après la première année, plutôt qu'à un permis de dix ans assorti de conditions de chiffre d'affaires. Le permis Investisseur convient à celui qui dirigera une entreprise ; le Golden Visa à celui qui déploiera des capitaux." },
   ],
   "premium-visa": [
     { q: "Puis-je passer du Premium Visa à un permis de résidence sans quitter Maurice ?", a: "Oui. Un titulaire qui constitue ensuite une société et demande un permis Investisseur ou Indépendant, ou qui a plus de 50 ans et passe au permis Retraité non-citoyen, peut le faire depuis Maurice." },
@@ -392,6 +392,6 @@ export const faqsFr: Record<string, Faq[]> = {
   "permanent-residence": [
     { q: "Quand puis-je faire la demande ?", a: "Après cinq ans de permis, à condition que les seuils de votre catégorie aient été atteints chacune de ces années, et au plus tard six mois après qu'ils sont remplis." },
     { q: "Les seuils sont-ils les mêmes que pour le permis lui-même ?", a: "Non. Ils sont nettement plus élevés : 15 millions MUR de chiffre d'affaires annuel pour un investisseur, 400 000 MUR par mois pour un professionnel, 3 millions MUR par an pour un indépendant, et 200 000 USD de transferts cumulés pour un retraité. La préparation commence en année 1." },
-    { q: "Le Golden Visa mène-t-il plus vite à la résidence permanente ?", a: "Oui. La réalisation de l'investissement de 1 million USD dans les douze mois rend le titulaire éligible au permis de vingt ans, une fois le dispositif opérationnel." },
+    { q: "Le Golden Visa mène-t-il plus vite à la résidence permanente ?", a: "Potentiellement. La réalisation de l'investissement de 1 million USD dans les douze mois rend le titulaire éligible pour demander le permis de vingt ans, une fois le dispositif opérationnel. C'est une voie d'éligibilité, non un octroi automatique." },
   ],
 };

@@ -13,7 +13,7 @@ export const establishmentFr: Record<string, Partial<ServiceEntry>> = {
       { label: "Siège social", value: "Requis à Maurice. Nous le fournissons" },
       { label: "Secrétaire de société", value: "Requis pour une société ayant plus d'un administrateur, et en pratique pour toute société détenant un permis ou un compte bancaire. Nous le fournissons" },
       { label: "Délais", value: "Constitution généralement en quelques jours ouvrables à partir d'un dossier complet. Le compte bancaire prend plus de temps" },
-      { label: "Fiscalité", value: "15 % sur le revenu imposable. Pas d'impôt sur les plus-values. Les dividendes versés aux actionnaires sont exonérés entre leurs mains" },
+      { label: "Fiscalité", value: "15 % sur le revenu imposable. Pas d'impôt sur les plus-values. Les dividendes versés aux actionnaires sont exonérés d'impôt sur le revenu entre leurs mains, mais comptent, pour une personne physique résidente, dans le seuil de la Fair Share Contribution" },
       { label: "Obligations annuelles", value: "Déclaration annuelle, états financiers, déclaration fiscale et, pour les titulaires de permis, déclarations de chiffre d'affaires à l'EDB" },
     ],
     sections: [
@@ -340,7 +340,7 @@ export const propertyFr: Record<string, Partial<ServiceEntry>> = {
 export const faqsBusinessFr: Record<string, Faq[]> = {
   "domestic-company": [
     { q: "Ai-je besoin d'un administrateur mauricien ?", a: "Au moins un administrateur doit résider habituellement à Maurice. Lorsque le propriétaire n'est pas encore résident ou préfère ne pas agir, nous fournissons un administrateur résident dans le cadre d'un accord écrit qui précise ce que l'administrateur fera et ne fera pas." },
-    { q: "Comment la société est-elle imposée ?", a: "À 15 % sur le revenu imposable, avec des exonérations partielles pour certaines catégories. Il n'y a pas d'impôt sur les plus-values et les dividendes sont exonérés entre les mains de l'actionnaire." },
+    { q: "Comment la société est-elle imposée ?", a: "À 15 % sur le revenu imposable, avec des exonérations partielles pour certaines catégories. Il n'y a pas d'impôt sur les plus-values et les dividendes sont exonérés d'impôt sur le revenu entre les mains de l'actionnaire, mais ils comptent, pour une personne physique résidente, dans le seuil de 12 millions MUR de la Fair Share Contribution." },
     { q: "La société peut-elle détenir un logement sous les programmes immobiliers ?", a: "Oui, avec l'autorisation de l'EDB, et ses parts peuvent être détenues en trust. C'est une structure que nous mettons en place régulièrement pour les familles qui préfèrent ne pas détenir d'immobilier en leur nom." },
     { q: "Combien de temps prend la constitution ?", a: "Quelques jours ouvrables à partir d'un dossier complet. Le compte bancaire prend plus de temps et c'est lui qui fixe le calendrier." },
   ],

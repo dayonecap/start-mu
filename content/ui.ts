@@ -43,7 +43,7 @@ const en = {
     ],
     mauritiusH: "Mauritius in practice",
     mauritius: [
-      "A stable democracy with an independent judiciary, English and French in daily use, personal income tax that tops out at 20%, with a remittance basis for foreign income, no capital gains tax, and direct flights to Johannesburg, Paris, London, Dubai and Singapore. Good international schools, reliable private healthcare, and a coastline you can live on.",
+      "A stable democracy with an independent judiciary, English and French in daily use, personal income tax that tops out at 20%, with a further 15% Fair Share Contribution above MUR 12 million in force to 30 June 2028, a remittance basis for foreign income, no capital gains tax, and direct flights to Johannesburg, Paris, London, Dubai and Singapore. Good international schools, reliable private healthcare, and a coastline you can live on.",
       "It is also a small island with a real bureaucracy, banks that ask hard questions, and permit rules that change with each Budget. The practical side is where most relocations go slowly. It is the side we handle.",
     ],
     mauritiusLink: "More on living and doing business here",
@@ -139,7 +139,7 @@ const en = {
       "None of this is difficult when it is handled from the start. Most of the difficulty we see arises from files that were prepared casually, structures that were not thought through, or thresholds that were not tracked. The practical side is where relocations go slowly, and it is the side we handle.",
     ],
     facts: [
-      { label: "Personal income tax", value: "Progressive rates up to 20% following the 2023 reform, with foreign-source income taxed on a remittance basis for residents" },
+      { label: "Personal income tax", value: "Progressive rates up to 20% following the 2023 reform. A Fair Share Contribution of 15% applies to leviable income above MUR 12 million, for the income years from 1 July 2025 to 30 June 2028. Leviable income adds dividends from resident companies to chargeable income, so Mauritian dividends that are otherwise exempt count towards the threshold. Foreign-source income is taxed on a remittance basis for residents" },
       { label: "Corporate tax", value: "15%, with partial exemptions for certain classes of income. No capital gains tax. No inheritance tax" },
       { label: "Tax residence", value: "183 days in a tax year, or 270 days over three consecutive years" },
       { label: "Double taxation agreements", value: "A network of more than 40 agreements in force, including with South Africa, France, the United Kingdom, Germany, India and China" },
@@ -288,7 +288,7 @@ const fr: Ui = {
     ],
     mauritiusH: "Maurice, en pratique",
     mauritius: [
-      "Une démocratie stable dotée d'une justice indépendante, l'anglais et le français au quotidien, un impôt sur le revenu plafonné à 20 % avec imposition des revenus étrangers sur la base du rapatriement, pas d'impôt sur les plus-values, et des vols directs vers Johannesburg, Paris, Londres, Dubaï et Singapour. De bonnes écoles internationales, un secteur privé de santé fiable et un littoral où l'on peut vivre.",
+      "Une démocratie stable dotée d'une justice indépendante, l'anglais et le français au quotidien, un impôt sur le revenu plafonné à 20 %, auquel s'ajoute une Fair Share Contribution de 15 % au-delà de 12 millions MUR, en vigueur jusqu'au 30 juin 2028, l'imposition des revenus étrangers sur la base du rapatriement, pas d'impôt sur les plus-values, et des vols directs vers Johannesburg, Paris, Londres, Dubaï et Singapour. De bonnes écoles internationales, un secteur privé de santé fiable et un littoral où l'on peut vivre.",
       "C'est aussi une petite île avec une vraie administration, des banques qui posent des questions difficiles et des règles de permis qui changent à chaque Budget. Le côté pratique est là où la plupart des installations ralentissent. C'est le côté que nous prenons en charge.",
     ],
     mauritiusLink: "En savoir plus sur la vie et les affaires à Maurice",
@@ -384,7 +384,7 @@ const fr: Ui = {
       "Rien de tout cela n'est difficile lorsque c'est pris en main dès le départ. La plupart des difficultés que nous voyons viennent de dossiers préparés à la légère, de structures mal pensées ou de seuils qui n'ont pas été suivis. C'est sur l'aspect pratique que les installations s'enlisent, et c'est cet aspect que nous prenons en charge.",
     ],
     facts: [
-      { label: "Impôt sur le revenu des personnes physiques", value: "Taux progressifs jusqu'à 20 % depuis la réforme de 2023, les revenus de source étrangère des résidents étant imposés sur une base de remise" },
+      { label: "Impôt sur le revenu des personnes physiques", value: "Taux progressifs jusqu'à 20 % depuis la réforme de 2023. Une Fair Share Contribution de 15 % s'applique au leviable income supérieur à 12 millions MUR, pour les années fiscales du 1er juillet 2025 au 30 juin 2028. Le leviable income ajoute au revenu imposable les dividendes de sociétés résidentes : les dividendes mauriciens autrement exonérés comptent donc dans le seuil. Les revenus de source étrangère des résidents sont imposés sur une base de remise" },
       { label: "Impôt sur les sociétés", value: "15 %, avec des exonérations partielles pour certaines catégories de revenus. Pas d'impôt sur les plus-values. Pas de droits de succession" },
       { label: "Résidence fiscale", value: "183 jours au cours d'une année fiscale, ou 270 jours sur trois années consécutives" },
       { label: "Conventions fiscales", value: "Un réseau de plus de 40 conventions en vigueur, dont avec l'Afrique du Sud, la France, le Royaume-Uni, l'Allemagne, l'Inde et la Chine" },
@@ -531,7 +531,7 @@ const de: Ui = {
     ],
     mauritiusH: "Mauritius in der Praxis",
     mauritius: [
-      "Eine stabile Demokratie mit unabhängiger Justiz, Englisch und Französisch im Alltag, eine Einkommensteuer von höchstens 20 % mit Besteuerung ausländischer Einkünfte nur bei Überweisung ins Land, keine Kapitalertragsteuer und Direktflüge nach Johannesburg, Paris, London, Dubai und Singapur. Gute internationale Schulen, eine verlässliche private Gesundheitsversorgung und eine Küste, an der man leben kann.",
+      "Eine stabile Demokratie mit unabhängiger Justiz, Englisch und Französisch im Alltag, eine Einkommensteuer von höchstens 20 %, dazu eine Fair Share Contribution von 15 % oberhalb von 12 Millionen MUR, in Kraft bis zum 30. Juni 2028, Besteuerung ausländischer Einkünfte nur bei Überweisung ins Land, keine Kapitalertragsteuer und Direktflüge nach Johannesburg, Paris, London, Dubai und Singapur. Gute internationale Schulen, eine verlässliche private Gesundheitsversorgung und eine Küste, an der man leben kann.",
       "Es ist zugleich eine kleine Insel mit einer echten Bürokratie, Banken, die harte Fragen stellen, und Genehmigungsregeln, die sich mit jedem Haushalt ändern. An der praktischen Seite geraten die meisten Umzüge ins Stocken. Sie ist die Seite, die wir übernehmen.",
     ],
     mauritiusLink: "Mehr über Leben und Arbeiten auf Mauritius",
@@ -627,7 +627,7 @@ const de: Ui = {
       "Nichts davon ist schwierig, wenn es von Anfang an in die Hand genommen wird. Die meisten Schwierigkeiten, die wir sehen, stammen aus flüchtig vorbereiteten Akten, aus nicht zu Ende gedachten Strukturen oder aus Schwellen, die niemand nachverfolgt hat. An der praktischen Seite geraten Umzüge ins Stocken, und diese Seite übernehmen wir.",
     ],
     facts: [
-      { label: "Einkommensteuer", value: "Progressive Sätze bis 20 % seit der Reform von 2023, wobei ausländische Einkünfte von Ansässigen nach der Remittance-Basis besteuert werden" },
+      { label: "Einkommensteuer", value: "Progressive Sätze bis 20 % seit der Reform von 2023. Auf leviable income über 12 Millionen MUR kommt eine Fair Share Contribution von 15 %, für die Steuerjahre vom 1. Juli 2025 bis 30. Juni 2028. Leviable income ergänzt das zu versteuernde Einkommen um Dividenden ansässiger Gesellschaften: mauritische Dividenden, die sonst steuerfrei sind, zählen also auf die Schwelle. Ausländische Einkünfte von Ansässigen werden nach der Remittance-Basis besteuert" },
       { label: "Körperschaftsteuer", value: "15 %, mit Teilbefreiungen für bestimmte Einkunftsarten. Keine Kapitalertragsteuer. Keine Erbschaftsteuer" },
       { label: "Steuerliche Ansässigkeit", value: "183 Tage in einem Steuerjahr oder 270 Tage über drei aufeinanderfolgende Jahre" },
       { label: "Doppelbesteuerungsabkommen", value: "Ein Netz von über 40 in Kraft befindlichen Abkommen, unter anderem mit Südafrika, Frankreich, dem Vereinigten Königreich, Deutschland, Indien und China" },
