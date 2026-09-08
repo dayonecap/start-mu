@@ -13,7 +13,10 @@ export function SiteHeader({ locale, navigation, t }: { locale: Locale; navigati
   const [open, setOpen] = useState<string | null>(null);
   const [mobile, setMobile] = useState(false);
   const pathname = usePathname() ?? "/";
-  const basePath = pathname.replace(/^\/(fr|de)(?=\/|$)/, "") || "/";
+  // usePathname() reports the internal rewritten path ("/en/contact") after a client-side
+  // navigation through the middleware rewrite, so strip every locale, en included, or the
+  // switcher builds "/fr/en/contact". Built from `locales` so adding a language can't miss one.
+  const basePath = pathname.replace(new RegExp(`^/(${locales.join("|")})(?=/|$)`), "") || "/";
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
