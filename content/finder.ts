@@ -8,6 +8,9 @@ export type FinderStrings = {
   meta: string;
   progress: (n: number, total: number) => string;
   startAgain: string;
+  back: string;
+  change: string;
+  answersLabel: string;
   theRoute: string;
   readAbout: string;
   arrange: string;
@@ -39,17 +42,20 @@ export type FinderStrings = {
 export const finder: Record<Locale, FinderStrings> = {
   en: {
     title: "Which route fits",
-    lead: "Four questions. No figures asked of you, no email required. You get the route that fits, the reasons, and the page to read next.",
+    lead: "Four questions. No exact figures or email required. You get the best starting route, the reasons, and the page to read next.",
     metaTitle: "Which Mauritius residency route fits you",
     meta: "Four questions, one recommended route. Investor, professional, self-employed, retired, property, Golden Visa or Premium Visa, with the reasons.",
     progress: (n, total) => `Question ${n} of ${total}`,
     startAgain: "Start again",
-    theRoute: "The route that fits",
+    back: "Back",
+    change: "Change",
+    answersLabel: "Your answers",
+    theRoute: "Your best starting route",
     readAbout: "Read about this route",
     arrange: "Request a consultation",
     alongside: "Worth reading alongside",
     disclaimer:
-      "This is an indication, not advice. Most people leave the first consultation with a different route from the one they arrived with, and that conversation is where the decision is made.",
+      "A starting point, not advice. We confirm it against your circumstances in the first consultation, where the decision is actually made, and occasionally a different route turns out to fit better.",
     q: {
       purpose: {
         text: "What will you mainly do in Mauritius?",
@@ -181,17 +187,20 @@ export const finder: Record<Locale, FinderStrings> = {
 
   fr: {
     title: "Quelle voie vous convient",
-    lead: "Quatre questions. Aucun chiffre ne vous est demandé, aucune adresse e-mail requise. Vous obtenez la voie qui convient, les raisons, et la page à lire ensuite.",
+    lead: "Quatre questions. Aucun chiffre précis ni adresse e-mail requis. Vous obtenez le meilleur point de départ, les raisons, et la page à lire ensuite.",
     metaTitle: "Quelle voie de résidence à Maurice vous convient",
     meta: "Quatre questions, une voie recommandée. Investisseur, professionnel, indépendant, retraité, immobilier, Golden Visa ou Premium Visa, avec les raisons.",
     progress: (n, total) => `Question ${n} sur ${total}`,
     startAgain: "Recommencer",
-    theRoute: "La voie qui convient",
+    back: "Retour",
+    change: "Modifier",
+    answersLabel: "Vos réponses",
+    theRoute: "Votre meilleur point de départ",
     readAbout: "En savoir plus sur cette voie",
     arrange: "Prendre rendez-vous",
     alongside: "À lire également",
     disclaimer:
-      "Ceci est une indication, non un conseil. La plupart des personnes repartent du premier entretien avec une voie différente de celle envisagée à l'arrivée, et c'est dans cette conversation que la décision se prend.",
+      "Un point de départ, non un conseil. Nous le confirmons au regard de votre situation lors du premier entretien, où la décision se prend réellement, et il arrive qu'une autre voie se révèle plus adaptée.",
     q: {
       purpose: {
         text: "Que ferez-vous principalement à Maurice ?",
@@ -323,17 +332,20 @@ export const finder: Record<Locale, FinderStrings> = {
 
   de: {
     title: "Welcher Weg passt",
-    lead: "Vier Fragen. Es werden keine Zahlen von Ihnen verlangt und keine E-Mail-Adresse. Sie erhalten den passenden Weg, die Gründe und die Seite, die als Nächstes zu lesen ist.",
+    lead: "Vier Fragen. Keine genauen Zahlen und keine E-Mail-Adresse erforderlich. Sie erhalten den besten Ausgangspunkt, die Gründe und die Seite, die als Nächstes zu lesen ist.",
     metaTitle: "Welcher Aufenthaltsweg auf Mauritius zu Ihnen passt",
     meta: "Vier Fragen, ein empfohlener Weg. Investor, Angestellter, Selbständiger, Ruheständler, Immobilie, Golden Visa oder Premium Visa, mit den Gründen.",
     progress: (n, total) => `Frage ${n} von ${total}`,
     startAgain: "Neu beginnen",
-    theRoute: "Der passende Weg",
+    back: "Zurück",
+    change: "Ändern",
+    answersLabel: "Ihre Antworten",
+    theRoute: "Ihr bester Ausgangspunkt",
     readAbout: "Mehr zu diesem Weg lesen",
     arrange: "Beratungsgespräch vereinbaren",
     alongside: "Ergänzend lesenswert",
     disclaimer:
-      "Dies ist ein Hinweis, keine Beratung. Die meisten verlassen das erste Gespräch mit einem anderen Weg als dem, mit dem sie gekommen sind, und in diesem Gespräch fällt die Entscheidung.",
+      "Ein Ausgangspunkt, keine Beratung. Wir prüfen ihn im ersten Gespräch an Ihren Verhältnissen, wo die Entscheidung tatsächlich fällt, und gelegentlich passt ein anderer Weg besser.",
     q: {
       purpose: {
         text: "Was werden Sie auf Mauritius hauptsächlich tun?",

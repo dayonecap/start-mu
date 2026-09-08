@@ -230,7 +230,7 @@ const en = {
   },
   residencyPage: {
     title: "Residency",
-    lead: "Ten routes into Mauritius, each with a different threshold, duration and set of conditions. The right one depends on what you are trying to do: run a business, work, retire, invest, or simply live here for a while first.",
+    lead: "Eight routes into Mauritius, each with a different threshold, duration and set of conditions. The right one depends on what you are trying to do: run a business, work, retire, invest, or simply live here for a while first.",
     finder: "Not sure which? Four questions",
     compareH: "Every route, compared",
     chooseH: "Choosing between them",
@@ -475,7 +475,7 @@ const fr: Ui = {
   },
   residencyPage: {
     title: "Résidence",
-    lead: "Dix voies pour s'établir à Maurice, chacune avec son seuil, sa durée et ses conditions. La bonne dépend de ce que vous voulez faire : diriger une entreprise, travailler, prendre votre retraite, investir, ou simplement vivre ici quelque temps d'abord.",
+    lead: "Huit voies pour s'établir à Maurice, chacune avec son seuil, sa durée et ses conditions. La bonne dépend de ce que vous voulez faire : diriger une entreprise, travailler, prendre votre retraite, investir, ou simplement vivre ici quelque temps d'abord.",
     finder: "Vous hésitez ? Quatre questions",
     compareH: "Toutes les voies, comparées",
     chooseH: "Choisir entre elles",
@@ -718,7 +718,7 @@ const de: Ui = {
   },
   residencyPage: {
     title: "Aufenthalt",
-    lead: "Zehn Wege nach Mauritius, jeder mit eigener Schwelle, Dauer und eigenen Bedingungen. Welcher passt, hängt davon ab, was Sie vorhaben: ein Unternehmen führen, arbeiten, den Ruhestand verbringen, investieren oder zunächst eine Weile hier leben.",
+    lead: "Acht Wege nach Mauritius, jeder mit eigener Schwelle, Dauer und eigenen Bedingungen. Welcher passt, hängt davon ab, was Sie vorhaben: ein Unternehmen führen, arbeiten, den Ruhestand verbringen, investieren oder zunächst eine Weile hier leben.",
     finder: "Unsicher? Vier Fragen",
     compareH: "Alle Wege im Vergleich",
     chooseH: "Die Wahl zwischen ihnen",

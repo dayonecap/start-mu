@@ -89,6 +89,42 @@ export function RouteFinder() {
   const f = finder[useLocale()];
   const step = order.find((k) => a[k] === undefined) as Step | undefined;
   const result = step ? null : decide(a, f);
+  const answered = order.filter((k) => a[k] !== undefined);
+
+  /** Clear one answer. The step finder then returns to it, keeping the others. */
+  function clear(key: Step) {
+    const next = { ...a };
+    delete next[key];
+    setA(next);
+  }
+
+  /** Chips for what has been answered, each one a way back into that question. */
+  function Answers() {
+    if (!answered.length) return null;
+    return (
+      <div className="mt-8 border-t border-stone pt-5">
+        <p className="t-small font-medium text-ink">{f.answersLabel}</p>
+        <ul className="mt-3 flex flex-wrap gap-2">
+          {answered.map((k) => {
+            const chosen = f.q[k].options.find(([v]) => v === a[k]);
+            return (
+              <li key={k}>
+                <button
+                  type="button"
+                  className="t-small flex items-center gap-2 rounded-sm border border-stone px-3 py-2 text-slate hover:border-green hover:text-green"
+                  onClick={() => clear(k)}
+                >
+                  <span>{chosen ? chosen[1] : ""}</span>
+                  <span aria-hidden="true">&times;</span>
+                  <span className="sr-only">&mdash; {f.change}</span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-[62ch]">
@@ -113,10 +149,20 @@ export function RouteFinder() {
             ))}
           </ul>
           {order.indexOf(step) > 0 ? (
-            <button type="button" className="t-ui link-rule mt-6 text-slate" onClick={() => setA({})}>
-              {f.startAgain}
-            </button>
+            <div className="mt-6 flex flex-wrap items-center gap-5">
+              <button
+                type="button"
+                className="t-ui link-rule text-green"
+                onClick={() => clear(order[order.indexOf(step) - 1])}
+              >
+                &larr; {f.back}
+              </button>
+              <button type="button" className="t-ui link-rule text-slate" onClick={() => setA({})}>
+                {f.startAgain}
+              </button>
+            </div>
           ) : null}
+          <Answers />
         </div>
       ) : result ? (
         <div>
@@ -151,7 +197,8 @@ export function RouteFinder() {
             </div>
           ) : null}
           <p className="t-small mt-10 max-w-[52ch]">{f.disclaimer}</p>
-          <button type="button" className="t-ui link-rule mt-4 text-slate" onClick={() => setA({})}>
+          <Answers />
+          <button type="button" className="t-ui link-rule mt-5 text-slate" onClick={() => setA({})}>
             {f.startAgain}
           </button>
         </div>
