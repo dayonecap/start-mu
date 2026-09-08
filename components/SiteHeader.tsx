@@ -55,7 +55,7 @@ export function SiteHeader({ locale, navigation, t }: { locale: Locale; navigati
           <a href={`mailto:${site.email}`} className="t-small hover:text-green">
             {site.email}
           </a>
-          <span className="t-small text-stone" aria-hidden="true">
+          <span className="t-small text-slate" aria-hidden="true">
             |
           </span>
           <nav aria-label="Language" className="flex gap-4">

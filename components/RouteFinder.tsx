@@ -105,7 +105,7 @@ export function RouteFinder() {
                   onClick={() => setA({ ...a, [step]: value })}
                 >
                   <span>{label}</span>
-                  <span aria-hidden="true" className="text-stone">
+                  <span aria-hidden="true" className="text-slate">
                     +
                   </span>
                 </button>
