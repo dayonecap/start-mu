@@ -46,7 +46,7 @@ export const images: Record<string, ImageSlot> = {
   },
   lea: {
     src: "/images/lea-permal.jpg",
-    alt: "Lea Permal, Senior Client Services Executive at start.mu",
+    alt: "Lea Permal, Senior Client Executive at start.mu",
     aspect: 4 / 5,
     brief: "Portrait format, shot to match Herman's: same daylight, same background, same distance. The pair should read as one set.",
   },

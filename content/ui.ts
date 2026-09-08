@@ -98,7 +98,7 @@ const en = {
       "His work reaches across the Intrasia Group. Through Intrasia Properties he is involved in the acquisition, development and structuring of commercial and residential real estate, and he works on compliance technology for know-your-client checks, enhanced due diligence and adverse media screening. That range matters here, because most of what clients bring to us sits where regulation, capital and real assets meet.",
       "His professional background spans Mauritius and Singapore, and he studied at the University of Melbourne.",
     ],
-    leaRole: "Senior Client Services Executive",
+    leaRole: "Senior Client Executive",
     lea: [
       "Lea Permal is the day-to-day contact on most of our engagements. She prepares and files residence and occupation permit applications, handles incorporations, registered office and company secretarial work, and manages bank account openings and the correspondence with the Economic Development Board and the Passport and Immigration Office.",
       "She is the person who knows where a file stands, what the authority has asked for and what is still outstanding. Most clients speak to her more often than to anyone else here, and that is deliberate: the work moves faster when one person holds the whole picture.",
@@ -343,7 +343,7 @@ const fr: Ui = {
       "Son activité s'étend à l'ensemble du Groupe Intrasia. Via Intrasia Properties, il intervient dans l'acquisition, le développement et la structuration d'actifs immobiliers commerciaux et résidentiels, et il travaille sur des technologies de conformité pour les vérifications d'identité, la diligence renforcée et la veille sur les médias défavorables. Cette étendue compte ici, car l'essentiel de ce que nos clients nous apportent se situe à la rencontre de la réglementation, du capital et des actifs réels.",
       "Son parcours professionnel couvre Maurice et Singapour, et il a étudié à l'Université de Melbourne.",
     ],
-    leaRole: "Senior Client Services Executive",
+    leaRole: "Senior Client Executive",
     lea: [
       "Lea Permal est l'interlocutrice au quotidien sur la plupart de nos dossiers. Elle prépare et dépose les demandes de permis de résidence et d'Occupation Permit, traite les constitutions de sociétés, le siège social et le secrétariat juridique, et gère les ouvertures de comptes bancaires ainsi que la correspondance avec l'Economic Development Board et le Passport and Immigration Office.",
       "C'est elle qui sait où en est un dossier, ce que l'autorité a demandé et ce qui reste à fournir. La plupart des clients lui parlent plus souvent qu'à quiconque ici, et c'est délibéré : le travail avance plus vite lorsqu'une seule personne a la vue d'ensemble.",
@@ -586,7 +586,7 @@ const de: Ui = {
       "Seine Tätigkeit reicht über die gesamte Intrasia Group. Über Intrasia Properties wirkt er am Erwerb, der Entwicklung und der Strukturierung gewerblicher und wohnwirtschaftlicher Immobilien mit, und er arbeitet an Compliance-Technologie für Identitätsprüfungen, verstärkte Sorgfaltspflichten und die Beobachtung nachteiliger Medienberichte. Diese Bandbreite zählt hier, denn das meiste, was Mandanten zu uns bringen, liegt dort, wo Regulierung, Kapital und reale Werte zusammentreffen.",
       "Sein beruflicher Werdegang umfasst Mauritius und Singapur, und er hat an der University of Melbourne studiert.",
     ],
-    leaRole: "Senior Client Services Executive",
+    leaRole: "Senior Client Executive",
     lea: [
       "Lea Permal ist bei den meisten unserer Mandate die tägliche Ansprechpartnerin. Sie bereitet Anträge auf Aufenthalts- und Occupation Permits vor und reicht sie ein, betreut Gründungen, den eingetragenen Sitz und das Company-Secretary-Wesen und führt Kontoeröffnungen sowie den Schriftwechsel mit dem Economic Development Board und dem Passport and Immigration Office.",
       "Sie ist diejenige, die weiß, wo eine Akte steht, was die Behörde verlangt hat und was noch offen ist. Die meisten Mandanten sprechen häufiger mit ihr als mit allen anderen hier, und das ist Absicht: Die Arbeit geht schneller voran, wenn eine Person das ganze Bild hat.",
