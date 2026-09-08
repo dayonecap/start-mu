@@ -11,6 +11,7 @@ export const insights: Insight[] = [
     title: "What it costs to live in Mauritius: a realistic budget for a relocating family",
     summary: "Mauritius is not the cheap island the brochures imply. Where the money goes for a family arriving in 2026, with the ranges that matter and the choices that move them.",
     publishedAt: "2026-03-10",
+    reviewedAt: "2026-09-08",
     category: "Living in Mauritius",
     body: `
 <p>The most common misconception we correct is that Mauritius is inexpensive. For a family that replicates a European or South African way of life, with a coastal house, imported groceries, international school and private healthcare, it is not. The figures below are indicative ranges from 2026 and are there to size the decision, not to replace a proper budget. They move with the exchange rate, the area and the choices a family makes.</p>
@@ -72,6 +73,7 @@ export const insights: Insight[] = [
     title: "Where to live in Mauritius: north, west or centre",
     summary: "Three regions account for almost every relocating family. What each one is like to live in, who chooses it, and the commute that decides between them.",
     publishedAt: "2026-05-19",
+    reviewedAt: "2026-09-08",
     category: "Living in Mauritius",
     body: `
 <p>Mauritius is 65 kilometres from top to bottom, and yet where a family lives shapes their year more than in most larger countries. The reason is the road network: a single motorway spine through Port Louis, and coastal roads that fill at school time. The three regions below account for almost every family we settle, and the choice between them is usually decided by the school and the office rather than by the beach.</p>
@@ -221,6 +223,7 @@ export const insights: Insight[] = [
     title: "The Golden Visa: what it adds to the existing routes",
     summary: "Mauritius has announced a USD 1 million Golden Visa opening a route to apply for twenty-year permanent residence. Where it sits alongside the permits that already exist, and who it is for.",
     publishedAt: "2026-09-02",
+    reviewedAt: "2026-09-08",
     category: "Residency",
     body: `
 <p>Mauritius approved a Golden Visa in April 2026 and legislated for it through the Budget measures. The application guidelines and the commencement date are still awaited from the Economic Development Board, so what follows is the framework as announced, not yet the scheme as operated.</p>

@@ -15,6 +15,8 @@ export type Insight = {
   title: string;
   summary: string;
   publishedAt: string; // ISO date
+  /** ISO date the article was last checked against source. Omit until it has actually been re-checked. */
+  reviewedAt?: string;
   body: string; // HTML or portable text rendered by the article page
   category?: "Residency" | "Establishment" | "Property" | "Living in Mauritius";
   faqs?: Faq[];

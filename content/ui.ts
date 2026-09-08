@@ -57,6 +57,7 @@ const en = {
     lead: "Notes on the permit rules as they change, on the practical side of establishing here, and on the questions clients ask most often.",
     empty: "The first notes are being prepared. In the meantime, the residency, establishment and property sections carry the current thresholds and the way each process works.",
     emptyLink: "Compare the residency routes",
+    reviewed: "Last reviewed",
     categories: {
       Residency: "Residency",
       Establishment: "Establishment",
@@ -303,6 +304,7 @@ const fr: Ui = {
     lead: "Des notes sur les règles des permis à mesure qu'elles évoluent, sur l'aspect pratique de l'installation ici, et sur les questions que les clients posent le plus souvent.",
     empty: "Les premières notes sont en préparation. Entre-temps, les sections résidence, établissement et immobilier présentent les seuils actuels et le déroulement de chaque procédure.",
     emptyLink: "Comparer les voies de résidence",
+    reviewed: "Dernière révision",
     categories: {
       Residency: "Résidence",
       Establishment: "Établissement",
@@ -547,6 +549,7 @@ const de: Ui = {
     lead: "Notizen zu den Genehmigungsregeln, während sie sich ändern, zur praktischen Seite der Niederlassung hier und zu den Fragen, die Mandanten am häufigsten stellen.",
     empty: "Die ersten Notizen werden vorbereitet. In der Zwischenzeit führen die Abschnitte Aufenthalt, Gründung und Immobilien die aktuellen Schwellen und den Ablauf jedes Verfahrens.",
     emptyLink: "Die Aufenthaltswege vergleichen",
+    reviewed: "Zuletzt geprüft",
     categories: {
       Residency: "Aufenthalt",
       Establishment: "Gründung",

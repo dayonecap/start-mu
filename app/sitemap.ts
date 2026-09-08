@@ -22,6 +22,6 @@ async function base(): Promise<MetadataRoute.Sitemap> {
     ...establishment.map((e) => ({ url: `${site.url}/establishment/${e.slug}`, changeFrequency: "monthly" as const, lastModified: built })),
     ...countries.map((c) => ({ url: `${site.url}/moving-to-mauritius-from/${c.slug}`, changeFrequency: "monthly" as const, lastModified: built })),
     ...property.map((p) => ({ url: `${site.url}/property/${p.slug}`, changeFrequency: "monthly" as const, lastModified: built })),
-    ...insights.map((i) => ({ url: `${site.url}/insights/${i.slug}`, lastModified: i.publishedAt })),
+    ...insights.map((i) => ({ url: `${site.url}/insights/${i.slug}`, lastModified: i.reviewedAt ?? i.publishedAt })),
   ];
 }

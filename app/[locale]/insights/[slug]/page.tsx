@@ -39,6 +39,7 @@ export default async function InsightPage({ params }: { params: Promise<Params> 
     headline: i.title,
     description: i.summary,
     datePublished: i.publishedAt,
+    ...(i.reviewedAt ? { dateModified: i.reviewedAt } : {}),
     author: { "@type": "Organization", name: site.name },
     publisher: { "@type": "Organization", name: site.name, url: site.url },
     mainEntityOfPage: `${site.url}/insights/${i.slug}`,
@@ -60,6 +61,12 @@ export default async function InsightPage({ params }: { params: Promise<Params> 
           {new Date(i.publishedAt).toLocaleDateString(dateLocale[locale], { day: "numeric", month: "long", year: "numeric" })}
           {i.category ? `, ${ui[locale].insightsPage.categories[i.category]}` : ""}
         </p>
+        {i.reviewedAt ? (
+          <p className="t-small mt-2 text-slate">
+            {ui[locale].insightsPage.reviewed}{" "}
+            {new Date(i.reviewedAt).toLocaleDateString(dateLocale[locale], { day: "numeric", month: "long", year: "numeric" })}
+          </p>
+        ) : null}
       </PageHero>
       <section className="rule">
         <Container className="py-14 lg:py-20">
