@@ -12,6 +12,7 @@ import { Wordmark } from "./Wordmark";
 export function SiteHeader({ locale, navigation, t }: { locale: Locale; navigation: NavGroup[]; t: { consult: string; menu: string; close: string; whatsapp: string } }) {
   const [open, setOpen] = useState<string | null>(null);
   const [mobile, setMobile] = useState(false);
+  const [openGroup, setOpenGroup] = useState<string | null>(null);
   const pathname = usePathname() ?? "/";
   // usePathname() reports the internal rewritten path ("/en/contact") after a client-side
   // navigation through the middleware rewrite, so strip every locale, en included, or the
@@ -22,6 +23,7 @@ export function SiteHeader({ locale, navigation, t }: { locale: Locale; navigati
   useEffect(() => {
     setOpen(null);
     setMobile(false);
+    setOpenGroup(null);
   }, [pathname]);
 
   useEffect(() => {
@@ -29,6 +31,7 @@ export function SiteHeader({ locale, navigation, t }: { locale: Locale; navigati
       if (e.key === "Escape") {
         setOpen(null);
         setMobile(false);
+        setOpenGroup(null);
       }
     }
     function onClick(e: MouseEvent) {
@@ -154,45 +157,90 @@ export function SiteHeader({ locale, navigation, t }: { locale: Locale; navigati
 
       {mobile ? (
         <div id="mobile-nav" className="border-t border-stone bg-paper lg:hidden">
-          <Container className="py-6">
-            <ul className="divide-y divide-stone">
-              {navigation.map((group) => (
-                <li key={group.label} className="py-4">
-                  <Link href={group.href} className="t-h3 text-ink">
-                    {group.label}
-                  </Link>
-                  {group.columns.length > 0 ? (
-                    <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
-                      {group.columns.flatMap((c) => c.links).map((l) => (
-                        <li key={l.href}>
-                          <Link href={l.href} className="t-ui text-slate">
-                            {l.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  ) : null}
-                </li>
-              ))}
-            </ul>
-            <div className="mt-6 flex flex-col gap-3">
+          <Container className="py-5">
+            {/* Actions first: reachable without scrolling past the section list. */}
+            <div className="flex flex-col gap-3">
               <Link href="/contact" className="btn btn-solid justify-center">
                 {t.consult}
               </Link>
-              <div className="flex justify-center gap-5">
-                {locales.map((l) => (
-                  <a key={l} href={localise(l, basePath)} hrefLang={l} className={`t-ui ${l === locale ? "text-ink" : "text-slate"}`}>
-                    {localeNames[l]}
-                  </a>
-                ))}
-              </div>
               <a href={site.whatsapp} className="btn btn-ghost justify-center" rel="noopener">
                 {t.whatsapp}
               </a>
-              <a href={site.phoneHref} className="t-ui text-center text-slate">
+            </div>
+            <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+              <a href={site.phoneHref} className="t-ui text-slate">
                 {site.phone}
               </a>
+              <nav aria-label="Language" className="flex gap-4">
+                {locales.map((l) => (
+                  <a
+                    key={l}
+                    href={localise(l, basePath)}
+                    hrefLang={l}
+                    className={`t-ui ${l === locale ? "text-ink" : "text-slate"}`}
+                    aria-current={l === locale ? "true" : undefined}
+                  >
+                    {localeNames[l]}
+                  </a>
+                ))}
+              </nav>
             </div>
+
+            <ul className="mt-5 divide-y divide-stone border-t border-stone">
+              {navigation.map((group) => {
+                const hasPanel = group.columns.length > 0;
+                const isOpen = openGroup === group.label;
+                const panelId = `m${group.href.replace(/\//g, "-")}`;
+                return (
+                  <li key={group.label}>
+                    {hasPanel ? (
+                      <>
+                        {/* Label navigates to the section; the +/- toggles it open. The button
+                            takes its accessible name from the link, so it announces as
+                            "Residency, collapsed" without needing its own translated label. */}
+                        <div className="flex items-center justify-between gap-2">
+                          <Link id={`${panelId}-label`} href={group.href} className="t-h3 block flex-1 py-4 text-ink">
+                            {group.label}
+                          </Link>
+                          <button
+                            type="button"
+                            className="t-ui flex w-11 shrink-0 items-center justify-center py-4 text-slate"
+                            aria-labelledby={`${panelId}-label`}
+                            aria-expanded={isOpen}
+                            aria-controls={panelId}
+                            onClick={() => setOpenGroup(isOpen ? null : group.label)}
+                          >
+                            <span aria-hidden="true">{isOpen ? "\u2212" : "+"}</span>
+                          </button>
+                        </div>
+                        {isOpen ? (
+                          <div id={panelId} className="pb-5">
+                            {group.columns.map((c) => (
+                              <div key={c.heading} className="mt-4 first:mt-0">
+                                <p className="t-small font-medium text-ink">{c.heading}</p>
+                                <ul className="mt-2 space-y-2">
+                                  {c.links.map((l) => (
+                                    <li key={l.href}>
+                                      <Link href={l.href} className="t-ui text-slate">
+                                        {l.label}
+                                      </Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
+                          </div>
+                        ) : null}
+                      </>
+                    ) : (
+                      <Link href={group.href} className="t-h3 block py-4 text-ink">
+                        {group.label}
+                      </Link>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
           </Container>
         </div>
       ) : null}
