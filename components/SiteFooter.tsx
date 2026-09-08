@@ -43,10 +43,10 @@ export function SiteFooter({ columns, t }: { locale: Locale; columns: { heading:
           </div>
         </div>
         <div className="mt-14 flex flex-col gap-3 border-t border-bone/20 pt-6 text-stone sm:flex-row sm:items-center sm:justify-between">
-          <p className="t-small text-stone">
+          <p className="t-ui max-w-[70ch] text-stone">
             {t.legal} &copy; {new Date().getFullYear()} {t.rights}
           </p>
-          <ul className="t-small flex gap-5 text-stone">
+          <ul className="t-ui flex gap-5 text-stone">
             <li>
               <Link href="/privacy-policy" className="hover:text-bone">
                 {t.privacy}
