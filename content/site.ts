@@ -154,7 +154,7 @@ export const navigation: NavGroup[] = [
       {
         heading: "Contact",
         links: [
-          { label: "Arrange a consultation", href: "/contact" },
+          { label: "Request a consultation", href: "/contact" },
           { label: "Intrasia Group", href: site.groupUrl },
         ],
       },

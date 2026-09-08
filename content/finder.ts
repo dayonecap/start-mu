@@ -46,7 +46,7 @@ export const finder: Record<Locale, FinderStrings> = {
     startAgain: "Start again",
     theRoute: "The route that fits",
     readAbout: "Read about this route",
-    arrange: "Arrange a consultation",
+    arrange: "Request a consultation",
     alongside: "Worth reading alongside",
     disclaimer:
       "This is an indication, not advice. Most people leave the first consultation with a different route from the one they arrived with, and that conversation is where the decision is made.",

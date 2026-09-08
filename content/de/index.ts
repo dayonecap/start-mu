@@ -61,7 +61,7 @@ const navLabels: Record<string, string> = {
   "Mauritius in practice": "Mauritius in der Praxis",
   Insights: "Beiträge",
   Contact: "Kontakt",
-  "Arrange a consultation": "Beratungsgespräch vereinbaren",
+  "Request a consultation": "Beratungsgespräch vereinbaren",
   "Intrasia Group": "Intrasia Group",
   "Investor permit": "Investor Permit",
   "Professional permit": "Professional Permit",

@@ -1,7 +1,7 @@
 import type { Locale } from "@/lib/i18n";
 
 const en = {
-  nav: { consult: "Arrange a consultation", menu: "Menu", close: "Close", whatsapp: "WhatsApp", skip: "Skip to content" },
+  nav: { consult: "Request a consultation", menu: "Menu", close: "Close", whatsapp: "WhatsApp", skip: "Skip to content" },
   footer: {
     tagline: "Clear guidance for living, investing and doing business in Mauritius.",
     legal: "start.mu is operated by Intrasia Corporate Services Limited, part of the Intrasia Group.",
@@ -14,7 +14,7 @@ const en = {
   cta: {
     heading: "Begin with a conversation",
     body: "The first consultation is by appointment and lasts an hour. You leave with a clear view of which route fits, what it will cost, and how long it will take.",
-    button: "Arrange a consultation",
+    button: "Request a consultation",
     residency: { heading: "Not sure this is the right route?", body: "Most people leave the first consultation with a different route from the one they arrived with. An hour, by appointment, and you leave with a clear view of which permit fits, what it will cost, and how long it will take." },
     establishment: { heading: "Tell us what the business will do", body: "The right structure follows from the activity, the owners and where the customers are. Describe those three things and we will set out the structure, the costs and the sequence in a written proposal." },
     property: { heading: "Before you reserve", body: "The buyer's position is decided at signature, not afterwards. If you are looking at a development, speak to us before the reservation deposit is paid and we will tell you what to examine." },
@@ -171,7 +171,7 @@ const en = {
     ],
   },
   contactPage: {
-    title: "Arrange a consultation",
+    title: "Request a consultation",
     meta: "Contact start.mu in Mauritius to arrange a first consultation on residency, company establishment, property acquisition or relocation.",
     lead: "The first consultation is by appointment and lasts an hour, in person in Mauritius or by video call. Tell us a little about what you are trying to do and we will propose a time.",
     directlyH: "Directly",
