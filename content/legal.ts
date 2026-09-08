@@ -14,7 +14,7 @@ export const contactRoute = `${site.url}/contact`;
 export const principalAddress =
   "Aventure du Sucre Street, Block 3, First Floor, The Strand, Beau Plan, Pamplemousses, Mauritius";
 
-const updated = "7 September 2026";
+const updated = "8 September 2026";
 
 export const privacyPolicy: LegalDoc = {
   title: "Privacy policy",
@@ -61,10 +61,10 @@ export const privacyPolicy: LegalDoc = {
       ],
     },
     {
-      heading: "Cookies, analytics and fonts",
+      heading: "Cookies, analytics and third-party requests",
       body: [
         "This site sets no cookies, stores nothing in your browser and carries no analytics, advertising or tracking of any kind. There is no consent banner because there is nothing to consent to.",
-        "The one exception worth naming is typography: the typefaces are requested from Google Fonts when a page loads, which discloses your IP address to Google. If you would rather that did not happen, a browser that blocks third-party requests will prevent it, and the site remains fully readable.",
+        "It also makes no requests to anyone else. The typefaces are served from this domain rather than from a font service, and no script, image or embed is loaded from a third party. Opening a page tells nobody but us and our host that you were here.",
       ],
     },
     {
@@ -133,7 +133,8 @@ export const termsOfUse: LegalDoc = {
     {
       heading: "No client relationship",
       body: [
-        "Reading this site, sending an enquiry through it or receiving a reply does not create a client relationship. An engagement begins only when we have agreed its scope and terms with you in writing. Until that point, nothing you send us is privileged or confidential in the way an engagement makes it.",
+        "Reading this site, sending an enquiry through it or receiving a reply does not create a client relationship. An engagement begins only when we have agreed its scope and terms with you in writing.",
+        "We treat what clients tell us as confidential, under our engagement terms and our own professional and regulatory obligations. Confidentiality is not the same as legal professional privilege. We are a corporate service provider, not a law firm, and communications with us do not attract privilege in the way communications with a lawyer can. Where that distinction matters to your position, it is a reason to instruct a lawyer, and we will tell you so.",
       ],
     },
     {
