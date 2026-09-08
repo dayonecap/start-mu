@@ -44,7 +44,7 @@ const en = {
     mauritiusH: "Mauritius in practice",
     mauritius: [
       "A stable democracy with an independent judiciary, English and French in daily use, personal income tax that tops out at 20%, with a further 15% Fair Share Contribution above MUR 12 million in force to 30 June 2028, a remittance basis for foreign income, no capital gains tax, and direct flights to Johannesburg, Paris, London, Dubai and Singapore. Good international schools, reliable private healthcare, and a coastline you can live on.",
-      "It is also a small island with a real bureaucracy, banks that ask hard questions, and permit rules that change with each Budget. The practical side is where most relocations go slowly. It is the side we handle.",
+      "It is also a small island where approvals run to their own timetable, banks ask hard questions, and permit rules change with each Budget. The practical side is where most relocations go slowly. It is the side we handle.",
     ],
     mauritiusLink: "More on living and doing business here",
     notesH: "Recent notes",
@@ -124,7 +124,7 @@ const en = {
   mauritiusPage: {
     title: "Mauritius in practice",
     meta: "Living and doing business in Mauritius: tax, law, language, schools, healthcare, banking, connectivity, and the practical side of relocating to the island.",
-    lead: "A stable democracy in the Indian Ocean with a hybrid legal system, English and French in daily use, a competitive tax regime and a coastline you can live on. Also a small island with a real bureaucracy. Both matter.",
+    lead: "A stable Indian Ocean democracy with a hybrid legal system, English and French in everyday use, a competitive tax regime, and a genuinely coastal lifestyle. It is also a small island where administrative processes can require time and patience. Both realities matter.",
     frameworkH: "The framework",
     caption: "Mauritius: tax, legal and practical framework",
     disclaimer: "Tax rates and treaty positions change. We are not tax advisers and introduce a Mauritian tax specialist where the position matters.",
@@ -289,7 +289,7 @@ const fr: Ui = {
     mauritiusH: "Maurice, en pratique",
     mauritius: [
       "Une démocratie stable dotée d'une justice indépendante, l'anglais et le français au quotidien, un impôt sur le revenu plafonné à 20 %, auquel s'ajoute une Fair Share Contribution de 15 % au-delà de 12 millions MUR, en vigueur jusqu'au 30 juin 2028, l'imposition des revenus étrangers sur la base du rapatriement, pas d'impôt sur les plus-values, et des vols directs vers Johannesburg, Paris, Londres, Dubaï et Singapour. De bonnes écoles internationales, un secteur privé de santé fiable et un littoral où l'on peut vivre.",
-      "C'est aussi une petite île avec une vraie administration, des banques qui posent des questions difficiles et des règles de permis qui changent à chaque Budget. Le côté pratique est là où la plupart des installations ralentissent. C'est le côté que nous prenons en charge.",
+      "C'est aussi une petite île où les procédures suivent leur propre calendrier, où les banques posent des questions difficiles et où les règles de permis changent à chaque Budget. Le côté pratique est là où la plupart des installations ralentissent. C'est le côté que nous prenons en charge.",
     ],
     mauritiusLink: "En savoir plus sur la vie et les affaires à Maurice",
     notesH: "Notes récentes",
@@ -369,7 +369,7 @@ const fr: Ui = {
   mauritiusPage: {
     title: "Maurice en pratique",
     meta: "Vivre et entreprendre à Maurice : fiscalité, droit, langues, écoles, santé, banque, connexions aériennes et l'aspect pratique d'une installation sur l'île.",
-    lead: "Une démocratie stable de l'océan Indien, au système juridique hybride, où l'anglais et le français s'emploient au quotidien, avec une fiscalité compétitive et un littoral où l'on peut vivre. Et aussi une petite île dotée d'une vraie administration. Les deux comptent.",
+    lead: "Une démocratie stable de l'océan Indien, au système juridique hybride, où l'anglais et le français s'emploient au quotidien, avec une fiscalité compétitive et une vie véritablement tournée vers la mer. C'est aussi une petite île où les démarches administratives peuvent demander du temps et de la patience. Ces deux réalités comptent.",
     frameworkH: "Le cadre",
     caption: "Maurice : cadre fiscal, juridique et pratique",
     disclaimer: "Les taux et les positions conventionnelles évoluent. Nous ne sommes pas conseils fiscaux et vous présentons un spécialiste mauricien lorsque la question le justifie.",
@@ -532,7 +532,7 @@ const de: Ui = {
     mauritiusH: "Mauritius in der Praxis",
     mauritius: [
       "Eine stabile Demokratie mit unabhängiger Justiz, Englisch und Französisch im Alltag, eine Einkommensteuer von höchstens 20 %, dazu eine Fair Share Contribution von 15 % oberhalb von 12 Millionen MUR, in Kraft bis zum 30. Juni 2028, Besteuerung ausländischer Einkünfte nur bei Überweisung ins Land, keine Kapitalertragsteuer und Direktflüge nach Johannesburg, Paris, London, Dubai und Singapur. Gute internationale Schulen, eine verlässliche private Gesundheitsversorgung und eine Küste, an der man leben kann.",
-      "Es ist zugleich eine kleine Insel mit einer echten Bürokratie, Banken, die harte Fragen stellen, und Genehmigungsregeln, die sich mit jedem Haushalt ändern. An der praktischen Seite geraten die meisten Umzüge ins Stocken. Sie ist die Seite, die wir übernehmen.",
+      "Es ist zugleich eine kleine Insel, auf der Genehmigungen ihrem eigenen Zeitplan folgen, Banken harte Fragen stellen und sich Genehmigungsregeln mit jedem Haushalt ändern. An der praktischen Seite geraten die meisten Umzüge ins Stocken. Sie ist die Seite, die wir übernehmen.",
     ],
     mauritiusLink: "Mehr über Leben und Arbeiten auf Mauritius",
     notesH: "Aktuelle Beiträge",
@@ -612,7 +612,7 @@ const de: Ui = {
   mauritiusPage: {
     title: "Mauritius in der Praxis",
     meta: "Leben und Wirtschaften auf Mauritius: Steuern, Recht, Sprachen, Schulen, Gesundheitsversorgung, Banken, Flugverbindungen und die praktische Seite eines Umzugs auf die Insel.",
-    lead: "Eine stabile Demokratie im Indischen Ozean, mit einem hybriden Rechtssystem, Englisch und Französisch im Alltag, einem wettbewerbsfähigen Steuerrecht und einer Küste, an der sich leben lässt. Und zugleich eine kleine Insel mit einer echten Verwaltung. Beides zählt.",
+    lead: "Eine stabile Demokratie im Indischen Ozean mit einem hybriden Rechtssystem, Englisch und Französisch im Alltag, einem wettbewerbsfähigen Steuerrecht und einem Leben, das sich wirklich an der Küste abspielt. Zugleich ist es eine kleine Insel, auf der Verwaltungsvorgänge Zeit und Geduld erfordern können. Beide Wirklichkeiten zählen.",
     frameworkH: "Der Rahmen",
     caption: "Mauritius: steuerlicher, rechtlicher und praktischer Rahmen",
     disclaimer: "Steuersätze und Abkommenslagen ändern sich. Wir sind keine Steuerberater und vermitteln einen mauritischen Steuerspezialisten, wenn es darauf ankommt.",
