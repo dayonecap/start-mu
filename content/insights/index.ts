@@ -10,7 +10,7 @@ export const insights: Insight[] = [
     slug: "cost-of-living-mauritius-family",
     title: "What it costs to live in Mauritius: a realistic budget for a relocating family",
     summary: "Mauritius is not the cheap island the brochures imply. Where the money goes for a family arriving in 2026, with the ranges that matter and the choices that move them.",
-    publishedAt: "2026-09-21",
+    publishedAt: "2026-03-10",
     category: "Living in Mauritius",
     body: `
 <p>The most common misconception we correct is that Mauritius is inexpensive. For a family that replicates a European or South African way of life, with a coastal house, imported groceries, international school and private healthcare, it is not. The figures below are indicative ranges from 2026 and are there to size the decision, not to replace a proper budget. They move with the exchange rate, the area and the choices a family makes.</p>
@@ -31,7 +31,7 @@ export const insights: Insight[] = [
     slug: "international-schools-mauritius-choosing",
     title: "Choosing a school in Mauritius: curricula, areas, fees and timing",
     summary: "The school decides where you live, not the other way round. The English, French and IB options on the island, what they cost, and why the application should start before the permit does.",
-    publishedAt: "2026-09-21",
+    publishedAt: "2026-02-17",
     category: "Living in Mauritius",
     body: `
 <p>Every relocating family we work with is told the same thing at the first meeting: choose the school before the house. The island is small but the traffic is not, and a daily run from the wrong coast to the right school is the single most common reason families move house within a year of arriving.</p>
@@ -51,7 +51,7 @@ export const insights: Insight[] = [
     slug: "healthcare-mauritius-what-to-arrange",
     title: "Healthcare in Mauritius: what is here, what is not, and what to arrange before you arrive",
     summary: "Good private clinics, a free public system most residents avoid, and a small number of conditions that are treated abroad. Why evacuation cover is the one clause that matters.",
-    publishedAt: "2026-09-21",
+    publishedAt: "2026-04-23",
     category: "Living in Mauritius",
     body: `
 <p>Mauritius has a two-tier system. The public hospitals are free to residents, handle the majority of the island's care, and are crowded. The private clinics are where relocating families go, and they are good: doctors trained in France, the United Kingdom, India and South Africa, modern equipment, short waits, and English and French spoken throughout.</p>
@@ -71,7 +71,7 @@ export const insights: Insight[] = [
     slug: "where-to-live-mauritius-north-west-centre",
     title: "Where to live in Mauritius: north, west or centre",
     summary: "Three regions account for almost every relocating family. What each one is like to live in, who chooses it, and the commute that decides between them.",
-    publishedAt: "2026-09-21",
+    publishedAt: "2026-05-19",
     category: "Living in Mauritius",
     body: `
 <p>Mauritius is 65 kilometres from top to bottom, and yet where a family lives shapes their year more than in most larger countries. The reason is the road network: a single motorway spine through Port Louis, and coastal roads that fill at school time. The three regions below account for almost every family we settle, and the choice between them is usually decided by the school and the office rather than by the beach.</p>
@@ -91,7 +91,7 @@ export const insights: Insight[] = [
     slug: "bringing-pets-to-mauritius",
     title: "Bringing a dog or cat to Mauritius",
     summary: "Mauritius is rabies-free and guards that status closely. What the import process involves, how long it takes, and why it should start before the permit application.",
-    publishedAt: "2026-09-21",
+    publishedAt: "2026-04-07",
     category: "Living in Mauritius",
     body: `
 <p>Mauritius is free of rabies and intends to stay so, which makes bringing a pet one of the longer lead items in a relocation. It is entirely doable, and many families do it, but the timeline is set by blood tests and waiting periods rather than by paperwork, and a family that starts late can find the dog arriving months after they do.</p>
@@ -112,7 +112,7 @@ export const insights: Insight[] = [
     slug: "buying-off-plan-mauritius-vefa-checklist",
     title: "Buying off-plan in Mauritius: what to check before you sign a VEFA",
     summary: "Most new homes sold to foreign buyers in Mauritius are sold before they are built. The protection is real, but it is decided at signature. Five things to examine first.",
-    publishedAt: "2026-09-08",
+    publishedAt: "2026-08-04",
     category: "Property",
     body: `
 <p>A sale in a future state of completion, a VEFA, is how most scheme property in Mauritius changes hands. The buyer signs a deed before a notary while the building is a drawing, pays in stages as it rises, and relies on a bank guarantee to see it finished if the developer cannot. The system works. But the buyer's protection is fixed on the day of signature, and we have acted for enough buyers in stalled developments to know that the difference between a recoverable position and a difficult one is almost always in the deed.</p>
@@ -133,7 +133,7 @@ export const insights: Insight[] = [
     slug: "retiring-to-mauritius-from-germany-austria-switzerland",
     title: "Retiring to Mauritius from Germany, Austria or Switzerland: the permit, and the tax questions to ask",
     summary: "The Retired Non-Citizen permit is straightforward. The interaction between Mauritian residence and a German, Austrian or Swiss pension is not. What to settle before you move.",
-    publishedAt: "2026-09-08",
+    publishedAt: "2026-06-30",
     category: "Residency",
     body: `
 <p>Every month we hear from a couple in Munich, Vienna or Zurich who have found Mauritius on a winter holiday and want to know how hard it would be to stay. The permit is the easy part. The tax position is where the decision is actually made, and it is the part that most websites either skip or get wrong.</p>
@@ -161,7 +161,7 @@ export const insights: Insight[] = [
     slug: "south-africans-relocating-to-mauritius-permit-and-cost",
     title: "South Africans relocating to Mauritius: which permit, and what the first year costs",
     summary: "The three routes most South African families use, and an honest account of where the money goes in the first twelve months.",
-    publishedAt: "2026-09-08",
+    publishedAt: "2026-06-09",
     category: "Living in Mauritius",
     body: `
 <p>South Africans are the largest group of foreign residents arriving in Mauritius, and the reasons are familiar: a four-hour flight, the same time zone, English-speaking schools, a stable currency and a functioning state. The question we are asked most often is not whether to come but which door to use and what it will cost. This is the short version.</p>
@@ -188,7 +188,7 @@ export const insights: Insight[] = [
     slug: "occupation-permit-changes-2026-27-budget",
     title: "What the 2026-27 Budget changed for Occupation Permits",
     summary: "Higher thresholds for investors, a single professional category, and tighter income conditions for the self-employed. What it means if you are planning a move this year.",
-    publishedAt: "2026-09-01",
+    publishedAt: "2026-08-20",
     category: "Residency",
     body: `
 <p>The 2026-27 Budget brought the most significant revision of the Occupation Permit framework in several years, and the Economic Development Board has now issued revised guidelines to give effect to it. Four changes matter to anyone planning a move.</p>
@@ -203,7 +203,7 @@ export const insights: Insight[] = [
     slug: "investor-or-self-employed",
     title: "Investor or Self-Employed: choosing the right Occupation Permit",
     summary: "The two routes for people who will work for themselves in Mauritius differ in capital, structure and obligations. A short guide to which fits.",
-    publishedAt: "2026-09-01",
+    publishedAt: "2026-07-16",
     category: "Residency",
     body: `
 <p>Most people who will earn their living in Mauritius on their own account arrive with one of two permits in mind. The choice between them is less about the activity than about its shape.</p>
@@ -219,7 +219,7 @@ export const insights: Insight[] = [
     slug: "golden-visa-what-it-adds",
     title: "The Golden Visa: what it adds to the existing routes",
     summary: "Mauritius has announced a USD 1 million Golden Visa leading to twenty-year permanent residence. Where it sits alongside the permits that already exist, and who it is for.",
-    publishedAt: "2026-09-01",
+    publishedAt: "2026-09-02",
     category: "Residency",
     body: `
 <p>Mauritius approved a Golden Visa in April 2026 and legislated for it through the Budget measures. The application guidelines and the commencement date are still awaited from the Economic Development Board, so what follows is the framework as announced, not yet the scheme as operated.</p>
