@@ -5,7 +5,7 @@
 set -euo pipefail
 
 HOST="start.mu"
-KEY="c86338d428bb4c798bc2c1bb111031c3"
+KEY="1c87dc6f5a7a44d3a0765f2418709813"
 KEY_LOCATION="https://$HOST/$KEY.txt"
 
 # The key file must be live before IndexNow will accept a submission.
