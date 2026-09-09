@@ -23,6 +23,10 @@ const legacy: [string, string][] = [
   ["/mauritius-smart-city", "/property/smart-city-scheme"],
   ["/mauritius-property-acquisition", "/residency/property-acquisition"],
   ["/enquire-now", "/contact"],
+  // Named by Google's Change of Address sample check as pages it still holds; all 404ed before.
+  ["/mauritius-occupation-permit-expert-pass", "/residency/professional-permit"],
+  ["/post/what-does-a-company-secretary-do-in-mauritius-key-responsibilities-explained", "/establishment/registered-office-and-secretary"],
+  ["/post/new-residency-rules-in-mauritius-what-investors-retirees-and-entrepreneurs-need-to-know-in-2025", "/insights/occupation-permit-changes-2026-27-budget"],
   ["/blog", "/insights"],
   ["/resources", "/insights"],
   ["/essential", "/mauritius"],
@@ -47,9 +51,13 @@ const nextConfig: NextConfig = {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
   async redirects() {
-    return legacy
-      .filter(([from, to]) => from !== to)
-      .map(([source, destination]) => ({ source, destination, permanent: true }));
+    return [
+      ...legacy
+        .filter(([from, to]) => from !== to)
+        .map(([source, destination]) => ({ source, destination, statusCode: 301 })),
+      // Anything else left on the old Wix blog lands on Insights rather than a 404.
+      { source: "/post/:slug*", destination: "/insights", statusCode: 301 },
+    ];
   },
 };
 
