@@ -69,7 +69,7 @@ const en = {
   },
   aboutPage: {
     metaTitle: "About start.mu, the private client practice of the Intrasia Group",
-    meta: "start.mu helps investors, entrepreneurs and families with residency, occupation permits and company formation in Mauritius. Clear from the start.",
+    meta: "start.mu is operated by Intrasia Corporate Services Limited, part of the Intrasia Group. We help investors, entrepreneurs and families with residency, occupation permits and company formation in Mauritius.",
     title: "About start.mu",
     lead: "The private client practice of the Intrasia Group in Mauritius.",
     firmH: "The firm",
@@ -318,7 +318,7 @@ const fr: Ui = {
   },
   aboutPage: {
     metaTitle: "À propos de start.mu, le cabinet mauricien du Groupe Intrasia dédié à la clientèle privée",
-    meta: "start.mu accompagne investisseurs, entrepreneurs et familles pour la résidence, les Occupation Permits et la création de sociétés à Maurice. Clair dès le départ.",
+    meta: "start.mu est exploité par Intrasia Corporate Services Limited, membre du Groupe Intrasia. Nous accompagnons investisseurs, entrepreneurs et familles pour la résidence, les Occupation Permits et la création de sociétés à Maurice.",
     title: "À propos de start.mu",
     lead: "Le cabinet mauricien du Groupe Intrasia dédié à la clientèle privée.",
     firmH: "Le cabinet",
@@ -565,7 +565,7 @@ const de: Ui = {
   },
   aboutPage: {
     metaTitle: "Über start.mu, die Privatkundenberatung der Intrasia Group",
-    meta: "start.mu begleitet Investoren, Unternehmer und Familien bei Aufenthalt, Occupation Permits und Gesellschaftsgründung auf Mauritius. Von Anfang an klar.",
+    meta: "start.mu wird von Intrasia Corporate Services Limited betrieben, einem Unternehmen der Intrasia Group. Wir begleiten Investoren, Unternehmer und Familien bei Aufenthalt, Occupation Permits und Gesellschaftsgründung auf Mauritius.",
     title: "Über start.mu",
     lead: "Die Privatkundenberatung der Intrasia Group auf Mauritius.",
     firmH: "Das Unternehmen",

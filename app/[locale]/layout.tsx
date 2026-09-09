@@ -56,9 +56,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 const organisation = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": `${site.url}/#organisation`,
   name: "start.mu by Intrasia",
   alternateName: ["start.mu", "start.mu by Intrasia"],
   legalName: site.legalName,
+  /*
+   * Google's AI Overview attributed start.mu to Intrasia Management (Mauritius) Limited, the
+   * group's separately licensed management company. Nothing off-site corroborates who operates
+   * start.mu -- intrasiagroup.com does not mention it, and renders client-side -- so the trading
+   * name relationship is stated here, in the property schema.org provides for exactly this.
+   */
+  disambiguatingDescription: `start.mu is the trading name of ${site.legalName}, which is registered with the Registrar of Companies in Mauritius as a Company Secretary and Corporate Service Provider. Every service offered through start.mu is provided by ${site.legalName}, a company of the Intrasia Group.`,
   url: site.url,
   email: site.email,
   telephone: site.phone,
