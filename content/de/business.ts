@@ -6,7 +6,7 @@ export const establishmentDe: Record<string, Partial<ServiceEntry>> = {
     title: "Domestic Company",
     summary: "Die operative Gesellschaft hinter den meisten Occupation Permits und vielen Immobilienkäufen.",
     intro:
-      "Eine mauritische Domestic Company ist eine Privatgesellschaft nach dem Companies Act 2001 für eine auf Mauritius ausgeübte Tätigkeit. Sie ist das Vehikel für ein Investor Occupation Permit, der Arbeitgeber für ein Professional Permit und, mit einem Trust, ein Weg, Programmimmobilien zu halten. Sie wird auf Mauritius mit 15 % auf das steuerpflichtige Einkommen besteuert, mit Teilbefreiungen für bestimmte Einkunftsarten.",
+      "Eine mauritische Domestic Company ist eine Privatgesellschaft nach dem Companies Act 2001 für eine auf Mauritius ausgeübte Tätigkeit. Sie ist das Vehikel für ein Investor Occupation Permit, der Arbeitgeber für ein Professional Permit und, mit einem Trust, eine Möglichkeit, Programmimmobilien zu halten. Sie wird auf Mauritius mit 15 % auf das steuerpflichtige Einkommen besteuert, mit Teilbefreiungen für bestimmte Einkunftsarten.",
     facts: [
       { label: "Rechtsgrundlage", value: "Companies Act 2001, verwaltet vom Registrar of Companies" },
       { label: "Gesellschafter und Direktoren", value: "Ein Gesellschafter und ein Direktor genügen. Mindestens ein Direktor muss seinen gewöhnlichen Aufenthalt auf Mauritius haben" },
@@ -97,7 +97,7 @@ export const establishmentDe: Record<string, Partial<ServiceEntry>> = {
     intro:
       "Ein mauritisches Bankkonto ist Bedingung der meisten Genehmigungen und praktische Notwendigkeit für jede Gesellschaft. Die Eröffnung dauert länger als die Gründung, und die Anforderungen der Banken sind deutlich gestiegen. Wir führen Mandanten bei der Bank ein, die zu ihrem Profil passt, und begleiten die Akte bis zur Freischaltung.",
     facts: [
-      { label: "Banken, mit denen wir arbeiten", value: "MCB, AfrAsia Bank, SBM, Bank One und ABSA Mauritius, unter anderen" },
+      { label: "Banken, mit denen wir arbeiten", value: "MCB, AfrAsia Bank, SBM, Bank One und ABSA Mauritius, unter anderem" },
       { label: "Dauer", value: "Zwei bis sechs Wochen ab vollständiger Akte, je nach Bank und Profil des Antragstellers" },
       { label: "Was die Bank verlangt", value: "Identitäts- und Adressnachweise, Herkunft des Vermögens und der Mittel, den Geschäftsplan und bei Gesellschaften Satzung und Gründungsunterlagen" },
       { label: "Privat und geschäftlich", value: "Wir organisieren beides. Das Privatkonto wird meist zuerst eröffnet" },
@@ -105,7 +105,7 @@ export const establishmentDe: Record<string, Partial<ServiceEntry>> = {
     sections: [
       { heading: "Warum es dauert", body: ["Mauritische Banken wenden bei nicht ansässigen Antragstellern und neuen Gesellschaften eine verstärkte Sorgfaltsprüfung an. Eine unvollständige oder widersprüchliche Akte bleibt liegen. Das Wirksamste, was wir bei einer Bankakte tun, ist die sorgfältige Vorbereitung vor der Einreichung: eine stimmige Darstellung des Vermögens, Unterlagen, die zueinander passen, und ein Geschäftsplan, dem die Compliance-Abteilung der Bank folgen kann."] },
       { heading: "Die Wahl der Bank", body: ["Die Banken unterscheiden sich in ihrer Bereitschaft nach Nationalität, Branche und Kontotyp, in Mindestguthaben, in Mehrwährungsangeboten und im Umgang mit einer noch nicht aktiven Gesellschaft. Wir wissen, wo ein bestimmtes Profil willkommen ist, und richten die Einführung danach aus, statt bei mehreren Banken einzureichen und abzuwarten, welche antwortet."] },
-      { heading: "Abstimmung mit der Genehmigung", body: ["Für ein Investor Permit müssen die 100.000 USD innerhalb von 60 Tagen nach Erteilung auf das mauritische Konto der Gesellschaft überwiesen werden; für Selbständige sind es 50.000 USD und für Ruheständler zunächst 2.000 USD. Bleibt die Überweisung innerhalb der 60 Tage aus, folgen Streichung und Erlöschen der Genehmigung. Wir stimmen Bankakte und Genehmigungsakte so ab, dass das Konto vor der Erteilung offen ist und die Frist nie zur Frage wird."] },
+      { heading: "Abstimmung mit der Genehmigung", body: ["Für ein Investor Permit müssen die 100.000 USD innerhalb von 60 Tagen nach Erteilung auf das mauritische Konto der Gesellschaft überwiesen werden; für Selbständige sind es 50.000 USD und für Ruheständler zunächst 2.000 USD. Bleibt die Überweisung innerhalb der 60 Tage aus, folgen Streichung und Erlöschen der Genehmigung. Wir stimmen Bankakte und Genehmigungsakte so ab, dass das Konto vor der Erteilung offen ist und die Frist zuverlässig eingehalten werden kann."] },
     ],
     related: [
       { label: "Domestic Company", href: "/establishment/domestic-company" },
@@ -138,9 +138,9 @@ export const establishmentDe: Record<string, Partial<ServiceEntry>> = {
   },
   "annual-compliance": {
     title: "Jährliche Pflichten",
-    summary: "Die Meldungen, Erklärungen und Prüfungen, die Genehmigung und Gesellschaft in gutem Stand halten.",
+    summary: "Die Meldungen, Erklärungen und Prüfungen, mit denen Genehmigung und Gesellschaft rechtskonform bleiben.",
     intro:
-      "Genehmigung und Gesellschaft bringen jeweils jährliche Pflichten mit sich, und seit den Haushalten 2025 und 2026 werden sie genauer geprüft als zuvor. Wir führen einen Kalender für Gesellschaft, Genehmigung und Haushalt und handeln danach.",
+      "Genehmigung und Gesellschaft bringen jeweils jährliche Pflichten mit sich, und seit den Budgets 2025 und 2026 werden sie genauer geprüft als zuvor. Wir führen einen Kalender für Gesellschaft, Genehmigung und Haushalt und handeln danach.",
     facts: [
       { label: "Gesellschaft", value: "Jahresmeldung, Jahresabschluss, Steuererklärung, Aktualisierung der wirtschaftlich Berechtigten, Verlängerung von Sitz und Secretary" },
       { label: "Genehmigung", value: "Jährliche Erklärung von Umsatz oder Einkommen bei der Mauritius Revenue Authority, Überwachung durch das EDB, die Schwellen im dritten und fünften Jahr und die Verlängerung mindestens einen Monat vor Ablauf" },
@@ -177,16 +177,16 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     sections: [
       { heading: "Wie ein PDS-Projekt aussieht", body: ["PDS-Projekte reichen von einer Handvoll Villen auf einem Küstengrundstück bis zu mehreren hundert Wohnungen in einer geplanten Anlage mit gemeinsamen Einrichtungen. Das Programm verpflichtet den Bauträger, einen Teil des Projekts sozialen Zwecken zu widmen und Gestaltungs- und Umweltstandards einzuhalten, und jedes Projekt wird vom EDB zugelassen, bevor Einheiten an Ausländer verkauft werden dürfen."] },
-      { heading: "Ablauf des Kaufs", body: ["Reservierung mit Anzahlung, Antrag des Käufers beim EDB auf Genehmigung des Erwerbs, notarielle Kaufurkunde und Eintragung. Die meisten PDS-Einheiten werden vom Plan unter einem VEFA-Vertrag verkauft, mit Ratenzahlungen nach Baufortschritt und einer Fertigstellungsgarantie der Bank des Bauträgers. Wir vertreten den Käufer an der Seite des Notars, prüfen Stand des Bauträgers und Garantie und führen den EDB-Antrag."] },
+      { heading: "Ablauf des Kaufs", body: ["Reservierung mit Anzahlung, Antrag des Käufers beim EDB auf Genehmigung des Erwerbs, notarielle Kaufurkunde und Eintragung. Die meisten PDS-Einheiten werden vor Fertigstellung unter einem VEFA-Vertrag verkauft, mit Ratenzahlungen nach Baufortschritt und einer Fertigstellungsgarantie der Bank des Bauträgers. Wir vertreten den Käufer an der Seite des Notars, prüfen Stand des Bauträgers und Garantie und führen den EDB-Antrag."] },
       { heading: "Halten über Gesellschaft oder Trust", body: ["Eine PDS-Einheit kann über eine mauritische Domestic Company gehalten werden, deren Anteile in einem Trust liegen. Diese Struktur richten wir regelmäßig für Familien ein, die Immobilien lieber nicht persönlich halten. Die Aufenthaltsgenehmigung kann über die Struktur erlangt werden, vorbehaltlich der Bedingungen des EDB."] },
     ],
     related: [
-      { label: "Kauf vom Plan und VEFA", href: "/property/off-plan-vefa" },
+      { label: "Kauf vor Fertigstellung und VEFA", href: "/property/off-plan-vefa" },
       { label: "Aufenthalt durch Immobilienerwerb", href: "/residency/property-acquisition" },
       { label: "Domestic Company", href: "/establishment/domestic-company" },
     ],
     metaTitle: "Property Development Scheme Mauritius | start.mu",
-    metaDescription: "Kaufen unter dem Property Development Scheme auf Mauritius: Berechtigung, die Aufenthaltsschwelle von 375.000 USD, der Kaufablauf, Verkäufe vom Plan unter VEFA und das Halten über Gesellschaft und Trust.",
+    metaDescription: "Kaufen unter dem Property Development Scheme auf Mauritius: Berechtigung, die Aufenthaltsschwelle von 375.000 USD, der Kaufablauf, Verkäufe vor Fertigstellung unter VEFA und das Halten über Gesellschaft und Trust.",
     index: { audience: "Neue Villen, Reihenhäuser und Wohnungen in zugelassenen Projekten", threshold: "Kein Minimum; 375.000 USD für Aufenthalt", duration: "Aktuelles Programm für neue Projekte" },
   },
   "integrated-resort-scheme": {
@@ -201,7 +201,7 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Anlagen", value: "Anahita, Tamarina, Villas Valriche, Azuri und andere" },
     ],
     sections: [
-      { heading: "Warum Käufer weiterhin IRS betrachten", body: ["Die etablierten IRS-Anlagen sind gereift: Die Bepflanzung ist gewachsen, die Einrichtungen laufen, die Verwaltungsgesellschaften haben eine Bilanz, und der Mietmarkt für die Einheiten ist bekannt. Wer Gewissheit höher schätzt als den Preis eines Neubaus, bevorzugt sie oft. Gekauft wird eine fertige Immobilie, sodass das VEFA-Risiko des Kaufs vom Plan entfällt."] },
+      { heading: "Warum Käufer weiterhin IRS betrachten", body: ["Die etablierten IRS-Anlagen sind gereift: Die Bepflanzung ist gewachsen, die Einrichtungen laufen, für die Verwaltungsgesellschaften liegen langjährige Erfahrungswerte vor, und der Mietmarkt für die Einheiten ist bekannt. Wer Gewissheit höher schätzt als den Preis eines Neubaus, bevorzugt sie oft. Gekauft wird eine fertige Immobilie, sodass das VEFA-Risiko des Kaufs vor Fertigstellung entfällt."] },
       { heading: "Ablauf des Kaufs", body: ["Dieselbe Abfolge wie bei jedem Programmkauf: Antrag beim EDB, notarielle Urkunde und Eintragung. Da der Verkäufer meist ein Privateigentümer und kein Bauträger ist, verlagert sich die Prüfung auf Titel, Anlagengebühren und Zustand der Immobilie, die wir vor der Urkunde mit dem Notar prüfen."] },
     ],
     related: [
@@ -252,7 +252,7 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     related: [
       { label: "Property Development Scheme", href: "/property/property-development-scheme" },
-      { label: "Kauf vom Plan und VEFA", href: "/property/off-plan-vefa" },
+      { label: "Kauf vor Fertigstellung und VEFA", href: "/property/off-plan-vefa" },
       { label: "Aufenthalt durch Immobilienerwerb", href: "/residency/property-acquisition" },
     ],
     metaTitle: "Smart City Scheme Mauritius | start.mu",
@@ -272,7 +272,7 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Registrierungsgebühr", value: "5 % des Kaufpreises, vom Käufer zu tragen" },
     ],
     sections: [
-      { heading: "Für wen es passt", body: ["Ein Anleger, der am mauritischen Gastgewerbe teilhaben möchte, mit einem professionellen Betreiber, der das Objekt führt, und der Mauritius einige Wochen im Jahr besucht, statt hier zu leben. Eine Einheit ab 375.000 USD trägt wie jeder Programmkauf eine Aufenthaltsgenehmigung, doch die Grenze von 45 Tagen Eigennutzung macht sie selten zum richtigen Weg für jemanden, der dauerhaft auf Mauritius leben will."] },
+      { heading: "Für wen es passt", body: ["Ein Anleger, der am mauritischen Gastgewerbe teilhaben möchte, mit einem professionellen Betreiber, der das Objekt führt, und der Mauritius einige Wochen im Jahr besucht, statt hier zu leben. Eine Einheit ab 375.000 USD trägt wie jeder Programmkauf eine Aufenthaltsgenehmigung, doch die Grenze von 45 Tagen Eigennutzung macht sie selten zur richtigen Wahl für jemanden, der dauerhaft auf Mauritius leben will."] },
       { heading: "Was zu prüfen ist", body: ["Die Bilanz des Betreibers, die Bedingungen der Rückvermietung und der Umsatzbeteiligung, die Behandlung von Renovierungskosten und die Ausstiegsregelungen. Sie unterscheiden sich von Hotel zu Hotel erheblich. Wir prüfen sie mit dem Käufer, bevor eine Reservierung erfolgt."] },
     ],
     related: [
@@ -284,12 +284,12 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
     index: { audience: "Anleger in Hoteleinheiten mit Rückvermietung", threshold: "375.000 USD für Aufenthalt", duration: "45 Tage Eigennutzung" },
   },
   "ground-plus-two": {
-    title: "Wohnungen ab Erdgeschoss plus zwei",
+    title: "R+2-Wohnungen",
     summary: "Wohnungen in gewöhnlichen Gebäuden, außerhalb der Programme, für Ausländer.",
     intro:
-      "Ein Ausländer darf mit Genehmigung des EDB überall auf Mauritius eine Wohnung in einem Gebäude mit mindestens zwei Stockwerken über dem Erdgeschoss kaufen, außerhalb der zugelassenen Programme. Dieser Weg hat ausländischen Käufern den breiteren Wohnungsmarkt geöffnet, einschließlich neuer Projekte in Stadtzentren und an der Küste.",
+      "Ein Ausländer darf mit Genehmigung des EDB überall auf Mauritius eine Wohnung in einem Gebäude mit mindestens zwei Stockwerken über dem Erdgeschoss kaufen, außerhalb der zugelassenen Programme. Diese Möglichkeit hat ausländischen Käufern den breiteren Wohnungsmarkt geöffnet, einschließlich neuer Projekte in Stadtzentren und an der Küste.",
     facts: [
-      { label: "Gebäude", value: "Mindestens drei Geschosse: Erdgeschoss plus zwei" },
+      { label: "Gebäude", value: "Mindestens drei Geschosse: Erdgeschoss und zwei Obergeschosse" },
       { label: "Mindestkaufpreis", value: "6 Millionen MUR" },
       { label: "Aufenthaltsgenehmigung", value: "Ab 375.000 USD, für Käufer, Ehepartner und unterhaltsberechtigte Kinder, solange die Immobilie gehalten wird" },
       { label: "Registrierungsgebühr", value: "5 % des Kaufpreises, vom Käufer zu tragen" },
@@ -297,21 +297,21 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     sections: [
       { heading: "Für wen es passt", body: ["Ein Käufer, der eine Wohnung statt einer Villa möchte, an einem Ort, den die Programme nicht abdecken, zu einem niedrigeren Einstiegspreis. Viele neuere Wohnungsprojekte in Grand Baie, Tamarin, Flic en Flac und den Städten des Hochplateaus werden auf diesem Weg an Ausländer verkauft."] },
-      { heading: "Kauf vom Plan", body: ["Neue Wohngebäude werden häufig vom Plan unter VEFA-Verträgen verkauft. Es gelten dieselben Schutzmechanismen und Risiken wie unter den Programmen, und die Prüfung des Bauträgers und der Fertigstellungsgarantie ist bei kleineren Bauträgern eher noch wichtiger."] },
+      { heading: "Kauf vor Fertigstellung", body: ["Neue Wohngebäude werden häufig vor Fertigstellung unter VEFA-Verträgen verkauft. Es gelten dieselben Schutzmechanismen und Risiken wie unter den Programmen, und die Prüfung des Bauträgers und der Fertigstellungsgarantie ist bei kleineren Bauträgern eher noch wichtiger."] },
     ],
     related: [
-      { label: "Kauf vom Plan und VEFA", href: "/property/off-plan-vefa" },
+      { label: "Kauf vor Fertigstellung und VEFA", href: "/property/off-plan-vefa" },
       { label: "Aufenthalt durch Immobilienerwerb", href: "/residency/property-acquisition" },
     ],
-    metaTitle: "Wohnungen ab Erdgeschoss plus zwei auf Mauritius | start.mu",
-    metaDescription: "Kauf einer Wohnung auf Mauritius als Ausländer über den Weg Erdgeschoss plus zwei: Mindestpreis 6 Millionen MUR, Aufenthalt ab 375.000 USD, EDB-Genehmigung und Kauf vom Plan.",
+    metaTitle: "R+2-Wohnungen auf Mauritius | start.mu",
+    metaDescription: "Kauf einer Wohnung auf Mauritius als Ausländer über eine R+2-Wohnung: Mindestpreis 6 Millionen MUR, Aufenthalt ab 375.000 USD, EDB-Genehmigung und Kauf vor Fertigstellung.",
     index: { audience: "Wohnungen außerhalb der Programme", threshold: "6 Millionen MUR; 375.000 USD für Aufenthalt", duration: "Gebäude mit drei oder mehr Geschossen" },
   },
   "off-plan-vefa": {
-    title: "Kauf vom Plan und VEFA",
+    title: "Kauf vor Fertigstellung und VEFA",
     summary: "Wie ein Verkauf im künftigen Fertigstellungszustand funktioniert und wo das Risiko liegt.",
     intro:
-      "Die meisten neuen Wohnungen, die auf Mauritius an Ausländer verkauft werden, werden vom Plan verkauft, als vente en l'état futur d'achèvement, kurz VEFA. Der Käufer wird Eigentümer des Grundstücksanteils und des Gebäudes im Zuge des Baus, zahlt in Raten nach Baufortschritt und stützt sich auf eine finanzielle Fertigstellungsgarantie der Bank des Bauträgers.",
+      "Die meisten neuen Wohnungen, die auf Mauritius an Ausländer verkauft werden, werden vor Fertigstellung verkauft, als vente en l'état futur d'achèvement, kurz VEFA. Der Käufer wird Eigentümer des Grundstücksanteils und des Gebäudes im Zuge des Baus, zahlt in Raten nach Baufortschritt und stützt sich auf eine finanzielle Fertigstellungsgarantie der Bank des Bauträgers.",
     facts: [
       { label: "Vertrag", value: "Eine vor dem Notar unterzeichnete VEFA-Urkunde, die das Eigentum mit fortschreitendem Bau schrittweise überträgt" },
       { label: "Zahlungen", value: "In Raten nach Bauabschnitten, typischerweise bei Unterzeichnung, Fundament, Rohbau, Dach und Übergabe, in der Urkunde festgelegten Anteilen" },
@@ -329,11 +329,11 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     related: [
       { label: "Property Development Scheme", href: "/property/property-development-scheme" },
-      { label: "Wohnungen ab Erdgeschoss plus zwei", href: "/property/ground-plus-two" },
+      { label: "R+2-Wohnungen", href: "/property/ground-plus-two" },
       { label: "Domestic Company", href: "/establishment/domestic-company" },
     ],
-    metaTitle: "Kauf vom Plan und VEFA auf Mauritius | start.mu",
-    metaDescription: "Wie Immobilienkäufe vom Plan auf Mauritius unter einer VEFA funktionieren: Ratenzahlungen, Fertigstellungsgarantie, Übergabebedingungen, wo das Risiko liegt und was start.mu für den Käufer tut.",
+    metaTitle: "Kauf vor Fertigstellung und VEFA auf Mauritius | start.mu",
+    metaDescription: "Wie Immobilienkäufe vor Fertigstellung auf Mauritius unter einer VEFA funktionieren: Ratenzahlungen, Fertigstellungsgarantie, Übergabebedingungen, wo das Risiko liegt und was start.mu für den Käufer tut.",
   },
 };
 

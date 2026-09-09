@@ -187,7 +187,7 @@ export const finder: Record<Locale, FinderStrings> = {
 
   fr: {
     title: "Quelle voie vous convient",
-    lead: "Quatre questions. Aucun chiffre précis ni adresse e-mail requis. Vous obtenez le meilleur point de départ, les raisons, et la page à lire ensuite.",
+    lead: "Quatre questions. Aucun montant exact ni aucune adresse e-mail ne sont requis. Vous obtenez le meilleur point de départ, les raisons, et la page à lire ensuite.",
     metaTitle: "Quelle voie de résidence à Maurice vous convient",
     meta: "Quatre questions, une voie recommandée. Investisseur, professionnel, indépendant, retraité, immobilier, Golden Visa ou Premium Visa, avec les raisons.",
     progress: (n, total) => `Question ${n} sur ${total}`,
@@ -225,7 +225,7 @@ export const finder: Record<Locale, FinderStrings> = {
         ],
       },
       horizon: {
-        text: "Vous installez-vous maintenant, ou vivez-vous ici d'abord pour décider ?",
+        text: "Souhaitez-vous vous installer maintenant ou commencer par vivre à Maurice avant de décider ?",
         options: [
           ["settle", "Je m'installe maintenant"],
           ["test", "Vivre ici d'abord, puis décider"],
@@ -331,21 +331,21 @@ export const finder: Record<Locale, FinderStrings> = {
   },
 
   de: {
-    title: "Welcher Weg passt",
+    title: "Welche Möglichkeit passt",
     lead: "Vier Fragen. Keine genauen Zahlen und keine E-Mail-Adresse erforderlich. Sie erhalten den besten Ausgangspunkt, die Gründe und die Seite, die als Nächstes zu lesen ist.",
     metaTitle: "Welcher Aufenthaltsweg auf Mauritius zu Ihnen passt",
-    meta: "Vier Fragen, ein empfohlener Weg. Investor, Angestellter, Selbständiger, Ruheständler, Immobilie, Golden Visa oder Premium Visa, mit den Gründen.",
+    meta: "Vier Fragen, eine Empfehlung. Investor, Angestellter, Selbständiger, Ruheständler, Immobilie, Golden Visa oder Premium Visa, mit den Gründen.",
     progress: (n, total) => `Frage ${n} von ${total}`,
     startAgain: "Neu beginnen",
     back: "Zurück",
     change: "Ändern",
     answersLabel: "Ihre Antworten",
     theRoute: "Ihr bester Ausgangspunkt",
-    readAbout: "Mehr zu diesem Weg lesen",
+    readAbout: "Mehr zu dieser Möglichkeit lesen",
     arrange: "Beratungsgespräch vereinbaren",
     alongside: "Ergänzend lesenswert",
     disclaimer:
-      "Ein Ausgangspunkt, keine Beratung. Wir prüfen ihn im ersten Gespräch an Ihren Verhältnissen, wo die Entscheidung tatsächlich fällt, und gelegentlich passt ein anderer Weg besser.",
+      "Ein Ausgangspunkt, keine Beratung. Wir gleichen das Ergebnis im ersten Gespräch mit Ihrer persönlichen Situation ab, wo die Entscheidung tatsächlich fällt, und gelegentlich passt eine andere Möglichkeit besser.",
     q: {
       purpose: {
         text: "Was werden Sie auf Mauritius hauptsächlich tun?",
@@ -381,7 +381,7 @@ export const finder: Record<Locale, FinderStrings> = {
       premium: { title: "Premium Visa", note: "Ein Jahr auf Mauritius, verlängerbar, bevor Sie sich auf eine Genehmigung festlegen." },
       property: { title: "Aufenthalt durch Immobilienerwerb", note: "Wenn Sie ab 375.000 USD kaufen, trägt der Erwerb den Aufenthalt, solange Sie die Immobilie halten." },
       retired: { title: "Genehmigung für Ruheständler", note: "Zehn Jahre auf Überweisungen von 24.000 USD im Jahr, ohne Immobilienpflicht." },
-      investorAfterPlan: { title: "Investor Permit", note: "Der Weg, auf den zu wechseln ist, sobald der Geschäftsplan steht." },
+      investorAfterPlan: { title: "Investor Permit", note: "Die Möglichkeit, auf die zu wechseln ist, sobald der Geschäftsplan steht." },
       selfEmployed: { title: "Self-Employed Permit", note: "Zehn Jahre, Dienstleistungssektor, Einkommensbedingungen ab dem dritten Jahr." },
       investorGrowth: { title: "Investor Permit", note: "Zehn Jahre, eine mauritische Gesellschaft, Umsatzbedingungen ab dem dritten Jahr." },
       investorIfDirect: { title: "Investor Permit", note: "Wenn Sie eine mauritische Gesellschaft tatsächlich leiten würden." },
@@ -425,8 +425,8 @@ export const finder: Record<Locale, FinderStrings> = {
       propertyResidency: {
         title: "Aufenthalt durch Immobilienerwerb",
         why: [
-          "Ein Erwerb in einem zugelassenen Programm ab 375.000 USD trägt eine Aufenthaltsgenehmigung, solange Sie die Immobilie halten.",
-          "Die Genehmigung erfasst Ehepartner und unterhaltsberechtigte Kinder und befreit Sie davon, eine Arbeitsgenehmigung zu benötigen.",
+          "Ein Erwerb in einem zugelassenen Programm ab 375.000 USD begründet einen Anspruch auf eine Aufenthaltsgenehmigung, solange Sie die Immobilie halten.",
+          "Die Genehmigung umfasst auch Ehepartner und unterhaltsberechtigte Kinder und befreit Sie davon, eine Arbeitsgenehmigung zu benötigen.",
         ],
       },
       homeBelow: {
@@ -447,15 +447,15 @@ export const finder: Record<Locale, FinderStrings> = {
         titleOver50: "Genehmigung für Ruheständler",
         titleUnder50: "Aufenthalt durch Immobilienerwerb, oder das Investor Permit",
         why: [
-          "Das Golden Visa beginnt bei 1 Million USD. Darunter sind die passiven Wege der Aufenthalt über einen Immobilienerwerb ab 375.000 USD oder, über 50, die Genehmigung für Ruheständler.",
-          "Das Investor Permit verlangt 100.000 USD, setzt aber voraus, dass Sie das Unternehmen führen; es ist kein passiver Weg.",
+          "Das Golden Visa beginnt bei 1 Million USD. Darunter kommen als passive Möglichkeiten der Aufenthalt über einen Immobilienerwerb ab 375.000 USD oder, über 50, die Genehmigung für Ruheständler.",
+          "Das Investor Permit verlangt 100.000 USD, setzt aber voraus, dass Sie das Unternehmen führen; es ist keine passive Möglichkeit.",
         ],
       },
       innovator: {
-        title: "Der Innovator-Weg, wenn das Projekt qualifiziert",
+        title: "Die Innovator-Variante, wenn das Projekt qualifiziert",
         why: [
           "Das Investor Permit verlangt 100.000 USD und das Self-Employed Permit 50.000 USD.",
-          "Der Weg für innovative Start-ups innerhalb der Kategorie Investor kennt keine Mindestinvestition, für ein Projekt, das dem EDB vorgelegt oder bei einem akkreditierten Inkubator registriert ist.",
+          "Die Variante für innovative Start-ups innerhalb der Kategorie Investor kennt keine Mindestinvestition, für ein Projekt, das dem EDB vorgelegt oder bei einem akkreditierten Inkubator registriert ist.",
         ],
       },
       selfEmployedOrInvestor: {

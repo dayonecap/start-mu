@@ -8,7 +8,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     intro:
       "Das Occupation Permit der Kategorie Professional erlaubt einem Ausländer, eine Anstellung bei einem mauritischen Arbeitgeber aufzunehmen. Der Arbeitgeber stellt den Antrag, die Genehmigung gilt bis zu zehn Jahre und gibt dem Inhaber und seinen Familienangehörigen das Recht, für die Dauer des Vertrags auf Mauritius zu leben.",
     facts: [
-      { label: "Mindestgrundgehalt", value: "50.000 MUR monatlich, in allen Branchen, seit dem Haushalt 2026-27" },
+      { label: "Mindestgrundgehalt", value: "50.000 MUR monatlich, in allen Branchen, seit dem Budget 2026-27" },
       { label: "Antragsteller", value: "Der Arbeitgeber stellt den Antrag, der Arbeitnehmer ist Begünstigter" },
       { label: "Gültigkeit", value: "Bis zu 10 Jahre, oder die Laufzeit des Arbeitsvertrags, falls kürzer" },
       { label: "Familienangehörige", value: "Ehepartner oder Lebenspartner, unverheiratete unterhaltsberechtigte Kinder und Eltern" },
@@ -79,7 +79,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     title: "Occupation Permit für Innovatoren",
     summary: "Für Gründer eines innovativen Start-ups, ohne Mindestinvestition.",
     intro:
-      "Der Weg für innovative Start-ups liegt innerhalb der Kategorie Investor und richtet sich an Gründer, deren Projekt beim Economic Development Board eingereicht oder bei einem akkreditierten Inkubator registriert ist. Eine Mindestinvestition gibt es nicht. Die Berechtigung ergibt sich aus dem Projekt, nicht aus dem Kapital.",
+      "Die Variante für innovative Start-ups liegt innerhalb der Kategorie Investor und richtet sich an Gründer, deren Projekt beim Economic Development Board eingereicht oder bei einem akkreditierten Inkubator registriert ist. Eine Mindestinvestition gibt es nicht. Die Berechtigung ergibt sich aus dem Projekt, nicht aus dem Kapital.",
     facts: [
       { label: "Mindestinvestition", value: "Keine" },
       { label: "Zugang", value: "Ein beim EDB eingereichtes Projekt oder die Registrierung bei einem vom Mauritius Research and Innovation Council akkreditierten Inkubator" },
@@ -103,7 +103,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Domestic Company", href: "/establishment/domestic-company" },
     ],
     metaTitle: "Occupation Permit für Innovatoren auf Mauritius | start.mu",
-    metaDescription: "Der Weg für innovative Start-ups innerhalb des Investor Occupation Permit auf Mauritius: keine Mindestinvestition, Projekt beim EDB oder akkreditierter Inkubator, und wie der Antrag beurteilt wird.",
+    metaDescription: "Die Variante für innovative Start-ups innerhalb des Investor Occupation Permit auf Mauritius: keine Mindestinvestition, Projekt beim EDB oder akkreditierter Inkubator, und wie der Antrag beurteilt wird.",
     index: { audience: "Gründer innovativer Start-ups", threshold: "Keine Mindestinvestition", duration: "Bis zu 10 Jahre" },
   },
   "retired-residence-permit": {
@@ -160,7 +160,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
         "Ein Käufer, der ohnehin beschlossen hat, ein Zuhause auf Mauritius zu besitzen, und für den die Aufenthaltsgenehmigung eine Folge dieser Entscheidung ist, nicht ihr Zweck. Die Genehmigung ist an das Objekt gebunden; sie ist daher nicht der richtige Weg für jemanden, der zuerst den Aufenthalt möchte und lieber mieten würde.",
       ] },
       { heading: "Der Erwerb selbst", body: [
-        "Der Kauf folgt einer festen Abfolge: Reservierung, Antrag beim EDB auf Genehmigung des Erwerbs, notarielle Urkunde und Eintragung. Käufe vom Plan unter einem VEFA-Vertrag fügen eine weitere Ebene hinzu, mit Ratenzahlungen nach Baufortschritt und einer finanziellen Garantie des Bauträgers. Wir behandeln das ausführlich im Abschnitt Immobilien und vertreten den Käufer durchgehend, an der Seite des Notars.",
+        "Der Kauf folgt einer festen Abfolge: Reservierung, Antrag beim EDB auf Genehmigung des Erwerbs, notarielle Urkunde und Eintragung. Käufe vor Fertigstellung unter einem VEFA-Vertrag fügen eine weitere Ebene hinzu, mit Ratenzahlungen nach Baufortschritt und einer finanziellen Garantie des Bauträgers. Wir behandeln das ausführlich im Abschnitt Immobilien und vertreten den Käufer durchgehend, an der Seite des Notars.",
       ] },
       { heading: "Die Genehmigung", body: [
         "Sobald die Urkunde unterzeichnet und der Erwerb beim EDB erfasst ist, wird die Aufenthaltsgenehmigung über das EDB beantragt und vom Passport and Immigration Office erteilt. Sie bleibt gültig, solange die Immobilie gehalten wird, und erlischt beim Verkauf, sofern sich der Inhaber bis dahin nicht über einen anderen Weg qualifiziert hat.",
@@ -169,7 +169,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     related: [
       { label: "Immobilien im Überblick", href: "/property" },
       { label: "Property Development Scheme", href: "/property/property-development-scheme" },
-      { label: "Kauf vom Plan und VEFA", href: "/property/off-plan-vefa" },
+      { label: "Kauf vor Fertigstellung und VEFA", href: "/property/off-plan-vefa" },
       { label: "Domestic Company mit Trust", href: "/establishment/domestic-company" },
     ],
     metaTitle: "Aufenthaltsgenehmigung durch Immobilienerwerb auf Mauritius | start.mu",
@@ -178,9 +178,9 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
   },
   "golden-visa": {
     title: "Golden Visa",
-    summary: "Ein neuer Weg für vermögende Familien, die innerhalb von zwölf Monaten 1 Million USD investieren.",
+    summary: "Eine neue Möglichkeit für vermögende Familien, die innerhalb von zwölf Monaten 1 Million USD investieren.",
     intro:
-      "Das Golden Visa ist ein Visum für mehrfache Einreise für vermögende Personen und ihre nächsten Angehörigen, im April 2026 vom Kabinett gebilligt und mit den Haushaltsmaßnahmen 2026-27 gesetzlich verankert. Wer innerhalb von zwölf Monaten nach Erteilung 1 Million USD auf Mauritius investiert, kann eine zwanzigjährige Permanent Residence Permit beantragen. Berechtigung ist nicht Erteilung: Der Antrag wird in der Sache geprüft, und der Abschluss der Investition wandelt das Visum nicht automatisch um.",
+      "Das Golden Visa ist ein Visum für mehrfache Einreise für vermögende Personen und ihre nächsten Angehörigen, im April 2026 vom Kabinett gebilligt und mit den Budgetmaßnahmen 2026-27 gesetzlich verankert. Wer innerhalb von zwölf Monaten nach Erteilung 1 Million USD auf Mauritius investiert, kann eine zwanzigjährige Permanent Residence Permit beantragen. Die Erfüllung der Voraussetzungen führt nicht automatisch zur Erteilung: Der Antrag wird in der Sache geprüft, und der Abschluss der Investition wandelt das Visum nicht automatisch um.",
     status:
       "Der Rahmen ist dem Grunde nach beschlossen, aber die Antragsrichtlinien des EDB und der Beginn des Programms stehen noch aus. Wir verfolgen die Richtlinien genau und bestätigen die geltenden Anforderungen, bevor wir ein Mandat annehmen.",
     facts: [
@@ -195,7 +195,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     sections: [
       { heading: "Für wen es passt", body: [
         "Eine Familie mit Kapital, die schnell nach Mauritius ziehen und eine lange Genehmigung halten möchte, die weder an ein eigenes Haus noch an die tägliche Führung eines Unternehmens gebunden ist. Das Golden Visa verleiht für sich genommen kein Recht zu arbeiten; erwartet wird eine Investition in qualifizierte Sektoren, keine Beschäftigung.",
-        "Es liegt zwischen den bestehenden Wegen. Es verlangt mehr Kapital als das Investor Permit oder die Immobilienschwelle, bietet dafür aber nach dem ersten Jahr einen zwanzigjährigen dauerhaften Aufenthalt und überlässt die Wahl der Investition dem Inhaber.",
+        "Es liegt zwischen den bestehenden Möglichkeiten. Es verlangt mehr Kapital als das Investor Permit oder die Immobilienschwelle, bietet dafür aber nach dem ersten Jahr einen zwanzigjährigen dauerhaften Aufenthalt und überlässt die Wahl der Investition dem Inhaber.",
       ] },
       { heading: "Sorgfaltsprüfung", body: [
         "Anträge laufen über das EDB mit einer behördenübergreifenden Prüfung unter Beteiligung der Financial Crimes Commission, der Financial Intelligence Unit, der Financial Services Commission, der Bank of Mauritius und des Passport and Immigration Office. Herkunft der Mittel und des Vermögens werden gründlich geprüft. Wir bereiten diese Akte auf dem Niveau vor, das die Behörden anlegen, gestützt auf die Compliance-Praxis der Gruppe.",
@@ -204,7 +204,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
         "Der Rahmen sieht vor, dass Inhaber während der Investitionsphase in Hotels oder in Wohnimmobilien leben, die ausländischen Käufern bereits offenstehen, um den lokalen Wohnungsmarkt nicht zu belasten. Wohnimmobilien unter den EDB-Programmen bleiben Golden-Visa-Inhabern als Zuhause zugänglich, zählen aber nicht zur Million USD.",
       ] },
       { heading: "Unsere Rolle", body: [
-        "Wir beraten, ob das Golden Visa oder ein bestehender Weg besser passt, bereiten den Antrag und die Sorgfaltsakte vor, strukturieren bei Bedarf die Empfängergesellschaft für die Investition und übernehmen den Concierge-Teil des Umzugs. Sobald das EDB seine Richtlinien veröffentlicht, stellen wir hier die vollständigen Dokumentationsanforderungen dar.",
+        "Wir beraten, ob das Golden Visa oder eine bestehende Möglichkeit besser passt, bereiten den Antrag und die Sorgfaltsakte vor, strukturieren bei Bedarf die Empfängergesellschaft für die Investition und übernehmen den Concierge-Teil des Umzugs. Sobald das EDB seine Richtlinien veröffentlicht, stellen wir hier die vollständigen Dokumentationsanforderungen dar.",
       ] },
     ],
     related: [
@@ -254,14 +254,14 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     title: "Familienangehörige",
     summary: "Wer einen Genehmigungsinhaber begleiten darf, und zu welchen Bedingungen.",
     intro:
-      "Jedes Occupation Permit und jede Aufenthaltsgenehmigung erstreckt sich über eine Genehmigung für Familienangehörige auf die nächste Familie des Inhabers. Diese Genehmigung folgt der des Hauptinhabers und endet mit ihr.",
+      "Jedes Occupation Permit und jede Aufenthaltsgenehmigung erstreckt sich über eine Genehmigung für Familienangehörige auf die engsten Familienangehörigen des Inhabers. Diese Genehmigung folgt der des Hauptinhabers und endet mit ihr.",
     facts: [
       { label: "Ehepartner", value: "Ein Ehepartner oder Lebenspartner des anderen Geschlechts, mit Heiratsurkunde oder Bescheinigung über die Lebensgemeinschaft" },
       { label: "Kinder", value: "Unverheiratete unterhaltsberechtigte Kinder bis 24 Jahre, einschließlich Stiefkinder und rechtmäßig adoptierte Kinder" },
       { label: "Eltern", value: "Die Eltern des Hauptinhabers" },
       { label: "Arbeit", value: "Familienangehörige dürfen keiner Erwerbstätigkeit nachgehen. Wer arbeiten möchte, beantragt ein eigenes Occupation Permit oder eine Arbeitserlaubnis" },
       { label: "Behörde", value: "Über Anträge von Familienangehörigen entscheidet das Passport and Immigration Office" },
-      { label: "Family Occupation Permit", value: "Die frühere Kategorie Family Occupation Permit wurde mit dem Haushalt 2026-27 abgeschafft" },
+      { label: "Family Occupation Permit", value: "Die frühere Kategorie Family Occupation Permit wurde mit dem Budget 2026-27 abgeschafft" },
     ],
     sections: [
       { heading: "Reihenfolge", body: [
@@ -273,14 +273,14 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     related: [
       { label: "Concierge", href: "/concierge" },
-      { label: "Alle Wege vergleichen", href: "/residency" },
+      { label: "Alle Möglichkeiten vergleichen", href: "/residency" },
     ],
     metaTitle: "Genehmigungen für Familienangehörige auf Mauritius | start.mu",
     metaDescription: "Wer einen Inhaber eines Occupation Permit oder einer Aufenthaltsgenehmigung nach Mauritius begleiten darf: Ehepartner, Kinder und Eltern, die Reihenfolge der Anträge und die praktischen Vorkehrungen für Familien.",
   },
   "permanent-residence": {
     title: "Dauerhafter Aufenthalt",
-    summary: "Die zwanzigjährige Genehmigung und die Wege dorthin.",
+    summary: "Die zwanzigjährige Genehmigung und die Möglichkeiten dorthin.",
     intro:
       "Eine Permanent Residence Permit wird für zwanzig Jahre erteilt und befreit den Inhaber von den Bedingungen eines Occupation Permit oder einer Aufenthaltsgenehmigung. Sie wird durch das Erfüllen dauerhafter Schwellen unter einer bestehenden Genehmigung erworben oder, sobald das Programm läuft, durch den Abschluss der Golden-Visa-Investition.",
     facts: [
@@ -313,18 +313,18 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     title: "Technical Occupation Permit",
     summary: "Eine neue Kategorie für ausländische Fachkräfte, die im Rahmen zwischenstaatlicher Vereinbarungen angeworben werden.",
     intro:
-      "Der Haushalt 2026-27 hat im Rahmen des Programms Work and Live eine Kategorie Technical des Occupation Permit eingeführt, um die Anwerbung ausländischer Fachkräfte über zwischenstaatliche Vereinbarungen zu erleichtern. Das EDB hat den operativen Rahmen geprüft und integriert die Genehmigung in seine Systeme.",
+      "Das Budget 2026-27 hat im Rahmen des Programms Work and Live eine Kategorie Technical des Occupation Permit eingeführt, um die Anwerbung ausländischer Fachkräfte über zwischenstaatliche Vereinbarungen zu erleichtern. Das EDB hat den operativen Rahmen geprüft und integriert die Genehmigung in seine Systeme.",
     status:
       "Die Voraussetzungen und Richtlinien für das Technical Occupation Permit sind vom EDB noch nicht veröffentlicht. Diese Seite wird sie enthalten, sobald sie vorliegen. Bis dahin stellt eine Fachkraft mit mauritischem Arbeitgeber den Antrag in der Kategorie Professional.",
     facts: [
-      { label: "Eingeführt", value: "Haushalt 2026-27, im Rahmen des Programms Work and Live" },
+      { label: "Eingeführt", value: "Budget 2026-27, im Rahmen des Programms Work and Live" },
       { label: "Zweck", value: "Strategische Anwerbung ausländischer Fachkräfte über zwischenstaatliche Vereinbarungen" },
       { label: "Status", value: "Operativer Rahmen Mitte 2026 vom EDB-Vorstand geprüft; Richtlinien ausstehend" },
       { label: "Alternative heute", value: "Das Occupation Permit für Angestellte mit einem Mindestgrundgehalt von 50.000 MUR monatlich" },
     ],
     sections: [
       { heading: "Was bekannt ist", body: [
-        "Der Haushalt beschreibt die Kategorie als Mittel strategischer Anwerbung im Rahmen zwischenstaatlicher Vereinbarungen, was darauf hindeutet, dass sie auf Sektoren zielt, in denen der Staat vereinbart hat, technisches Personal in größerer Zahl ins Land zu holen, und nicht auf einzelne Antragsteller. Ob einzelne Fachkräfte oder private Arbeitgeber sie nutzen können, ist noch offen.",
+        "Das Budget beschreibt die Kategorie als Mittel strategischer Anwerbung im Rahmen zwischenstaatlicher Vereinbarungen, was darauf hindeutet, dass sie auf Sektoren zielt, in denen der Staat vereinbart hat, technisches Personal in größerer Zahl ins Land zu holen, und nicht auf einzelne Antragsteller. Ob einzelne Fachkräfte oder private Arbeitgeber sie nutzen können, ist noch offen.",
       ] },
       { heading: "Was jetzt zu tun ist", body: [
         "Wenn Sie eine Fachkraft mit einem Angebot eines mauritischen Arbeitgebers sind, ist das Professional Permit der Weg, und er steht heute offen. Wenn Sie als Arbeitgeber oder Branchenverband eine zwischenstaatliche Vereinbarung erwägen, beraten wir zum Rahmen, sobald das EDB ihn veröffentlicht.",
@@ -332,10 +332,10 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     related: [
       { label: "Professional Permit", href: "/residency/professional-permit" },
-      { label: "Alle Wege vergleichen", href: "/residency" },
+      { label: "Alle Möglichkeiten vergleichen", href: "/residency" },
     ],
     metaTitle: "Technical Occupation Permit Mauritius | start.mu",
-    metaDescription: "Das neue Technical Occupation Permit von Mauritius aus dem Haushalt 2026-27 für zwischenstaatliche Anwerbung: was bekannt ist, der aktuelle Stand und der heute verfügbare Weg.",
+    metaDescription: "Das neue Technical Occupation Permit von Mauritius aus dem Budget 2026-27 für zwischenstaatliche Anwerbung: was bekannt ist, der aktuelle Stand und der heute verfügbare Weg.",
   },
 };
 
@@ -353,7 +353,7 @@ export const faqsDe: Record<string, Faq[]> = {
     { q: "Was, wenn mein Einkommen im dritten Jahr keine 2 Millionen MUR erreicht?", a: "Die Schwelle wird überwacht, und ein Fehlbetrag kann zur Streichung führen. Realismus von Anfang an lohnt sich: Ist das prognostizierte Einkommen knapp, kann der Investor-Weg mit einer Gesellschaft oder das Premium Visa während der Aufbauphase die sicherere Abfolge sein." },
   ],
   "innovator-permit": [
-    { q: "Gibt es wirklich keine Mindestinvestition?", a: "Für den Weg der innovativen Start-ups keine. Der Antrag wird am Projekt und am Team gemessen, und die Pflicht nach der Erteilung besteht darin, jährlich Fortschritte zu berichten und bis Ende des fünften Jahres ein marktfähiges Minimalprodukt vorzuweisen." },
+    { q: "Gibt es wirklich keine Mindestinvestition?", a: "Für die Variante der innovativen Start-ups keine. Der Antrag wird am Projekt und am Team gemessen, und die Pflicht nach der Erteilung besteht darin, jährlich Fortschritte zu berichten und bis Ende des fünften Jahres ein marktfähiges Minimalprodukt vorzuweisen." },
     { q: "Was gilt dem EDB als innovativ?", a: "Es gibt keine feste Liste. Projekte aus Technologie, Fintech, Biotech, erneuerbaren Energien, Daten und KI sind die typischen Kandidaten. Ein bei einem vom Mauritius Research and Innovation Council akkreditierten Inkubator registriertes Projekt hat Gewicht; ein herkömmliches Unternehmen mit Website qualifiziert sich nicht." },
     { q: "Kann ich später zum regulären Investor Permit wechseln?", a: "Ja. Wer Kapital aufnimmt oder die Schwelle von 100.000 USD erreicht, kann unter Option 1 beantragen, und die Berichtspflichten des Innovator-Wegs entfallen." },
   ],
@@ -372,7 +372,7 @@ export const faqsDe: Record<string, Faq[]> = {
     { q: "Kann ich die Immobilie über eine Gesellschaft oder einen Trust halten?", a: "Ja. Eine mauritische Domestic Company darf Programmimmobilien erwerben, und ihre Anteile können in einem Trust gehalten werden. Die Aufenthaltsgenehmigung kann über die Struktur erlangt werden, vorbehaltlich der Bedingungen des EDB. Die Struktur muss vor der Urkunde bestehen." },
   ],
   "golden-visa": [
-    { q: "Ist das Golden Visa jetzt verfügbar?", a: "Der Rahmen wurde im April 2026 vom Kabinett gebilligt und mit den Haushaltsmaßnahmen gesetzlich verankert, aber die Antragsrichtlinien des EDB und der Beginn des Programms stehen noch aus. Wir bestätigen die geltenden Anforderungen, bevor wir ein Mandat annehmen." },
+    { q: "Ist das Golden Visa jetzt verfügbar?", a: "Der Rahmen wurde im April 2026 vom Kabinett gebilligt und mit den Budgetmaßnahmen gesetzlich verankert, aber die Antragsrichtlinien des EDB und der Beginn des Programms stehen noch aus. Wir bestätigen die geltenden Anforderungen, bevor wir ein Mandat annehmen." },
     { q: "Zählt der Kauf eines Hauses zur Million USD?", a: "Nein. Wohnimmobilien unter den EDB-Programmen sind von der qualifizierten Investition ausgeschlossen. Sie können zusätzlich ein Zuhause unter den Programmen kaufen." },
     { q: "Darf ich mit dem Golden Visa auf Mauritius arbeiten?", a: "Das Visum verleiht für sich genommen kein Recht zu arbeiten. Erwartet wird eine Investition in qualifizierte Sektoren, keine Beschäftigung." },
     { q: "Wie verhält es sich zum Investor Permit?", a: "Es verlangt das Zehnfache an Kapital, eröffnet aber nach dem ersten Jahr den Weg, einen zwanzigjährigen dauerhaften Aufenthalt zu beantragen, statt einer zehnjährigen Genehmigung mit Umsatzbedingungen. Das Investor Permit passt für jemanden, der ein Unternehmen führt; das Golden Visa für jemanden, der Kapital einsetzt." },
@@ -387,11 +387,11 @@ export const faqsDe: Record<string, Faq[]> = {
     { q: "Darf mein mitreisender Ehepartner arbeiten?", a: "Nicht mit einer Genehmigung als Familienangehöriger. Ein Ehepartner, der arbeiten möchte, beantragt ein eigenes Occupation Permit oder eine Arbeitserlaubnis." },
     { q: "Bis zu welchem Alter können meine Kinder einbezogen werden?", a: "Unverheiratete unterhaltsberechtigte Kinder bis 24 Jahre, einschließlich Stiefkinder und rechtmäßig adoptierte Kinder." },
     { q: "Kann ich meine Eltern mitbringen?", a: "Ja. Die Eltern des Hauptinhabers sind als Familienangehörige berechtigt." },
-    { q: "Qualifiziert sich ein unverheirateter Partner?", a: "Ein Lebenspartner des anderen Geschlechts qualifiziert sich mit Nachweis der Lebensgemeinschaft." },
+    { q: "Kann ein unverheirateter Partner berücksichtigt werden?", a: "Ein Lebenspartner des anderen Geschlechts kann bei Nachweis der Lebensgemeinschaft berücksichtigt werden." },
   ],
   "permanent-residence": [
     { q: "Wie bald kann ich beantragen?", a: "Nach fünf Jahren mit der Genehmigung, sofern die Schwellen Ihrer Kategorie in jedem dieser Jahre erfüllt wurden, und spätestens sechs Monate nach ihrer Erfüllung." },
     { q: "Sind die Schwellen dieselben wie für die Genehmigung selbst?", a: "Nein. Sie liegen erheblich höher: 15 Millionen MUR Jahresumsatz für einen Investor, 400.000 MUR monatlich für einen Angestellten, 3 Millionen MUR jährlich für einen Selbständigen und 200.000 USD an Überweisungen insgesamt für einen Ruheständler. Die Planung beginnt im ersten Jahr." },
-    { q: "Führt das Golden Visa schneller zum dauerhaften Aufenthalt?", a: "Möglicherweise. Der Abschluss der Investition von 1 Million USD innerhalb von zwölf Monaten berechtigt den Inhaber, die zwanzigjährige Genehmigung zu beantragen, sobald das Programm in Kraft ist. Es ist ein Weg zur Berechtigung, keine automatische Erteilung." },
+    { q: "Führt das Golden Visa schneller zum dauerhaften Aufenthalt?", a: "Möglicherweise. Der Abschluss der Investition von 1 Million USD innerhalb von zwölf Monaten berechtigt den Inhaber, die zwanzigjährige Genehmigung zu beantragen, sobald das Programm in Kraft ist. Es begründet eine Berechtigung zur Antragstellung, keine automatische Erteilung." },
   ],
 };

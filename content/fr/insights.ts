@@ -190,9 +190,9 @@ export const insightsFr: Record<string, Partial<Insight>> = {
   "investor-or-self-employed": {
     title: "Investisseur ou Self-Employed : choisir le bon Occupation Permit",
     summary:
-      "Les deux voies destinées à ceux qui travailleront à leur compte à Maurice diffèrent par le capital, la structure et les obligations. Un guide bref pour savoir laquelle convient.",
+      "Les deux voies destinées à ceux qui travailleront à leur compte à Maurice diffèrent par le capital, la structure et les obligations. Un bref guide pour savoir laquelle convient.",
     body: `
-<p>La plupart de ceux qui gagneront leur vie à Maurice à leur compte arrivent avec l'un de deux permis en tête. Le choix entre eux tient moins à l'activité qu'à sa forme.</p>
+<p>La plupart de ceux qui gagneront leur vie à Maurice à leur compte arrivent avec l'un des deux permis en tête. Le choix entre eux tient moins à l'activité qu'à sa forme.</p>
 <p><strong>Le capital.</strong> Le permis Self-Employed exige 50 000 USD transférés depuis l'étranger. Le permis Investisseur exige 100 000 USD, sur le compte d'une société. Pour beaucoup, cette différence tranche la question, et il n'y a rien à y redire.</p>
 <p><strong>La structure.</strong> Un titulaire Self-Employed travaille en son nom propre ou via une société unipersonnelle, peut employer un salarié administratif local et ne peut employer d'autres professionnels. Un investisseur détient et dirige une société mauricienne qui peut embaucher, contracter et croître. Si le projet est une pratique exercée seul, le Self-Employed est plus simple et moins coûteux à maintenir. Si le projet est une entreprise avec des salariés et un nom propre, la voie Investisseur en est le fondement nécessaire.</p>
 <p><strong>Le secteur.</strong> Le Self-Employed est réservé aux services. Le négoce, l'industrie, l'hôtellerie et la promotion immobilière relèvent par définition de l'Investisseur.</p>

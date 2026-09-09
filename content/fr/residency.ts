@@ -73,7 +73,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     ],
     metaTitle: "Occupation Permit Indépendant à Maurice | start.mu",
     metaDescription: "L'Occupation Permit Indépendant à Maurice : investissement initial de 50 000 USD, trois lettres d'intention, conditions de revenus aux années 3 et 5, et préparation du plan d'affaires.",
-    index: { audience: "Praticiens seuls dans les services", threshold: "50 000 USD d'investissement", duration: "Jusqu'à 10 ans" },
+    index: { audience: "Professionnels exerçant seuls dans le secteur des services", threshold: "50 000 USD d'investissement", duration: "Jusqu'à 10 ans" },
   },
   "innovator-permit": {
     title: "Occupation Permit Innovateur",

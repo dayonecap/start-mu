@@ -19,8 +19,8 @@ const navLabels: Record<string, string> = {
   "Golden Visa": "Golden Visa",
   "Premium Visa": "Premium Visa",
   Overview: "Überblick",
-  "Which route fits": "Welcher Weg passt",
-  "Compare all routes": "Alle Wege vergleichen",
+  "Which route fits": "Welche Möglichkeit passt",
+  "Compare all routes": "Alle Möglichkeiten vergleichen",
   "Dependents and family": "Familienangehörige",
   "Permanent residence": "Dauerhafter Aufenthalt",
   "Moving from": "Umzug aus",
@@ -47,16 +47,16 @@ const navLabels: Record<string, string> = {
   "Integrated Resort Scheme": "Integrated Resort Scheme",
   "Real Estate Scheme": "Real Estate Scheme",
   "Smart City Scheme": "Smart City Scheme",
-  "Other routes": "Weitere Wege",
+  "Other routes": "Weitere Möglichkeiten",
   "Invest Hotel Scheme": "Invest Hotel Scheme",
-  "Ground plus two apartments": "Wohnungen ab Erdgeschoss plus zwei",
+  "Ground plus two apartments": "R+2-Wohnungen",
   "How acquisition works": "So läuft der Erwerb",
-  "Off-plan and VEFA": "Kauf vom Plan und VEFA",
+  "Off-plan and VEFA": "Kauf vor Fertigstellung und VEFA",
   Concierge: "Concierge",
   "The arrangements that a permit and a company do not cover.": "Was Genehmigung und Gesellschaft nicht abdecken.",
-  About: "Kanzlei",
-  "A private client firm within the Intrasia Group.": "Eine Private-Client-Kanzlei innerhalb der Intrasia Group.",
-  "The firm": "Die Kanzlei",
+  About: "Über uns",
+  "A private client firm within the Intrasia Group.": "Eine Privatkundenberatung innerhalb der Intrasia Group.",
+  "The firm": "Das Unternehmen",
   "About us": "Über uns",
   "Mauritius in practice": "Mauritius in der Praxis",
   Insights: "Beiträge",
@@ -67,11 +67,11 @@ const navLabels: Record<string, string> = {
   "Professional permit": "Professional Permit",
   "Self-employed permit": "Self-Employed Permit",
   "Retired Non-Citizen permit": "Genehmigung für Ruheständler",
-  Firm: "Kanzlei",
+  Firm: "Unternehmen",
 };
 
 const thresholdNote =
-  "Die Voraussetzungen werden vom Economic Development Board festgelegt und mit jedem Staatshaushalt überarbeitet. Die Angaben auf dieser Seite folgen den Occupation Permit Guidelines des EDB nach Section 5(2)(ca) des Economic Development Board Act 2017 in der nach dem Haushalt 2026-27 überarbeiteten Fassung und wurden zuletzt im September 2026 geprüft. Vor der Vorbereitung eines Antrags bestätigen wir die geltenden Kriterien beim EDB.";
+  "Die Voraussetzungen werden vom Economic Development Board festgelegt und mit jedem Staatsbudget überarbeitet. Die Angaben auf dieser Seite folgen den Occupation Permit Guidelines des EDB nach Section 5(2)(ca) des Economic Development Board Act 2017 in der nach dem Budget 2026-27 überarbeiteten Fassung und wurden zuletzt im September 2026 geprüft. Vor der Vorbereitung eines Antrags bestätigen wir die geltenden Kriterien beim EDB.";
 
 const residency: Record<string, Partial<ServiceEntry>> = {
   "investor-permit": {
@@ -92,7 +92,7 @@ const residency: Record<string, Partial<ServiceEntry>> = {
       {
         heading: "Für wen es passt",
         body: [
-          "Die Genehmigung ist für den Eigentümer-Unternehmer gedacht: jemanden, der Anteile an einer mauritischen Gesellschaft hält, sie leitet und ein Geschäft aufbaut, das auf Mauritius Umsatz erzielt. Es ist kein Weg für passive Investitionen. Wer das Unternehmen nicht tatsächlich führen will, ist mit einer Aufenthaltsgenehmigung über eine Immobilie oder, sobald es in Kraft ist, mit dem Golden Visa meist besser bedient.",
+          "Die Genehmigung ist für den Eigentümer-Unternehmer gedacht: jemanden, der Anteile an einer mauritischen Gesellschaft hält, sie leitet und ein Geschäft aufbaut, das auf Mauritius Umsatz erzielt. Für rein passive Investitionen eignet es sich nicht. Wer das Unternehmen nicht tatsächlich führen will, ist mit einer Aufenthaltsgenehmigung über eine Immobilie oder, sobald es in Kraft ist, mit dem Golden Visa meist besser bedient.",
           "Die meisten unserer Investor-Mandanten kommen mit einer bestehenden Tätigkeit: Beratung, Handel, Software, freie Berufe, regionaler Vertrieb. Die mauritische Gesellschaft wird zur operativen Einheit dieser Tätigkeit oder zu einer regionalen Basis, von der aus das Gesamtgeschäft bedient wird.",
         ],
       },
@@ -110,9 +110,9 @@ const residency: Record<string, Partial<ServiceEntry>> = {
         ],
       },
       {
-        heading: "Der Weg für innovative Start-ups",
+        heading: "Die Variante für innovative Start-ups",
         body: [
-          "Innerhalb der Kategorie Investor gibt es einen eigenen Weg für innovative Start-ups, deren Projekt beim EDB eingereicht oder bei einem vom Mauritius Research and Innovation Council akkreditierten Inkubator registriert ist. Eine Mindestinvestition gibt es nicht. Stattdessen legt der Inhaber jährlich einen Fortschrittsbericht vor und am Ende des fünften Jahres einen Entwicklungsbericht, der zeigt, dass das Projekt ein marktfähiges Minimalprodukt erreicht hat. Näheres auf der Seite zum Innovator Permit.",
+          "Innerhalb der Kategorie Investor gibt es eine eigene Variante für innovative Start-ups, deren Projekt beim EDB eingereicht oder bei einem vom Mauritius Research and Innovation Council akkreditierten Inkubator registriert ist. Eine Mindestinvestition gibt es nicht. Stattdessen legt der Inhaber jährlich einen Fortschrittsbericht vor und am Ende des fünften Jahres einen Entwicklungsbericht, der zeigt, dass das Projekt ein marktfähiges Minimalprodukt erreicht hat. Näheres auf der Seite zum Innovator Permit.",
         ],
       },
     ],

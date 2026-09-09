@@ -100,7 +100,7 @@ export const establishmentFr: Record<string, Partial<ServiceEntry>> = {
       { label: "Banques avec lesquelles nous travaillons", value: "MCB, AfrAsia Bank, SBM, Bank One et ABSA Mauritius, entre autres" },
       { label: "Délais", value: "Deux à six semaines à partir d'un dossier complet, selon la banque et le profil du demandeur" },
       { label: "Ce que la banque demandera", value: "Documents d'identité et de domicile, origine du patrimoine et origine des fonds, le plan d'affaires et, pour les sociétés, les statuts et les documents de constitution" },
-      { label: "Personnel et professionnel", value: "Nous organisons les deux. Le compte personnel est généralement ouvert en premier" },
+      { label: "Comptes personnels et professionnels", value: "Nous organisons les deux. Le compte personnel est généralement ouvert en premier" },
     ],
     sections: [
       { heading: "Pourquoi cela prend du temps", body: ["Les banques mauriciennes appliquent une diligence renforcée aux demandeurs non-résidents et aux nouvelles sociétés. Un dossier incomplet ou incohérent reste en attente. La chose la plus efficace que nous faisons sur un dossier bancaire est de le préparer correctement avant la soumission : un récit cohérent du patrimoine du demandeur, des documents qui concordent, et un plan d'affaires que la fonction conformité de la banque peut suivre."] },
@@ -202,7 +202,7 @@ export const propertyFr: Record<string, Partial<ServiceEntry>> = {
     ],
     sections: [
       { heading: "Pourquoi les acheteurs regardent encore l'IRS", body: ["Les domaines IRS établis sont matures : les jardins ont poussé, les équipements fonctionnent, les sociétés de gestion ont fait leurs preuves, et le marché locatif des unités est connu. Un acheteur qui privilégie la certitude au prix du neuf les préfère souvent. L'achat porte sur un bien achevé, de sorte que le risque VEFA de l'achat sur plan ne se pose pas."] },
-      { heading: "Déroulement de l'achat", body: ["La même séquence que tout achat sous programme : demande auprès de l'EDB, acte notarié et enregistrement. Comme le vendeur est généralement un particulier plutôt qu'un promoteur, la diligence se déplace vers le titre, les charges du domaine et l'état du bien, que nous examinons avec le notaire avant l'acte."] },
+      { heading: "Déroulement de l'achat", body: ["La même séquence que tout achat sous programme : demande auprès de l'EDB, acte notarié et enregistrement. Comme le vendeur est généralement un particulier plutôt qu'un promoteur, les vérifications portent alors principalement sur le titre, les charges du domaine et l'état du bien, que nous examinons avec le notaire avant l'acte."] },
     ],
     related: [
       { label: "Property Development Scheme", href: "/property/property-development-scheme" },
@@ -217,7 +217,7 @@ export const propertyFr: Record<string, Partial<ServiceEntry>> = {
     title: "Real Estate Scheme",
     summary: "Des programmes plus petits du cadre antérieur à 2015, disponibles en revente.",
     intro:
-      "Le Real Estate Scheme couvrait des programmes plus petits que l'IRS, sur des terrains de moins de dix hectares, et a été la voie par laquelle de nombreux projets de villas et d'appartements de charme ont été agréés avant 2015. Comme l'IRS, il est fermé aux nouveaux projets mais reste pertinent pour la revente.",
+      "Le Real Estate Scheme couvrait des programmes plus petits que l'IRS, sur des terrains de moins de dix hectares, et a été la voie par laquelle de nombreux programmes de villas et d'appartements à taille humaine ont été agréés avant 2015. Comme l'IRS, il est fermé aux nouveaux projets mais reste pertinent pour la revente.",
     facts: [
       { label: "Statut", value: "Fermé aux nouveaux projets. Unités en revente disponibles" },
       { label: "Permis de résidence", value: "À partir de 375 000 USD, pour l'acheteur, le conjoint et les enfants à charge, tant que le bien est détenu" },
@@ -321,7 +321,7 @@ export const propertyFr: Record<string, Partial<ServiceEntry>> = {
     ],
     sections: [
       { heading: "Où se situe le risque", body: [
-        "La protection d'une VEFA tient à la garantie d'achèvement et à l'échelonnement des paiements. Un acheteur qui a payé en avance sur la construction, ou dont la garantie est faible, est exposé si le promoteur cale. Les questions à poser avant de signer sont donc : qui a émis la garantie, à quelles conditions, et si le calendrier de paiement de l'acte suit réellement la construction.",
+        "La protection d'une VEFA tient à la garantie d'achèvement et à l'échelonnement des paiements. Un acheteur qui a payé en avance sur la construction, ou dont la garantie est faible, est exposé si le promoteur se trouve en difficulté. Les questions à poser avant de signer sont donc : qui a émis la garantie, à quelles conditions, et si le calendrier de paiement de l'acte suit réellement la construction.",
         "Nous avons agi pour des acheteurs dont les programmes ont pris du retard, et la différence entre une position récupérable et une position difficile se décide presque toujours au moment de la signature plutôt qu'après.",
       ] },
       { heading: "Ce que nous faisons pour un acheteur", body: ["Examiner la situation du promoteur, l'agrément du projet par l'EDB, la garantie et son émetteur, le calendrier de paiement, les conditions de livraison et les clauses de pénalité. Coordonner avec le notaire. Gérer la demande auprès de l'EDB. Et, si un programme rencontre des difficultés, travailler dans le cadre de la garantie, avec le notaire et le promoteur, pour le compte de l'acheteur."] },

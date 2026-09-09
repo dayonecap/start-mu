@@ -14,10 +14,19 @@ type Params = { locale: string };
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { locale: l } = await params;
   const locale: Locale = isLocale(l) ? l : "en";
+  const titles = {
+    en: "Establishment: companies, banking and administration in Mauritius",
+    fr: "Création de sociétés, banque et administration à Maurice",
+    de: "Unternehmensgründung, Bankkonten und Verwaltung auf Mauritius",
+  };
+  const desc = {
+    en: "Domestic Company, Global Business Company and Authorised Company compared. Bank account opening, registered office, company secretary and annual compliance, handled by start.mu, the private client practice of the Intrasia Group.",
+    fr: "Domestic Company, Global Business Company et Authorised Company comparées. Ouverture de compte bancaire, siège social, secrétariat de société et conformité annuelle, assurés par start.mu, le cabinet mauricien du Groupe Intrasia dédié à la clientèle privée.",
+    de: "Domestic Company, Global Business Company und Authorised Company im Vergleich. Kontoeröffnung, eingetragener Sitz, Company Secretary und jährliche Pflichten, übernommen von start.mu, der Privatkundenberatung der Intrasia Group.",
+  };
   return {
-  title: "Establishment: companies, banking and administration in Mauritius",
-  description:
-    "Domestic Company, Global Business Company and Authorised Company compared. Bank account opening, registered office, company secretary and annual compliance, handled by start.mu, the private client practice of the Intrasia Group.",
+    title: titles[locale],
+    description: desc[locale],
     alternates: alternates("/establishment", locale),
   };
 }

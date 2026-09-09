@@ -10,7 +10,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       "Südafrikaner sind die größte Gruppe unter den ausländischen Zuzüglern auf Mauritius. Vier Stunden Flug, dieselbe Zeitzone, englischsprachige Schulen, eine stabile Währung und ein funktionierender Staat. Die Frage ist selten, ob, sondern durch welche Tür und in welcher Reihenfolge.",
     sections: [
       {
-        heading: "Die Wege, die Südafrikaner wählen",
+        heading: "Welche Möglichkeiten Südafrikaner wählen",
         body: [
           "Wer hier ein Unternehmen führen wird, nimmt das Occupation Permit der Kategorie Investor: 100.000 USD in eine mauritische Gesellschaft, Umsatzbedingungen ab dem dritten Jahr, zehn Jahre Laufzeit. Wer allein berät, nimmt das Self-Employed Permit mit 50.000 USD. Wer über 50 ist und von südafrikanischen Einkünften lebt, nimmt die Genehmigung für Ruheständler mit Überweisungen von 24.000 USD im Jahr. Ein Kauf in einem zugelassenen Programm ab 375.000 USD trägt den Aufenthalt, solange die Immobilie gehalten wird, und passt zu Familien, die ohnehin kaufen wollten.",
           "Ein häufiges Muster: ein Ehepartner mit dem Investor Permit, der andere bei derselben Gesellschaft angestellt mit einem Professional Permit. Damit sind beide legitim im Unternehmen verankert.",
@@ -66,7 +66,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       "Britische Anfragen nehmen stetig zu: von Ruheständlern, von Gründern, die ihr Unternehmen von überall führen können, und von Familien, die einen wärmeren, sichereren Ort zum Aufwachsen suchen, mit Schulen nach dem Lehrplan, den sie bereits kennen. Mauritius ist ein Commonwealth-Land, Englisch ist die Sprache von Verwaltung und Recht, und der Rechtszug endet beim Privy Council. Es ist kein weiter Schritt.",
     sections: [
       {
-        heading: "Die Wege britischer Mandanten",
+        heading: "Welche Möglichkeiten britische Mandanten wählen",
         body: [
           "Über 50 und von Rente oder Kapitaleinkünften lebend: die Genehmigung für Ruheständler, zehn Jahre, auf Überweisungen von 24.000 USD im Jahr, ohne Immobilienpflicht. Ein Unternehmen führen: das Investor Permit mit 100.000 USD in eine mauritische Gesellschaft. Allein beraten: das Self-Employed Permit mit 50.000 USD. Ein Zuhause in einem zugelassenen Programm ab 375.000 USD kaufen: Aufenthalt, solange es gehalten wird. Die Insel erst einmal ausprobieren: das Premium Visa, jeweils ein Jahr, auf Einkünfte aus dem Ausland.",
         ],
@@ -121,7 +121,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       "Die Franzosen sind die zweitgrößte Gruppe ausländischer Ansässiger auf Mauritius und die am längsten etablierte. Französisch wird überall gesprochen, das Recht ist zur Hälfte französisch geprägtes Zivilrecht, das Notariatssystem beim Immobilienerwerb ist jenes, das ein französischer Käufer bereits kennt, und die Insel verfügt über ein vollständiges Netz vom Ministerium homologierter französischer Schulen. Wir arbeiten auf Französisch.",
     sections: [
       {
-        heading: "Die Wege französischer Mandanten",
+        heading: "Welche Möglichkeiten französische Mandanten wählen",
         body: [
           "Ruheständler über 50 mit der Genehmigung für Ruheständler, auf Überweisungen von 24.000 USD im Jahr, ohne Kaufpflicht. Unternehmer mit dem Investor Permit ab 100.000 USD, oft mit einer Tätigkeit, die von Mauritius aus das frankophone Afrika oder den Indischen Ozean bedient. Freiberufler mit dem Self-Employed Permit ab 50.000 USD. Familien, die in einem zugelassenen Programm ab 375.000 USD kaufen und den Aufenthalt über die Immobilie erhalten. Und wer ein Jahr zum Entscheiden möchte, mit dem Premium Visa.",
         ],
@@ -149,7 +149,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       { title: "Genehmigung für Ruheständler", href: "/residency/retired-residence-permit", note: "Über 50, Einkünfte aus dem Ausland." },
       { title: "Investor Permit", href: "/residency/investor-permit", note: "Eine Gesellschaft auf Mauritius führen." },
       { title: "Aufenthalt durch Immobilienerwerb", href: "/residency/property-acquisition", note: "375.000 USD in einem zugelassenen Programm." },
-      { title: "Kauf vom Plan und VEFA", href: "/property/off-plan-vefa", note: "Der Kauf vom Plan und die Fertigstellungsgarantie." },
+      { title: "Kauf vor Fertigstellung und VEFA", href: "/property/off-plan-vefa", note: "Ratenzahlungen und die Bankgarantie für die Fertigstellung." },
     ],
     faqs: [
       {
@@ -176,9 +176,9 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       "Deutschsprachige Mandanten kommen meist mit einem konkreten Vorhaben: einem Ruhestand, einem Haus in einem bestimmten Projekt, oder einem Unternehmen, das sich vom Indischen Ozean aus ebenso führen lässt wie von München oder Zürich. Sie kommen ebenso mit genauen Fragen zur steuerlichen Ansässigkeit, und das zu Recht. Hier fällt die Entscheidung.",
     sections: [
       {
-        heading: "Die Wege deutschsprachiger Mandanten",
+        heading: "Welche Möglichkeiten deutschsprachige Mandanten wählen",
         body: [
-          "Ruheständler über 50 mit der Genehmigung für Ruheständler, zehn Jahre auf Überweisungen von 24.000 USD im Jahr. Käufer, die den Aufenthalt über einen Immobilienerwerb ab 375.000 USD in einem zugelassenen Programm erhalten, häufig vom Plan unter VEFA, wo die sorgfältige Prüfung der Fertigstellungsgarantie am meisten zählt. Unternehmer mit dem Investor Permit ab 100.000 USD. Und zunehmend Familien mit dem Premium Visa, für ein Jahr der Entscheidung.",
+          "Ruheständler über 50 mit der Genehmigung für Ruheständler, zehn Jahre auf Überweisungen von 24.000 USD im Jahr. Käufer, die den Aufenthalt über einen Immobilienerwerb ab 375.000 USD in einem zugelassenen Programm erhalten, häufig vor Fertigstellung unter VEFA, wo die sorgfältige Prüfung der Fertigstellungsgarantie am meisten zählt. Unternehmer mit dem Investor Permit ab 100.000 USD. Und zunehmend Familien mit dem Premium Visa, für ein Jahr der Entscheidung.",
         ],
       },
       {
@@ -190,7 +190,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       {
         heading: "Kaufen, und die Garantie",
         body: [
-          "Ein deutscher oder schweizerischer Käufer wird das mauritische Notariatsverfahren geordnet, in einem Punkt aber ungewohnt finden: die meisten Neubauten werden vom Plan verkauft, mit Ratenzahlungen und einer Bankgarantie für die Fertigstellung. Wir haben für deutsche Käufer in verzögerten Projekten gehandelt, und der Unterschied zwischen einer durchsetzbaren und einer schwierigen Lage entschied sich bei der Unterzeichnung. Unser Beitrag zur VEFA nennt, was zu prüfen ist.",
+          "Ein deutscher oder schweizerischer Käufer wird das mauritische Notariatsverfahren geordnet, in einem Punkt aber ungewohnt finden: die meisten Neubauten werden vor Fertigstellung verkauft, mit Ratenzahlungen und einer Bankgarantie für die Fertigstellung. Wir haben für deutsche Käufer in verzögerten Projekten gehandelt, und der Unterschied zwischen einer durchsetzbaren und einer schwierigen Lage entschied sich bei der Unterzeichnung. Unser Beitrag zur VEFA nennt, was zu prüfen ist.",
         ],
       },
       {
@@ -203,7 +203,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
     routes: [
       { title: "Genehmigung für Ruheständler", href: "/residency/retired-residence-permit", note: "Über 50, Einkünfte aus der Heimat." },
       { title: "Aufenthalt durch Immobilienerwerb", href: "/residency/property-acquisition", note: "375.000 USD in einem zugelassenen Programm." },
-      { title: "Kauf vom Plan und VEFA", href: "/property/off-plan-vefa", note: "Was vor der Unterschrift zu prüfen ist." },
+      { title: "Kauf vor Fertigstellung und VEFA", href: "/property/off-plan-vefa", note: "Was vor der Unterschrift zu prüfen ist." },
       { title: "Investor Permit", href: "/residency/investor-permit", note: "Ein Unternehmen hier führen." },
     ],
     faqs: [

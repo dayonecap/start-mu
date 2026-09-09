@@ -76,7 +76,7 @@ export function ServicePage({
             <div className="order-2 lg:order-1 lg:col-span-5">
               <h2 className="t-h2">{t.service.glance}</h2>
               <div className="mt-6">
-                <FactTable facts={entry.facts} caption={`Key facts: ${entry.title}`} />
+                <FactTable facts={entry.facts} caption={`${t.service.facts} ${entry.title}`} />
               </div>
               {note ? <p className="t-small mt-5 max-w-[52ch]">{note}</p> : null}
             </div>

@@ -2,12 +2,13 @@ import type { LegalDoc } from "@/content/legal";
 import { Container } from "./Container";
 import { PageHero } from "./PageHero";
 
-export function LegalPage({ doc, notice }: { doc: LegalDoc; notice?: string }) {
+export function LegalPage({ doc, updatedLabel }: { doc: LegalDoc; updatedLabel: string }) {
   return (
     <>
       <PageHero title={doc.title} compact>
-        <p className="t-small mt-6 text-slate">Last updated {doc.updated}</p>
-        {notice ? <p className="t-small mt-6 border-l-2 border-green pl-4">{notice}</p> : null}
+        <p className="t-small mt-6 text-slate">
+          {updatedLabel} {doc.updated}
+        </p>
       </PageHero>
       <section className="rule">
         <Container className="prose-ipc py-14 lg:py-20">

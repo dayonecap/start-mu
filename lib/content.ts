@@ -7,6 +7,9 @@ import { faqs as faqsEn, type Faq } from "@/content/faqs";
 import { navigation as navEn, footerColumns as footerEn, type NavGroup, type NavLink } from "@/content/site";
 import { countries as countriesEn, type CountryPage } from "@/content/countries";
 import { getInsights as getInsightsEn, type Insight } from "./cms";
+import { privacyPolicy as privacyEn, termsOfUse as termsEn, type LegalDoc } from "@/content/legal";
+import { privacyPolicyFr, termsOfUseFr } from "@/content/fr/legal";
+import { privacyPolicyDe, termsOfUseDe } from "@/content/de/legal";
 
 import * as fr from "@/content/fr";
 import * as de from "@/content/de";
@@ -54,6 +57,16 @@ export async function getInsights(locale: Locale) {
 function relabel(links: NavLink[], labels?: Record<string, string>): NavLink[] {
   return links.map((l) => ({ ...l, label: labels?.[l.label] ?? l.label }));
 }
+/** The legal pages are translated in full rather than merged, so each locale has its own document. */
+const legalDocs: Record<Locale, { privacy: LegalDoc; terms: LegalDoc }> = {
+  en: { privacy: privacyEn, terms: termsEn },
+  fr: { privacy: privacyPolicyFr, terms: termsOfUseFr },
+  de: { privacy: privacyPolicyDe, terms: termsOfUseDe },
+};
+export function getLegal(locale: Locale) {
+  return legalDocs[locale];
+}
+
 export function getNavigation(locale: Locale): NavGroup[] {
   const labels = packs[locale].navLabels;
   return navEn.map((g) => ({

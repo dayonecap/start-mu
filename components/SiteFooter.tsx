@@ -5,7 +5,7 @@ import type { Locale } from "@/lib/i18n";
 import { Container } from "./Container";
 import { Wordmark } from "./Wordmark";
 
-export function SiteFooter({ columns, t }: { locale: Locale; columns: { heading: string; links: NavLink[] }[]; t: { tagline: string; legal: string; rights: string; privacy: string; terms: string; group: string } }) {
+export function SiteFooter({ columns, t }: { locale: Locale; columns: { heading: string; links: NavLink[] }[]; t: { tagline: string; legal: string; rights: string; privacy: string; terms: string; group: string; country: string } }) {
   return (
     <footer className="bg-green text-bone">
       <Container className="py-16">
@@ -22,7 +22,7 @@ export function SiteFooter({ columns, t }: { locale: Locale; columns: { heading:
                 {site.phone}
               </a>
               <br />
-              Mauritius
+              {t.country}
             </address>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-4 lg:col-span-8">

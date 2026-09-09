@@ -14,10 +14,19 @@ type Params = { locale: string };
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { locale: l } = await params;
   const locale: Locale = isLocale(l) ? l : "en";
+  const titles = {
+    en: "Property acquisition in Mauritius for non-citizens",
+    fr: "Acquisition immobilière à Maurice par des non-citoyens",
+    de: "Immobilienerwerb auf Mauritius für ausländische Käufer",
+  };
+  const desc = {
+    en: "The approved schemes through which non-citizens buy property in Mauritius, the USD 375,000 residence threshold, how a purchase proceeds, and off-plan VEFA sales explained.",
+    fr: "Les régimes agréés permettant aux non-citoyens d'acquérir un bien immobilier à Maurice, le seuil de résidence de 375 000 USD, le déroulement d'une acquisition et les ventes sur plan en VEFA.",
+    de: "Die zugelassenen Programme, über die ausländische Käufer auf Mauritius Wohneigentum erwerben, die Aufenthaltsschwelle von 375.000 USD, der Ablauf eines Kaufs und Verkäufe vor Fertigstellung unter VEFA.",
+  };
   return {
-  title: "Property acquisition in Mauritius for non-citizens",
-  description:
-    "The approved schemes through which non-citizens buy property in Mauritius, the USD 375,000 residence threshold, how a purchase proceeds, and off-plan VEFA sales explained.",
+    title: titles[locale],
+    description: desc[locale],
     alternates: alternates("/property", locale),
   };
 }

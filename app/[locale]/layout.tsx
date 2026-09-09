@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const descriptions: Record<Locale, string> = {
     en: "Mauritius residency, occupation permits, company formation and property acquisition for families and entrepreneurs, handled from first conversation to arrival by start.mu, the private client practice of the Intrasia Group.",
     fr: "Résidence à Maurice, permis d'occupation, constitution de sociétés et acquisition immobilière pour les familles et les entrepreneurs, pris en charge de la première conversation à l'arrivée par start.mu, le cabinet de clientèle privée du Groupe Intrasia.",
-    de: "Aufenthalt auf Mauritius, Occupation Permits, Gesellschaftsgründung und Immobilienerwerb für Familien und Unternehmer, begleitet vom ersten Gespräch bis zur Ankunft von start.mu, der Private-Client-Praxis der Intrasia Group.",
+    de: "Aufenthalt auf Mauritius, Occupation Permits, Gesellschaftsgründung und Immobilienerwerb für Familien und Unternehmer, begleitet vom ersten Gespräch bis zur Ankunft von start.mu, der Privatkundenberatung der Intrasia Group.",
   };
   return {
     metadataBase: new URL(site.url),
