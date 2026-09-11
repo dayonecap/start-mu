@@ -221,7 +221,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     title: "Premium Visa",
     summary: "Un visa de long séjour pour les travailleurs à distance et ceux qui testent Maurice avant de s'engager.",
     intro:
-      "Le Premium Visa permet à un non-citoyen de séjourner à Maurice jusqu'à un an, renouvelable, en travaillant à distance pour un employeur ou des clients hors de Maurice, ou en tant que retraité vivant de revenus de l'étranger. Ce n'est pas un permis de résidence, mais c'est souvent la bonne première étape.",
+      "Le Premium Visa permet à un non-citoyen de séjourner à Maurice pendant une période pouvant aller jusqu'à un an, renouvelable, tout en travaillant à distance pour un employeur ou des clients établis hors de Maurice, ou en tant que retraité vivant de revenus provenant de l'étranger. Il ne s'agit pas d'un permis de résidence, mais il constitue souvent une première étape adaptée pour s'installer à Maurice.",
     facts: [
       { label: "Validité", value: "Jusqu'à un an, renouvelable" },
       { label: "Qui peut demander", value: "Travailleurs à distance, professionnels du numérique, retraités et visiteurs de long séjour dont les revenus proviennent de l'extérieur de Maurice" },
