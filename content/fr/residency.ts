@@ -41,7 +41,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     index: { audience: "Salariés d'une société mauricienne", threshold: "Salaire mensuel de 50 000 MUR", duration: "Jusqu'à 10 ans" },
   },
   "self-employed-permit": {
-    title: "Occupation Permit Indépendant",
+    title: "Occupation Permit Travailleur indépendant",
     summary: "Pour un professionnel travaillant seul, dans le secteur des services.",
     intro:
       "L'Occupation Permit de catégorie Indépendant s'adresse à la personne qui travaillera pour son propre compte à Maurice, dans une activité de services, sans constituer de société. Il est délivré pour dix ans au plus et comporte des conditions de revenus qui augmentent au fil du permis.",
@@ -71,8 +71,8 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
       { label: "Ouverture de compte bancaire", href: "/establishment/bank-account-opening" },
       { label: "Premium Visa", href: "/residency/premium-visa" },
     ],
-    metaTitle: "Occupation Permit Indépendant à Maurice | start.mu",
-    metaDescription: "L'Occupation Permit Indépendant à Maurice : investissement initial de 50 000 USD, trois lettres d'intention, conditions de revenus aux années 3 et 5, et préparation du plan d'affaires.",
+    metaTitle: "Occupation Permit Travailleur indépendant à Maurice | start.mu",
+    metaDescription: "L'Occupation Permit Travailleur indépendant à Maurice : investissement initial de 50 000 USD, trois lettres d'intention, conditions de revenus aux années 3 et 5, et préparation du plan d'affaires.",
     index: { audience: "Professionnels exerçant seuls dans le secteur des services", threshold: "50 000 USD d'investissement", duration: "Jusqu'à 10 ans" },
   },
   "innovator-permit": {
@@ -349,7 +349,7 @@ export const faqsFr: Record<string, Faq[]> = {
   "self-employed-permit": [
     { q: "Ai-je besoin d'une société ?", a: "Non. Le permis s'adresse à une personne enregistrée comme entreprise en son nom propre, ou exploitant une société unipersonnelle. Si vous prévoyez d'embaucher des professionnels ou de contracter au nom d'une société, la voie Investisseur est la meilleure fondation." },
     { q: "Puis-je employer quelqu'un ?", a: "Un employé administratif local. Le permis ne vous permet pas d'employer d'autres professionnels dans l'activité elle-même." },
-    { q: "Qu'entend-on par secteur des services ?", a: "Conseil, design, logiciel, médias, coaching, accompagnement et activités similaires où vous vendez votre propre temps et votre savoir-faire. Le négoce de marchandises, la fabrication et l'hôtellerie ne sont pas éligibles dans cette catégorie." },
+    { q: "Qu'entend-on par secteur des services ?", a: "Conseil, design, logiciel, médias, coaching, accompagnement et activités similaires où vous vendez votre propre temps et votre savoir-faire. Le commerce de marchandises, la fabrication et l'hôtellerie ne sont pas éligibles dans cette catégorie." },
     { q: "Et si mon revenu n'atteint pas 2 millions MUR en année 3 ?", a: "Le seuil est contrôlé et un manque peut entraîner une radiation. Il vaut mieux être réaliste dès le départ : si le revenu projeté est juste, la voie Investisseur avec une société, ou le Premium Visa le temps que l'activité se construise, peut être la séquence la plus sûre." },
   ],
   "innovator-permit": [
