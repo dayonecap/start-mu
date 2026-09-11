@@ -14,7 +14,7 @@ const localised = (name: string, pages: Record<Locale, number>): LocalisedDownlo
     de: { file: `${base}/${name}${suffix.de}.pdf`, pages: pages.de },
   });
 
-export const checklistPack = localised("start-mu-document-checklists", { en: 25, fr: 26, de: 28 });
+export const checklistPack = localised("start-mu-document-checklists", { en: 25, fr: 25, de: 28 });
 
 export const checklists: Record<string, LocalisedDownload> = {
   "residency/investor-permit": localised("start-mu-checklist-investor-occupation-permit", { en: 3, fr: 3, de: 3 }),
@@ -23,7 +23,7 @@ export const checklists: Record<string, LocalisedDownload> = {
   "residency/innovator-permit": localised("start-mu-checklist-innovator-occupation-permit", { en: 3, fr: 3, de: 3 }),
   "residency/retired-residence-permit": localised("start-mu-checklist-retired-non-citizen-residence-permit", { en: 2, fr: 2, de: 3 }),
   "residency/property-acquisition": localised("start-mu-checklist-residency-by-property-acquisition", { en: 2, fr: 2, de: 3 }),
-  "residency/golden-visa": localised("start-mu-checklist-golden-visa", { en: 2, fr: 3, de: 3 }),
+  "residency/golden-visa": localised("start-mu-checklist-golden-visa", { en: 2, fr: 2, de: 3 }),
   "residency/premium-visa": localised("start-mu-checklist-premium-visa", { en: 2, fr: 2, de: 2 }),
   "residency/dependents": localised("start-mu-checklist-dependent-residence-permit", { en: 2, fr: 2, de: 2 }),
   "residency/permanent-residence": localised("start-mu-checklist-permanent-residence-permit", { en: 2, fr: 2, de: 2 }),
