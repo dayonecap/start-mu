@@ -11,7 +11,7 @@ const navLabels: Record<string, string> = {
   "Occupation permits": "Occupation Permits",
   Investor: "Investor",
   Professional: "Angestellte",
-  "Self-employed": "Selbständige",
+  "Self-employed": "Selbstständige",
   Innovator: "Innovatoren",
   "Residence permits and visas": "Genehmigungen und Visa",
   "Retired Non-Citizen": "Ruheständler",

@@ -41,7 +41,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     index: { audience: "Angestellte eines mauritischen Unternehmens", threshold: "50.000 MUR Monatsgehalt", duration: "Bis zu 10 Jahre" },
   },
   "self-employed-permit": {
-    title: "Occupation Permit für Selbständige",
+    title: "Occupation Permit für Selbstständige",
     summary: "Für eine allein tätige Fachkraft im Dienstleistungssektor.",
     intro:
       "Das Occupation Permit der Kategorie Self-Employed ist für eine Person gedacht, die auf Mauritius auf eigene Rechnung in einer Dienstleistungstätigkeit arbeitet, ohne eine Gesellschaft zu gründen. Es wird für bis zu zehn Jahre erteilt und enthält Einkommensbedingungen, die über die Laufzeit steigen.",
@@ -57,7 +57,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     sections: [
       { heading: "Für wen es passt", body: [
         "Berater, Designer, Entwickler, Coaches, Fachleute, Medienproduzenten und andere, die ihre eigene Zeit und ihr Können verkaufen und dafür keine Gesellschaft brauchen. Die Genehmigung ist persönlich und erlaubt nicht die Beschäftigung anderer Fachkräfte, wohl aber eine Verwaltungskraft.",
-        "Die Wahl zwischen Selbständigem und Investor ist meist eine Frage von Größe und Struktur. Die Anfangsinvestition beträgt 50.000 USD für Selbständige gegenüber 100.000 USD für Investoren. Soll die Tätigkeit zu einem Unternehmen mit Personal, Verträgen im Namen einer Gesellschaft und getrennten Eigentumsverhältnissen wachsen, ist der Investor-Weg mit einer Domestic Company die bessere Grundlage. Bleibt die Tätigkeit die Arbeit einer einzelnen Person, ist der Selbständigen-Weg einfacher und günstiger im Unterhalt.",
+        "Die Wahl zwischen Selbstständigem und Investor ist meist eine Frage von Größe und Struktur. Die Anfangsinvestition beträgt 50.000 USD für Selbstständige gegenüber 100.000 USD für Investoren. Soll die Tätigkeit zu einem Unternehmen mit Personal, Verträgen im Namen einer Gesellschaft und getrennten Eigentumsverhältnissen wachsen, ist der Investor-Weg mit einer Domestic Company die bessere Grundlage. Bleibt die Tätigkeit die Arbeit einer einzelnen Person, ist der Selbstständigen-Weg einfacher und günstiger im Unterhalt.",
       ] },
       { heading: "Der Geschäftsplan", body: [
         "Das EDB gibt die Struktur des Geschäftsplans und die Gewichtung der Abschnitte vor und erwartet Finanzprognosen über fünf Jahre. Drei Absichtserklärungen, zwei davon von lokalen Kunden, sind Pflicht. Wir erstellen den Plan mit dem Antragsteller in dem Format, an dem das EDB ihn misst, und prüfen die Einkommensprognosen vor der Einreichung gegen die Schwellen für das dritte und fünfte Jahr.",
@@ -71,8 +71,8 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Kontoeröffnung", href: "/establishment/bank-account-opening" },
       { label: "Premium Visa", href: "/residency/premium-visa" },
     ],
-    metaTitle: "Occupation Permit für Selbständige auf Mauritius | start.mu",
-    metaDescription: "Das Occupation Permit für Selbständige auf Mauritius: Anfangsinvestition von 50.000 USD, drei Absichtserklärungen, Einkommensbedingungen ab dem dritten und fünften Jahr, und die Vorbereitung des Geschäftsplans.",
+    metaTitle: "Occupation Permit für Selbstständige auf Mauritius | start.mu",
+    metaDescription: "Das Occupation Permit für Selbstständige auf Mauritius: Anfangsinvestition von 50.000 USD, drei Absichtserklärungen, Einkommensbedingungen ab dem dritten und fünften Jahr, und die Vorbereitung des Geschäftsplans.",
     index: { audience: "Allein tätige Dienstleister", threshold: "50.000 USD Investition", duration: "Bis zu 10 Jahre" },
   },
   "innovator-permit": {
@@ -215,7 +215,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     metaTitle: "Golden Visa Mauritius | start.mu",
     metaDescription: "Das Golden Visa von Mauritius: 1 Million USD Investition innerhalb von zwölf Monaten, eine zweijährige Genehmigung für mehrfache Einreise und die Berechtigung, zwanzig Jahre dauerhaften Aufenthalt zu beantragen. Aktueller Stand und was zu erwarten ist.",
-    index: { audience: "Vermögende Familien", threshold: "1 Million USD in 12 Monaten", duration: "2 Jahre, dann Antrag auf 20-jährige PR möglich" },
+    index: { audience: "Vermögende Familien", threshold: "1 Million USD in 12 Monaten", duration: "2 Jahre, danach Antrag auf 20-jährigen Daueraufenthalt möglich" },
   },
   "premium-visa": {
     title: "Premium Visa",
@@ -287,7 +287,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Gültigkeit", value: "20 Jahre, verlängerbar" },
       { label: "Investor", value: "Fünf Jahre mit der Genehmigung und in jedem dieser Jahre ein Jahresumsatz von mindestens 15 Millionen MUR oder ein Gesamtumsatz von 75 Millionen MUR über die fünf Jahre" },
       { label: "Angestellte", value: "Fünf Jahre mit Occupation Permit oder Arbeitserlaubnis und ein monatliches Grundgehalt von mindestens 400.000 MUR in fünf aufeinanderfolgenden Jahren" },
-      { label: "Selbständige", value: "Fünf Jahre mit der Genehmigung und in jedem Jahr ein Geschäftseinkommen von mindestens 3 Millionen MUR oder ein Gesamteinkommen von 15 Millionen MUR über die fünf Jahre" },
+      { label: "Selbstständige", value: "Fünf Jahre mit der Genehmigung und in jedem Jahr ein Geschäftseinkommen von mindestens 3 Millionen MUR oder ein Gesamteinkommen von 15 Millionen MUR über die fünf Jahre" },
       { label: "Ruheständler", value: "Fünf Jahre mit der Genehmigung und Überweisungen von insgesamt mindestens 200.000 USD über die fünf Jahre" },
       { label: "Frist", value: "Der Antrag ist spätestens sechs Monate nach Erfüllung der Kriterien zu stellen" },
       { label: "Aus einem Golden Visa", value: "Nach Abschluss der Investition von 1 Million USD innerhalb von zwölf Monaten" },
@@ -295,10 +295,10 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     sections: [
       { heading: "Von Anfang an darauf hinarbeiten", body: [
-        "Die Schwellen für den dauerhaften Aufenthalt werden über fünf aufeinanderfolgende Jahre gemessen, nicht an einem Stichtag, und sie liegen deutlich über den Schwellen für die Genehmigung selbst. Der erklärte Umsatz eines Investors, das Grundgehalt eines Angestellten und das erklärte Einkommen eines Selbständigen zählen Jahr für Jahr, und das Antragsfenster schließt sich sechs Monate nach Erfüllung der Kriterien. Wir zeichnen den Weg beim ersten Gespräch vor, damit die Entscheidungen des ersten Jahres die Tür im fünften nicht verschließen.",
+        "Die Schwellen für den dauerhaften Aufenthalt werden über fünf aufeinanderfolgende Jahre gemessen, nicht an einem Stichtag, und sie liegen deutlich über den Schwellen für die Genehmigung selbst. Der erklärte Umsatz eines Investors, das Grundgehalt eines Angestellten und das erklärte Einkommen eines Selbstständigen zählen Jahr für Jahr, und das Antragsfenster schließt sich sechs Monate nach Erfüllung der Kriterien. Wir zeichnen den Weg beim ersten Gespräch vor, damit die Entscheidungen des ersten Jahres die Tür im fünften nicht verschließen.",
       ] },
       { heading: "Was sich ändert", body: [
-        "Ein dauerhaft Aufenthaltsberechtigter unterliegt nicht mehr den jährlichen Bedingungen der ursprünglichen Genehmigung. Ein Investor, Angestellter oder Selbständiger mit Permanent Residence Permit kann diese später für die Restlaufzeit in die Kategorie Ruheständler umschreiben lassen, wenn er ein verfügbares Jahreseinkommen von 40.000 USD nachweist. Für eine Familie, die angekommen ist, ist es der Punkt, an dem Mauritius aufhört, eine Genehmigung zu sein, und ein Zuhause wird.",
+        "Ein dauerhaft Aufenthaltsberechtigter unterliegt nicht mehr den jährlichen Bedingungen der ursprünglichen Genehmigung. Ein Investor, Angestellter oder Selbstständiger mit Permanent Residence Permit kann diese später für die Restlaufzeit in die Kategorie Ruheständler umschreiben lassen, wenn er ein verfügbares Jahreseinkommen von 40.000 USD nachweist. Für eine Familie, die angekommen ist, ist es der Punkt, an dem Mauritius aufhört, eine Genehmigung zu sein, und ein Zuhause wird.",
       ] },
     ],
     related: [
@@ -391,7 +391,7 @@ export const faqsDe: Record<string, Faq[]> = {
   ],
   "permanent-residence": [
     { q: "Wie bald kann ich beantragen?", a: "Nach fünf Jahren mit der Genehmigung, sofern die Schwellen Ihrer Kategorie in jedem dieser Jahre erfüllt wurden, und spätestens sechs Monate nach ihrer Erfüllung." },
-    { q: "Sind die Schwellen dieselben wie für die Genehmigung selbst?", a: "Nein. Sie liegen erheblich höher: 15 Millionen MUR Jahresumsatz für einen Investor, 400.000 MUR monatlich für einen Angestellten, 3 Millionen MUR jährlich für einen Selbständigen und 200.000 USD an Überweisungen insgesamt für einen Ruheständler. Die Planung beginnt im ersten Jahr." },
+    { q: "Sind die Schwellen dieselben wie für die Genehmigung selbst?", a: "Nein. Sie liegen erheblich höher: 15 Millionen MUR Jahresumsatz für einen Investor, 400.000 MUR monatlich für einen Angestellten, 3 Millionen MUR jährlich für einen Selbstständigen und 200.000 USD an Überweisungen insgesamt für einen Ruheständler. Die Planung beginnt im ersten Jahr." },
     { q: "Führt das Golden Visa schneller zum dauerhaften Aufenthalt?", a: "Möglicherweise. Der Abschluss der Investition von 1 Million USD innerhalb von zwölf Monaten berechtigt den Inhaber, die zwanzigjährige Genehmigung zu beantragen, sobald das Programm in Kraft ist. Es begründet eine Berechtigung zur Antragstellung, keine automatische Erteilung." },
   ],
 };

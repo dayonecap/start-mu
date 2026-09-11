@@ -36,12 +36,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const titles: Record<Locale, string> = {
     en: "start.mu | Residency and establishment in Mauritius, by Intrasia",
     fr: "start.mu | Résidence et établissement à Maurice, par Intrasia",
-    de: "start.mu | Aufenthalt und Gründung auf Mauritius, von Intrasia",
+    de: "Aufenthalt & Unternehmensgründung auf Mauritius | start.mu",
   };
   const descriptions: Record<Locale, string> = {
     en: "Mauritius residency, occupation permits, company formation and property acquisition for families and entrepreneurs, handled from first conversation to arrival by start.mu, the private client practice of the Intrasia Group.",
     fr: "Résidence à Maurice, permis d'occupation, constitution de sociétés et acquisition immobilière pour les familles et les entrepreneurs, pris en charge de la première conversation à l'arrivée par start.mu, le cabinet de clientèle privée du Groupe Intrasia.",
-    de: "Aufenthalt auf Mauritius, Occupation Permits, Gesellschaftsgründung und Immobilienerwerb für Familien und Unternehmer, begleitet vom ersten Gespräch bis zur Ankunft von start.mu, der Privatkundenberatung der Intrasia Group.",
+    de: "Aufenthalt, Unternehmensgründung und Immobilienkauf auf Mauritius – persönliche Beratung für Familien, Unternehmer und Investoren.",
   };
   return {
     metadataBase: new URL(site.url),

@@ -13,7 +13,7 @@ export const establishmentDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Eingetragener Sitz", value: "Auf Mauritius erforderlich. Wir stellen ihn" },
       { label: "Company Secretary", value: "Erforderlich bei mehr als einem Direktor und in der Praxis für jede Gesellschaft mit Genehmigung oder Bankkonto. Wir stellen ihn" },
       { label: "Dauer", value: "Gründung in der Regel innerhalb weniger Arbeitstage nach vollständiger Akte. Das Bankkonto dauert länger" },
-      { label: "Steuern", value: "15 % auf das steuerpflichtige Einkommen. Keine Kapitalertragsteuer. An Gesellschafter gezahlte Dividenden sind bei diesen einkommensteuerfrei, zählen bei ansässigen Privatpersonen aber auf die Schwelle der Fair Share Contribution" },
+      { label: "Steuern", value: "15 % auf das steuerpflichtige Einkommen. Keine Steuer auf Kapitalgewinne. An Gesellschafter gezahlte Dividenden sind bei diesen einkommensteuerfrei, zählen bei ansässigen Privatpersonen aber auf die Schwelle der Fair Share Contribution" },
       { label: "Jährliche Pflichten", value: "Jahresmeldung, Jahresabschluss, Steuererklärung und, für Genehmigungsinhaber, Umsatzerklärungen an das EDB" },
     ],
     sections: [
@@ -105,7 +105,7 @@ export const establishmentDe: Record<string, Partial<ServiceEntry>> = {
     sections: [
       { heading: "Warum es dauert", body: ["Mauritische Banken wenden bei nicht ansässigen Antragstellern und neuen Gesellschaften eine verstärkte Sorgfaltsprüfung an. Eine unvollständige oder widersprüchliche Akte bleibt liegen. Das Wirksamste, was wir bei einer Bankakte tun, ist die sorgfältige Vorbereitung vor der Einreichung: eine stimmige Darstellung des Vermögens, Unterlagen, die zueinander passen, und ein Geschäftsplan, dem die Compliance-Abteilung der Bank folgen kann."] },
       { heading: "Die Wahl der Bank", body: ["Die Banken unterscheiden sich in ihrer Bereitschaft nach Nationalität, Branche und Kontotyp, in Mindestguthaben, in Mehrwährungsangeboten und im Umgang mit einer noch nicht aktiven Gesellschaft. Wir wissen, wo ein bestimmtes Profil willkommen ist, und richten die Einführung danach aus, statt bei mehreren Banken einzureichen und abzuwarten, welche antwortet."] },
-      { heading: "Abstimmung mit der Genehmigung", body: ["Für ein Investor Permit müssen die 100.000 USD innerhalb von 60 Tagen nach Erteilung auf das mauritische Konto der Gesellschaft überwiesen werden; für Selbständige sind es 50.000 USD und für Ruheständler zunächst 2.000 USD. Bleibt die Überweisung innerhalb der 60 Tage aus, folgen Streichung und Erlöschen der Genehmigung. Wir stimmen Bankakte und Genehmigungsakte so ab, dass das Konto vor der Erteilung offen ist und die Frist zuverlässig eingehalten werden kann."] },
+      { heading: "Abstimmung mit der Genehmigung", body: ["Für ein Investor Permit müssen die 100.000 USD innerhalb von 60 Tagen nach Erteilung auf das mauritische Konto der Gesellschaft überwiesen werden; für Selbstständige sind es 50.000 USD und für Ruheständler zunächst 2.000 USD. Bleibt die Überweisung innerhalb der 60 Tage aus, folgen Streichung und Erlöschen der Genehmigung. Wir stimmen Bankakte und Genehmigungsakte so ab, dass das Konto vor der Erteilung offen ist und die Frist zuverlässig eingehalten werden kann."] },
     ],
     related: [
       { label: "Domestic Company", href: "/establishment/domestic-company" },
@@ -340,7 +340,7 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
 export const faqsBusinessDe: Record<string, Faq[]> = {
   "domestic-company": [
     { q: "Brauche ich einen mauritischen Direktor?", a: "Mindestens ein Direktor muss seinen gewöhnlichen Aufenthalt auf Mauritius haben. Ist der Eigentümer noch nicht ansässig oder möchte er nicht selbst handeln, stellen wir einen ansässigen Direktor auf Grundlage einer schriftlichen Vereinbarung, die festlegt, was der Direktor tut und nicht tut." },
-    { q: "Wie wird die Gesellschaft besteuert?", a: "Mit 15 % auf das steuerpflichtige Einkommen, mit Teilbefreiungen für bestimmte Einkunftsarten. Es gibt keine Kapitalertragsteuer, und Dividenden sind beim Gesellschafter einkommensteuerfrei, zählen bei ansässigen Privatpersonen aber auf die Schwelle von 12 Millionen MUR für die Fair Share Contribution." },
+    { q: "Wie wird die Gesellschaft besteuert?", a: "Mit 15 % auf das steuerpflichtige Einkommen, mit Teilbefreiungen für bestimmte Einkunftsarten. Es gibt keine Steuer auf Kapitalgewinne, und Dividenden sind beim Gesellschafter einkommensteuerfrei, zählen bei ansässigen Privatpersonen aber auf die Schwelle von 12 Millionen MUR für die Fair Share Contribution." },
     { q: "Darf die Gesellschaft ein Zuhause unter den Immobilienprogrammen besitzen?", a: "Ja, mit Genehmigung des EDB, und ihre Anteile können in einem Trust gehalten werden. Diese Struktur richten wir regelmäßig für Familien ein, die Immobilien lieber nicht persönlich halten." },
     { q: "Wie lange dauert die Gründung?", a: "Wenige Arbeitstage ab vollständiger Akte. Das Bankkonto dauert länger und bestimmt den Zeitplan." },
   ],

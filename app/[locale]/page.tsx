@@ -30,6 +30,7 @@ export default async function HomePage({ params }: { params: Promise<Params> }) 
         <Container>
           <p className="reveal t-ui text-green">{t.eyebrow}</p>
           <h1 className="reveal reveal-2 t-display mt-6 max-w-[22ch]">{t.h1}</h1>
+          {t.lead ? <p className="reveal reveal-3 t-lead mt-8 max-w-[52ch]">{t.lead}</p> : null}
           <div className="reveal reveal-3 mt-10 flex flex-col gap-6 sm:flex-row sm:items-center">
             <Link href="/contact" className="btn btn-solid">
               {ui[locale].nav.consult}

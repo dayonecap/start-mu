@@ -334,7 +334,7 @@ export const finder: Record<Locale, FinderStrings> = {
     title: "Welche Möglichkeit passt",
     lead: "Vier Fragen. Keine genauen Zahlen und keine E-Mail-Adresse erforderlich. Sie erhalten den besten Ausgangspunkt, die Gründe und die Seite, die als Nächstes zu lesen ist.",
     metaTitle: "Welcher Aufenthaltsweg auf Mauritius zu Ihnen passt",
-    meta: "Vier Fragen, eine Empfehlung. Investor, Angestellter, Selbständiger, Ruheständler, Immobilie, Golden Visa oder Premium Visa, mit den Gründen.",
+    meta: "Vier Fragen, eine Empfehlung. Investor, Angestellter, Selbstständiger, Ruheständler, Immobilie, Golden Visa oder Premium Visa, mit den Gründen.",
     progress: (n, total) => `Frage ${n} von ${total}`,
     startAgain: "Neu beginnen",
     back: "Zurück",
