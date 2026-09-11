@@ -291,7 +291,7 @@ const fr: Ui = {
   legal: { updated: "Dernière mise à jour le" },
   index: { route: "Voie", routeEstablishment: "Voie", routeProperty: "Voie", audience: "Pour qui", threshold: "Seuil", duration: "Durée", use: "Usage typique", control: "Gestion et contrôle", tax: "Régime fiscal", offer: "Ce qui est proposé", status: "Statut" },
   home: {
-    eyebrow: "Le cabinet mauricien du Groupe Intrasia dédié à la clientèle privée",
+    eyebrow: "Le pôle du Groupe Intrasia à Maurice dédié à la clientèle privée",
     h1: "Résidence, création d'entreprise et accompagnement pour une installation sereine à Maurice.",
     lead: "",
     finder: "Quelle voie vous convient : quatre questions",
@@ -299,7 +299,7 @@ const fr: Ui = {
     bridge: "Nous prenons en charge les détails, pour que vous puissiez vous concentrer sur l'essentiel.",
     pillars: [
       { title: "Résidence", href: "/residency", body: "Investisseur, travailleur indépendant, professionnel, retraité ou acquéreur d'un bien immobilier. Nous vous conseillons sur le permis correspondant à votre situation, préparons votre dossier, assurons son dépôt auprès de l'Economic Development Board et du Passport and Immigration Office, puis suivons la procédure jusqu'à la délivrance du permis. Les demandes pour vos personnes à charge sont également prises en charge.", link: "Notre accompagnement en matière de résidence" },
-      { title: "Création de société", href: "/establishment", body: "Une société domestique mauricienne, constituée et administrée. Une mise en relation bancaire et un accompagnement jusqu'à l'ouverture du compte. Un siège social et un secrétariat de société assurés par nos soins. La structure que votre permis exige, opérationnelle dès le premier jour.", link: "Notre accompagnement en matière d'établissement" },
+      { title: "Création de société", href: "/establishment", body: "Une société domestique mauricienne, constituée et administrée. Une mise en relation bancaire et un accompagnement jusqu'à l'ouverture du compte. Un siège social et un secrétariat de société assurés par nos soins. La structure que votre permis exige, opérationnelle dès le premier jour.", link: "Notre accompagnement en matière de création de société" },
       { title: "Conciergerie", href: "/concierge", body: "Tout ce qu'un permis et une société ne couvrent pas. Les écoles pour vos enfants. Un logement à louer ou à acheter. Une couverture médicale valable à Maurice comme à l'étranger. Les services du quotidien, un véhicule, du personnel de maison, un comptable local : nous vous mettons en relation avec les bons interlocuteurs et vous accompagnons dans leur mise en place, jusqu'à leur prise en main.", link: "Notre accompagnement en matière de conciergerie" },
     ],
     routesH: "Les voies, en un coup d'œil",

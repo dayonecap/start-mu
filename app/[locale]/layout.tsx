@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const locale: Locale = isLocale(l) ? l : "en";
   const titles: Record<Locale, string> = {
     en: "start.mu | Residency and establishment in Mauritius, by Intrasia",
-    fr: "start.mu | Résidence et établissement à Maurice, par Intrasia",
+    fr: "Résidence et création de société à Maurice | start.mu",
     de: "Aufenthalt & Unternehmensgründung auf Mauritius | start.mu",
   };
   const descriptions: Record<Locale, string> = {
