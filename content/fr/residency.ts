@@ -180,7 +180,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     title: "Golden Visa",
     summary: "Une nouvelle voie pour les familles fortunées engageant 1 million USD en douze mois.",
     intro:
-      "Le Golden Visa est un visa à entrées multiples pour les personnes fortunées et leurs proches à charge, approuvé par le Conseil des ministres en avril 2026 et introduit par les mesures du Budget 2026-27. Un titulaire qui investit 1 million USD à Maurice dans les douze mois suivant la délivrance devient éligible pour demander un permis de résidence permanente de vingt ans. L'éligibilité n'est pas l'octroi : la demande est appréciée au fond, et l'achèvement de l'investissement ne convertit pas le visa automatiquement.",
+      "Le Golden Visa est un visa à entrées multiples destiné aux personnes fortunées et à leurs personnes à charge immédiates, approuvé par le Conseil des ministres en avril 2026 et consacré par les mesures du Budget 2026-27. Le titulaire qui investit 1 million USD à Maurice dans les douze mois suivant la délivrance du visa devient éligible pour demander un permis de résidence permanente d'une durée de vingt ans. L'éligibilité ne vaut pas approbation : la demande est examinée au fond, et la réalisation de l'investissement ne transforme pas automatiquement le visa en permis de résidence permanente.",
     status:
       "Le cadre a été adopté dans son principe, mais les lignes directrices de l'EDB et l'entrée en vigueur du dispositif restent à finaliser. Nous suivons ces lignes directrices de près et confirmerons les exigences applicables avant d'accepter tout mandat.",
     facts: [
