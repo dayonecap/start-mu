@@ -29,7 +29,7 @@ export function ServicePage({
   const section = parent.href.replace("/", "") as "residency" | "establishment" | "property";
   const parentLabel = t.service[section] ?? parent.label;
   const closingText = t.cta[section];
-  const download = getChecklist(section, entry.slug);
+  const download = getChecklist(section, entry.slug, locale);
   const url = `${site.url}${parent.href}/${entry.slug}`;
   const breadcrumb = {
     "@context": "https://schema.org",

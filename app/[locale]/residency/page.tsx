@@ -48,7 +48,7 @@ export default async function ResidencyPage({ params }: { params: Promise<Params
           </div>
           <p className="t-small mt-6 max-w-[80ch]">{getThresholdNote(locale)}</p>
           <p className="mt-8">
-            <a href={checklistPack.file} download className="btn btn-ghost">
+            <a href={checklistPack[locale].file} download className="btn btn-ghost">
               {t.download.pack}
             </a>
           </p>
