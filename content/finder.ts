@@ -209,7 +209,7 @@ export const finder: Record<Locale, FinderStrings> = {
           ["employed", "Travailler pour un employeur mauricien"],
           ["remote", "Travailler à distance pour des clients ou un employeur à l'étranger"],
           ["retire", "Prendre votre retraite, en vivant de revenus de l'étranger"],
-          ["capital", "Investir des capitaux, sans diriger une entreprise au quotidien"],
+          ["capital", "Investir, sans diriger une entreprise au quotidien"],
           ["home", "Acheter un logement et y vivre"],
         ],
       },
