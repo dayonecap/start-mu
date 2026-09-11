@@ -242,7 +242,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
       ] },
     ],
     related: [
-      { label: "Permis Indépendant", href: "/residency/self-employed-permit" },
+      { label: "Permis Travailleur indépendant", href: "/residency/self-employed-permit" },
       { label: "Permis Retraité non-citoyen", href: "/residency/retired-residence-permit" },
       { label: "Conciergerie", href: "/concierge" },
     ],
@@ -287,7 +287,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
       { label: "Validité", value: "20 ans, renouvelable" },
       { label: "Investisseur", value: "Cinq ans de permis, avec un chiffre d'affaires annuel d'au moins 15 millions MUR chacune de ces années ou un chiffre d'affaires cumulé de 75 millions MUR sur les cinq ans" },
       { label: "Professionnel", value: "Cinq ans d'Occupation Permit ou de permis de travail, avec un salaire de base mensuel d'au moins 400 000 MUR pendant cinq années consécutives" },
-      { label: "Indépendant", value: "Cinq ans de permis, avec un revenu annuel d'au moins 3 millions MUR chaque année ou un revenu cumulé de 15 millions MUR sur les cinq ans" },
+      { label: "Travailleur indépendant", value: "Cinq ans de permis, avec un revenu annuel d'au moins 3 millions MUR chaque année ou un revenu cumulé de 15 millions MUR sur les cinq ans" },
       { label: "Retraité non-citoyen", value: "Cinq ans de permis, avec des transferts cumulés d'au moins 200 000 USD sur les cinq ans" },
       { label: "Délai", value: "La demande doit être faite au plus tard six mois après que les critères sont remplis" },
       { label: "Depuis un Golden Visa", value: "À l'achèvement de l'investissement de 1 million USD dans les douze mois" },

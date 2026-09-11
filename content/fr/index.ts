@@ -11,7 +11,7 @@ const navLabels: Record<string, string> = {
   "Occupation permits": "Permis d'occupation",
   Investor: "Investisseur",
   Professional: "Professionnel",
-  "Self-employed": "Indépendant",
+  "Self-employed": "Travailleur indépendant",
   Innovator: "Innovateur",
   "Residence permits and visas": "Permis de résidence et visas",
   "Retired Non-Citizen": "Retraité non-citoyen",
@@ -65,7 +65,7 @@ const navLabels: Record<string, string> = {
   "Intrasia Group": "Groupe Intrasia",
   "Investor permit": "Permis Investisseur",
   "Professional permit": "Permis Professionnel",
-  "Self-employed permit": "Permis Indépendant",
+  "Self-employed permit": "Permis Travailleur indépendant",
   "Retired Non-Citizen permit": "Permis Retraité non-citoyen",
   Firm: "Le cabinet",
 };
