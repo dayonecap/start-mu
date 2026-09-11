@@ -8,6 +8,7 @@ import { getResidency, getThresholdNote } from "@/lib/content";
 import { ui } from "@/content/ui";
 import { isLocale, type Locale } from "@/lib/i18n";
 import { alternates } from "@/lib/meta";
+import { checklistPack } from "@/content/downloads";
 
 type Params = { locale: string };
 
@@ -46,6 +47,11 @@ export default async function ResidencyPage({ params }: { params: Promise<Params
             <ServiceIndex entries={residency} base="/residency" columns={[t.index.audience, t.index.threshold, t.index.duration]} routeLabel={t.index.route} />
           </div>
           <p className="t-small mt-6 max-w-[80ch]">{getThresholdNote(locale)}</p>
+          <p className="mt-8">
+            <a href={checklistPack.file} download className="btn btn-ghost">
+              {t.download.pack}
+            </a>
+          </p>
         </Container>
       </section>
 

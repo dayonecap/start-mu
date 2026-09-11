@@ -4,11 +4,13 @@ import { Container } from "./Container";
 import { PageHero } from "./PageHero";
 import { FactTable } from "./FactTable";
 import { ClosingCta } from "./ClosingCta";
+import { DownloadCta } from "./DownloadCta";
 import { Faq } from "./Faq";
 import { JsonLd } from "./JsonLd";
 import { site } from "@/content/site";
 import { ui } from "@/content/ui";
 import { getFaqs } from "@/lib/content";
+import { getChecklist } from "@/content/downloads";
 import type { Locale } from "@/lib/i18n";
 
 export function ServicePage({
@@ -27,6 +29,7 @@ export function ServicePage({
   const section = parent.href.replace("/", "") as "residency" | "establishment" | "property";
   const parentLabel = t.service[section] ?? parent.label;
   const closingText = t.cta[section];
+  const download = getChecklist(section, entry.slug);
   const url = `${site.url}${parent.href}/${entry.slug}`;
   const breadcrumb = {
     "@context": "https://schema.org",
@@ -79,6 +82,7 @@ export function ServicePage({
                 <FactTable facts={entry.facts} caption={`${t.service.facts} ${entry.title}`} />
               </div>
               {note ? <p className="t-small mt-5 max-w-[52ch]">{note}</p> : null}
+              {download ? <DownloadCta locale={locale} download={download} title={entry.title} /> : null}
             </div>
             <div className="order-1 lg:order-2 lg:col-span-6 lg:col-start-7">
               {entry.sections.map((s, i) => (
