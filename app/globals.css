@@ -57,6 +57,20 @@ body {
 }
 
 /* Type scale, anchored at 18px body, ratio approx 1.25 */
+/*
+ * German compounds such as "Unternehmensgründung" and "Datenschutzerklärung" are wider
+ * than a phone screen at heading sizes and overflowed the viewport. Hyphenate using the
+ * page's lang attribute, and break the word outright only as a last resort.
+ */
+.t-display,
+.t-h1,
+.t-h2,
+.t-h3 {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
 .t-display {
   font-family: var(--font-serif);
   font-weight: 400;
