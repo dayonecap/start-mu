@@ -57,7 +57,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     sections: [
       { heading: "Für wen es passt", body: [
         "Berater, Designer, Entwickler, Coaches, Fachleute, Medienproduzenten und andere, die ihre eigene Zeit und ihr Können verkaufen und dafür keine Gesellschaft brauchen. Die Genehmigung ist persönlich und erlaubt nicht die Beschäftigung anderer Fachkräfte, wohl aber eine Verwaltungskraft.",
-        "Die Wahl zwischen Selbstständigem und Investor ist meist eine Frage von Größe und Struktur. Die Anfangsinvestition beträgt 50.000 USD für Selbstständige gegenüber 100.000 USD für Investoren. Soll die Tätigkeit zu einem Unternehmen mit Personal, Verträgen im Namen einer Gesellschaft und getrennten Eigentumsverhältnissen wachsen, ist der Investor-Weg mit einer Domestic Company die bessere Grundlage. Bleibt die Tätigkeit die Arbeit einer einzelnen Person, ist der Selbstständigen-Weg einfacher und günstiger im Unterhalt.",
+        "Die Wahl zwischen Selbstständigem und Investor ist meist eine Frage von Größe und Struktur. Die Anfangsinvestition beträgt 50.000 USD für Selbstständige gegenüber 100.000 USD für Investoren. Soll die Tätigkeit zu einem Unternehmen mit Personal, Verträgen im Namen einer Gesellschaft und getrennten Eigentumsverhältnissen wachsen, ist das Investor Permit mit einer Domestic Company die bessere Grundlage. Bleibt die Tätigkeit die Arbeit einer einzelnen Person, ist das Self-Employed Permit einfacher und günstiger im Unterhalt.",
       ] },
       { heading: "Der Geschäftsplan", body: [
         "Das EDB gibt die Struktur des Geschäftsplans und die Gewichtung der Abschnitte vor und erwartet Finanzprognosen über fünf Jahre. Drei Absichtserklärungen, zwei davon von lokalen Kunden, sind Pflicht. Wir erstellen den Plan mit dem Antragsteller in dem Format, an dem das EDB ihn misst, und prüfen die Einkommensprognosen vor der Einreichung gegen die Schwellen für das dritte und fünfte Jahr.",
@@ -79,7 +79,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     title: "Occupation Permit für Innovatoren",
     summary: "Für Gründer eines innovativen Start-ups, ohne Mindestinvestition.",
     intro:
-      "Die Variante für innovative Start-ups liegt innerhalb der Kategorie Investor und richtet sich an Gründer, deren Projekt beim Economic Development Board eingereicht oder bei einem akkreditierten Inkubator registriert ist. Eine Mindestinvestition gibt es nicht. Die Berechtigung ergibt sich aus dem Projekt, nicht aus dem Kapital.",
+      "Die Aufenthaltsmöglichkeit für innovative Start-ups liegt innerhalb der Kategorie Investor und richtet sich an Gründer, deren Projekt beim Economic Development Board eingereicht oder bei einem akkreditierten Inkubator registriert ist. Eine Mindestinvestition gibt es nicht. Die Berechtigung ergibt sich aus dem Projekt, nicht aus dem Kapital.",
     facts: [
       { label: "Mindestinvestition", value: "Keine" },
       { label: "Zugang", value: "Ein beim EDB eingereichtes Projekt oder die Registrierung bei einem vom Mauritius Research and Innovation Council akkreditierten Inkubator" },
@@ -92,7 +92,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
         "Gründer technologie- und wissensbasierter Projekte, die etwas Neues aufbauen und 100.000 USD nicht von Anfang an aufbringen können oder wollen. Software, Fintech, Biotech, erneuerbare Energien, Daten und KI sind die typischen Kandidaten. Das EDB sucht ein Projekt mit Substanz: ein Produkt, ein Team, einen Plan und einen Grund, warum die Arbeit auf Mauritius stattfinden soll.",
       ] },
       { heading: "Wie das Projekt beurteilt wird", body: [
-        "Der Antrag wird am Projekt gemessen, nicht am Kontostand des Antragstellers. Die Unterlagen unterscheiden sich daher von einem gewöhnlichen Investor-Antrag: ein deutlich als innovatives Start-up gekennzeichneter Geschäftsplan, eine technische Beschreibung des Produkts, die auf Mauritius zu leistende Entwicklung, der Hintergrund des Gründerteams und der kommerzielle Weg. Ist ein akkreditierter Inkubator beteiligt, hat dessen Aufnahme Gewicht beim EDB. Die Pflicht nach der Erteilung ist eine Berichtspflicht: Fortschritte jedes Jahr, ein funktionierendes Produkt bis zum fünften Jahr.",
+        "Der Antrag wird am Projekt gemessen, nicht am Kontostand des Antragstellers. Die Unterlagen unterscheiden sich daher von einem gewöhnlichen Investor-Antrag: ein deutlich als innovatives Start-up gekennzeichneter Geschäftsplan, eine technische Beschreibung des Produkts, die auf Mauritius zu leistende Entwicklung, der Hintergrund des Gründerteams und die kommerziellen Aussichten. Ist ein akkreditierter Inkubator beteiligt, hat dessen Aufnahme Gewicht beim EDB. Die Pflicht nach der Erteilung ist eine Berichtspflicht: Fortschritte jedes Jahr, ein funktionierendes Produkt bis zum fünften Jahr.",
       ] },
       { heading: "Unsere Rolle", body: [
         "Wir strukturieren die Gesellschaft, bereiten den Antrag in der vom EDB erwarteten Form vor und stellen, wo sinnvoll, den Kontakt zu einem akkreditierten Inkubator her. Wir legen außerdem von Beginn an den Berichtskalender fest, damit die jährlichen Fortschrittsberichte und der Entwicklungsbericht im fünften Jahr gegen den vom EDB genehmigten Geschäftsplan erstellt werden.",
@@ -103,14 +103,14 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Domestic Company", href: "/establishment/domestic-company" },
     ],
     metaTitle: "Occupation Permit für Innovatoren auf Mauritius | start.mu",
-    metaDescription: "Die Variante für innovative Start-ups innerhalb des Investor Occupation Permit auf Mauritius: keine Mindestinvestition, Projekt beim EDB oder akkreditierter Inkubator, und wie der Antrag beurteilt wird.",
+    metaDescription: "Die Aufenthaltsmöglichkeit für innovative Start-ups innerhalb des Investor Occupation Permit auf Mauritius: keine Mindestinvestition, Projekt beim EDB oder akkreditierter Inkubator, und wie der Antrag beurteilt wird.",
     index: { audience: "Gründer innovativer Start-ups", threshold: "Keine Mindestinvestition", duration: "Bis zu 10 Jahre" },
   },
   "retired-residence-permit": {
     title: "Aufenthaltsgenehmigung für Ruheständler",
     summary: "Für Personen ab 50 mit Einkünften aus dem Ausland.",
     intro:
-      "Die Aufenthaltsgenehmigung für Retired Non-Citizens erlaubt einer Person ab 50 Jahren, bis zu zehn Jahre auf Mauritius zu leben, gestützt auf Einkünfte, die aus dem Ausland überwiesen werden. Es gibt keine Pflicht zum Immobilienkauf, keinen Mindestaufenthalt und keine Beschränkung des Wohnorts auf Mauritius.",
+      "Die Aufenthaltsgenehmigung für Retired Non-Citizens erlaubt einer Person ab 50 Jahren, bis zu zehn Jahre auf Mauritius zu leben, gestützt auf Einkünfte, die aus dem Ausland überwiesen werden. Es gibt keine Pflicht zum Immobilienerwerb, keinen Mindestaufenthalt und keine Beschränkung des Wohnorts auf Mauritius.",
     facts: [
       { label: "Alter", value: "50 oder älter zum Zeitpunkt der Antragstellung" },
       { label: "Mittelnachweis", value: "Ein Kontoauszug einer Bank im Herkunfts- oder Wohnsitzland über mindestens 24.000 USD" },
@@ -119,11 +119,11 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Arbeit", value: "Keine Erwerbstätigkeit auf Grundlage der Genehmigung selbst. Beteiligungen an Unternehmen sind zulässig, sofern der Inhaber dort nicht angestellt ist. Eine Beschäftigung in bestimmten Branchen ist über eine gesonderte Arbeitserlaubnis oder ein Occupation Permit möglich" },
       { label: "Führungszeugnis", value: "Polizeiliches Führungszeugnis über die letzten zehn Jahre, nicht älter als sechs Monate" },
       { label: "Familienangehörige", value: "Ehepartner oder Lebenspartner und unterhaltsberechtigte Kinder" },
-      { label: "Dauerhafter Aufenthalt", value: "Nach fünf Jahren berechtigt, eine 20-jährige Permanent Residence Permit zu beantragen, bei Überweisungen von insgesamt mindestens 200.000 USD in den fünf Jahren vor dem Antrag" },
+      { label: "Daueraufenthalt", value: "Nach fünf Jahren berechtigt, ein 20-jähriges Permanent Residence Permit zu beantragen, bei Überweisungen von insgesamt mindestens 200.000 USD in den fünf Jahren vor dem Antrag" },
     ],
     sections: [
       { heading: "Für wen es passt", body: [
-        "Ein Ehepaar im Ruhestand oder Teilruhestand oder eine Einzelperson, die eine feste Basis auf Mauritius möchte, ohne dafür eine Immobilie kaufen zu müssen. Es ist der flexibelste Aufenthaltsweg für alle über 50 und häufig die richtige Antwort für Menschen, die sich zunächst nach den Immobilienprogrammen erkundigen, weil sie glauben, das sei der einzige Weg.",
+        "Ein Ehepaar im Ruhestand oder Teilruhestand oder eine Einzelperson, die eine feste Basis auf Mauritius möchte, ohne dafür eine Immobilie kaufen zu müssen. Es ist die flexibelste Aufenthaltsmöglichkeit für alle über 50 und häufig die richtige Antwort für Menschen, die sich zunächst nach den Immobilienprogrammen erkundigen, weil sie glauben, das sei die einzige Aufenthaltsmöglichkeit.",
       ] },
       { heading: "Steuern und die Überweisung", body: [
         "Wer in einem Steuerjahr 183 Tage oder mehr auf Mauritius verbringt, wird dort steuerlich ansässig. Mauritius besteuert ausländische Einkünfte nur bei Überweisung ins Land und verfügt über ein Netz von Doppelbesteuerungsabkommen; beides zusammen bestimmt, wie Renten, Dividenden und Mieteinkünfte aus dem Ausland behandelt werden. Die Lage hängt vom Herkunftsland des Inhabers und vom geltenden Abkommen ab. Antragsteller müssen zudem ihre anderen Wohnsitze und steuerlichen Ansässigkeiten offenlegen, die das EDB im Rahmen des Common Reporting Standard an die Mauritius Revenue Authority weitergibt.",
@@ -139,7 +139,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Concierge", href: "/concierge" },
     ],
     metaTitle: "Aufenthaltsgenehmigung für Ruheständler auf Mauritius | start.mu",
-    metaDescription: "Die Aufenthaltsgenehmigung für Ruheständler ab 50 auf Mauritius: 24.000 USD jährlich aus dem Ausland, zehn Jahre Gültigkeit, steuerliche Ansässigkeit und der Weg zum dauerhaften Aufenthalt.",
+    metaDescription: "Die Aufenthaltsgenehmigung für Ruheständler ab 50 auf Mauritius: 24.000 USD jährlich aus dem Ausland, zehn Jahre Gültigkeit, steuerliche Ansässigkeit und die Aussicht auf einen Daueraufenthalt.",
     index: { audience: "Einzelpersonen und Paare ab 50", threshold: "24.000 USD jährlich aus dem Ausland", duration: "10 Jahre" },
   },
   "property-acquisition": {
@@ -157,13 +157,13 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     sections: [
       { heading: "Für wen es passt", body: [
-        "Ein Käufer, der ohnehin beschlossen hat, ein Zuhause auf Mauritius zu besitzen, und für den die Aufenthaltsgenehmigung eine Folge dieser Entscheidung ist, nicht ihr Zweck. Die Genehmigung ist an das Objekt gebunden; sie ist daher nicht der richtige Weg für jemanden, der zuerst den Aufenthalt möchte und lieber mieten würde.",
+        "Ein Käufer, der ohnehin beschlossen hat, ein Zuhause auf Mauritius zu besitzen, und für den die Aufenthaltsgenehmigung eine Folge dieser Entscheidung ist, nicht ihr Zweck. Die Genehmigung ist an das Objekt gebunden; sie ist daher nicht die richtige Wahl für jemanden, der zuerst den Aufenthalt möchte und lieber mieten würde.",
       ] },
       { heading: "Der Erwerb selbst", body: [
-        "Der Kauf folgt einer festen Abfolge: Reservierung, Antrag beim EDB auf Genehmigung des Erwerbs, notarielle Urkunde und Eintragung. Käufe vor Fertigstellung unter einem VEFA-Vertrag fügen eine weitere Ebene hinzu, mit Ratenzahlungen nach Baufortschritt und einer finanziellen Garantie des Bauträgers. Wir behandeln das ausführlich im Abschnitt Immobilien und vertreten den Käufer durchgehend, an der Seite des Notars.",
+        "Der Kauf folgt einer festen Abfolge: Reservierung, Antrag beim EDB auf Genehmigung des Erwerbs, notarielle Urkunde und Eintragung. Käufe vor Fertigstellung unter einem VEFA-Vertrag fügen eine weitere Ebene hinzu, mit Ratenzahlungen nach Baufortschritt und einer finanziellen Garantie des Bauträgers. Wir behandeln das ausführlich im Bereich „Immobilien“ und vertreten den Käufer durchgehend, an der Seite des Notars.",
       ] },
       { heading: "Die Genehmigung", body: [
-        "Sobald die Urkunde unterzeichnet und der Erwerb beim EDB erfasst ist, wird die Aufenthaltsgenehmigung über das EDB beantragt und vom Passport and Immigration Office erteilt. Sie bleibt gültig, solange die Immobilie gehalten wird, und erlischt beim Verkauf, sofern sich der Inhaber bis dahin nicht über einen anderen Weg qualifiziert hat.",
+        "Sobald die Urkunde unterzeichnet und der Erwerb beim EDB erfasst ist, wird die Aufenthaltsgenehmigung über das EDB beantragt und vom Passport and Immigration Office erteilt. Sie bleibt gültig, solange die Immobilie gehalten wird, und erlischt beim Verkauf, sofern sich der Inhaber bis dahin nicht über eine andere Aufenthaltsmöglichkeit qualifiziert hat.",
       ] },
     ],
     related: [
@@ -178,16 +178,16 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
   },
   "golden-visa": {
     title: "Golden Visa",
-    summary: "Eine neue Möglichkeit für vermögende Familien, die innerhalb von zwölf Monaten 1 Million USD investieren.",
+    summary: "Eine neue Aufenthaltsmöglichkeit für vermögende Familien, die innerhalb von zwölf Monaten 1 Million USD investieren.",
     intro:
-      "Das Golden Visa ist ein Visum für mehrfache Einreise für vermögende Personen und ihre nächsten Angehörigen, im April 2026 vom Kabinett gebilligt und mit den Budgetmaßnahmen 2026-27 gesetzlich verankert. Wer innerhalb von zwölf Monaten nach Erteilung 1 Million USD auf Mauritius investiert, kann eine zwanzigjährige Permanent Residence Permit beantragen. Die Erfüllung der Voraussetzungen führt nicht automatisch zur Erteilung: Der Antrag wird in der Sache geprüft, und der Abschluss der Investition wandelt das Visum nicht automatisch um.",
+      "Das Golden Visa ist ein Visum für mehrfache Einreise für vermögende Personen und ihre engsten Familienangehörigen, im April 2026 vom Kabinett gebilligt und mit den Budgetmaßnahmen 2026-27 gesetzlich verankert. Wer innerhalb von zwölf Monaten nach Erteilung 1 Million USD auf Mauritius investiert, kann ein zwanzigjähriges Permanent Residence Permit beantragen. Die Erfüllung der Voraussetzungen führt nicht automatisch zur Erteilung: Der Antrag wird in der Sache geprüft, und der Abschluss der Investition wandelt das Visum nicht automatisch um.",
     status:
       "Der Rahmen ist dem Grunde nach beschlossen, aber die Antragsrichtlinien des EDB und der Beginn des Programms stehen noch aus. Wir verfolgen die Richtlinien genau und bestätigen die geltenden Anforderungen, bevor wir ein Mandat annehmen.",
     facts: [
       { label: "Investitionszusage", value: "1 Million USD, innerhalb von zwölf Monaten nach Erteilung investiert, bei Antragstellung durch eine schriftliche Verpflichtung bestätigt" },
       { label: "Qualifizierte Investition", value: "Jede Geschäftstätigkeit außer dem Erwerb von Wohnimmobilien unter den Immobilienprogrammen des EDB. Genannt werden Fintech, künstliche Intelligenz, Biotechnologie, erneuerbare Energien und globales Treasury" },
       { label: "Erste Genehmigung", value: "Bis zu zwei Jahre, mehrfache Einreise, verlängerbar" },
-      { label: "Nach Abschluss der Investition", value: "Berechtigt, eine 20-jährige Permanent Residence Permit zu beantragen. Keine automatische Umwandlung" },
+      { label: "Nach Abschluss der Investition", value: "Berechtigt, ein 20-jähriges Permanent Residence Permit zu beantragen. Keine automatische Umwandlung" },
       { label: "Familienangehörige", value: "Ehepartner und unterhaltsberechtigte Kinder" },
       { label: "Bearbeitungsziel", value: "Fünf Arbeitstage, vom Premierminister angekündigt" },
       { label: "Erwartetes Volumen", value: "Rund 100 Empfänger pro Jahr" },
@@ -195,7 +195,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     sections: [
       { heading: "Für wen es passt", body: [
         "Eine Familie mit Kapital, die schnell nach Mauritius ziehen und eine lange Genehmigung halten möchte, die weder an ein eigenes Haus noch an die tägliche Führung eines Unternehmens gebunden ist. Das Golden Visa verleiht für sich genommen kein Recht zu arbeiten; erwartet wird eine Investition in qualifizierte Sektoren, keine Beschäftigung.",
-        "Es liegt zwischen den bestehenden Möglichkeiten. Es verlangt mehr Kapital als das Investor Permit oder die Immobilienschwelle, bietet dafür aber nach dem ersten Jahr einen zwanzigjährigen dauerhaften Aufenthalt und überlässt die Wahl der Investition dem Inhaber.",
+        "Es liegt zwischen den bestehenden Aufenthaltsmöglichkeiten. Es verlangt mehr Kapital als das Investor Permit oder die Immobilienschwelle, berechtigt dafür aber nach dem ersten Jahr zum Antrag auf einen zwanzigjährigen Daueraufenthalt und überlässt die Wahl der Investition dem Inhaber.",
       ] },
       { heading: "Sorgfaltsprüfung", body: [
         "Anträge laufen über das EDB mit einer behördenübergreifenden Prüfung unter Beteiligung der Financial Crimes Commission, der Financial Intelligence Unit, der Financial Services Commission, der Bank of Mauritius und des Passport and Immigration Office. Herkunft der Mittel und des Vermögens werden gründlich geprüft. Wir bereiten diese Akte auf dem Niveau vor, das die Behörden anlegen, gestützt auf die Compliance-Praxis der Gruppe.",
@@ -204,17 +204,17 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
         "Der Rahmen sieht vor, dass Inhaber während der Investitionsphase in Hotels oder in Wohnimmobilien leben, die ausländischen Käufern bereits offenstehen, um den lokalen Wohnungsmarkt nicht zu belasten. Wohnimmobilien unter den EDB-Programmen bleiben Golden-Visa-Inhabern als Zuhause zugänglich, zählen aber nicht zur Million USD.",
       ] },
       { heading: "Unsere Rolle", body: [
-        "Wir beraten, ob das Golden Visa oder eine bestehende Möglichkeit besser passt, bereiten den Antrag und die Sorgfaltsakte vor, strukturieren bei Bedarf die Empfängergesellschaft für die Investition und übernehmen den Concierge-Teil des Umzugs. Sobald das EDB seine Richtlinien veröffentlicht, stellen wir hier die vollständigen Dokumentationsanforderungen dar.",
+        "Wir beraten, ob das Golden Visa oder eine bestehende Aufenthaltsmöglichkeit besser passt, bereiten den Antrag und die Sorgfaltsakte vor, strukturieren bei Bedarf die Empfängergesellschaft für die Investition und übernehmen den Concierge-Teil des Umzugs. Sobald das EDB seine Richtlinien veröffentlicht, stellen wir hier die vollständigen Dokumentationsanforderungen dar.",
       ] },
     ],
     related: [
       { label: "Investor Permit", href: "/residency/investor-permit" },
       { label: "Aufenthalt durch Immobilienerwerb", href: "/residency/property-acquisition" },
-      { label: "Dauerhafter Aufenthalt", href: "/residency/permanent-residence" },
+      { label: "Daueraufenthalt", href: "/residency/permanent-residence" },
       { label: "Concierge", href: "/concierge" },
     ],
     metaTitle: "Golden Visa Mauritius | start.mu",
-    metaDescription: "Das Golden Visa von Mauritius: 1 Million USD Investition innerhalb von zwölf Monaten, eine zweijährige Genehmigung für mehrfache Einreise und die Berechtigung, zwanzig Jahre dauerhaften Aufenthalt zu beantragen. Aktueller Stand und was zu erwarten ist.",
+    metaDescription: "Das Golden Visa von Mauritius: 1 Million USD Investition innerhalb von zwölf Monaten, eine zweijährige Genehmigung für mehrfache Einreise und die Berechtigung, einen zwanzigjährigen Daueraufenthalt zu beantragen. Aktueller Stand und was zu erwarten ist.",
     index: { audience: "Vermögende Familien", threshold: "1 Million USD in 12 Monaten", duration: "2 Jahre, danach Antrag auf 20-jährigen Daueraufenthalt möglich" },
   },
   "premium-visa": {
@@ -232,7 +232,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     sections: [
       { heading: "Für wen es passt", body: [
-        "Jemand, der auf Mauritius leben möchte, bevor er entscheidet, sich hier niederzulassen, oder der sich gar nicht niederlassen muss, weil seine Arbeit online für Kunden anderswo stattfindet. Es ist auch eine sinnvolle Zwischenlösung für eine Familie, die vor einem Antrag auf ein Occupation Permit ankommt, oder während ein Immobilienkauf abgewickelt wird.",
+        "Jemand, der auf Mauritius leben möchte, bevor er entscheidet, sich hier niederzulassen, oder der sich gar nicht niederlassen muss, weil seine Arbeit online für Kunden anderswo stattfindet. Es ist auch eine sinnvolle Zwischenlösung für eine Familie, die vor einem Antrag auf ein Occupation Permit ankommt, oder während ein Immobilienerwerb abgewickelt wird.",
       ] },
       { heading: "Vom Premium Visa zum Aufenthalt", body: [
         "Das Visum kann von Mauritius aus umgewandelt werden. Ein Remote-Arbeiter, der später eine Gesellschaft gründet und ein Investor- oder Self-Employed-Permit beantragt, oder ein Inhaber über 50, der zur Genehmigung für Ruheständler wechselt, muss das Land dafür nicht verlassen. Wir planen die Abfolge von Anfang an, damit die Zeit unter dem Premium Visa nicht verloren geht.",
@@ -273,16 +273,16 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     related: [
       { label: "Concierge", href: "/concierge" },
-      { label: "Alle Möglichkeiten vergleichen", href: "/residency" },
+      { label: "Alle Aufenthaltsmöglichkeiten vergleichen", href: "/residency" },
     ],
     metaTitle: "Genehmigungen für Familienangehörige auf Mauritius | start.mu",
     metaDescription: "Wer einen Inhaber eines Occupation Permit oder einer Aufenthaltsgenehmigung nach Mauritius begleiten darf: Ehepartner, Kinder und Eltern, die Reihenfolge der Anträge und die praktischen Vorkehrungen für Familien.",
   },
   "permanent-residence": {
-    title: "Dauerhafter Aufenthalt",
-    summary: "Die zwanzigjährige Genehmigung und die Möglichkeiten dorthin.",
+    title: "Daueraufenthalt",
+    summary: "Die zwanzigjährige Genehmigung und welche Aufenthaltsmöglichkeiten dorthin führen.",
     intro:
-      "Eine Permanent Residence Permit wird für zwanzig Jahre erteilt und befreit den Inhaber von den Bedingungen eines Occupation Permit oder einer Aufenthaltsgenehmigung. Sie wird durch das Erfüllen dauerhafter Schwellen unter einer bestehenden Genehmigung erworben oder, sobald das Programm läuft, durch den Abschluss der Golden-Visa-Investition.",
+      "Ein Permanent Residence Permit, also eine Genehmigung zum Daueraufenthalt, wird für zwanzig Jahre erteilt und befreit den Inhaber von den Bedingungen eines Occupation Permit oder einer Aufenthaltsgenehmigung. Sie wird durch das Erfüllen dauerhafter Schwellen unter einer bestehenden Genehmigung erworben oder, sobald das Programm läuft, durch den Abschluss der Golden-Visa-Investition.",
     facts: [
       { label: "Gültigkeit", value: "20 Jahre, verlängerbar" },
       { label: "Investor", value: "Fünf Jahre mit der Genehmigung und in jedem dieser Jahre ein Jahresumsatz von mindestens 15 Millionen MUR oder ein Gesamtumsatz von 75 Millionen MUR über die fünf Jahre" },
@@ -295,10 +295,10 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     ],
     sections: [
       { heading: "Von Anfang an darauf hinarbeiten", body: [
-        "Die Schwellen für den dauerhaften Aufenthalt werden über fünf aufeinanderfolgende Jahre gemessen, nicht an einem Stichtag, und sie liegen deutlich über den Schwellen für die Genehmigung selbst. Der erklärte Umsatz eines Investors, das Grundgehalt eines Angestellten und das erklärte Einkommen eines Selbstständigen zählen Jahr für Jahr, und das Antragsfenster schließt sich sechs Monate nach Erfüllung der Kriterien. Wir zeichnen den Weg beim ersten Gespräch vor, damit die Entscheidungen des ersten Jahres die Tür im fünften nicht verschließen.",
+        "Die Schwellen für den Daueraufenthalt werden über fünf aufeinanderfolgende Jahre gemessen, nicht an einem Stichtag, und sie liegen deutlich über den Schwellen für die Genehmigung selbst. Der erklärte Umsatz eines Investors, das Grundgehalt eines Angestellten und das erklärte Einkommen eines Selbstständigen zählen Jahr für Jahr, und das Antragsfenster schließt sich sechs Monate nach Erfüllung der Kriterien. Wir planen den Ablauf beim ersten Gespräch, damit die Entscheidungen des ersten Jahres die Tür im fünften nicht verschließen.",
       ] },
       { heading: "Was sich ändert", body: [
-        "Ein dauerhaft Aufenthaltsberechtigter unterliegt nicht mehr den jährlichen Bedingungen der ursprünglichen Genehmigung. Ein Investor, Angestellter oder Selbstständiger mit Permanent Residence Permit kann diese später für die Restlaufzeit in die Kategorie Ruheständler umschreiben lassen, wenn er ein verfügbares Jahreseinkommen von 40.000 USD nachweist. Für eine Familie, die angekommen ist, ist es der Punkt, an dem Mauritius aufhört, eine Genehmigung zu sein, und ein Zuhause wird.",
+        "Mit einem Permanent Residence Permit entfallen die jährlichen Bedingungen der ursprünglichen Genehmigung. Ein Investor, Angestellter oder Selbstständiger mit Permanent Residence Permit kann dieses später für die Restlaufzeit in die Kategorie Ruheständler umschreiben lassen, wenn er ein verfügbares Jahreseinkommen von 40.000 USD nachweist. Für eine Familie, die angekommen ist, ist es der Punkt, an dem Mauritius aufhört, eine Genehmigung zu sein, und ein Zuhause wird.",
       ] },
     ],
     related: [
@@ -307,7 +307,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Genehmigung für Ruheständler", href: "/residency/retired-residence-permit" },
     ],
     metaTitle: "Permanent Residence Permit Mauritius | start.mu",
-    metaDescription: "Die zwanzigjährige Permanent Residence Permit auf Mauritius: welche Genehmigungen dorthin führen, die über die Zeit gemessenen Schwellen und was sich ändert, sobald sie erteilt ist.",
+    metaDescription: "Das zwanzigjährige Permanent Residence Permit auf Mauritius: welche Genehmigungen dorthin führen, die über die Zeit gemessenen Schwellen und was sich ändert, sobald sie erteilt ist.",
   },
   "technical-occupation-permit": {
     title: "Technical Occupation Permit",
@@ -327,15 +327,15 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
         "Das Budget beschreibt die Kategorie als Mittel strategischer Anwerbung im Rahmen zwischenstaatlicher Vereinbarungen, was darauf hindeutet, dass sie auf Sektoren zielt, in denen der Staat vereinbart hat, technisches Personal in größerer Zahl ins Land zu holen, und nicht auf einzelne Antragsteller. Ob einzelne Fachkräfte oder private Arbeitgeber sie nutzen können, ist noch offen.",
       ] },
       { heading: "Was jetzt zu tun ist", body: [
-        "Wenn Sie eine Fachkraft mit einem Angebot eines mauritischen Arbeitgebers sind, ist das Professional Permit der Weg, und er steht heute offen. Wenn Sie als Arbeitgeber oder Branchenverband eine zwischenstaatliche Vereinbarung erwägen, beraten wir zum Rahmen, sobald das EDB ihn veröffentlicht.",
+        "Wenn Sie eine Fachkraft mit einem Angebot eines mauritischen Arbeitgebers sind, ist das Professional Permit die richtige Wahl, und es steht heute offen. Wenn Sie als Arbeitgeber oder Branchenverband eine zwischenstaatliche Vereinbarung erwägen, beraten wir zum Rahmen, sobald das EDB ihn veröffentlicht.",
       ] },
     ],
     related: [
       { label: "Professional Permit", href: "/residency/professional-permit" },
-      { label: "Alle Möglichkeiten vergleichen", href: "/residency" },
+      { label: "Alle Aufenthaltsmöglichkeiten vergleichen", href: "/residency" },
     ],
     metaTitle: "Technical Occupation Permit Mauritius | start.mu",
-    metaDescription: "Das neue Technical Occupation Permit von Mauritius aus dem Budget 2026-27 für zwischenstaatliche Anwerbung: was bekannt ist, der aktuelle Stand und der heute verfügbare Weg.",
+    metaDescription: "Das neue Technical Occupation Permit von Mauritius aus dem Budget 2026-27 für zwischenstaatliche Anwerbung: was bekannt ist, der aktuelle Stand und die heute verfügbare Aufenthaltsmöglichkeit.",
   },
 };
 
@@ -347,18 +347,18 @@ export const faqsDe: Record<string, Faq[]> = {
     { q: "Kann mein Arbeitgeber eine Gesellschaft sein, die ich mit meinem Ehepartner besitze?", a: "Ja, und das ist eine gängige Struktur neben einem Investor Permit des anderen Ehepartners. Das Gehalt muss echt sein, monatlich gezahlt und erklärt werden, und Sie dürfen nicht Mehrheitsgesellschafter des Arbeitgebers sein." },
   ],
   "self-employed-permit": [
-    { q: "Brauche ich eine Gesellschaft?", a: "Nein. Die Genehmigung ist für eine Person gedacht, die im eigenen Namen als Unternehmen registriert ist oder eine Ein-Personen-Gesellschaft betreibt. Wenn Sie Fachkräfte einstellen oder im Namen einer Gesellschaft Verträge schließen wollen, ist der Investor-Weg die bessere Grundlage." },
+    { q: "Brauche ich eine Gesellschaft?", a: "Nein. Die Genehmigung ist für eine Person gedacht, die im eigenen Namen als Unternehmen registriert ist oder eine Ein-Personen-Gesellschaft betreibt. Wenn Sie Fachkräfte einstellen oder im Namen einer Gesellschaft Verträge schließen wollen, ist das Investor Permit die bessere Grundlage." },
     { q: "Darf ich jemanden beschäftigen?", a: "Eine lokale Verwaltungskraft. Die Genehmigung erlaubt nicht, andere Fachkräfte in der Tätigkeit selbst zu beschäftigen." },
     { q: "Was zählt zum Dienstleistungssektor?", a: "Beratung, Design, Software, Medien, Coaching, Betreuung und ähnliche Tätigkeiten, bei denen Sie Ihre eigene Zeit und Ihr Können verkaufen. Warenhandel, Produktion und Gastgewerbe sind in dieser Kategorie nicht zulässig." },
-    { q: "Was, wenn mein Einkommen im dritten Jahr keine 2 Millionen MUR erreicht?", a: "Die Schwelle wird überwacht, und ein Fehlbetrag kann zur Streichung führen. Realismus von Anfang an lohnt sich: Ist das prognostizierte Einkommen knapp, kann der Investor-Weg mit einer Gesellschaft oder das Premium Visa während der Aufbauphase die sicherere Abfolge sein." },
+    { q: "Was, wenn mein Einkommen im dritten Jahr keine 2 Millionen MUR erreicht?", a: "Die Schwelle wird überwacht, und ein Fehlbetrag kann zur Streichung führen. Realismus von Anfang an lohnt sich: Ist das prognostizierte Einkommen knapp, kann das Investor Permit mit einer Gesellschaft oder das Premium Visa während der Aufbauphase die sicherere Abfolge sein." },
   ],
   "innovator-permit": [
-    { q: "Gibt es wirklich keine Mindestinvestition?", a: "Für die Variante der innovativen Start-ups keine. Der Antrag wird am Projekt und am Team gemessen, und die Pflicht nach der Erteilung besteht darin, jährlich Fortschritte zu berichten und bis Ende des fünften Jahres ein marktfähiges Minimalprodukt vorzuweisen." },
+    { q: "Gibt es wirklich keine Mindestinvestition?", a: "Für innovative Start-ups keine. Der Antrag wird am Projekt und am Team gemessen, und die Pflicht nach der Erteilung besteht darin, jährlich Fortschritte zu berichten und bis Ende des fünften Jahres ein marktfähiges Minimalprodukt vorzuweisen." },
     { q: "Was gilt dem EDB als innovativ?", a: "Es gibt keine feste Liste. Projekte aus Technologie, Fintech, Biotech, erneuerbaren Energien, Daten und KI sind die typischen Kandidaten. Ein bei einem vom Mauritius Research and Innovation Council akkreditierten Inkubator registriertes Projekt hat Gewicht; ein herkömmliches Unternehmen mit Website qualifiziert sich nicht." },
-    { q: "Kann ich später zum regulären Investor Permit wechseln?", a: "Ja. Wer Kapital aufnimmt oder die Schwelle von 100.000 USD erreicht, kann unter Option 1 beantragen, und die Berichtspflichten des Innovator-Wegs entfallen." },
+    { q: "Kann ich später zum regulären Investor Permit wechseln?", a: "Ja. Wer Kapital aufnimmt oder die Schwelle von 100.000 USD erreicht, kann unter Option 1 beantragen, und die Berichtspflichten für innovative Start-ups entfallen." },
   ],
   "retired-residence-permit": [
-    { q: "Muss ich eine Immobilie kaufen?", a: "Nein. Die Genehmigung beruht auf der Überweisung von 24.000 USD jährlich aus dem Ausland; ob Sie mieten oder kaufen, bleibt Ihnen überlassen. Viele, die sich zunächst nach den Immobilienprogrammen erkundigen, landen bei diesem Weg." },
+    { q: "Muss ich eine Immobilie kaufen?", a: "Nein. Die Genehmigung beruht auf der Überweisung von 24.000 USD jährlich aus dem Ausland; ob Sie mieten oder kaufen, bleibt Ihnen überlassen. Viele, die sich zunächst nach den Immobilienprogrammen erkundigen, landen am Ende bei dieser Genehmigung." },
     { q: "Darf ich überhaupt arbeiten?", a: "Nicht auf Grundlage der Genehmigung selbst. Sie dürfen sich als Gesellschafter an einem Unternehmen beteiligen, sofern Sie dort nicht angestellt sind. Eine Beschäftigung in bestimmten Branchen ist über eine gesonderte Arbeitserlaubnis oder ein Occupation Permit möglich." },
     { q: "Muss mein Ehepartner über 50 sein?", a: "Nein. Ein Ehe- oder Lebenspartner unter 50 wird als Familienangehöriger einbezogen. Nur der Hauptantragsteller muss 50 oder älter sein." },
     { q: "Werde ich auf Mauritius steuerpflichtig?", a: "Wenn Sie in einem Steuerjahr 183 Tage oder mehr auf Mauritius verbringen, ja. Mauritius besteuert ausländische Einkünfte nur bei Überweisung ins Land und hat Abkommen mit vielen Herkunftsländern; wie eine Rente oder Kapitalerträge behandelt werden, hängt von ihrer Quelle und dem geltenden Abkommen ab. Wo es darauf ankommt, stellen wir vor dem Antrag den Kontakt zu einem mauritischen Steuerspezialisten her." },
@@ -366,16 +366,16 @@ export const faqsDe: Record<string, Faq[]> = {
   ],
   "property-acquisition": [
     { q: "Welche Programme qualifizieren sich?", a: "Integrated Resort Scheme, Real Estate Scheme, Invest Hotel Scheme, Property Development Scheme, Smart City Scheme sowie eine zu Wohnzwecken genutzte Wohnung in einem Gebäude mit mindestens zwei Stockwerken über dem Erdgeschoss. In jedem Fall muss der Kaufpreis mindestens 375.000 USD betragen." },
-    { q: "Kann ich für weniger als 375.000 USD kaufen?", a: "Ja, innerhalb der Programme, aber der Kauf verleiht dann keine Aufenthaltsgenehmigung. Käufer unter der Schwelle, die auf Mauritius leben möchten, verbinden den Kauf mit einem anderen Weg, meist der Genehmigung für Ruheständler oder einem Occupation Permit." },
+    { q: "Kann ich für weniger als 375.000 USD kaufen?", a: "Ja, innerhalb der Programme, aber der Kauf verleiht dann keine Aufenthaltsgenehmigung. Käufer unter der Schwelle, die auf Mauritius leben möchten, verbinden den Kauf mit einer anderen Aufenthaltsmöglichkeit, meist der Genehmigung für Ruheständler oder einem Occupation Permit." },
     { q: "Darf ich mit dieser Genehmigung arbeiten?", a: "Ja. Der Inhaber ist von der Pflicht befreit, eine Arbeits- oder Occupation-Genehmigung zu halten." },
-    { q: "Was passiert beim Verkauf?", a: "Die Genehmigung ist an die Immobilie gebunden und erlischt beim Verkauf. Wer verkaufen und bleiben will, sollte sich vor Abschluss über einen anderen Weg qualifizieren." },
+    { q: "Was passiert beim Verkauf?", a: "Die Genehmigung ist an die Immobilie gebunden und erlischt beim Verkauf. Wer verkaufen und bleiben will, sollte sich vor Abschluss über eine andere Aufenthaltsmöglichkeit qualifizieren." },
     { q: "Kann ich die Immobilie über eine Gesellschaft oder einen Trust halten?", a: "Ja. Eine mauritische Domestic Company darf Programmimmobilien erwerben, und ihre Anteile können in einem Trust gehalten werden. Die Aufenthaltsgenehmigung kann über die Struktur erlangt werden, vorbehaltlich der Bedingungen des EDB. Die Struktur muss vor der Urkunde bestehen." },
   ],
   "golden-visa": [
     { q: "Ist das Golden Visa jetzt verfügbar?", a: "Der Rahmen wurde im April 2026 vom Kabinett gebilligt und mit den Budgetmaßnahmen gesetzlich verankert, aber die Antragsrichtlinien des EDB und der Beginn des Programms stehen noch aus. Wir bestätigen die geltenden Anforderungen, bevor wir ein Mandat annehmen." },
     { q: "Zählt der Kauf eines Hauses zur Million USD?", a: "Nein. Wohnimmobilien unter den EDB-Programmen sind von der qualifizierten Investition ausgeschlossen. Sie können zusätzlich ein Zuhause unter den Programmen kaufen." },
     { q: "Darf ich mit dem Golden Visa auf Mauritius arbeiten?", a: "Das Visum verleiht für sich genommen kein Recht zu arbeiten. Erwartet wird eine Investition in qualifizierte Sektoren, keine Beschäftigung." },
-    { q: "Wie verhält es sich zum Investor Permit?", a: "Es verlangt das Zehnfache an Kapital, eröffnet aber nach dem ersten Jahr den Weg, einen zwanzigjährigen dauerhaften Aufenthalt zu beantragen, statt einer zehnjährigen Genehmigung mit Umsatzbedingungen. Das Investor Permit passt für jemanden, der ein Unternehmen führt; das Golden Visa für jemanden, der Kapital einsetzt." },
+    { q: "Wie verhält es sich zum Investor Permit?", a: "Es verlangt das Zehnfache an Kapital, ermöglicht aber nach dem ersten Jahr den Antrag auf einen zwanzigjährigen Daueraufenthalt, statt einer zehnjährigen Genehmigung mit Umsatzbedingungen. Das Investor Permit passt für jemanden, der ein Unternehmen führt; das Golden Visa für jemanden, der Kapital einsetzt." },
   ],
   "premium-visa": [
     { q: "Kann ich vom Premium Visa zu einer Aufenthaltsgenehmigung wechseln, ohne Mauritius zu verlassen?", a: "Ja. Wer später eine Gesellschaft gründet und ein Investor- oder Self-Employed-Permit beantragt oder über 50 ist und zur Genehmigung für Ruheständler wechselt, kann das von Mauritius aus tun." },
@@ -392,6 +392,6 @@ export const faqsDe: Record<string, Faq[]> = {
   "permanent-residence": [
     { q: "Wie bald kann ich beantragen?", a: "Nach fünf Jahren mit der Genehmigung, sofern die Schwellen Ihrer Kategorie in jedem dieser Jahre erfüllt wurden, und spätestens sechs Monate nach ihrer Erfüllung." },
     { q: "Sind die Schwellen dieselben wie für die Genehmigung selbst?", a: "Nein. Sie liegen erheblich höher: 15 Millionen MUR Jahresumsatz für einen Investor, 400.000 MUR monatlich für einen Angestellten, 3 Millionen MUR jährlich für einen Selbstständigen und 200.000 USD an Überweisungen insgesamt für einen Ruheständler. Die Planung beginnt im ersten Jahr." },
-    { q: "Führt das Golden Visa schneller zum dauerhaften Aufenthalt?", a: "Möglicherweise. Der Abschluss der Investition von 1 Million USD innerhalb von zwölf Monaten berechtigt den Inhaber, die zwanzigjährige Genehmigung zu beantragen, sobald das Programm in Kraft ist. Es begründet eine Berechtigung zur Antragstellung, keine automatische Erteilung." },
+    { q: "Führt das Golden Visa schneller zum Daueraufenthalt?", a: "Möglicherweise. Der Abschluss der Investition von 1 Million USD innerhalb von zwölf Monaten berechtigt den Inhaber, die zwanzigjährige Genehmigung zu beantragen, sobald das Programm in Kraft ist. Es begründet eine Berechtigung zur Antragstellung, keine automatische Erteilung." },
   ],
 };

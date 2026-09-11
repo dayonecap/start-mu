@@ -7,10 +7,10 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
     metaDescription:
       "Die Genehmigungen, die südafrikanische Familien wählen, Devisenkontrolle und die 60-Tage-Frist, Schulen, Bankkonten und die Kosten des ersten Jahres. Aufenthalt und Gründung, begleitet von Mauritius aus.",
     intro:
-      "Südafrikaner sind die größte Gruppe unter den ausländischen Zuzüglern auf Mauritius. Vier Stunden Flug, dieselbe Zeitzone, englischsprachige Schulen, eine stabile Währung und ein funktionierender Staat. Die Frage ist selten, ob, sondern durch welche Tür und in welcher Reihenfolge.",
+      "Südafrikaner sind die größte Gruppe unter den ausländischen Zuzüglern auf Mauritius. Vier Stunden Flug, dieselbe Zeitzone, englischsprachige Schulen, eine stabile Währung und ein funktionierender Staat. Die Frage ist selten, ob, sondern mit welcher Aufenthaltsmöglichkeit und in welcher Reihenfolge.",
     sections: [
       {
-        heading: "Welche Möglichkeiten Südafrikaner wählen",
+        heading: "Welche Aufenthaltsmöglichkeiten Südafrikaner wählen",
         body: [
           "Wer hier ein Unternehmen führen wird, nimmt das Occupation Permit der Kategorie Investor: 100.000 USD in eine mauritische Gesellschaft, Umsatzbedingungen ab dem dritten Jahr, zehn Jahre Laufzeit. Wer allein berät, nimmt das Self-Employed Permit mit 50.000 USD. Wer über 50 ist und von südafrikanischen Einkünften lebt, nimmt die Genehmigung für Ruheständler mit Überweisungen von 24.000 USD im Jahr. Ein Kauf in einem zugelassenen Programm ab 375.000 USD trägt den Aufenthalt, solange die Immobilie gehalten wird, und passt zu Familien, die ohnehin kaufen wollten.",
           "Ein häufiges Muster: ein Ehepartner mit dem Investor Permit, der andere bei derselben Gesellschaft angestellt mit einem Professional Permit. Damit sind beide legitim im Unternehmen verankert.",
@@ -66,7 +66,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       "Britische Anfragen nehmen stetig zu: von Ruheständlern, von Gründern, die ihr Unternehmen von überall führen können, und von Familien, die einen wärmeren, sichereren Ort zum Aufwachsen suchen, mit Schulen nach dem Lehrplan, den sie bereits kennen. Mauritius ist ein Commonwealth-Land, Englisch ist die Sprache von Verwaltung und Recht, und der Rechtszug endet beim Privy Council. Es ist kein weiter Schritt.",
     sections: [
       {
-        heading: "Welche Möglichkeiten britische Mandanten wählen",
+        heading: "Welche Aufenthaltsmöglichkeiten britische Mandanten wählen",
         body: [
           "Über 50 und von Rente oder Kapitaleinkünften lebend: die Genehmigung für Ruheständler, zehn Jahre, auf Überweisungen von 24.000 USD im Jahr, ohne Immobilienpflicht. Ein Unternehmen führen: das Investor Permit mit 100.000 USD in eine mauritische Gesellschaft. Allein beraten: das Self-Employed Permit mit 50.000 USD. Ein Zuhause in einem zugelassenen Programm ab 375.000 USD kaufen: Aufenthalt, solange es gehalten wird. Die Insel erst einmal ausprobieren: das Premium Visa, jeweils ein Jahr, auf Einkünfte aus dem Ausland.",
         ],
@@ -121,7 +121,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       "Die Franzosen sind die zweitgrößte Gruppe ausländischer Ansässiger auf Mauritius und die am längsten etablierte. Französisch wird überall gesprochen, das Recht ist zur Hälfte französisch geprägtes Zivilrecht, das Notariatssystem beim Immobilienerwerb ist jenes, das ein französischer Käufer bereits kennt, und die Insel verfügt über ein vollständiges Netz vom Ministerium homologierter französischer Schulen. Wir arbeiten auf Französisch.",
     sections: [
       {
-        heading: "Welche Möglichkeiten französische Mandanten wählen",
+        heading: "Welche Aufenthaltsmöglichkeiten französische Mandanten wählen",
         body: [
           "Ruheständler über 50 mit der Genehmigung für Ruheständler, auf Überweisungen von 24.000 USD im Jahr, ohne Kaufpflicht. Unternehmer mit dem Investor Permit ab 100.000 USD, oft mit einer Tätigkeit, die von Mauritius aus das frankophone Afrika oder den Indischen Ozean bedient. Freiberufler mit dem Self-Employed Permit ab 50.000 USD. Familien, die in einem zugelassenen Programm ab 375.000 USD kaufen und den Aufenthalt über die Immobilie erhalten. Und wer ein Jahr zum Entscheiden möchte, mit dem Premium Visa.",
         ],
@@ -176,7 +176,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       "Deutschsprachige Mandanten kommen meist mit einem konkreten Vorhaben: einem Ruhestand, einem Haus in einem bestimmten Projekt, oder einem Unternehmen, das sich vom Indischen Ozean aus ebenso führen lässt wie von München oder Zürich. Sie kommen ebenso mit genauen Fragen zur steuerlichen Ansässigkeit, und das zu Recht. Hier fällt die Entscheidung.",
     sections: [
       {
-        heading: "Welche Möglichkeiten deutschsprachige Mandanten wählen",
+        heading: "Welche Aufenthaltsmöglichkeiten deutschsprachige Mandanten wählen",
         body: [
           "Ruheständler über 50 mit der Genehmigung für Ruheständler, zehn Jahre auf Überweisungen von 24.000 USD im Jahr. Käufer, die den Aufenthalt über einen Immobilienerwerb ab 375.000 USD in einem zugelassenen Programm erhalten, häufig vor Fertigstellung unter VEFA, wo die sorgfältige Prüfung der Fertigstellungsgarantie am meisten zählt. Unternehmer mit dem Investor Permit ab 100.000 USD. Und zunehmend Familien mit dem Premium Visa, für ein Jahr der Entscheidung.",
         ],
@@ -196,7 +196,7 @@ export const countriesDe: Record<string, Partial<CountryPage>> = {
       {
         heading: "Das Praktische",
         body: [
-          "Direktflüge ab Frankfurt, München, Zürich und Wien saisonal, ganzjährig über Paris oder Dubai. Zwei Stunden Zeitunterschied im Winter. Die private Medizin ist gut, und es gibt deutschsprachige Ärzte; die Versicherung sollte die Evakuierung einschließen. Umzugsgut kann als Genehmigungsinhaber zollbegünstigt eingeführt werden. Englisch- und französischsprachige Schulen; eine deutsche Schule gibt es nicht, und Familien mit schulpflichtigen Kindern wählen meist den IB-Weg.",
+          "Direktflüge ab Frankfurt, München, Zürich und Wien saisonal, ganzjährig über Paris oder Dubai. Zwei Stunden Zeitunterschied im Winter. Die private Medizin ist gut, und es gibt deutschsprachige Ärzte; die Versicherung sollte die Evakuierung einschließen. Umzugsgut kann als Genehmigungsinhaber zollbegünstigt eingeführt werden. Englisch- und französischsprachige Schulen; eine deutsche Schule gibt es nicht, und Familien mit schulpflichtigen Kindern wählen meist das IB-Programm.",
         ],
       },
     ],

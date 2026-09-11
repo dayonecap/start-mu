@@ -35,13 +35,13 @@ export const privacyPolicyDe: LegalDoc = {
     {
       heading: "Was wir im Rahmen eines Mandats erheben",
       body: [
-        "Wird aus einer Anfrage ein Mandat, verlangen die von uns vorbereiteten Anträge diejenigen Unterlagen, die Behörden, Banken und Aufsichtsbehörden vorgeben. Je nach gewählter Möglichkeit kann dies umfassen:",
+        "Wird aus einer Anfrage ein Mandat, verlangen die von uns vorbereiteten Anträge diejenigen Unterlagen, die Behörden, Banken und Aufsichtsbehörden vorgeben. Je nach Verfahren kann dies umfassen:",
       ],
       list: [
         "Name, Geburtsdatum und Staatsangehörigkeit",
         "Angaben zu Reisepass und Personalausweis",
         "Wohnanschrift und deren Nachweis",
-        "Familienstand und Familienzusammensetzung, soweit Angehörige einbezogen werden",
+        "Familienstand und Familienzusammensetzung, soweit Familienangehörige einbezogen werden",
         "Nachweise über Einkünfte, Vermögen oder Investitionen",
         "Beruflicher Werdegang, Qualifikationen und Referenzen",
         "Angaben, die für Hintergrundprüfungen und die Herkunftsprüfung der Mittel erforderlich sind",
@@ -50,7 +50,7 @@ export const privacyPolicyDe: LegalDoc = {
     {
       heading: "Wozu wir sie verwenden und auf welcher Grundlage",
       body: [
-        "Die über das Formular übermittelten Angaben verwenden wir, um Ihre Anfrage zu beantworten und, wenn Sie uns darum bitten, um zu beurteilen, welche Möglichkeit zu Ihnen passt. Die im Rahmen eines Mandats erhobenen Angaben verwenden wir, um Anträge vorzubereiten und einzureichen, mit den beteiligten Behörden, Banken und Berufsträgern zu korrespondieren und die Aufzeichnungen zu führen, die unsere eigenen Aufsichtsbehörden verlangen.",
+        "Die über das Formular übermittelten Angaben verwenden wir, um Ihre Anfrage zu beantworten und, wenn Sie uns darum bitten, um zu beurteilen, welche Aufenthaltsmöglichkeit zu Ihnen passt. Die im Rahmen eines Mandats erhobenen Angaben verwenden wir, um Anträge vorzubereiten und einzureichen, mit den beteiligten Behörden, Banken und Berufsträgern zu korrespondieren und die Aufzeichnungen zu führen, die unsere eigenen Aufsichtsbehörden verlangen.",
         "Soweit das Recht eines europäischen Staates auf Sie anwendbar ist, sind unsere Rechtsgrundlagen die folgenden: die Beantwortung Ihrer Anfrage und die Durchführung unseres Mandats sind zur Erfüllung eines Vertrags oder für vorvertragliche Maßnahmen auf Ihre Anfrage hin erforderlich; Identifizierungs-, Prüfungs- und Aufbewahrungspflichten sind zur Erfüllung rechtlicher Verpflichtungen erforderlich, namentlich nach dem Geldwäscherecht; die Aufbewahrung eigener Aufzeichnungen über erteilte Beratung beruht auf unserem berechtigten Interesse an der Verteidigung unserer Rechtsposition; und Werbung, sollten Sie je welche von uns erhalten, beruht auf Ihrer Einwilligung.",
       ],
     },
@@ -99,7 +99,7 @@ export const privacyPolicyDe: LegalDoc = {
     {
       heading: "Werbung",
       body: [
-        "Gelegentlich senden wir Ihnen Beiträge oder Einladungen, von denen wir annehmen, dass sie Sie interessieren, aber nur, wenn Sie darum gebeten haben, von uns zu hören. Jede solche Nachricht enthält einen Weg, sie abzubestellen, und eine Abbestellung wirkt sich nicht auf die Arbeit aus, die wir für Sie erbringen.",
+        "Gelegentlich senden wir Ihnen Beiträge oder Einladungen, von denen wir annehmen, dass sie Sie interessieren, aber nur, wenn Sie darum gebeten haben, von uns zu hören. Jede solche Nachricht lässt sich abbestellen, und eine Abbestellung wirkt sich nicht auf die Arbeit aus, die wir für Sie erbringen.",
       ],
     },
     {

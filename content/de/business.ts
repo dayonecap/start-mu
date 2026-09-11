@@ -217,7 +217,7 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
     title: "Real Estate Scheme",
     summary: "Kleinere Projekte aus dem Rahmen vor 2015, im Wiederverkauf verfügbar.",
     intro:
-      "Das Real Estate Scheme umfasste kleinere Projekte als das IRS auf Grundstücken unter zehn Hektar und war der Weg, über den viele Boutique-Villen- und Wohnungsprojekte vor 2015 zugelassen wurden. Wie das IRS ist es für neue Projekte geschlossen, bleibt aber für den Wiederverkauf relevant.",
+      "Das Real Estate Scheme umfasste kleinere Projekte als das IRS auf Grundstücken unter zehn Hektar und war der Rahmen, über den viele Boutique-Villen- und Wohnungsprojekte vor 2015 zugelassen wurden. Wie das IRS ist es für neue Projekte geschlossen, bleibt aber für den Wiederverkauf relevant.",
     facts: [
       { label: "Status", value: "Für neue Projekte geschlossen. Wiederverkaufseinheiten verfügbar" },
       { label: "Aufenthaltsgenehmigung", value: "Ab 375.000 USD, für Käufer, Ehepartner und unterhaltsberechtigte Kinder, solange die Immobilie gehalten wird" },
@@ -239,10 +239,10 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
     title: "Smart City Scheme",
     summary: "Gemischt genutzte Projekte mit Wohnungen und, für Genehmigungsinhaber, erschlossenen Grundstücken.",
     intro:
-      "Smart-City-Projekte sind geplante, gemischt genutzte Anlagen aus Büros, Wohnungen, Handel, Bildung und Freizeit. Ausländer dürfen dort Wohnungen kaufen, und Inhaber eines Occupation Permit, einer Aufenthaltsgenehmigung oder einer Permanent Residence Permit können zudem ein erschlossenes Grundstück zum Bauen erwerben.",
+      "Smart-City-Projekte sind geplante, gemischt genutzte Anlagen aus Büros, Wohnungen, Handel, Bildung und Freizeit. Ausländer dürfen dort Wohnungen kaufen, und Inhaber eines Occupation Permit, einer Aufenthaltsgenehmigung oder eines Permanent Residence Permit können zudem ein erschlossenes Grundstück zum Bauen erwerben.",
     facts: [
       { label: "Wohnungen", value: "Für Ausländer mit Genehmigung des EDB zugänglich. Aufenthaltsgenehmigung ab 375.000 USD" },
-      { label: "Erschlossene Grundstücke", value: "Für Inhaber eines Occupation Permit, einer Aufenthaltsgenehmigung oder einer Permanent Residence Permit zum Wohnungsbau, mit Größenbegrenzung und Baufrist" },
+      { label: "Erschlossene Grundstücke", value: "Für Inhaber eines Occupation Permit, einer Aufenthaltsgenehmigung oder eines Permanent Residence Permit zum Wohnungsbau, mit Größenbegrenzung und Baufrist" },
       { label: "Registrierungsgebühr", value: "5 % des Kaufpreises, vom Käufer zu tragen" },
       { label: "Projekte", value: "Beau Plan, Moka, Mon Trésor, Uniciti, Cap Tamarin und andere" },
     ],
@@ -287,7 +287,7 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
     title: "R+2-Wohnungen",
     summary: "Wohnungen in gewöhnlichen Gebäuden, außerhalb der Programme, für Ausländer.",
     intro:
-      "Ein Ausländer darf mit Genehmigung des EDB überall auf Mauritius eine Wohnung in einem Gebäude mit mindestens zwei Stockwerken über dem Erdgeschoss kaufen, außerhalb der zugelassenen Programme. Diese Möglichkeit hat ausländischen Käufern den breiteren Wohnungsmarkt geöffnet, einschließlich neuer Projekte in Stadtzentren und an der Küste.",
+      "Ein Ausländer darf mit Genehmigung des EDB überall auf Mauritius eine Wohnung in einem Gebäude mit mindestens zwei Stockwerken über dem Erdgeschoss kaufen, außerhalb der zugelassenen Programme. Diese Regelung hat ausländischen Käufern den breiteren Wohnungsmarkt geöffnet, einschließlich neuer Projekte in Stadtzentren und an der Küste.",
     facts: [
       { label: "Gebäude", value: "Mindestens drei Geschosse: Erdgeschoss und zwei Obergeschosse" },
       { label: "Mindestkaufpreis", value: "6 Millionen MUR" },

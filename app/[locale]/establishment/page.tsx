@@ -45,7 +45,7 @@ export default async function EstablishmentPage({ params }: { params: Promise<Pa
         <Container className="py-14 lg:py-20">
           <h2 className="t-h2">{t.establishmentPage.whichH}</h2>
           <div className="mt-8">
-            <ServiceIndex entries={establishment} base="/establishment" columns={[t.index.use, t.index.control, t.index.tax]} routeLabel={t.index.route} />
+            <ServiceIndex entries={establishment} base="/establishment" columns={[t.index.use, t.index.control, t.index.tax]} routeLabel={t.index.routeEstablishment} />
           </div>
         </Container>
       </section>

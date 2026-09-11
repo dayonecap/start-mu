@@ -45,7 +45,7 @@ export default async function PropertyPage({ params }: { params: Promise<Params>
         <Container className="py-14 lg:py-20">
           <h2 className="t-h2">{t.propertyPage.comparedH}</h2>
           <div className="mt-8">
-            <ServiceIndex entries={property} base="/property" columns={[t.index.offer, t.index.threshold, t.index.status]} routeLabel={t.index.route} />
+            <ServiceIndex entries={property} base="/property" columns={[t.index.offer, t.index.threshold, t.index.status]} routeLabel={t.index.routeProperty} />
           </div>
         </Container>
       </section>

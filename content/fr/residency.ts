@@ -195,7 +195,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     sections: [
       { heading: "À qui il convient", body: [
         "Une famille disposant de capitaux à déployer, qui veut s'installer rapidement à Maurice et détenir un permis long qui ne soit lié ni à la possession d'un logement ni à la gestion quotidienne d'une entreprise. Le Golden Visa ne confère pas, à lui seul, le droit de travailler à Maurice ; l'attente est un investissement dans des secteurs éligibles plutôt qu'un emploi.",
-        "Il se situe entre les voies existantes. Il exige plus de capital que le permis Investisseur ou le seuil immobilier, mais il offre une résidence permanente de vingt ans à l'issue de la première année et laisse au titulaire le choix de l'investissement.",
+        "Il se situe entre les voies existantes. Il exige plus de capital que le permis Investisseur ou le seuil immobilier, mais il permet, à l'issue de la première année, de demander une résidence permanente de vingt ans et laisse au titulaire le choix de l'investissement.",
       ] },
       { heading: "Diligence raisonnable", body: [
         "Les demandes passeront par l'EDB avec un contrôle interagences impliquant la Financial Crimes Commission, la Financial Intelligence Unit, la Financial Services Commission, la Banque de Maurice et le Passport and Immigration Office. L'origine des fonds et l'origine du patrimoine seront examinées sérieusement. Nous préparons ce dossier au niveau qu'appliqueront ces agences, en nous appuyant sur la pratique de conformité du groupe.",

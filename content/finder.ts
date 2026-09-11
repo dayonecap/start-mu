@@ -331,9 +331,9 @@ export const finder: Record<Locale, FinderStrings> = {
   },
 
   de: {
-    title: "Welche Möglichkeit passt",
+    title: "Welche Aufenthaltsmöglichkeit passt",
     lead: "Vier Fragen. Keine genauen Zahlen und keine E-Mail-Adresse erforderlich. Sie erhalten den besten Ausgangspunkt, die Gründe und die Seite, die als Nächstes zu lesen ist.",
-    metaTitle: "Welcher Aufenthaltsweg auf Mauritius zu Ihnen passt",
+    metaTitle: "Welche Aufenthaltsmöglichkeit auf Mauritius zu Ihnen passt",
     meta: "Vier Fragen, eine Empfehlung. Investor, Angestellter, Selbstständiger, Ruheständler, Immobilie, Golden Visa oder Premium Visa, mit den Gründen.",
     progress: (n, total) => `Frage ${n} von ${total}`,
     startAgain: "Neu beginnen",
@@ -341,11 +341,11 @@ export const finder: Record<Locale, FinderStrings> = {
     change: "Ändern",
     answersLabel: "Ihre Antworten",
     theRoute: "Ihr bester Ausgangspunkt",
-    readAbout: "Mehr zu dieser Möglichkeit lesen",
+    readAbout: "Mehr zu dieser Aufenthaltsmöglichkeit lesen",
     arrange: "Beratungsgespräch vereinbaren",
     alongside: "Ergänzend lesenswert",
     disclaimer:
-      "Ein Ausgangspunkt, keine Beratung. Wir gleichen das Ergebnis im ersten Gespräch mit Ihrer persönlichen Situation ab, wo die Entscheidung tatsächlich fällt, und gelegentlich passt eine andere Möglichkeit besser.",
+      "Ein Ausgangspunkt, keine Beratung. Wir gleichen das Ergebnis im ersten Gespräch mit Ihrer persönlichen Situation ab, wo die Entscheidung tatsächlich fällt, und gelegentlich passt eine andere Aufenthaltsmöglichkeit besser.",
     q: {
       purpose: {
         text: "Was werden Sie auf Mauritius hauptsächlich tun?",
@@ -381,7 +381,7 @@ export const finder: Record<Locale, FinderStrings> = {
       premium: { title: "Premium Visa", note: "Ein Jahr auf Mauritius, verlängerbar, bevor Sie sich auf eine Genehmigung festlegen." },
       property: { title: "Aufenthalt durch Immobilienerwerb", note: "Wenn Sie ab 375.000 USD kaufen, trägt der Erwerb den Aufenthalt, solange Sie die Immobilie halten." },
       retired: { title: "Genehmigung für Ruheständler", note: "Zehn Jahre auf Überweisungen von 24.000 USD im Jahr, ohne Immobilienpflicht." },
-      investorAfterPlan: { title: "Investor Permit", note: "Die Möglichkeit, auf die zu wechseln ist, sobald der Geschäftsplan steht." },
+      investorAfterPlan: { title: "Investor Permit", note: "Die Aufenthaltsmöglichkeit, auf die Sie wechseln, sobald der Geschäftsplan steht." },
       selfEmployed: { title: "Self-Employed Permit", note: "Zehn Jahre, Dienstleistungssektor, Einkommensbedingungen ab dem dritten Jahr." },
       investorGrowth: { title: "Investor Permit", note: "Zehn Jahre, eine mauritische Gesellschaft, Umsatzbedingungen ab dem dritten Jahr." },
       investorIfDirect: { title: "Investor Permit", note: "Wenn Sie eine mauritische Gesellschaft tatsächlich leiten würden." },
@@ -439,7 +439,7 @@ export const finder: Record<Locale, FinderStrings> = {
       golden: {
         title: "Golden Visa, sobald es läuft",
         why: [
-          "Eine Million USD, innerhalb von zwölf Monaten investiert, berechtigt Sie, eine zwanzigjährige Permanent Residence Permit zu beantragen, ohne die Pflicht, ein Unternehmen zu führen. Die Erteilung erfolgt nicht automatisch.",
+          "Eine Million USD, innerhalb von zwölf Monaten investiert, berechtigt Sie, ein zwanzigjähriges Permanent Residence Permit zu beantragen, ohne die Pflicht, ein Unternehmen zu führen. Die Erteilung erfolgt nicht automatisch.",
           "Die Richtlinien des EDB stehen noch aus; bis dahin sind das Investor Permit oder der Aufenthalt über eine Immobilie die praktikablen Alternativen.",
         ],
       },
@@ -447,15 +447,15 @@ export const finder: Record<Locale, FinderStrings> = {
         titleOver50: "Genehmigung für Ruheständler",
         titleUnder50: "Aufenthalt durch Immobilienerwerb, oder das Investor Permit",
         why: [
-          "Das Golden Visa beginnt bei 1 Million USD. Darunter kommen als passive Möglichkeiten der Aufenthalt über einen Immobilienerwerb ab 375.000 USD oder, über 50, die Genehmigung für Ruheständler.",
-          "Das Investor Permit verlangt 100.000 USD, setzt aber voraus, dass Sie das Unternehmen führen; es ist keine passive Möglichkeit.",
+          "Das Golden Visa beginnt bei 1 Million USD. Darunter kommen als passive Aufenthaltsmöglichkeiten der Aufenthalt über einen Immobilienerwerb ab 375.000 USD oder, über 50, die Genehmigung für Ruheständler.",
+          "Das Investor Permit verlangt 100.000 USD, setzt aber voraus, dass Sie das Unternehmen führen; es ist keine passive Aufenthaltsmöglichkeit.",
         ],
       },
       innovator: {
-        title: "Die Innovator-Variante, wenn das Projekt qualifiziert",
+        title: "Occupation Permit für Innovatoren, wenn das Projekt qualifiziert",
         why: [
           "Das Investor Permit verlangt 100.000 USD und das Self-Employed Permit 50.000 USD.",
-          "Die Variante für innovative Start-ups innerhalb der Kategorie Investor kennt keine Mindestinvestition, für ein Projekt, das dem EDB vorgelegt oder bei einem akkreditierten Inkubator registriert ist.",
+          "Die Aufenthaltsmöglichkeit für innovative Start-ups innerhalb der Kategorie Investor kennt keine Mindestinvestition, für ein Projekt, das dem EDB vorgelegt oder bei einem akkreditierten Inkubator registriert ist.",
         ],
       },
       selfEmployedOrInvestor: {
@@ -469,7 +469,7 @@ export const finder: Record<Locale, FinderStrings> = {
         title: "Occupation Permit der Kategorie Investor",
         why: [
           "Sie werden eine mauritische Gesellschaft besitzen und führen, wofür diese Genehmigung gedacht ist.",
-          "100.000 USD auf das Konto der Gesellschaft, zehn Jahre Gültigkeit, und Ihre Familie als Angehörige.",
+          "100.000 USD auf das Konto der Gesellschaft, zehn Jahre Gültigkeit, und Ihre Familie als Familienangehörige.",
         ],
       },
     },

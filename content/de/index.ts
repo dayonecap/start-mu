@@ -19,10 +19,10 @@ const navLabels: Record<string, string> = {
   "Golden Visa": "Golden Visa",
   "Premium Visa": "Premium Visa",
   Overview: "Überblick",
-  "Which route fits": "Welche Möglichkeit passt",
-  "Compare all routes": "Alle Möglichkeiten vergleichen",
+  "Which route fits": "Welche Aufenthaltsmöglichkeit passt",
+  "Compare all routes": "Alle Aufenthaltsmöglichkeiten vergleichen",
   "Dependents and family": "Familienangehörige",
-  "Permanent residence": "Dauerhafter Aufenthalt",
+  "Permanent residence": "Daueraufenthalt",
   "Moving from": "Umzug aus",
   "South Africa": "Südafrika",
   "United Kingdom": "Vereinigtes Königreich",
@@ -47,7 +47,7 @@ const navLabels: Record<string, string> = {
   "Integrated Resort Scheme": "Integrated Resort Scheme",
   "Real Estate Scheme": "Real Estate Scheme",
   "Smart City Scheme": "Smart City Scheme",
-  "Other routes": "Weitere Möglichkeiten",
+  "Other routes": "Weitere Erwerbsmöglichkeiten",
   "Invest Hotel Scheme": "Invest Hotel Scheme",
   "Ground plus two apartments": "R+2-Wohnungen",
   "How acquisition works": "So läuft der Erwerb",
@@ -110,9 +110,9 @@ const residency: Record<string, Partial<ServiceEntry>> = {
         ],
       },
       {
-        heading: "Die Variante für innovative Start-ups",
+        heading: "Die Aufenthaltsmöglichkeit für innovative Start-ups",
         body: [
-          "Innerhalb der Kategorie Investor gibt es eine eigene Variante für innovative Start-ups, deren Projekt beim EDB eingereicht oder bei einem vom Mauritius Research and Innovation Council akkreditierten Inkubator registriert ist. Eine Mindestinvestition gibt es nicht. Stattdessen legt der Inhaber jährlich einen Fortschrittsbericht vor und am Ende des fünften Jahres einen Entwicklungsbericht, der zeigt, dass das Projekt ein marktfähiges Minimalprodukt erreicht hat. Näheres auf der Seite zum Innovator Permit.",
+          "Innerhalb der Kategorie Investor gibt es eine eigene Aufenthaltsmöglichkeit für innovative Start-ups, deren Projekt beim EDB eingereicht oder bei einem vom Mauritius Research and Innovation Council akkreditierten Inkubator registriert ist. Eine Mindestinvestition gibt es nicht. Stattdessen legt der Inhaber jährlich einen Fortschrittsbericht vor und am Ende des fünften Jahres einen Entwicklungsbericht, der zeigt, dass das Projekt ein marktfähiges Minimalprodukt erreicht hat. Näheres auf der Seite zum Innovator Permit.",
         ],
       },
     ],
@@ -135,7 +135,7 @@ const faqs: Record<string, Faq[]> = {
     { q: "Kann ich die Genehmigung mit einem Geschäftspartner halten?", a: "Ja. Ist der Investor eine Gesellschaft mit mehreren Eigentümern, beantragt jeder Gesellschafter, der zugleich Direktor ist, seine eigene Genehmigung, und jeder muss die Kriterien selbst erfüllen." },
     { q: "Was passiert, wenn der Umsatz im dritten Jahr zu niedrig ist?", a: "Das EDB gleicht den erklärten Umsatz mit der Schwelle von 5 Millionen MUR ab und kann einen Inhaber, der sie nicht erreicht, streichen, womit die Genehmigung erlischt. In der Praxis wird die Frage aufgeworfen, bevor sie durchgesetzt wird, und wer die Lücke früh erkennt, hat meist Zeit gegenzusteuern. Das ist der Hauptgrund, warum wir die Erklärungen vom ersten Jahr an verfolgen." },
     { q: "Darf mein Ehepartner auf Mauritius arbeiten?", a: "Nicht mit einer Genehmigung als Familienangehöriger. Ein Ehepartner, der arbeiten möchte, beantragt ein eigenes Occupation Permit, häufig als Angestellter derselben Gesellschaft, oder eine Arbeitserlaubnis." },
-    { q: "Ist das Investor Permit der richtige Weg, wenn ich nur passiv investieren will?", a: "In der Regel nicht. Die Genehmigung setzt einen Eigentümer voraus, der das Unternehmen leitet und dessen Gesellschaft auf Mauritius Umsatz erzielt. Ein passiver Investor ist meist mit dem Aufenthalt über eine Immobilie oder, sobald in Kraft, mit dem Golden Visa besser bedient." },
+    { q: "Ist das Investor Permit die richtige Wahl, wenn ich nur passiv investieren will?", a: "In der Regel nicht. Die Genehmigung setzt einen Eigentümer voraus, der das Unternehmen leitet und dessen Gesellschaft auf Mauritius Umsatz erzielt. Ein passiver Investor ist meist mit dem Aufenthalt über eine Immobilie oder, sobald in Kraft, mit dem Golden Visa besser bedient." },
   ],
 };
 

@@ -312,7 +312,7 @@ export const residency: ServiceEntry[] = [
         heading: "Who it suits",
         body: [
           "A family with capital to deploy, who want to relocate to Mauritius quickly and hold a long permit that is not tied to owning a home or running a business day to day. The Golden Visa does not, on its own, confer the right to work in Mauritius; the expectation is investment into qualifying sectors rather than employment.",
-          "It sits between the existing routes. It requires more capital than the Investor permit or the property threshold, but it offers a twenty-year permanent residence at the end of the first year, and it leaves the choice of where to invest to the holder.",
+          "It sits between the existing routes. It requires more capital than the Investor permit or the property threshold, but at the end of the first year it makes the holder eligible to apply for twenty-year permanent residence, and it leaves the choice of where to invest to the holder.",
         ],
       },
       {
