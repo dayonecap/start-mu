@@ -13,7 +13,7 @@ export const establishmentDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Eingetragener Sitz", value: "Auf Mauritius erforderlich. Wir stellen ihn" },
       { label: "Company Secretary", value: "Erforderlich bei mehr als einem Direktor und in der Praxis für jede Gesellschaft mit Genehmigung oder Bankkonto. Wir stellen ihn" },
       { label: "Dauer", value: "Gründung in der Regel innerhalb weniger Arbeitstage nach vollständiger Akte. Das Bankkonto dauert länger" },
-      { label: "Steuern", value: "15 % auf das steuerpflichtige Einkommen. Keine Steuer auf Kapitalgewinne. An Gesellschafter gezahlte Dividenden sind bei diesen einkommensteuerfrei, zählen bei ansässigen Privatpersonen aber auf die Schwelle der Fair Share Contribution" },
+      { label: "Steuern", value: "15 % auf das steuerpflichtige Einkommen. Keine Steuer auf Kapitalgewinne. An Gesellschafter gezahlte Dividenden sind bei diesen einkommensteuerfrei" },
       { label: "Jährliche Pflichten", value: "Jahresmeldung, Jahresabschluss, Steuererklärung und, für Genehmigungsinhaber, Umsatzerklärungen an das EDB" },
     ],
     sections: [
@@ -340,7 +340,7 @@ export const propertyDe: Record<string, Partial<ServiceEntry>> = {
 export const faqsBusinessDe: Record<string, Faq[]> = {
   "domestic-company": [
     { q: "Brauche ich einen mauritischen Direktor?", a: "Mindestens ein Direktor muss seinen gewöhnlichen Aufenthalt auf Mauritius haben. Ist der Eigentümer noch nicht ansässig oder möchte er nicht selbst handeln, stellen wir einen ansässigen Direktor auf Grundlage einer schriftlichen Vereinbarung, die festlegt, was der Direktor tut und nicht tut." },
-    { q: "Wie wird die Gesellschaft besteuert?", a: "Mit 15 % auf das steuerpflichtige Einkommen, mit Teilbefreiungen für bestimmte Einkunftsarten. Es gibt keine Steuer auf Kapitalgewinne, und Dividenden sind beim Gesellschafter einkommensteuerfrei, zählen bei ansässigen Privatpersonen aber auf die Schwelle von 12 Millionen MUR für die Fair Share Contribution." },
+    { q: "Wie wird die Gesellschaft besteuert?", a: "Mit 15 % auf das steuerpflichtige Einkommen, mit Teilbefreiungen für bestimmte Einkunftsarten. Es gibt keine Steuer auf Kapitalgewinne, und Dividenden sind beim Gesellschafter einkommensteuerfrei." },
     { q: "Darf die Gesellschaft ein Zuhause unter den Immobilienprogrammen besitzen?", a: "Ja, mit Genehmigung des EDB, und ihre Anteile können in einem Trust gehalten werden. Diese Struktur richten wir regelmäßig für Familien ein, die Immobilien lieber nicht persönlich halten." },
     { q: "Wie lange dauert die Gründung?", a: "Wenige Arbeitstage ab vollständiger Akte. Das Bankkonto dauert länger und bestimmt den Zeitplan." },
   ],

@@ -7,6 +7,18 @@ import type { Insight } from "@/lib/cms";
  */
 export const insights: Insight[] = [
   {
+    slug: "guide-to-moving-to-mauritius-edition-2026-09",
+    title: "The start.mu Guide to Moving to Mauritius: edition 2026.09",
+    summary: "A versioned reference to every rule that matters for a move, verified on 12 September 2026 against the EDB guidelines and the Finance Act 2026, with each figure dated, sourced and marked by how well it is confirmed.",
+    publishedAt: "2026-09-12",
+    category: "Living in Mauritius",
+    body: `
+<p>Most published guides to moving to Mauritius are now wrong. The 2025-26 Budget changed the retired permit, the self-employed threshold and the permanent-residence test; the 2026-27 Budget and the Finance Act 2026 then doubled the investor threshold, merged the professional categories, abolished the Family Occupation Permit, repealed the doubling of registration duty before it took effect, and replaced the Fair Share Contribution with a 35% band. We audited twenty-five guides in September 2026. Nearly all of them, including several dated 2026, still carry at least one of the old figures.</p>
+<p>So we have written the reference we wanted to hand to clients: <a href="/guide">The start.mu Guide to Moving to Mauritius</a>. It is versioned, with the edition and the verification date at the top and a change log that sets the old rule beside the current one. Every figure carries a marker for how well it is confirmed and a number that resolves to a source list. It covers the eight residence routes by situation, the application and renewal obligations that catch people out, property and tax with worked examples, what it costs to live here in rupees, and the sections on schools, healthcare, banking, cars, shipping and pets that a family actually needs.</p>
+<p>It is rewritten after each National Budget. The next scheduled review follows the 2027-28 Budget in June 2027. If you find a figure that has moved before then, write to us with the section number and a source, and the correction is logged in the guide itself.</p>
+`,
+  },
+  {
     slug: "cost-of-living-mauritius-family",
     title: "What it costs to live in Mauritius: a realistic budget for a relocating family",
     summary: "Mauritius is not the cheap island the brochures imply. Where the money goes for a family arriving in 2026, with the ranges that matter and the choices that move them.",
@@ -20,7 +32,7 @@ export const insights: Insight[] = [
 <p><strong>Healthcare.</strong> Public hospitals are free to residents but most families use the private clinics, paying at the point of service. A private GP consultation is in the range of MUR 1,000 to 3,000. Insurance is where the real cost sits: a basic local plan from around MUR 2,000 to 4,000 a month per person, and an international plan with evacuation cover from around USD 200 to 500 a month. The evacuation element is the part not to economise on.</p>
 <p><strong>Groceries and utilities.</strong> Local produce, fish and rice are inexpensive; imported goods carry duty and cost noticeably more than at home. A single person cooking at home spends around MUR 10,000 to 15,000 a month on food; a family two to three times that, more if the trolley is full of imported brands. Electricity, water and internet for a household come to a few thousand rupees a month, rising sharply in summer if the air conditioning runs all night.</p>
 <p><strong>Transport.</strong> A car is a necessity outside the towns, and cars are expensive because of import duty. Budget for that purchase, and for fuel, at the outset. Public transport exists but is not how a relocating family will get to school.</p>
-<p><strong>What you get for it.</strong> A personal tax regime that tops out at 20%, with a further 15% Fair Share Contribution above MUR 12 million in force to 30 June 2028, a remittance basis for foreign income, no capital gains tax, no wealth tax, no inheritance tax. Safety. Domestic help at wages that are low by European standards. Winter that does not happen. Most families who do the sums honestly find that the total is comparable to a mid-sized European city, and that what they are paying for is the life rather than the discount.</p>
+<p><strong>What you get for it.</strong> A personal tax regime that tops out at 20% on chargeable income up to MUR 12 million and 35% above it from 1 July 2026, a remittance basis for foreign income, no capital gains tax, no wealth tax, no inheritance tax. Safety. Domestic help at wages that are low by European standards. Winter that does not happen. Most families who do the sums honestly find that the total is comparable to a mid-sized European city, and that what they are paying for is the life rather than the discount.</p>
 `,
     faqs: [
       { q: "Is it cheaper to buy than to rent?", a: "Over a long horizon, often, and a purchase at USD 375,000 or above in an approved scheme carries a residence permit. But we advise every family to rent for the first year. Where you think you want to live and where you actually want to live are frequently different places." },

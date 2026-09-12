@@ -23,6 +23,7 @@ const navLabels: Record<string, string> = {
   "Compare all routes": "Comparer toutes les voies",
   "Dependents and family": "Personnes à charge et famille",
   "Permanent residence": "Résidence permanente",
+  "The guide to moving to Mauritius": "Le guide pour s'installer à Maurice",
   "Moving from": "Venir de",
   "South Africa": "Afrique du Sud",
   "United Kingdom": "Royaume-Uni",

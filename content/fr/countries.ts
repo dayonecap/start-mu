@@ -107,7 +107,7 @@ export const countriesFr: Record<string, Partial<CountryPage>> = {
       },
       {
         q: "Maurice est-elle un paradis fiscal ?",
-        a: "Non. C'est une juridiction à fiscalité modérée, conforme aux conventions, avec des exigences de substance, un taux d'impôt sur les sociétés de 15 %, des taux personnels plafonnés à 20 % auxquels s'ajoute une Fair Share Contribution de 15 % au-delà de 12 millions MUR jusqu'au 30 juin 2028, et une base de remise pour les revenus étrangers. Elle ne figure sur aucune liste noire actuelle, et c'est précisément pourquoi elle fonctionne pour des résidents britanniques.",
+        a: "Non. C'est une juridiction à fiscalité modérée, conforme aux conventions, avec des exigences de substance, un taux d'impôt sur les sociétés de 15 %, des taux personnels plafonnés à 20 %, avec une tranche à 35 % au-delà de 12 millions MUR depuis le 1er juillet 2026, et une base de remise pour les revenus étrangers. Elle ne figure sur aucune liste noire actuelle, et c'est précisément pourquoi elle fonctionne pour des résidents britanniques.",
       },
     ],
   },

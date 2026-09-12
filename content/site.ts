@@ -59,6 +59,7 @@ export const navigation: NavGroup[] = [
           { label: "Compare all routes", href: "/residency" },
           { label: "Dependents and family", href: "/residency/dependents" },
           { label: "Permanent residence", href: "/residency/permanent-residence" },
+          { label: "The guide to moving to Mauritius", href: "/guide" },
         ],
       },
       {
@@ -148,6 +149,7 @@ export const navigation: NavGroup[] = [
         links: [
           { label: "About us", href: "/about" },
           { label: "Mauritius in practice", href: "/mauritius" },
+          { label: "The guide to moving to Mauritius", href: "/guide" },
           { label: "Insights", href: "/insights" },
         ],
       },
@@ -201,6 +203,7 @@ export const footerColumns: { heading: string; links: NavLink[] }[] = [
       { label: "About", href: "/about" },
       { label: "Concierge", href: "/concierge" },
       { label: "Mauritius in practice", href: "/mauritius" },
+      { label: "The guide to moving to Mauritius", href: "/guide" },
       { label: "Insights", href: "/insights" },
       { label: "Contact", href: "/contact" },
     ],

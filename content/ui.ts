@@ -55,7 +55,7 @@ const en = {
     ],
     mauritiusH: "Mauritius in practice",
     mauritius: [
-      "A stable democracy with an independent judiciary, English and French in daily use, personal income tax that tops out at 20%, with a further 15% Fair Share Contribution above MUR 12 million in force to 30 June 2028, a remittance basis for foreign income, no capital gains tax, and direct flights to Johannesburg, Paris, London, Dubai and Singapore. Good international schools, reliable private healthcare, and a coastline you can live on.",
+      "A stable democracy with an independent judiciary, English and French in daily use, personal income tax in bands of 0%, 10% and 20%, with a 35% band above MUR 12 million from 1 July 2026, a remittance basis for foreign income, no capital gains tax, and direct flights to Johannesburg, Paris, London, Dubai and Singapore. Good international schools, reliable private healthcare, and a coastline you can live on.",
       "It is also a small island where approvals run to their own timetable, banks ask hard questions, and permit rules change with each Budget. The practical side is where most relocations go slowly. It is the side we handle.",
     ],
     mauritiusLink: "More on living and doing business here",
@@ -153,7 +153,7 @@ const en = {
       "None of this is difficult when it is handled from the start. Most of the difficulty we see arises from files that were prepared casually, structures that were not thought through, or thresholds that were not tracked. The practical side is where relocations go slowly, and it is the side we handle.",
     ],
     facts: [
-      { label: "Personal income tax", value: "Progressive rates up to 20% following the 2023 reform. A Fair Share Contribution of 15% applies to leviable income above MUR 12 million, for the income years from 1 July 2025 to 30 June 2028. Leviable income adds dividends from resident companies to chargeable income, so Mauritian dividends that are otherwise exempt count towards the threshold. Foreign-source income is taxed on a remittance basis for residents" },
+      { label: "Personal income tax", value: "Progressive rates of 0%, 10% and 20% following the 2023 reform. From 1 July 2026 a 35% rate applies to chargeable income above MUR 12 million; under the Finance Act 2026 it replaces the Fair Share Contribution for individuals. Foreign-source income is taxed on a remittance basis for residents" },
       { label: "Corporate tax", value: "15%, with partial exemptions for certain classes of income. No capital gains tax. No inheritance tax" },
       { label: "Tax residence", value: "183 days in a tax year, or 270 days over three consecutive years" },
       { label: "Double taxation agreements", value: "A network of more than 40 agreements in force, including with South Africa, France, the United Kingdom, Germany, India and China" },
@@ -254,6 +254,25 @@ const en = {
     ],
     alsoH: "Also in this section",
   },
+  guidePage: {
+    title: "The start.mu Guide to Moving to Mauritius",
+    metaTitle: "The Guide to Moving to Mauritius, edition 2026.09 | start.mu",
+    meta: "The rules for moving to Mauritius as they stand after the Finance Act 2026: every permit, the property and tax rules, what it costs to live here, with each figure dated, sourced and marked by how well it is confirmed.",
+    eyebrow: "Versioned reference",
+    lead: "The rules as they stand after the 2026-27 Budget and the Finance Act 2026, with every figure dated, sourced and marked by how well it is confirmed. Written for the person who will sign the transfer, not the person browsing brochures.",
+    contents: "Contents",
+    stamp: {
+      verified: "Rules verified",
+      verifiedNote: "Next scheduled review after Budget 2027-28, June 2027",
+      baseline: "Legal baseline",
+      baselineNote: "Occupation Permit changes in force from 20 August 2026",
+      edition: "Edition",
+      editionNote: "Version history and corrections are in section 19",
+      currency: "Currency basis",
+      currencyNote: "Rupees first; conversions at the rate stated in section 9",
+    },
+    cta: { heading: "The guide sizes the decision. The consultation settles it.", body: "An hour, by appointment, and you leave knowing which route fits, what it will cost and how long it will take. Bring the guide; we will work from the same numbers." },
+  },
   untranslated: "",
 };
 
@@ -313,7 +332,7 @@ const fr: Ui = {
     ],
     mauritiusH: "Maurice, en pratique",
     mauritius: [
-      "Une démocratie stable dotée d'une justice indépendante, l'anglais et le français au quotidien, un impôt sur le revenu plafonné à 20 %, auquel s'ajoute une Fair Share Contribution de 15 % au-delà de 12 millions MUR, en vigueur jusqu'au 30 juin 2028, l'imposition des revenus étrangers sur la base du rapatriement, pas d'impôt sur les plus-values, et des vols directs vers Johannesburg, Paris, Londres, Dubaï et Singapour. De bonnes écoles internationales, une offre privée de soins de santé fiable et un littoral où l'on peut vivre.",
+      "Une démocratie stable dotée d'une justice indépendante, l'anglais et le français au quotidien, un impôt sur le revenu par tranches de 0 %, 10 % et 20 %, avec une tranche à 35 % au-delà de 12 millions MUR depuis le 1er juillet 2026, l'imposition des revenus étrangers sur la base du rapatriement, pas d'impôt sur les plus-values, et des vols directs vers Johannesburg, Paris, Londres, Dubaï et Singapour. De bonnes écoles internationales, une offre privée de soins de santé fiable et un littoral où l'on peut vivre.",
       "C'est aussi une petite île où les procédures suivent leur propre calendrier, où les banques posent des questions difficiles et où les règles de permis changent à chaque Budget. C'est sur le plan pratique que la plupart des installations prennent du retard. C'est le côté que nous prenons en charge.",
     ],
     mauritiusLink: "En savoir plus sur la vie et les affaires à Maurice",
@@ -411,7 +430,7 @@ const fr: Ui = {
       "Rien de tout cela n'est difficile lorsque c'est pris en main dès le départ. La plupart des difficultés que nous voyons viennent de dossiers préparés à la légère, de structures mal pensées ou de seuils qui n'ont pas été suivis. C'est sur l'aspect pratique que les installations s'enlisent, et c'est cet aspect que nous prenons en charge.",
     ],
     facts: [
-      { label: "Impôt sur le revenu des personnes physiques", value: "Taux progressifs jusqu'à 20 % depuis la réforme de 2023. Une Fair Share Contribution de 15 % s'applique au leviable income supérieur à 12 millions MUR, pour les années fiscales du 1er juillet 2025 au 30 juin 2028. Le leviable income ajoute au revenu imposable les dividendes de sociétés résidentes : les dividendes mauriciens autrement exonérés comptent donc dans le seuil. Les revenus de source étrangère des résidents sont imposés sur une base de remise" },
+      { label: "Impôt sur le revenu des personnes physiques", value: "Taux progressifs de 0 %, 10 % et 20 % depuis la réforme de 2023. Depuis le 1er juillet 2026, un taux de 35 % s'applique au revenu imposable supérieur à 12 millions MUR ; en vertu du Finance Act 2026, il remplace la Fair Share Contribution des personnes physiques. Les revenus de source étrangère des résidents sont imposés sur une base de remise" },
       { label: "Impôt sur les sociétés", value: "15 %, avec des exonérations partielles pour certaines catégories de revenus. Pas d'impôt sur les plus-values. Pas de droits de succession" },
       { label: "Résidence fiscale", value: "183 jours au cours d'une année fiscale, ou 270 jours sur trois années consécutives" },
       { label: "Conventions fiscales", value: "Un réseau de plus de 40 conventions en vigueur, dont avec l'Afrique du Sud, la France, le Royaume-Uni, l'Allemagne, l'Inde et la Chine" },
@@ -512,6 +531,25 @@ const fr: Ui = {
     ],
     alsoH: "Également dans cette section",
   },
+  guidePage: {
+    title: "Le guide start.mu pour s'installer à Maurice",
+    metaTitle: "Le guide pour s'installer à Maurice, édition 2026.09 | start.mu",
+    meta: "Les règles pour s'installer à Maurice après le Finance Act 2026 : chaque permis, l'immobilier, la fiscalité et le coût de la vie, chaque chiffre daté, sourcé et qualifié selon son degré de confirmation.",
+    eyebrow: "Référence versionnée",
+    lead: "Les règles telles qu'elles s'appliquent après le Budget 2026-27 et le Finance Act 2026, chaque chiffre daté, sourcé et qualifié selon son degré de confirmation. Écrit pour la personne qui signera le virement, non pour celle qui feuillette les brochures.",
+    contents: "Sommaire",
+    stamp: {
+      verified: "Règles vérifiées",
+      verifiedNote: "Prochaine révision prévue après le Budget 2027-28, juin 2027",
+      baseline: "Base légale",
+      baselineNote: "Modifications des Occupation Permits en vigueur depuis le 20 août 2026",
+      edition: "Édition",
+      editionNote: "Historique des versions et corrections à la section 19",
+      currency: "Devise de référence",
+      currencyNote: "Roupies d'abord ; conversions au taux indiqué à la section 9",
+    },
+    cta: { heading: "Le guide dimensionne la décision. La consultation la tranche.", body: "Une heure, sur rendez-vous, et vous repartez en sachant quelle voie convient, ce qu'elle coûtera et combien de temps elle prendra. Apportez le guide ; nous travaillerons sur les mêmes chiffres." },
+  },
   untranslated: "Cette page est disponible en anglais pour le moment. La version française suit.",
 };
 
@@ -570,7 +608,7 @@ const de: Ui = {
     mauritiusH: "Mauritius in der Praxis",
     mauritius: [
       "Mauritius ist eine stabile Demokratie mit unabhängiger Justiz. Englisch und Französisch gehören zum Alltag, die private Gesundheitsversorgung ist verlässlich und es gibt gute internationale Schulen. Direkte Flugverbindungen bestehen unter anderem nach Johannesburg, Paris, London, Dubai und Singapur.",
-      "Auch steuerlich bietet Mauritius interessante Rahmenbedingungen: Die Einkommensteuer beträgt bis zu 20 Prozent, ausländische Einkünfte werden grundsätzlich erst bei Überweisung nach Mauritius besteuert, und es gibt keine Steuer auf Kapitalgewinne. Auf Einkommen oberhalb von 12 Millionen MUR fällt bis zum 30. Juni 2028 zusätzlich eine Fair Share Contribution von 15 Prozent an.",
+      "Auch steuerlich bietet Mauritius interessante Rahmenbedingungen: Die Einkommensteuer beträgt in Stufen 0, 10 und 20 Prozent, seit dem 1. Juli 2026 mit einer Stufe von 35 Prozent auf Einkommen oberhalb von 12 Millionen MUR; ausländische Einkünfte werden grundsätzlich erst bei Überweisung nach Mauritius besteuert, und es gibt keine Steuer auf Kapitalgewinne.",
       "Mauritius ist zugleich eine kleine Insel, auf der behördliche Verfahren ihre Zeit brauchen, Banken genau prüfen und sich die Genehmigungsvoraussetzungen mit jedem Budget ändern können. Gerade an der praktischen Umsetzung verzögern sich viele Umzüge. Genau hier übernehmen wir.",
     ],
     mauritiusLink: "Mehr über Leben und Arbeiten auf Mauritius",
@@ -668,7 +706,7 @@ const de: Ui = {
       "Nichts davon ist schwierig, wenn es von Anfang an in die Hand genommen wird. Die meisten Schwierigkeiten, die wir sehen, stammen aus flüchtig vorbereiteten Akten, aus nicht zu Ende gedachten Strukturen oder aus Schwellen, die niemand nachverfolgt hat. An der praktischen Seite geraten Umzüge ins Stocken, und diese Seite übernehmen wir.",
     ],
     facts: [
-      { label: "Einkommensteuer", value: "Progressive Sätze bis 20 % seit der Reform von 2023. Auf leviable income über 12 Millionen MUR kommt eine Fair Share Contribution von 15 %, für die Steuerjahre vom 1. Juli 2025 bis 30. Juni 2028. Leviable income ergänzt das zu versteuernde Einkommen um Dividenden ansässiger Gesellschaften: mauritische Dividenden, die sonst steuerfrei sind, zählen also auf die Schwelle. Ausländische Einkünfte von Ansässigen werden nach der Remittance-Basis besteuert" },
+      { label: "Einkommensteuer", value: "Progressive Sätze von 0 %, 10 % und 20 % seit der Reform von 2023. Seit dem 1. Juli 2026 gilt ein Satz von 35 % auf zu versteuerndes Einkommen über 12 Millionen MUR; nach dem Finance Act 2026 ersetzt er die Fair Share Contribution für Privatpersonen. Ausländische Einkünfte von Ansässigen werden nach der Remittance-Basis besteuert" },
       { label: "Körperschaftsteuer", value: "15 %, mit Teilbefreiungen für bestimmte Einkunftsarten. Keine Steuer auf Kapitalgewinne. Keine Erbschaftsteuer" },
       { label: "Steuerliche Ansässigkeit", value: "183 Tage in einem Steuerjahr oder 270 Tage über drei aufeinanderfolgende Jahre" },
       { label: "Doppelbesteuerungsabkommen", value: "Ein Netz von über 40 in Kraft befindlichen Abkommen, unter anderem mit Südafrika, Frankreich, dem Vereinigten Königreich, Deutschland, Indien und China" },
@@ -768,6 +806,25 @@ const de: Ui = {
       "Die entscheidenden Fragen sind praktischer Natur. Führen Sie hier ein Unternehmen oder arbeiten Sie für eines? Sind Sie über 50? Möchten Sie ohnehin ein Haus besitzen? Wie viel Kapital sind Sie bereit einzusetzen, und wie schnell müssen Sie hier sein? Unsere Aufgabe ist es, diese Fragen zu stellen und klar zu sagen, welche Aufenthaltsmöglichkeit passt.",
     ],
     alsoH: "Ebenfalls in diesem Bereich",
+  },
+  guidePage: {
+    title: "Der start.mu-Leitfaden für den Umzug nach Mauritius",
+    metaTitle: "Der Leitfaden für den Umzug nach Mauritius, Ausgabe 2026.09 | start.mu",
+    meta: "Die Regeln für den Umzug nach Mauritius nach dem Finance Act 2026: jede Genehmigung, Immobilien, Steuern und Lebenshaltungskosten, jede Zahl datiert, belegt und nach ihrem Bestätigungsgrad gekennzeichnet.",
+    eyebrow: "Versionierte Referenz",
+    lead: "Die Regeln, wie sie nach dem Budget 2026-27 und dem Finance Act 2026 gelten, jede Zahl datiert, belegt und nach ihrem Bestätigungsgrad gekennzeichnet. Geschrieben für die Person, die die Überweisung unterschreibt, nicht für die, die Prospekte durchblättert.",
+    contents: "Inhalt",
+    stamp: {
+      verified: "Regeln geprüft",
+      verifiedNote: "Nächste planmäßige Überprüfung nach dem Budget 2027-28, Juni 2027",
+      baseline: "Rechtliche Grundlage",
+      baselineNote: "Änderungen der Occupation Permits in Kraft seit dem 20. August 2026",
+      edition: "Ausgabe",
+      editionNote: "Versionshistorie und Korrekturen in Abschnitt 19",
+      currency: "Währungsbasis",
+      currencyNote: "Rupien zuerst; Umrechnungen zum in Abschnitt 9 genannten Kurs",
+    },
+    cta: { heading: "Der Leitfaden bemisst die Entscheidung. Das Gespräch trifft sie.", body: "Eine Stunde, nach Vereinbarung, und Sie wissen, welche Aufenthaltsmöglichkeit passt, was sie kostet und wie lange sie dauert. Bringen Sie den Leitfaden mit; wir arbeiten mit denselben Zahlen." },
   },
   untranslated: "Diese Seite ist derzeit auf Englisch verfügbar. Die deutsche Fassung folgt.",
 };

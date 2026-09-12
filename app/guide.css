@@ -1,0 +1,124 @@
+/*
+ * The guide page. Scoped under .guide so the reference document's own devices (confidence
+ * markers, dated tables, worked examples, step lists) do not leak into the rest of the site,
+ * and so Tailwind's preflight does not strip the document's lists and tables.
+ */
+.guide {
+  --g-muted: #7a776f;
+  --g-green-soft: #e3ece5;
+  --g-green-line: #8fae9a;
+  --g-amber-soft: #f3e9cf;
+  --g-amber: #7a5a12;
+  --g-rose-soft: #f1dcd6;
+  --g-rose: #7a2e22;
+  --g-measure: 68ch;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-ink);
+  min-width: 0;
+}
+.guide a { color: var(--color-green); text-decoration: underline; text-decoration-color: var(--g-green-line); text-underline-offset: 3px; }
+.guide a:hover { text-decoration-color: currentColor; }
+.guide h2, .guide h3, .guide h4 { font-family: var(--font-serif); font-weight: 500; line-height: 1.15; text-wrap: balance; margin: 0; }
+.guide h2 { font-size: clamp(1.7rem, 3vw, 2.3rem); margin-top: 0.2em; }
+.guide h3 { font-size: 1.35rem; margin-top: 2.2rem; margin-bottom: 0.6rem; }
+.guide h4 { font-family: var(--font-sans); font-weight: 600; font-size: 0.95rem; margin-top: 1.6rem; margin-bottom: 0.4rem; }
+.guide p { margin: 0 0 1em; max-width: var(--g-measure); }
+.guide ul, .guide ol { max-width: var(--g-measure); padding-left: 1.3em; margin: 0 0 1.1em; list-style: disc; }
+.guide ol { list-style: decimal; }
+.guide li { margin-bottom: 0.35em; }
+.guide li > ul { margin-top: 0.35em; }
+.guide strong { font-weight: 600; }
+.guide .eyebrow { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--g-muted); }
+.guide .small { font-size: 0.85rem; color: var(--color-slate); }
+
+.guide section.s { padding: 1rem 0 2.6rem; border-bottom: 1px solid var(--color-stone); scroll-margin-top: 5rem; }
+.guide section.s:last-of-type { border-bottom: 0; }
+.guide .shead { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.6rem 1.5rem; margin-bottom: 1.2rem; }
+.guide .shead .num { font-family: var(--font-serif); color: var(--g-muted); font-size: 1.1rem; margin-right: 0.6rem; font-variant-numeric: tabular-nums; }
+.guide .verified { font-size: 0.74rem; color: var(--g-muted); letter-spacing: 0.02em; white-space: nowrap; }
+.guide .verified b { color: var(--color-green); font-weight: 600; }
+.guide .intro { font-family: var(--font-serif); font-size: 1.22rem; line-height: 1.45; color: var(--color-slate); max-width: 58ch; margin-bottom: 1.4rem; }
+
+/* confidence markers */
+.guide .mk { display: inline-block; font-size: 0.66rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1em 0.45em; border-radius: 2px; vertical-align: 0.12em; white-space: nowrap; }
+.guide .mk-v { background: var(--g-green-soft); color: var(--color-green); }
+.guide .mk-p { background: var(--g-amber-soft); color: var(--g-amber); }
+.guide .mk-u { background: var(--g-rose-soft); color: var(--g-rose); }
+.guide .legend { display: flex; flex-wrap: wrap; gap: 1rem 1.6rem; font-size: 0.85rem; color: var(--color-slate); background: var(--color-bone); border: 1px solid var(--color-stone-light); padding: 0.9rem 1.1rem; margin: 0 0 1.6rem; }
+.guide .legend div { display: flex; gap: 0.5rem; align-items: baseline; }
+
+/* tables */
+.guide .tw { overflow-x: auto; margin: 1rem 0 1.6rem; border-top: 2px solid var(--color-ink); }
+.guide table { border-collapse: collapse; width: 100%; font-size: 0.88rem; font-variant-numeric: tabular-nums; min-width: 560px; }
+.guide th { text-align: left; font-weight: 600; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-slate); padding: 0.6rem 0.7rem 0.5rem; border-bottom: 1px solid var(--color-stone); vertical-align: bottom; background: var(--color-paper); }
+.guide td { padding: 0.6rem 0.7rem; border-bottom: 1px solid var(--color-stone-light); vertical-align: top; line-height: 1.45; }
+.guide td:first-child { font-weight: 500; }
+.guide tr:last-child td { border-bottom: 1px solid var(--color-stone); }
+.guide td.num, .guide th.num { text-align: right; white-space: nowrap; }
+.guide td.old { color: var(--g-muted); text-decoration: line-through; text-decoration-color: var(--g-rose); }
+.guide caption { caption-side: top; text-align: left; font-family: var(--font-serif); font-size: 1.05rem; padding: 0.6rem 0 0.5rem; color: var(--color-ink); }
+.guide .tnote { font-size: 0.8rem; color: var(--g-muted); margin-top: -1rem; margin-bottom: 1.6rem; max-width: var(--g-measure); }
+
+/* figure tiles */
+.guide .figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px; background: var(--color-stone); border: 1px solid var(--color-stone); margin: 1.4rem 0 1.8rem; }
+.guide .figs div { background: var(--color-bone); padding: 0.9rem 1rem; }
+.guide .figs .k { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--g-muted); font-weight: 600; }
+.guide .figs .v { font-family: var(--font-serif); font-size: 1.55rem; line-height: 1.1; margin-top: 0.25rem; font-variant-numeric: tabular-nums; }
+.guide .figs .s { font-size: 0.78rem; color: var(--color-slate); margin-top: 0.3rem; }
+
+/* callouts */
+.guide .note { border-left: 3px solid var(--color-green); background: var(--g-green-soft); padding: 0.9rem 1.1rem; margin: 1.3rem 0; max-width: var(--g-measure); }
+.guide .note.warn { border-color: var(--g-amber); background: var(--g-amber-soft); }
+.guide .note.stop { border-color: var(--g-rose); background: var(--g-rose-soft); }
+.guide .note p:last-child { margin-bottom: 0; }
+.guide .note .t { font-weight: 600; font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; display: block; margin-bottom: 0.3rem; }
+
+/* situation cards */
+.guide .personas { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin: 1.4rem 0 1.6rem; }
+.guide .persona { border: 1px solid var(--color-stone); background: var(--color-bone); padding: 1.1rem 1.2rem 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.guide .persona h3 { margin: 0; font-size: 1.3rem; }
+.guide .persona .route { font-size: 0.8rem; color: var(--color-green); font-weight: 600; letter-spacing: 0.02em; }
+.guide .persona dl { display: grid; grid-template-columns: auto 1fr; gap: 0.25rem 0.8rem; font-size: 0.86rem; margin: 0.3rem 0 0; }
+.guide .persona dt { color: var(--g-muted); }
+.guide .persona dd { margin: 0; font-variant-numeric: tabular-nums; }
+.guide .persona .path { font-size: 0.84rem; color: var(--color-slate); border-top: 1px solid var(--color-stone-light); padding-top: 0.6rem; margin-top: 0.3rem; }
+
+/* process steps */
+.guide .steps { list-style: none; padding: 0; margin: 1rem 0 1.5rem; max-width: var(--g-measure); counter-reset: st; }
+.guide .steps li { position: relative; padding: 0 0 1.1rem 2.6rem; border-left: 1px solid var(--color-stone); margin: 0 0 0 0.8rem; }
+.guide .steps li::before { counter-increment: st; content: counter(st); position: absolute; left: -0.85rem; top: -0.05rem; width: 1.65rem; height: 1.65rem; border-radius: 50%; background: var(--color-paper); border: 1px solid var(--color-green); color: var(--color-green); font-size: 0.75rem; font-weight: 600; display: flex; align-items: center; justify-content: center; font-variant-numeric: tabular-nums; }
+.guide .steps li:last-child { border-left-color: transparent; }
+.guide .steps .h { font-weight: 600; }
+.guide .steps .d { font-size: 0.8rem; color: var(--g-muted); margin-left: 0.5rem; white-space: nowrap; }
+
+/* worked examples */
+.guide .calc { background: var(--color-bone); border: 1px solid var(--color-stone); padding: 1rem 1.2rem; margin: 1rem 0 1.4rem; max-width: var(--g-measure); font-variant-numeric: tabular-nums; }
+.guide .calc .t { font-family: var(--font-serif); font-size: 1.1rem; margin-bottom: 0.5rem; }
+.guide .calc table { min-width: 0; font-size: 0.86rem; }
+.guide .calc td { padding: 0.3rem 0.5rem; border-bottom: 1px solid var(--color-stone-light); }
+.guide .calc tr.tot td { font-weight: 600; border-top: 1px solid var(--color-ink); border-bottom: 0; }
+
+/* checklist */
+.guide .check { list-style: none; padding: 0; max-width: var(--g-measure); }
+.guide .check li { padding-left: 1.7rem; position: relative; margin-bottom: 0.45rem; }
+.guide .check li::before { content: ""; position: absolute; left: 0; top: 0.35rem; width: 0.85rem; height: 0.85rem; border: 1.5px solid var(--g-green-line); border-radius: 2px; }
+
+/* sources */
+.guide ol.src { font-size: 0.84rem; padding-left: 2.2em; max-width: none; }
+.guide ol.src li { margin-bottom: 0.3em; overflow-wrap: anywhere; }
+
+/* contents rail */
+.guide-toc { font-family: var(--font-sans); }
+.guide-toc ol { list-style: none; padding: 0; margin: 0; }
+.guide-toc a { display: flex; gap: 0.55rem; padding: 0.32rem 0; font-size: 0.86rem; color: var(--color-slate); line-height: 1.3; }
+.guide-toc a:hover { color: var(--color-ink); }
+.guide-toc .n { font-variant-numeric: tabular-nums; color: #7a776f; min-width: 1.4em; }
+.guide-toc .grp { margin-top: 1rem; font-size: 0.68rem; letter-spacing: 0.09em; text-transform: uppercase; color: #7a776f; font-weight: 600; }
+@media (max-width: 1023px) {
+  .guide-toc ol { columns: 2; column-gap: 2rem; }
+  .guide-toc .grp { break-after: avoid; }
+}
+@media (max-width: 560px) { .guide-toc ol { columns: 1; } }
+@media print { .guide-toc { display: none; } }

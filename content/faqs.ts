@@ -197,7 +197,7 @@ export const faqs: Record<string, Faq[]> = {
     },
     {
       q: "How is the company taxed?",
-      a: "At 15% on chargeable income, with partial exemptions for certain classes. There is no capital gains tax and dividends are exempt from income tax in the shareholder's hands, though for an individual resident they count towards the MUR 12 million Fair Share Contribution threshold.",
+      a: "At 15% on chargeable income, with partial exemptions for certain classes. There is no capital gains tax and dividends are exempt from income tax in the shareholder's hands.",
     },
     {
       q: "Can the company own a home under the property schemes?",

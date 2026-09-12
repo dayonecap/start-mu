@@ -13,7 +13,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 }
 
 async function base(): Promise<MetadataRoute.Sitemap> {
-  const statics = ["", "/residency", "/residency/route-finder", "/establishment", "/property", "/concierge", "/mauritius", "/about", "/contact", "/insights"];
+  const statics = ["", "/residency", "/residency/route-finder", "/establishment", "/property", "/concierge", "/mauritius", "/guide", "/about", "/contact", "/insights"];
   const insights = await getInsights();
   const built = new Date();
   return [
