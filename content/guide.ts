@@ -263,7 +263,7 @@ export const guide = {
     <li><span class="h">Validation and Joint Committee</span><span class="d">3 to 6 weeks to approval, practitioner</span><br>The EDB's permit unit and the Passport and Immigration Office validate, then a committee chaired by the Prime Minister's Office decides. Firms report 15 to 20 working days at best and around 90 days end to end in practice. One refusal appeal is allowed within 30 days.</li>
     <li><span class="h">Approval in Principle</span><span class="d">valid 90 days; 30 days on renewal</span><br>Pay the permit fee by card at the EDB; the dependant permit fees are paid the same way once each dependant is approved. Book the medical at a registered clinic in Mauritius: blood tests and chest X-ray, certificate less than six months old, about MUR 7,000 per adult paid at the clinic. <span class="mk mk-p">Practitioner</span> Children under 12 need only a local GP certificate.</li>
     <li><span class="h">Appointment and issue</span><span class="d">days to 1 week</span><br>Attend in person with originals for biometrics. The employer's manager attends for Professional permits. Immigration issues the card. There is no national identity card for non-citizens; the residence permit card is your identity document.</li>
-    <li><span class="h">Post-issue obligations</span><span class="d">60-day clock</span><br>Investors and the self-employed transfer USD 100,000 or USD 50,000 into the Mauritian account; retirees transfer USD 2,000. Dependant applications are filed after the principal permit issues, though a well-prepared file lodges them together. The MRA does not charge for a Tax Account Number; firms typically charge about MUR 1,500 to apply for it. <span class="mk mk-p">Practitioner</span></li>
+    <li><span class="h">Post-issue obligations</span><span class="d">60-day clock</span><br>Investors and the self-employed transfer USD 100,000 or USD 50,000 into the Mauritian account; retirees transfer USD 2,000. Dependant applications are filed after the principal permit issues, though a well-prepared file lodges them together.</li>
   </ol>
 
   <h3>What the permit really costs</h3>
@@ -275,7 +275,7 @@ export const guide = {
       <tr><td>Dependant permit fees, three at USD 400; no application fee for dependants</td><td class="num">USD 1,200</td></tr>
       <tr class="tot"><td>Government fees</td><td class="num">USD 2,250</td></tr>
     </table>
-    <p class="small" style="margin:.6rem 0 0">Add medical examinations for four at a private clinic, apostilles and sworn translations of civil documents, police clearances, company incorporation and registered office, and any adviser's fee. Firms quote the non-government side at anything from a few hundred to several thousand US dollars depending on how much is delegated, usually half on engagement and half on approval in principle, with the USD 50 application fee often absorbed in the fee. <span class="mk mk-p">Practitioner</span></p>
+    <p class="small" style="margin:.6rem 0 0">Add medical examinations for four at a private clinic, apostilles and sworn translations of civil documents, police clearances, company incorporation and registered office, and any adviser's fee. Firms quote the non-government side at anything from a few hundred to several thousand US dollars depending on how much is delegated. <span class="mk mk-p">Practitioner</span></p>
   </div>
 
   <h3>Renewals and the tests that bite</h3>
@@ -735,7 +735,7 @@ export const guide = {
     <thead><tr><th>Edition</th><th>Date</th><th>Change</th></tr></thead>
     <tbody>
       <tr><td>2026.09</td><td>12 September 2026</td><td>First edition, on the Finance Act 2026 baseline: Investor USD 100,000; Professional MUR 50,000; Self-Employed income tests; Family OP abolished; 35% band; duty doubling repealed; State-land G+2 restriction; Golden Visa.</td></tr>
-      <tr><td>2026.09</td><td>14 September 2026</td><td>Corrections: no USD 50 application fee for dependants (§1, §5); Professional permit fee tiers USD 400, 500, 800, 1,000 (§1, §3); medical about MUR 7,000 per adult (§5); rental agency commission carries 15% VAT (§7); CSG for the self-employed (§8); sole-trader registration MUR 125 a year and trade-fee exemptions (§16); Northfields and Westcoast 2026-27 one-off and tuition fees (§11). Later the same day: permit and dependant fees paid by card at the EDB, official translations from the issuing country, TAN application cost, and the usual fee schedule (§5, §18).</td></tr>
+      <tr><td>2026.09</td><td>14 September 2026</td><td>Corrections: no USD 50 application fee for dependants (§1, §5); Professional permit fee tiers USD 400, 500, 800, 1,000 (§1, §3); medical about MUR 7,000 per adult (§5); rental agency commission carries 15% VAT (§7); CSG for the self-employed (§8); sole-trader registration MUR 125 a year and trade-fee exemptions (§16); Northfields and Westcoast 2026-27 one-off and tuition fees (§11). Later the same day: permit and dependant fees paid by card at the EDB; official translations from the issuing country (§5, §18).</td></tr>
     </tbody></table></div>
   <p class="small">Corrections are listed in the version history above. To report an outdated figure, write to hello@start.mu with the section number and a source. Corrections are logged here with the date and the change.</p>
 
