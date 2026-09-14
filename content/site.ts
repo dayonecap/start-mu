@@ -11,7 +11,7 @@ export const site = {
   phone: "+230 260 8180",
   phoneHref: "tel:+2302608180",
   whatsapp: "https://wa.me/23052581052?text=Hello%2C%20I%20would%20like%20to%20discuss%20moving%20to%20Mauritius.",
-  address: ["Aventure du Sucre Street, Block 3", "First Floor, The Strand", "Beau Plan, Pamplemousses", "Mauritius"],
+  address: ["The Strand 3", "Beau Plan, Pamplemousses", "Mauritius"],
   singapore: {
     phone: "+65 6225 2213",
     phoneHref: "tel:+6562252213",

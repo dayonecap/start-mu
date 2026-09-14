@@ -73,7 +73,7 @@ const organisation = {
   areaServed: "Mauritius",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Aventure du Sucre Street, Block 3, First Floor, The Strand",
+    streetAddress: "The Strand 3",
     addressLocality: "Beau Plan",
     addressRegion: "Pamplemousses",
     addressCountry: "MU",

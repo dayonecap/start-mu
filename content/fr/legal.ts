@@ -8,7 +8,7 @@ import { contactRoute, type LegalDoc } from "@/content/legal";
  */
 
 const updated = "8 septembre 2026";
-const adresse = "Aventure du Sucre Street, Block 3, First Floor, The Strand, Beau Plan, Pamplemousses, Maurice";
+const adresse = "The Strand 3, Beau Plan, Pamplemousses, Maurice";
 
 /** The clause that resolves any divergence between the language editions. */
 const prevalence = {

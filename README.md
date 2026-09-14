@@ -53,5 +53,4 @@ Per-page titles, descriptions and canonicals; Organization, BreadcrumbList, FAQP
 - Confirm every threshold and figure in `content/` against the EDB's current guidelines
 - Confirm the Golden Visa status text once the EDB publishes its guidelines
 - Have the privacy policy and terms reviewed by counsel
-- Replace the placeholder office address in `content/site.ts`
 - Confirm the exact registration wording on the About page against the Registrar of Companies certificate

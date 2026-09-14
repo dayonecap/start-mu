@@ -12,7 +12,7 @@ export type LegalDoc = { title: string; updated: string; intro: string[]; sectio
 /** No personal addresses are published; enquiries route through the form or the postal address. */
 export const contactRoute = `${site.url}/contact`;
 export const principalAddress =
-  "Aventure du Sucre Street, Block 3, First Floor, The Strand, Beau Plan, Pamplemousses, Mauritius";
+  "The Strand 3, Beau Plan, Pamplemousses, Mauritius";
 
 const updated = "8 September 2026";
 

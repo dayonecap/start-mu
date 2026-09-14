@@ -8,7 +8,7 @@ import { contactRoute, type LegalDoc } from "@/content/legal";
  */
 
 const updated = "8. September 2026";
-const anschrift = "Aventure du Sucre Street, Block 3, First Floor, The Strand, Beau Plan, Pamplemousses, Mauritius";
+const anschrift = "The Strand 3, Beau Plan, Pamplemousses, Mauritius";
 
 export const privacyPolicyDe: LegalDoc = {
   title: "Datenschutzerklärung",
