@@ -61,7 +61,7 @@ export const guide = {
     <thead><tr><th>Route</th><th>Who it is for</th><th>Financial test</th><th>Validity</th><th class="num">Statutory fee (USD)</th><th>Route to 20-year Permanent Residence</th></tr></thead>
     <tbody>
       <tr><td>Investor Occupation Permit</td><td>Owner-operators of a Mauritian company</td><td>USD 100,000 transferred into the company's Mauritian account within 60 days of issue. Turnover MUR 5m a year from year 3, MUR 8m from year 5 to renew. <span class="mk mk-v">Verified</span></td><td>Up to 10 years, renewable</td><td class="num">1,000 + 50</td><td>After 5 years with turnover MUR 15m a year, or MUR 75m aggregate</td></tr>
-      <tr><td>Professional Occupation Permit</td><td>Employees of a Mauritian company</td><td>Basic salary MUR 50,000 a month, all sectors. ProPass and Expert Pass merged. <span class="mk mk-v">Verified</span></td><td>Contract length, max 10 years</td><td class="num">400 to 1,000 by contract length, + 50</td><td>After 5 years at MUR 400,000 a month basic, applied for within 6 months</td></tr>
+      <tr><td>Professional Occupation Permit</td><td>Employees of a Mauritian company</td><td>Basic salary MUR 50,000 a month, all sectors. ProPass and Expert Pass merged. <span class="mk mk-v">Verified</span></td><td>Contract length, max 10 years</td><td class="num">400, 500, 800 or 1,000 by contract length, + 50</td><td>After 5 years at MUR 400,000 a month basic, applied for within 6 months</td></tr>
       <tr><td>Self-Employed Occupation Permit</td><td>Sole practitioners in services</td><td>USD 50,000 transferred within 60 days. Three letters of intent, two from local clients. Income MUR 2m a year from year 3, MUR 3m from year 5. <span class="mk mk-v">Verified</span></td><td>Up to 10 years, renewable</td><td class="num">1,000 + 50</td><td>After 5 years with income MUR 3m a year, or MUR 15m aggregate</td></tr>
       <tr><td>Innovator (Investor for innovative start-ups)</td><td>Founders with an EDB-approved project or incubator registration</td><td>No monetary floor. Annual progress report; minimum viable product by end of year 5. Performance indicators announced, not yet published. <span class="mk mk-v">Verified</span></td><td>Up to 10 years</td><td class="num">1,000 + 50</td><td>As Investor</td></tr>
       <tr><td>Young Professional OP</td><td>Graduates of a Mauritian tertiary institution with a job offer</td><td>Salary MUR 25,000 a month <span class="mk mk-v">Verified</span></td><td>Up to 3 years</td><td class="num">150 to 300, + 50</td><td>Via a later Professional OP</td></tr>
@@ -72,7 +72,7 @@ export const guide = {
     </tbody>
   </table>
   </div>
-  <p class="tnote">Sources 1, 3, 4, 5, 13, 14, 15, 16. The USD 50 application fee applies to every Occupation and Residence Permit application filed since 1 December 2025 and is not refunded on refusal. Dependants cost USD 400 each on all routes.</p>
+  <p class="tnote">Sources 1, 3, 4, 5, 13, 14, 15, 16. The USD 50 application fee applies to the principal applicant's Occupation or Residence Permit application filed since 1 December 2025 and is not refunded on refusal. Dependants cost USD 400 each on all routes, with no separate application fee. <span class="mk mk-p">Practitioner</span></p>
 
   <div class="figs" role="list">
     <div role="listitem"><div class="k">Tax residence</div><div class="v">183 days</div><div class="s">or 270 days over three years. Foreign income taxed only when remitted.</div></div>
@@ -134,7 +134,7 @@ export const guide = {
     <article class="persona">
       <h3>Hired by a Mauritian employer</h3>
       <div class="route">Professional Occupation Permit</div>
-      <dl><dt>Test</dt><dd>Basic salary MUR 50,000 a month, paid and declared</dd><dt>Validity</dt><dd>Contract length, max 10 years</dd><dt>Statutory fee</dt><dd>USD 50 + 400 to 1,000, paid by the employer</dd><dt>Dependants</dt><dd>USD 400 each; they may not work without their own permit</dd></dl>
+      <dl><dt>Test</dt><dd>Basic salary MUR 50,000 a month, paid and declared</dd><dt>Validity</dt><dd>Contract length, max 10 years</dd><dt>Statutory fee</dt><dd>USD 50 + 400, 500, 800 or 1,000 by contract length, paid by the employer</dd><dt>Dependants</dt><dd>USD 400 each; they may not work without their own permit</dd></dl>
       <p class="path">The employer files. Firms report 3 to 6 weeks to approval in principle and around 90 days end to end. Start the school application before the permit application. The permit is tied to the employer: a new job means a fresh application.</p>
     </article>
     <article class="persona">
@@ -261,7 +261,7 @@ export const guide = {
     <li><span class="h">Prepare the file</span><span class="d">2 to 4 weeks, practitioner</span><br>Passport biodata, birth certificate translated if not in English or French, three photos 3.5 by 4.5 cm, police clearance for retirees, employment contract or business plan on the EDB template, certified bank statement, signed undertaking and the charter for foreign residents.</li>
     <li><span class="h">File on the National E-Licensing System</span><span class="d">business.edbmauritius.org</span><br>Pay the USD 50 application fee by card. Non-refundable. You do not need to be in Mauritius to file.</li>
     <li><span class="h">Validation and Joint Committee</span><span class="d">3 to 6 weeks to approval, practitioner</span><br>The EDB's permit unit and the Passport and Immigration Office validate, then a committee chaired by the Prime Minister's Office decides. Firms report 15 to 20 working days at best and around 90 days end to end in practice. One refusal appeal is allowed within 30 days.</li>
-    <li><span class="h">Approval in Principle</span><span class="d">valid 90 days; 30 days on renewal</span><br>Pay the permit fee. Book the medical at a registered clinic in Mauritius: blood tests and chest X-ray, certificate less than six months old. Children under 12 need only a local GP certificate.</li>
+    <li><span class="h">Approval in Principle</span><span class="d">valid 90 days; 30 days on renewal</span><br>Pay the permit fee. Book the medical at a registered clinic in Mauritius: blood tests and chest X-ray, certificate less than six months old, about MUR 7,000 per adult paid at the clinic. <span class="mk mk-p">Practitioner</span> Children under 12 need only a local GP certificate.</li>
     <li><span class="h">Appointment and issue</span><span class="d">days to 1 week</span><br>Attend in person with originals for biometrics. The employer's manager attends for Professional permits. Immigration issues the card. There is no national identity card for non-citizens; the residence permit card is your identity document.</li>
     <li><span class="h">Post-issue obligations</span><span class="d">60-day clock</span><br>Investors and the self-employed transfer USD 100,000 or USD 50,000 into the Mauritian account; retirees transfer USD 2,000. Dependant applications are filed after the principal permit issues, though a well-prepared file lodges them together.</li>
   </ol>
@@ -272,9 +272,8 @@ export const guide = {
     <table>
       <tr><td>Application fee, principal</td><td class="num">USD 50</td></tr>
       <tr><td>Investor permit fee, 10 years</td><td class="num">USD 1,000</td></tr>
-      <tr><td>Application fees, three dependants</td><td class="num">USD 150</td></tr>
-      <tr><td>Dependant permit fees, three at USD 400</td><td class="num">USD 1,200</td></tr>
-      <tr class="tot"><td>Government fees</td><td class="num">USD 2,400</td></tr>
+      <tr><td>Dependant permit fees, three at USD 400; no application fee for dependants</td><td class="num">USD 1,200</td></tr>
+      <tr class="tot"><td>Government fees</td><td class="num">USD 2,250</td></tr>
     </table>
     <p class="small" style="margin:.6rem 0 0">Add medical examinations for four at a private clinic, apostilles and sworn translations of civil documents, police clearances, company incorporation and registered office, and any adviser's fee. Firms quote the non-government side at anything from a few hundred to several thousand US dollars depending on how much is delegated. <span class="mk mk-p">Practitioner</span></p>
   </div>
@@ -380,7 +379,7 @@ export const guide = {
     </tbody></table></div>
   <p class="tnote">Ranges pool four 2026 market sources. <span class="mk mk-p">Practitioner</span> Expat-segment rents fell about 5% in 2026, the first decline in several years. Inland is 20 to 30% cheaper than the coast for the same house. Source 27, 37, 39, 40.</p>
   <ul>
-    <li><strong>Norms.</strong> Twelve-month renewable leases. Deposit one to two months, sometimes three. Agent's commission about one month's rent, usually paid by the tenant. Furnished is the default and carries a 15 to 25% premium.</li>
+    <li><strong>Norms.</strong> Twelve-month renewable leases. Deposit one to two months, sometimes three. Agent's commission one month's rent plus 15% VAT, usually paid by the tenant; some agencies charge both parties. Furnished is the default and carries a 15 to 25% premium.</li>
     <li><strong>Utilities.</strong> Electricity and water accounts often stay in the landlord's name. Get the account numbers on the lease and agree who pays the deposits.</li>
     <li><strong>Before signing.</strong> Visit in person. Ask about past water ingress; the island has 306 identified flood-prone zones. Check the water tank and pump, the mosquito screens, and mould in cupboards on the plateau. Sign a bilingual lease with a named inventory and photographs.</li>
     <li><strong>Timing.</strong> Rent a serviced apartment for four to eight weeks first. Choose the school, then the house. A rental signed from abroad on photographs is the most common expensive mistake.</li>
@@ -427,6 +426,7 @@ export const guide = {
   <ul>
     <li><strong>Until 30 June 2027.</strong> Contribution Sociale Généralisée: basic salary up to MUR 50,000, employee 1.5% and employer 3%; above that, employee 3% and employer 6%. National Savings Fund: employee 1%, employer 2.5%, on a capped base. Employer training levy 1.5%. <span class="mk mk-v">Verified</span></li>
     <li><strong>From 1 July 2027.</strong> A defined-contribution National Pension Fund replaces CSG and the portable gratuity fund: employee 1.5% and employer 7.5% up to MUR 50,000; employee 3% and employer 10.5% above that, up to eight times median earnings. <span class="mk mk-v">Verified</span></li>
+    <li><strong>Self-employed.</strong> A Self-Employed permit holder pays CSG on net income: MUR 150 a month up to MUR 10,000; 1.5% of 90% of net income between MUR 10,000 and 50,000; 3% of 90% of net income above MUR 50,000, so about MUR 4,500 a month at the year-3 test of MUR 2m a year. Monthly by direct debit, or annually in advance by 15 October. The "MUR 150 flat" figure in older guides is the pre-September 2021 rule. The National Pension Fund rate for the self-employed from 1 July 2027 has not been published. <span class="mk mk-v">Verified</span></li>
     <li>On a MUR 100,000 basic salary today the employee pays about MUR 3,000 a month in CSG and the employer MUR 6,000, before the savings fund and levy.</li>
   </ul>
 
@@ -532,10 +532,10 @@ export const guide = {
   <div class="tw"><table>
     <thead><tr><th>School</th><th>Where, curriculum</th><th>Annual fees, MUR</th><th>One-off and notes</th></tr></thead>
     <tbody>
-      <tr><td>Northfields International</td><td>Mapou, north. Cambridge to IGCSE, IB Diploma. Ages 18 months to 18</td><td>2026-27, non-citizens: nursery 174,900; K2 to grade 3 311,300; grades 6 to 10 605,000; grades 11 to 12 656,700 <span class="mk mk-v">Verified</span></td><td>Inception fee about 58,000; refundable deposit about 78,600; sibling discounts 7.5% and 15%; 4% for upfront payment</td></tr>
+      <tr><td>Northfields International</td><td>Mapou, north. Cambridge to IGCSE, IB Diploma. Ages 18 months to 18</td><td>2026-27, non-citizens: nursery 174,900; K2 to grade 3 311,300; grades 6 to 10 605,000; grades 11 to 12 656,700 <span class="mk mk-v">Verified</span></td><td>2026-27: application 2,200; inception fee 60,400 (54,900 for a sibling); refundable deposit 78,600; sibling discounts 7.5% and 15%; 4% for payment by 15 July</td></tr>
       <tr><td>Le Bocage International</td><td>Mount Ory, Moka. IB Middle Years, Diploma and Career-related, BTEC. Ages 11 to 18</td><td>Not published; estimates 424,000 to 464,000 <span class="mk mk-u">Unverified</span></td><td>The island's IB secondary</td></tr>
       <tr><td>International Preparatory School (IPS)</td><td>Mapou, Moka and Tamarin campuses. British primary</td><td>About 200,000 to 335,000 by estimate <span class="mk mk-u">Unverified</span></td><td>Register 12 to 18 months ahead; waiting lists at primary entry</td></tr>
-      <tr><td>Westcoast International Secondary</td><td>Cascavelle, near Flic en Flac. Cambridge, IB Diploma</td><td>2025 non-citizens: forms 1 to 3 294,000; forms 4 to 5 309,600; forms 6 to 7 356,400 <span class="mk mk-v">Verified</span></td><td>First year at 11 about 436,000 with one-offs; exam fees extra</td></tr>
+      <tr><td>Westcoast International Secondary</td><td>Cascavelle, near Flic en Flac. Cambridge, IB Diploma</td><td>2026-27 non-citizens: grades 6 to 8 318,000; grades 9 to 10 334,800; grades 11 to 12 385,200 <span class="mk mk-v">Verified</span></td><td>Application 3,700; enrolment 70,000; refundable deposit 79,500; first year at grade 6 about 471,000 with one-offs; exam fees extra. Confirm the start of the school year with the school</td></tr>
       <tr><td>Clavis International Primary</td><td>Moka and Beau Champ. IB Primary Years, ages 3 to 12</td><td>2026-27 non-citizens: years 1 to 6 334,400; pre-reception 177,100 <span class="mk mk-v">Verified</span></td><td>Feeds Le Bocage</td></tr>
       <tr><td>Lighthouse Primary and Secondary</td><td>Ebène and Moka area. Cambridge</td><td>2026-27: 173,600 to 390,550 <span class="mk mk-v">Verified</span></td><td>50% off the third child</td></tr>
       <tr><td>Greencoast International</td><td>Beau Plan, Pamplemousses. Cambridge</td><td>2026 primary, non-nationals 312,000; pre-primary 208,800 <span class="mk mk-v">Verified</span></td><td>Enrolment 75,000; three-month deposit</td></tr>
@@ -627,10 +627,11 @@ export const guide = {
 
 <!-- ============ 16 BUSINESS ============ -->
 <section class="s" id="business">
-  <div class="shead"><h2><span class="num">16</span>Setting up a company</h2><span class="verified">Verified <b>12 Sept 2026</b>; registrar fees unverified</span></div>
+  <div class="shead"><h2><span class="num">16</span>Setting up a company</h2><span class="verified">Verified <b>12 Sept 2026</b>; company incorporation fee unverified</span></div>
   <div class="tw"><table>
     <thead><tr><th>Vehicle</th><th>Use</th><th>Tax</th><th>Requirements</th><th>Annual regulator fee</th></tr></thead>
     <tbody>
+      <tr><td>Sole trader (registered business)</td><td>The form behind a Self-Employed permit; consultants and other one-person services</td><td>Personal income tax rates</td><td>Registration with the Registrar of Businesses, online or at the CBRD, in half a day. No trade fee for the first two financial years, and none thereafter where the scheduled fee is MUR 5,000 or less, which covers consultancy. <span class="mk mk-v">Verified</span></td><td>MUR 125 a year with up to 10 employees; 250, 600 and 1,500 for larger workforces <span class="mk mk-v">Verified</span></td></tr>
       <tr><td>Domestic company</td><td>Trading in Mauritius; the vehicle behind an Investor permit</td><td>15%, 3% on export of goods</td><td>One shareholder, one director ordinarily resident in Mauritius, no minimum capital, 100% foreign ownership. Online incorporation in two to five working days.</td><td>Registrar annual return MUR 500; incorporation fee reported as nil to MUR 4,950 <span class="mk mk-u">Unverified</span></td></tr>
       <tr><td>Global Business Company</td><td>Holding, treasury, fund and international structures using the treaty network</td><td>15% with 80% partial exemption on qualifying foreign income, effective 3%</td><td>Two resident directors, principal bank account in Mauritius, a licensed management company, substance. Two to four weeks. <span class="mk mk-v">Verified</span></td><td>USD 2,600 from 1 July 2026, plus USD 600 processing</td></tr>
       <tr><td>Authorised Company</td><td>Non-resident vehicles controlled from abroad</td><td>Not taxed in Mauritius except local-source income; no treaty access</td><td>Registered agent must be a management company</td><td>USD 1,400 from 1 July 2026</td></tr>
@@ -734,8 +735,9 @@ export const guide = {
     <thead><tr><th>Edition</th><th>Date</th><th>Change</th></tr></thead>
     <tbody>
       <tr><td>2026.09</td><td>12 September 2026</td><td>First edition, on the Finance Act 2026 baseline: Investor USD 100,000; Professional MUR 50,000; Self-Employed income tests; Family OP abolished; 35% band; duty doubling repealed; State-land G+2 restriction; Golden Visa.</td></tr>
+      <tr><td>2026.09</td><td>14 September 2026</td><td>Corrections: no USD 50 application fee for dependants (§1, §5); Professional permit fee tiers USD 400, 500, 800, 1,000 (§1, §3); medical about MUR 7,000 per adult (§5); rental agency commission carries 15% VAT (§7); CSG for the self-employed (§8); sole-trader registration MUR 125 a year and trade-fee exemptions (§16); Northfields and Westcoast 2026-27 one-off and tuition fees (§11).</td></tr>
     </tbody></table></div>
-  <p class="small">Corrections: none yet. To report an outdated figure, write to hello@start.mu with the section number and a source. Corrections are logged here with the date and the change.</p>
+  <p class="small">Corrections are listed in the version history above. To report an outdated figure, write to hello@start.mu with the section number and a source. Corrections are logged here with the date and the change.</p>
 
   <h3>Sources</h3>
   <ol class="src">
@@ -785,7 +787,7 @@ export const guide = {
     <li>National Land Transport Authority, Motor vehicle licence fees, July 2025. <a href="https://nlta.govmu.org/Documents/Downloads/(MVL)(%20JULY%202025)%20(1).pdf">nlta.govmu.org</a></li>
     <li>MCB, Fees and charges for individuals, 1 September 2026. <a href="https://mcb.mu/docs/mcb/rates-fees/fees-charges/individual.pdf?sfvrsn=23bafdac_26">mcb.mu</a></li>
     <li>Property Mauritius, Expat guide 2026, 17 February 2026. <a href="https://www.propertymauritius.com/public/index.php/news/expat-guide-mauritius-2026-visas-residency-costs-best-areas-to-live">propertymauritius.com</a></li>
-    <li>Northfields International, Fees 2025-26. <a href="https://northfields.nyc3.digitaloceanspaces.com/wp-content/uploads/2025/06/16154715/10.-Fees-2025-2026-Year-2-4-Expat.pdf">northfields.mu</a></li>
+    <li>Northfields International, Fees 2026-27, expatriate students. <a href="https://northfields.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/05/25091416/Year-1-2026-2027_Expat.pdf">northfields.mu</a></li>
     <li>International Schools Database, Mauritius fees 2026-27. <a href="https://www.international-schools-database.com/in/mauritius">international-schools-database.com</a></li>
     <li>Expat Mauritius, International school fees 2025-2027, 25 March 2026. <a href="https://expat-mauritius.com/en/blog/french-international-schools-in-mauritius-tuition-fees-options-2025-2027/">expat-mauritius.com</a></li>
     <li>Lycée des Mascareignes, Frais de scolarité 2026-27. <a href="https://www.lyceedesmascareignes.org/frais-de-scolarite-et-reglement-financier/">lyceedesmascareignes.org</a></li>
@@ -802,6 +804,9 @@ export const guide = {
     <li>Mauritius Meteorological Services, Climate of Mauritius; cyclone warning system. <a href="https://metservice.intnet.mu/climate-services/climate-of-mauritius.php">metservice.intnet.mu</a></li>
     <li>Aptec, Budget 2026-27: Occupation Permit and Golden Visa, 23 August 2026. <a href="https://www.aptec.mu/blogs/mauritius-budget-2026-2027-occupation-permit-and-golden-visa/">aptec.mu</a></li>
     <li>Newsmoris, Reservoir levels and power supply, 2025 to 2026. <a href="https://newsmoris.com/government-prepares-water-supply-restrictions-as-major-reservoir-reaches-51-capacity/">newsmoris.com</a></li>
+    <li>MCCI, Registration of a business: fees by workforce. <a href="https://www.mcci.org/en/inside-mauritius/doing-business/start-a-business/registration-of-business/">mcci.org</a></li>
+    <li>Corporate and Business Registration Department, Payment of registration fees and trade fees, 2025 and 2026-27 notices. <a href="https://companies.govmu.org/cbrd/wp-content/uploads/2026/07/CBRD-Payment-of-Trade-Fees-2026-2027_.pdf">companies.govmu.org</a></li>
+    <li>Mauritius Revenue Authority, Contribution Sociale Généralisée for self-employed individuals. <a href="https://www.mra.mu/index.php/business/csg">mra.mu</a></li>
     <li>DLA Piper, Mauritius additional remuneration and wage adjustments 2026. <a href="https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/mauritius-introduces-additional-remuneration-and-wage-adjustments-for-2026">dlapiper.com</a></li>
   </ol>
 
