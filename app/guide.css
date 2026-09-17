@@ -37,10 +37,14 @@
 .guide section.s:last-of-type { border-bottom: 0; }
 .guide .shead { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.6rem 1.5rem; margin-bottom: 1.2rem; }
 .guide .shead .num { font-family: var(--font-serif); color: var(--g-muted); font-size: 1.1rem; margin-right: 0.6rem; font-variant-numeric: tabular-nums; }
-.guide .verified { font-size: 0.74rem; color: var(--g-muted); letter-spacing: 0.02em; white-space: nowrap; }
+.guide .verified { font-size: 0.74rem; color: var(--g-muted); letter-spacing: 0.02em; }
 .guide .verified b { color: var(--color-green); font-weight: 600; }
 .guide .intro { font-family: var(--font-serif); font-size: 1.22rem; line-height: 1.45; color: var(--color-slate); max-width: 58ch; margin-bottom: 1.4rem; }
 
+/*
+ * No white-space: nowrap on .verified or .steps .d: they hold sentences, and a line wider than a
+ * phone made the document wider than the screen, so mobile browsers shrank the whole page to fit.
+ */
 /* confidence markers */
 .guide .mk { display: inline-block; font-size: 0.66rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.1em 0.45em; border-radius: 2px; vertical-align: 0.12em; white-space: nowrap; }
 .guide .mk-v { background: var(--g-green-soft); color: var(--color-green); }
@@ -76,7 +80,7 @@
 .guide .note .t { font-weight: 600; font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; display: block; margin-bottom: 0.3rem; }
 
 /* situation cards */
-.guide .personas { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; margin: 1.4rem 0 1.6rem; }
+.guide .personas { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 1.2rem; margin: 1.4rem 0 1.6rem; }
 .guide .persona { border: 1px solid var(--color-stone); background: var(--color-bone); padding: 1.1rem 1.2rem 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
 .guide .persona h3 { margin: 0; font-size: 1.3rem; }
 .guide .persona .route { font-size: 0.8rem; color: var(--color-green); font-weight: 600; letter-spacing: 0.02em; }
@@ -91,10 +95,13 @@
 .guide .steps li::before { counter-increment: st; content: counter(st); position: absolute; left: -0.85rem; top: -0.05rem; width: 1.65rem; height: 1.65rem; border-radius: 50%; background: var(--color-paper); border: 1px solid var(--color-green); color: var(--color-green); font-size: 0.75rem; font-weight: 600; display: flex; align-items: center; justify-content: center; font-variant-numeric: tabular-nums; }
 .guide .steps li:last-child { border-left-color: transparent; }
 .guide .steps .h { font-weight: 600; }
-.guide .steps .d { font-size: 0.8rem; color: var(--g-muted); margin-left: 0.5rem; white-space: nowrap; }
+.guide .steps .d { font-size: 0.8rem; color: var(--g-muted); margin-left: 0.5rem; }
 
 /* worked examples */
-.guide .calc { background: var(--color-bone); border: 1px solid var(--color-stone); padding: 1rem 1.2rem; margin: 1rem 0 1.4rem; max-width: var(--g-measure); font-variant-numeric: tabular-nums; }
+.guide .calc { background: var(--color-bone); border: 1px solid var(--color-stone); padding: 1rem 1.2rem; margin: 1rem 0 1.4rem; max-width: var(--g-measure); font-variant-numeric: tabular-nums; overflow-x: auto; }
+/* Worked-example tables sit outside a .tw wrapper, so the box itself scrolls if a table is still too wide for a phone,
+   and column headings may wrap (the figures below them stay on one line). */
+.guide .calc th.num { white-space: normal; }
 .guide .calc .t { font-family: var(--font-serif); font-size: 1.1rem; margin-bottom: 0.5rem; }
 .guide .calc table { min-width: 0; font-size: 0.86rem; }
 .guide .calc td { padding: 0.3rem 0.5rem; border-bottom: 1px solid var(--color-stone-light); }
