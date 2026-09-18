@@ -150,7 +150,7 @@ export const finder: Record<Locale, FinderStrings> = {
         title: "Golden Visa",
         why: [
           "USD 1 million invested within twelve months makes you eligible to apply for a twenty-year permanent residence permit, without the obligation to run a business. Approval is not automatic.",
-          "The scheme is open: applications are filed online, a complete application is processed within five working days, and there is no processing fee. Your initial source of income must be outside Mauritius.",
+          "The scheme is open: we file the application for you, a complete application is processed within five working days, and there is no processing fee. Your initial source of income must be outside Mauritius.",
         ],
       },
       passive: {
@@ -295,7 +295,7 @@ export const finder: Record<Locale, FinderStrings> = {
         title: "Le Golden Visa",
         why: [
           "Un million de dollars investi dans les douze mois vous rend éligible pour demander un permis de résidence permanente de vingt ans, sans obligation de diriger une entreprise. L'octroi n'est pas automatique.",
-          "Le dispositif est ouvert : les demandes se déposent en ligne, un dossier complet est traité en cinq jours ouvrables, sans frais de traitement. Votre source initiale de revenus doit se situer hors de Maurice.",
+          "Le dispositif est ouvert : nous déposons la demande pour vous, un dossier complet est traité en cinq jours ouvrables, sans frais de traitement. Votre source initiale de revenus doit se situer hors de Maurice.",
         ],
       },
       passive: {
@@ -440,7 +440,7 @@ export const finder: Record<Locale, FinderStrings> = {
         title: "Golden Visa",
         why: [
           "Eine Million USD, innerhalb von zwölf Monaten investiert, berechtigt Sie, ein zwanzigjähriges Permanent Residence Permit zu beantragen, ohne die Pflicht, ein Unternehmen zu führen. Die Erteilung erfolgt nicht automatisch.",
-          "Das Programm ist geöffnet: Anträge werden online gestellt, ein vollständiger Antrag wird innerhalb von fünf Arbeitstagen bearbeitet, und eine Bearbeitungsgebühr fällt nicht an. Ihre ursprüngliche Einkommensquelle muss außerhalb von Mauritius liegen.",
+          "Das Programm ist geöffnet: Wir reichen den Antrag für Sie ein, ein vollständiger Antrag wird innerhalb von fünf Arbeitstagen bearbeitet, und eine Bearbeitungsgebühr fällt nicht an. Ihre ursprüngliche Einkommensquelle muss außerhalb von Mauritius liegen.",
         ],
       },
       passive: {

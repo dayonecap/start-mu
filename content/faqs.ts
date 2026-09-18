@@ -125,7 +125,7 @@ export const faqs: Record<string, Faq[]> = {
   "golden-visa": [
     {
       q: "Is the Golden Visa available now?",
-      a: "Yes. The EDB published the scheme's guidelines in August 2026, and applications are filed on the National E-Licensing System. A complete application is to be processed within five working days, and there is no processing fee.",
+      a: "Yes. The EDB published the scheme's guidelines in August 2026, and is accepting applications. We prepare and file the application for you, and a complete application is to be processed within five working days. There is no processing fee.",
     },
     {
       q: "Must my income come from abroad?",

@@ -182,7 +182,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     intro:
       "Das Golden Visa ist ein Visum für mehrfache Einreise für vermögende Personen und ihre engsten Familienangehörigen, im April 2026 vom Kabinett gebilligt und mit den Budgetmaßnahmen 2026-27 gesetzlich verankert. Wer innerhalb von zwölf Monaten nach Erteilung 1 Million USD auf Mauritius investiert, kann ein zwanzigjähriges Permanent Residence Permit beantragen. Die Erfüllung der Voraussetzungen führt nicht automatisch zur Erteilung: Der Antrag wird in der Sache geprüft, und der Abschluss der Investition wandelt das Visum nicht automatisch um.",
     status:
-      "Das EDB hat die Richtlinien des Programms im August 2026 veröffentlicht; Anträge werden jetzt online über das National E-Licensing System gestellt. Die Anforderungen auf dieser Seite folgen diesen Richtlinien, und wir bestätigen sie beim EDB, bevor wir einen Antrag vorbereiten.",
+      "Das EDB hat die Richtlinien des Programms im August 2026 veröffentlicht; das Programm nimmt jetzt Anträge an. Die Anforderungen auf dieser Seite folgen diesen Richtlinien, und wir bestätigen sie beim EDB, bevor wir einen Antrag vorbereiten.",
     facts: [
       { label: "Investitionszusage", value: "Mindestens 1 Million USD, in den ersten zwölf Monaten des Aufenthalts in qualifizierte Sektoren investiert und bei Antragstellung durch eine schriftliche Verpflichtung bestätigt. Das EDB verfolgt den Fortschritt" },
       { label: "Qualifizierte Sektoren", value: "Finanzdienstleistungen, Fintech, IKT, Tourismus und Gastgewerbe, verarbeitendes Gewerbe, Gesundheit und Wellness, Bildung, erneuerbare Energien, blaue Wirtschaft, innovative oder wissensbasierte Tätigkeiten und Kreativwirtschaft" },
@@ -206,7 +206,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       {
         heading: "Ablauf des Antrags",
         body: [
-          "Anträge werden über das National E-Licensing System gestellt. Das EDB prüft jeden Antrag und empfiehlt diejenigen, die die Kriterien erfüllen, dem Passport and Immigration Office, das das Visum erteilt. Die Richtlinien sehen fünf Arbeitstage ab Vollständigkeit des Antrags vor; eine Bearbeitungsgebühr fällt nicht an.",
+          "Wir bereiten den Antrag vor und reichen ihn für Sie beim EDB ein. Das EDB prüft jeden Antrag und empfiehlt diejenigen, die die Kriterien erfüllen, dem Passport and Immigration Office, das das Visum erteilt. Die Richtlinien sehen fünf Arbeitstage ab Vollständigkeit des Antrags vor; eine Bearbeitungsgebühr fällt nicht an.",
           "Zur Akte gehören das Antragsformular, der Reisepass, ein ausführlicher Geschäftsplan mit dem Hintergrund der Gesellschafter, dem Projekt und seinem Zeitplan sowie seiner Finanzierung, die unterzeichnete Investitionszusage, ein Kontoauszug über mindestens 1 Million USD, eine Reise- und Krankenversicherung und ein Nachweis der Unterkunft. Geprüft wird eine Akte vor allem an der Herkunft der Mittel; wir bereiten sie auf dem Niveau vor, das die Behörden anlegen, gestützt auf die Compliance-Praxis der Gruppe.",
         ],
       },
@@ -388,7 +388,7 @@ export const faqsDe: Record<string, Faq[]> = {
     { q: "Kann ich die Immobilie über eine Gesellschaft oder einen Trust halten?", a: "Ja. Eine mauritische Domestic Company darf Programmimmobilien erwerben, und ihre Anteile können in einem Trust gehalten werden. Die Aufenthaltsgenehmigung kann über die Struktur erlangt werden, vorbehaltlich der Bedingungen des EDB. Die Struktur muss vor der Urkunde bestehen." },
   ],
   "golden-visa": [
-    { q: "Ist das Golden Visa jetzt verfügbar?", a: "Ja. Das EDB hat die Richtlinien des Programms im August 2026 veröffentlicht, und Anträge werden über das National E-Licensing System gestellt. Ein vollständiger Antrag soll innerhalb von fünf Arbeitstagen bearbeitet werden; eine Bearbeitungsgebühr fällt nicht an." },
+    { q: "Ist das Golden Visa jetzt verfügbar?", a: "Ja. Das EDB hat die Richtlinien des Programms im August 2026 veröffentlicht, und nimmt Anträge an. Wir bereiten den Antrag vor und reichen ihn für Sie ein; ein vollständiger Antrag soll innerhalb von fünf Arbeitstagen bearbeitet werden, und eine Bearbeitungsgebühr fällt nicht an." },
     { q: "Müssen meine Einkünfte aus dem Ausland stammen?", a: "Ja. Nach den Richtlinien muss die ursprüngliche Einkommensquelle des Antragstellers außerhalb von Mauritius liegen, und als Nachweis der Mittel dient ein Kontoauszug aus dem Herkunftsland über mindestens 1 Million USD." },
     { q: "Zählt der Kauf eines Hauses zur Million USD?", a: "Nein. Die Investition muss in eine Geschäftstätigkeit in einem der qualifizierten Sektoren fließen, und Wohnimmobilien gehören nicht dazu. Die Richtlinien erlauben Inhabern aber, zusätzlich ein Zuhause unter den Immobilienprogrammen des EDB oder eine R+2-Wohnung zu erwerben." },
     { q: "Darf ich mit dem Golden Visa auf Mauritius arbeiten?", a: "Nicht mit dem Visum selbst. Nach den Richtlinien kann ein Inhaber, der arbeiten oder ein Unternehmen führen will, ein Occupation Permit beantragen, und wer 50 Jahre oder älter ist, eine Genehmigung für Ruheständler." },

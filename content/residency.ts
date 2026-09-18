@@ -297,7 +297,7 @@ export const residency: ServiceEntry[] = [
     intro:
       "The Golden Visa is a multiple-entry visa for high-net-worth individuals and their immediate dependents, approved by Cabinet in April 2026 and legislated through the 2026-27 Budget measures. A holder who invests USD 1 million in Mauritius within twelve months of issue becomes eligible to apply for a twenty-year Permanent Residence Permit. Eligibility is not the same as approval: the application is assessed on its merits, and completing the investment does not convert the visa automatically.",
     status:
-      "The EDB published the scheme's guidelines in August 2026, and applications are now filed online through the National E-Licensing System. The requirements on this page follow those guidelines, and we confirm them with the EDB before preparing any application.",
+      "The EDB published the scheme's guidelines in August 2026, and the scheme is now open to applications. The requirements on this page follow those guidelines, and we confirm them with the EDB before preparing any application.",
     facts: [
       { label: "Investment undertaking", value: "At least USD 1 million, invested in qualifying sectors within the first twelve months of residence, confirmed by a written undertaking at application. The EDB follows up on progress" },
       { label: "Qualifying sectors", value: "Financial services, fintech, ICT, tourism and hospitality, manufacturing, healthcare and wellness, education, renewable energy, the blue economy, innovative or knowledge-based activities, and creative industries" },
@@ -321,7 +321,7 @@ export const residency: ServiceEntry[] = [
       {
         heading: "How an application runs",
         body: [
-          "Applications are filed on the National E-Licensing System. The EDB screens each one and recommends those that meet the criteria to the Passport and Immigration Office, which issues the visa. The guidelines commit to five working days from the date an application is complete, and there is no processing fee.",
+          "We prepare the application and file it with the EDB for you. The EDB screens each application and recommends those that meet the criteria to the Passport and Immigration Office, which issues the visa. The guidelines commit to five working days from the date an application is complete, and there is no processing fee.",
           "The file comprises the application form, the passport, a detailed business plan covering the background of the shareholders, the project and its implementation schedule and how it is financed, the signed investment undertaking, a bank statement showing at least USD 1 million, travel and health insurance, and evidence of where you will stay. Source of funds is where a file is tested, and we prepare it to the standard the authorities apply, drawing on the group's compliance practice.",
         ],
       },

@@ -182,7 +182,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     intro:
       "Le Golden Visa est un visa à entrées multiples destiné aux personnes fortunées et à leurs personnes à charge immédiates, approuvé par le Conseil des ministres en avril 2026 et consacré par les mesures du Budget 2026-27. Le titulaire qui investit 1 million USD à Maurice dans les douze mois suivant la délivrance du visa devient éligible pour demander un permis de résidence permanente d'une durée de vingt ans. L'éligibilité ne vaut pas approbation : la demande est examinée au fond, et la réalisation de l'investissement ne transforme pas automatiquement le visa en permis de résidence permanente.",
     status:
-      "L'EDB a publié les lignes directrices du dispositif en août 2026, et les demandes se déposent désormais en ligne sur le National E-Licensing System. Les exigences présentées sur cette page suivent ces lignes directrices, et nous les confirmons auprès de l'EDB avant de préparer toute demande.",
+      "L'EDB a publié les lignes directrices du dispositif en août 2026, et le dispositif est désormais ouvert aux demandes. Les exigences présentées sur cette page suivent ces lignes directrices, et nous les confirmons auprès de l'EDB avant de préparer toute demande.",
     facts: [
       { label: "Engagement d'investissement", value: "Au moins 1 million USD, investis dans des secteurs éligibles au cours des douze premiers mois de résidence, confirmés par un engagement écrit lors de la demande. L'EDB assure le suivi de l'investissement" },
       { label: "Secteurs éligibles", value: "Services financiers, fintech, TIC, tourisme et hôtellerie, industrie manufacturière, santé et bien-être, éducation, énergies renouvelables, économie bleue, activités innovantes ou fondées sur le savoir, et industries créatives" },
@@ -206,7 +206,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
       {
         heading: "Déroulement de la demande",
         body: [
-          "Les demandes se déposent sur le National E-Licensing System. L'EDB examine chaque dossier et recommande ceux qui remplissent les critères au Passport and Immigration Office, qui délivre le visa. Les lignes directrices prévoient un délai de cinq jours ouvrables à compter du moment où le dossier est complet, sans frais de traitement.",
+          "Nous préparons la demande et la déposons auprès de l'EDB pour vous. L'EDB examine chaque dossier et recommande ceux qui remplissent les critères au Passport and Immigration Office, qui délivre le visa. Les lignes directrices prévoient un délai de cinq jours ouvrables à compter du moment où le dossier est complet, sans frais de traitement.",
           "Le dossier comprend le formulaire de demande, le passeport, un plan d'affaires détaillé présentant les actionnaires, le projet et son calendrier de mise en œuvre ainsi que son financement, l'engagement d'investissement signé, un relevé bancaire faisant apparaître au moins 1 million USD, une assurance voyage et santé, et un justificatif d'hébergement. C'est sur l'origine des fonds que les dossiers sont mis à l'épreuve ; nous la documentons au niveau qu'exigent les autorités, en nous appuyant sur la pratique de conformité du groupe.",
         ],
       },
@@ -388,7 +388,7 @@ export const faqsFr: Record<string, Faq[]> = {
     { q: "Puis-je détenir le bien via une société ou un trust ?", a: "Oui. Une Domestic Company mauricienne peut acquérir un bien sous programme et ses parts peuvent être détenues en trust. Le permis de résidence peut être obtenu via la structure, sous réserve des conditions de l'EDB. La structure doit être en place avant l'acte." },
   ],
   "golden-visa": [
-    { q: "Le Golden Visa est-il disponible maintenant ?", a: "Oui. L'EDB a publié les lignes directrices du dispositif en août 2026, et les demandes se déposent sur le National E-Licensing System. Un dossier complet doit être traité en cinq jours ouvrables, sans frais de traitement." },
+    { q: "Le Golden Visa est-il disponible maintenant ?", a: "Oui. L'EDB a publié les lignes directrices du dispositif en août 2026, et accepte les demandes. Nous préparons et déposons la demande pour vous, et un dossier complet doit être traité en cinq jours ouvrables, sans frais de traitement." },
     { q: "Mes revenus doivent-ils provenir de l'étranger ?", a: "Oui. Les lignes directrices exigent que la source initiale de revenus du demandeur se situe hors de Maurice, et le justificatif de fonds est un relevé bancaire du pays d'origine faisant apparaître au moins 1 million USD." },
     { q: "L'achat d'un logement compte-t-il dans le million USD ?", a: "Non. L'investissement doit porter sur une activité économique relevant de l'un des secteurs éligibles, et l'immobilier résidentiel n'en fait pas partie. Les lignes directrices permettent toutefois aux titulaires d'acheter en plus un logement dans les programmes immobiliers de l'EDB, ou un appartement R+2." },
     { q: "Puis-je travailler à Maurice avec le Golden Visa ?", a: "Pas avec le visa lui-même. Les lignes directrices permettent au titulaire qui souhaite travailler ou diriger une entreprise de demander un Occupation Permit, et à celui âgé de 50 ans ou plus de demander un permis Retraité non-citoyen." },
