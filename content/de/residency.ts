@@ -298,7 +298,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     title: "Daueraufenthalt",
     summary: "Die zwanzigjährige Genehmigung und welche Aufenthaltsmöglichkeiten dorthin führen.",
     intro:
-      "Ein Permanent Residence Permit, also eine Genehmigung zum Daueraufenthalt, wird für zwanzig Jahre erteilt und befreit den Inhaber von den Bedingungen eines Occupation Permit oder einer Aufenthaltsgenehmigung. Sie wird durch das Erfüllen dauerhafter Schwellen unter einer bestehenden Genehmigung erworben oder, sobald das Programm läuft, durch den Abschluss der Golden-Visa-Investition.",
+      "Ein Permanent Residence Permit, also eine Genehmigung zum Daueraufenthalt, wird für zwanzig Jahre erteilt und befreit den Inhaber von den Bedingungen eines Occupation Permit oder einer Aufenthaltsgenehmigung. Es wird durch das Erfüllen dauerhafter Schwellen unter einer bestehenden Genehmigung erworben oder durch den Abschluss der Golden-Visa-Investition.",
     facts: [
       { label: "Gültigkeit", value: "20 Jahre, verlängerbar" },
       { label: "Investor", value: "Fünf Jahre mit der Genehmigung und in jedem dieser Jahre ein Jahresumsatz von mindestens 15 Millionen MUR oder ein Gesamtumsatz von 75 Millionen MUR über die fünf Jahre" },

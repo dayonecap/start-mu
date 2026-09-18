@@ -434,7 +434,7 @@ export const residency: ServiceEntry[] = [
     title: "Permanent Residence",
     summary: "The twenty-year permit, and the routes that lead to it.",
     intro:
-      "A Permanent Residence Permit is issued for twenty years and frees the holder from the conditions that attach to an Occupation or Residence Permit. It is earned by meeting sustained thresholds under an existing permit, or, once the scheme is operational, by completing the Golden Visa investment.",
+      "A Permanent Residence Permit is issued for twenty years and frees the holder from the conditions that attach to an Occupation or Residence Permit. It is earned by meeting sustained thresholds under an existing permit, or by completing the Golden Visa investment.",
     facts: [
       { label: "Validity", value: "20 years, renewable" },
       { label: "Investor", value: "Five years on the permit, with annual turnover of at least MUR 15 million in each of those years or aggregate turnover of MUR 75 million over the five years" },

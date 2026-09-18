@@ -298,7 +298,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     title: "Résidence permanente",
     summary: "Le permis de vingt ans, et les voies qui y mènent.",
     intro:
-      "Un permis de résidence permanente est délivré pour vingt ans et libère le titulaire des conditions attachées à un Occupation Permit ou à un permis de résidence. Il s'obtient en respectant des seuils soutenus sous un permis existant ou, une fois le dispositif opérationnel, en réalisant l'investissement du Golden Visa.",
+      "Un permis de résidence permanente est délivré pour vingt ans et libère le titulaire des conditions attachées à un Occupation Permit ou à un permis de résidence. Il s'obtient en respectant des seuils soutenus sous un permis existant ou en réalisant l'investissement du Golden Visa.",
     facts: [
       { label: "Validité", value: "20 ans, renouvelable" },
       { label: "Investisseur", value: "Cinq ans de permis, avec un chiffre d'affaires annuel d'au moins 15 millions MUR chacune de ces années ou un chiffre d'affaires cumulé de 75 millions MUR sur les cinq ans" },
