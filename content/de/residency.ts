@@ -182,30 +182,46 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
     intro:
       "Das Golden Visa ist ein Visum für mehrfache Einreise für vermögende Personen und ihre engsten Familienangehörigen, im April 2026 vom Kabinett gebilligt und mit den Budgetmaßnahmen 2026-27 gesetzlich verankert. Wer innerhalb von zwölf Monaten nach Erteilung 1 Million USD auf Mauritius investiert, kann ein zwanzigjähriges Permanent Residence Permit beantragen. Die Erfüllung der Voraussetzungen führt nicht automatisch zur Erteilung: Der Antrag wird in der Sache geprüft, und der Abschluss der Investition wandelt das Visum nicht automatisch um.",
     status:
-      "Der Rahmen ist dem Grunde nach beschlossen, aber die Antragsrichtlinien des EDB und der Beginn des Programms stehen noch aus. Wir verfolgen die Richtlinien genau und bestätigen die geltenden Anforderungen, bevor wir ein Mandat annehmen.",
+      "Das EDB hat die Richtlinien des Programms im August 2026 veröffentlicht; Anträge werden jetzt online über das National E-Licensing System gestellt. Die Anforderungen auf dieser Seite folgen diesen Richtlinien, und wir bestätigen sie beim EDB, bevor wir einen Antrag vorbereiten.",
     facts: [
-      { label: "Investitionszusage", value: "1 Million USD, innerhalb von zwölf Monaten nach Erteilung investiert, bei Antragstellung durch eine schriftliche Verpflichtung bestätigt" },
-      { label: "Qualifizierte Investition", value: "Jede Geschäftstätigkeit außer dem Erwerb von Wohnimmobilien unter den Immobilienprogrammen des EDB. Genannt werden Fintech, künstliche Intelligenz, Biotechnologie, erneuerbare Energien und globales Treasury" },
+      { label: "Investitionszusage", value: "Mindestens 1 Million USD, in den ersten zwölf Monaten des Aufenthalts in qualifizierte Sektoren investiert und bei Antragstellung durch eine schriftliche Verpflichtung bestätigt. Das EDB verfolgt den Fortschritt" },
+      { label: "Qualifizierte Sektoren", value: "Finanzdienstleistungen, Fintech, IKT, Tourismus und Gastgewerbe, verarbeitendes Gewerbe, Gesundheit und Wellness, Bildung, erneuerbare Energien, blaue Wirtschaft, innovative oder wissensbasierte Tätigkeiten und Kreativwirtschaft" },
+      { label: "Nachweis der Mittel", value: "Ein Kontoauszug einer Bank im Herkunftsland mit mindestens 1 Million USD, auf den Namen des Antragstellers oder einer Gesellschaft, deren wirtschaftlicher Eigentümer er ist" },
+      { label: "Herkunft der Einkünfte", value: "Die ursprüngliche Einkommensquelle des Antragstellers muss außerhalb von Mauritius liegen" },
       { label: "Erste Genehmigung", value: "Bis zu zwei Jahre, mehrfache Einreise, verlängerbar" },
       { label: "Nach Abschluss der Investition", value: "Berechtigt, ein 20-jähriges Permanent Residence Permit zu beantragen. Keine automatische Umwandlung" },
-      { label: "Familienangehörige", value: "Ehepartner und unterhaltsberechtigte Kinder" },
-      { label: "Bearbeitungsziel", value: "Fünf Arbeitstage, vom Premierminister angekündigt" },
-      { label: "Erwartetes Volumen", value: "Rund 100 Empfänger pro Jahr" },
+      { label: "Familienangehörige", value: "Ehepartner und Kinder" },
+      { label: "Gebühren", value: "Keine Bearbeitungsgebühr" },
+      { label: "Bearbeitungszeit", value: "Fünf Arbeitstage ab vollständigem Antrag, nach einer in den Richtlinien festgelegten Leistungsvereinbarung" },
+      { label: "Behörden", value: "Prüfung durch das Economic Development Board; das Visum erteilt das Passport and Immigration Office" },
     ],
     sections: [
-      { heading: "Für wen es passt", body: [
-        "Eine Familie mit Kapital, die schnell nach Mauritius ziehen und eine lange Genehmigung halten möchte, die weder an ein eigenes Haus noch an die tägliche Führung eines Unternehmens gebunden ist. Das Golden Visa verleiht für sich genommen kein Recht zu arbeiten; erwartet wird eine Investition in qualifizierte Sektoren, keine Beschäftigung.",
-        "Es liegt zwischen den bestehenden Aufenthaltsmöglichkeiten. Es verlangt mehr Kapital als das Investor Permit oder die Immobilienschwelle, berechtigt dafür aber nach dem ersten Jahr zum Antrag auf einen zwanzigjährigen Daueraufenthalt und überlässt die Wahl der Investition dem Inhaber.",
-      ] },
-      { heading: "Sorgfaltsprüfung", body: [
-        "Anträge laufen über das EDB mit einer behördenübergreifenden Prüfung unter Beteiligung der Financial Crimes Commission, der Financial Intelligence Unit, der Financial Services Commission, der Bank of Mauritius und des Passport and Immigration Office. Herkunft der Mittel und des Vermögens werden gründlich geprüft. Wir bereiten diese Akte auf dem Niveau vor, das die Behörden anlegen, gestützt auf die Compliance-Praxis der Gruppe.",
-      ] },
-      { heading: "Wohnen in der Anfangszeit", body: [
-        "Der Rahmen sieht vor, dass Inhaber während der Investitionsphase in Hotels oder in Wohnimmobilien leben, die ausländischen Käufern bereits offenstehen, um den lokalen Wohnungsmarkt nicht zu belasten. Wohnimmobilien unter den EDB-Programmen bleiben Golden-Visa-Inhabern als Zuhause zugänglich, zählen aber nicht zur Million USD.",
-      ] },
-      { heading: "Unsere Rolle", body: [
-        "Wir beraten, ob das Golden Visa oder eine bestehende Aufenthaltsmöglichkeit besser passt, bereiten den Antrag und die Sorgfaltsakte vor, strukturieren bei Bedarf die Empfängergesellschaft für die Investition und übernehmen den Concierge-Teil des Umzugs. Sobald das EDB seine Richtlinien veröffentlicht, stellen wir hier die vollständigen Dokumentationsanforderungen dar.",
-      ] },
+      {
+        heading: "Für wen es passt",
+        body: [
+          "Eine Familie mit Kapital, die schnell nach Mauritius ziehen und über eine langfristige Aufenthaltsgenehmigung verfügen möchte, die weder an ein eigenes Haus noch an die tägliche Führung eines Unternehmens gebunden ist. Das Golden Visa verleiht für sich genommen kein Recht zu arbeiten. Wer arbeiten oder ein Unternehmen führen will, kann ein Occupation Permit beantragen, wer 50 Jahre oder älter ist, eine Genehmigung für Ruheständler.",
+          "Es liegt zwischen den bestehenden Aufenthaltsmöglichkeiten. Es verlangt mehr Kapital als das Investor Permit oder die Immobilienschwelle, berechtigt dafür aber nach dem ersten Jahr zum Antrag auf einen zwanzigjährigen Daueraufenthalt und überlässt die Wahl der Investition dem Inhaber.",
+        ],
+      },
+      {
+        heading: "Ablauf des Antrags",
+        body: [
+          "Anträge werden über das National E-Licensing System gestellt. Das EDB prüft jeden Antrag und empfiehlt diejenigen, die die Kriterien erfüllen, dem Passport and Immigration Office, das das Visum erteilt. Die Richtlinien sehen fünf Arbeitstage ab Vollständigkeit des Antrags vor; eine Bearbeitungsgebühr fällt nicht an.",
+          "Zur Akte gehören das Antragsformular, der Reisepass, ein ausführlicher Geschäftsplan mit dem Hintergrund der Gesellschafter, dem Projekt und seinem Zeitplan sowie seiner Finanzierung, die unterzeichnete Investitionszusage, ein Kontoauszug über mindestens 1 Million USD, eine Reise- und Krankenversicherung und ein Nachweis der Unterkunft. Geprüft wird eine Akte vor allem an der Herkunft der Mittel; wir bereiten sie auf dem Niveau vor, das die Behörden anlegen, gestützt auf die Compliance-Praxis der Gruppe.",
+        ],
+      },
+      {
+        heading: "Wohnen",
+        body: [
+          "Der Antrag verlangt einen Nachweis der Unterkunft: eine Hotelbuchung, einen Mietvertrag oder ein Einladungsschreiben eines Gastgebers. Inhaber dürfen außerdem ein Zuhause unter den Programmen IRS, RES, PDS oder Smart City oder eine R+2-Wohnung erwerben. Wohnimmobilien gehören nicht zu den qualifizierten Sektoren; ein Zuhause zählt daher nicht zur Million USD.",
+        ],
+      },
+      {
+        heading: "Unsere Rolle",
+        body: [
+          "Wir beraten, ob das Golden Visa oder eine bestehende Aufenthaltsmöglichkeit besser passt, bereiten den Antrag und die Akte zur Herkunft der Mittel vor, strukturieren bei Bedarf die Empfängergesellschaft für die Investition und übernehmen den Concierge-Teil des Umzugs, einschließlich der beschleunigten Arbeitsgenehmigungen, die das Programm für Hauspersonal vorsieht.",
+        ],
+      },
     ],
     related: [
       { label: "Investor Permit", href: "/residency/investor-permit" },
@@ -214,7 +230,7 @@ export const residencyDe: Record<string, Partial<ServiceEntry>> = {
       { label: "Concierge", href: "/concierge" },
     ],
     metaTitle: "Golden Visa Mauritius | start.mu",
-    metaDescription: "Das Golden Visa von Mauritius: 1 Million USD Investition innerhalb von zwölf Monaten, eine zweijährige Genehmigung für mehrfache Einreise und die Berechtigung, einen zwanzigjährigen Daueraufenthalt zu beantragen. Aktueller Stand und was zu erwarten ist.",
+    metaDescription: "Das Golden Visa von Mauritius nach den Richtlinien des EDB vom August 2026: 1 Million USD in qualifizierten Sektoren innerhalb von zwölf Monaten, ein zweijähriges Visum für mehrfache Einreise, keine Bearbeitungsgebühr und die Berechtigung, einen zwanzigjährigen Daueraufenthalt zu beantragen.",
     index: { audience: "Vermögende Familien", threshold: "1 Million USD in 12 Monaten", duration: "2 Jahre, danach Antrag auf 20-jährigen Daueraufenthalt möglich" },
   },
   "premium-visa": {
@@ -372,9 +388,10 @@ export const faqsDe: Record<string, Faq[]> = {
     { q: "Kann ich die Immobilie über eine Gesellschaft oder einen Trust halten?", a: "Ja. Eine mauritische Domestic Company darf Programmimmobilien erwerben, und ihre Anteile können in einem Trust gehalten werden. Die Aufenthaltsgenehmigung kann über die Struktur erlangt werden, vorbehaltlich der Bedingungen des EDB. Die Struktur muss vor der Urkunde bestehen." },
   ],
   "golden-visa": [
-    { q: "Ist das Golden Visa jetzt verfügbar?", a: "Der Rahmen wurde im April 2026 vom Kabinett gebilligt und mit den Budgetmaßnahmen gesetzlich verankert, aber die Antragsrichtlinien des EDB und der Beginn des Programms stehen noch aus. Wir bestätigen die geltenden Anforderungen, bevor wir ein Mandat annehmen." },
-    { q: "Zählt der Kauf eines Hauses zur Million USD?", a: "Nein. Wohnimmobilien unter den EDB-Programmen sind von der qualifizierten Investition ausgeschlossen. Sie können zusätzlich ein Zuhause unter den Programmen kaufen." },
-    { q: "Darf ich mit dem Golden Visa auf Mauritius arbeiten?", a: "Das Visum verleiht für sich genommen kein Recht zu arbeiten. Erwartet wird eine Investition in qualifizierte Sektoren, keine Beschäftigung." },
+    { q: "Ist das Golden Visa jetzt verfügbar?", a: "Ja. Das EDB hat die Richtlinien des Programms im August 2026 veröffentlicht, und Anträge werden über das National E-Licensing System gestellt. Ein vollständiger Antrag soll innerhalb von fünf Arbeitstagen bearbeitet werden; eine Bearbeitungsgebühr fällt nicht an." },
+    { q: "Müssen meine Einkünfte aus dem Ausland stammen?", a: "Ja. Nach den Richtlinien muss die ursprüngliche Einkommensquelle des Antragstellers außerhalb von Mauritius liegen, und als Nachweis der Mittel dient ein Kontoauszug aus dem Herkunftsland über mindestens 1 Million USD." },
+    { q: "Zählt der Kauf eines Hauses zur Million USD?", a: "Nein. Die Investition muss in eine Geschäftstätigkeit in einem der qualifizierten Sektoren fließen, und Wohnimmobilien gehören nicht dazu. Die Richtlinien erlauben Inhabern aber, zusätzlich ein Zuhause unter den Immobilienprogrammen des EDB oder eine R+2-Wohnung zu erwerben." },
+    { q: "Darf ich mit dem Golden Visa auf Mauritius arbeiten?", a: "Nicht mit dem Visum selbst. Nach den Richtlinien kann ein Inhaber, der arbeiten oder ein Unternehmen führen will, ein Occupation Permit beantragen, und wer 50 Jahre oder älter ist, eine Genehmigung für Ruheständler." },
     { q: "Wie verhält es sich zum Investor Permit?", a: "Es verlangt das Zehnfache an Kapital, ermöglicht aber nach dem ersten Jahr den Antrag auf einen zwanzigjährigen Daueraufenthalt, statt einer zehnjährigen Genehmigung mit Umsatzbedingungen. Das Investor Permit passt für jemanden, der ein Unternehmen führt; das Golden Visa für jemanden, der Kapital einsetzt." },
   ],
   "premium-visa": [
@@ -392,6 +409,6 @@ export const faqsDe: Record<string, Faq[]> = {
   "permanent-residence": [
     { q: "Wie bald kann ich beantragen?", a: "Nach fünf Jahren mit der Genehmigung, sofern die Schwellen Ihrer Kategorie in jedem dieser Jahre erfüllt wurden, und spätestens sechs Monate nach ihrer Erfüllung." },
     { q: "Sind die Schwellen dieselben wie für die Genehmigung selbst?", a: "Nein. Sie liegen erheblich höher: 15 Millionen MUR Jahresumsatz für einen Investor, 400.000 MUR monatlich für einen Angestellten, 3 Millionen MUR jährlich für einen Selbstständigen und 200.000 USD an Überweisungen insgesamt für einen Ruheständler. Die Planung beginnt im ersten Jahr." },
-    { q: "Führt das Golden Visa schneller zum Daueraufenthalt?", a: "Möglicherweise. Der Abschluss der Investition von 1 Million USD innerhalb von zwölf Monaten berechtigt den Inhaber, die zwanzigjährige Genehmigung zu beantragen, sobald das Programm in Kraft ist. Es begründet eine Berechtigung zur Antragstellung, keine automatische Erteilung." },
+    { q: "Führt das Golden Visa schneller zum Daueraufenthalt?", a: "Möglicherweise. Der Abschluss der Investition von 1 Million USD innerhalb von zwölf Monaten berechtigt den Inhaber, die zwanzigjährige Genehmigung zu beantragen. Es begründet eine Berechtigung zur Antragstellung, keine automatische Erteilung." },
   ],
 };

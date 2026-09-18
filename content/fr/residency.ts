@@ -182,30 +182,46 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
     intro:
       "Le Golden Visa est un visa à entrées multiples destiné aux personnes fortunées et à leurs personnes à charge immédiates, approuvé par le Conseil des ministres en avril 2026 et consacré par les mesures du Budget 2026-27. Le titulaire qui investit 1 million USD à Maurice dans les douze mois suivant la délivrance du visa devient éligible pour demander un permis de résidence permanente d'une durée de vingt ans. L'éligibilité ne vaut pas approbation : la demande est examinée au fond, et la réalisation de l'investissement ne transforme pas automatiquement le visa en permis de résidence permanente.",
     status:
-      "Le cadre a été adopté dans son principe, mais les lignes directrices de l'EDB et l'entrée en vigueur du dispositif restent à finaliser. Nous suivons ces lignes directrices de près et confirmerons les exigences applicables avant d'accepter tout mandat.",
+      "L'EDB a publié les lignes directrices du dispositif en août 2026, et les demandes se déposent désormais en ligne sur le National E-Licensing System. Les exigences présentées sur cette page suivent ces lignes directrices, et nous les confirmons auprès de l'EDB avant de préparer toute demande.",
     facts: [
-      { label: "Engagement d'investissement", value: "1 million USD, investis dans les douze mois suivant la délivrance, confirmés par un engagement écrit lors de la demande" },
-      { label: "Investissement éligible", value: "Toute activité économique autre que l'acquisition d'un bien résidentiel sous les programmes immobiliers de l'EDB. Les secteurs mis en avant sont la fintech, l'intelligence artificielle, la biotechnologie, les énergies renouvelables et la trésorerie internationale" },
+      { label: "Engagement d'investissement", value: "Au moins 1 million USD, investis dans des secteurs éligibles au cours des douze premiers mois de résidence, confirmés par un engagement écrit lors de la demande. L'EDB assure le suivi de l'investissement" },
+      { label: "Secteurs éligibles", value: "Services financiers, fintech, TIC, tourisme et hôtellerie, industrie manufacturière, santé et bien-être, éducation, énergies renouvelables, économie bleue, activités innovantes ou fondées sur le savoir, et industries créatives" },
+      { label: "Justificatif de fonds", value: "Un relevé bancaire d'un établissement du pays d'origine du demandeur, faisant apparaître au moins 1 million USD au nom du demandeur ou d'une entité dont il est le bénéficiaire effectif" },
+      { label: "Origine des revenus", value: "La source initiale de revenus du demandeur doit se situer hors de Maurice" },
       { label: "Permis initial", value: "Jusqu'à deux ans, entrées multiples, renouvelable" },
       { label: "À l'achèvement de l'investissement", value: "Éligible pour demander un permis de résidence permanente de 20 ans. Pas une conversion automatique" },
-      { label: "Personnes à charge", value: "Conjoint et enfants à charge" },
-      { label: "Objectif de traitement", value: "Cinq jours ouvrables, annoncés par le Premier ministre" },
-      { label: "Volume attendu", value: "Environ 100 bénéficiaires par an" },
+      { label: "Personnes à charge", value: "Conjoint et enfants" },
+      { label: "Frais", value: "Pas de frais de traitement" },
+      { label: "Délai de traitement", value: "Cinq jours ouvrables à compter d'un dossier complet, selon un accord de niveau de service prévu par les lignes directrices" },
+      { label: "Autorités", value: "Examen par l'Economic Development Board ; le visa est délivré par le Passport and Immigration Office" },
     ],
     sections: [
-      { heading: "À qui il convient", body: [
-        "Une famille disposant de capitaux à déployer, qui veut s'installer rapidement à Maurice et détenir un permis long qui ne soit lié ni à la possession d'un logement ni à la gestion quotidienne d'une entreprise. Le Golden Visa ne confère pas, à lui seul, le droit de travailler à Maurice ; l'attente est un investissement dans des secteurs éligibles plutôt qu'un emploi.",
-        "Il se situe entre les voies existantes. Il exige plus de capital que le permis Investisseur ou le seuil immobilier, mais il permet, à l'issue de la première année, de demander une résidence permanente de vingt ans et laisse au titulaire le choix de l'investissement.",
-      ] },
-      { heading: "Diligence raisonnable", body: [
-        "Les demandes passeront par l'EDB avec un contrôle interagences impliquant la Financial Crimes Commission, la Financial Intelligence Unit, la Financial Services Commission, la Banque de Maurice et le Passport and Immigration Office. L'origine des fonds et l'origine du patrimoine seront examinées sérieusement. Nous préparons ce dossier au niveau qu'appliqueront ces agences, en nous appuyant sur la pratique de conformité du groupe.",
-      ] },
-      { heading: "Logement pendant la période initiale", body: [
-        "Le cadre prévoit que les titulaires résident à l'hôtel ou dans un bien résidentiel déjà ouvert aux acheteurs étrangers pendant que l'investissement est réalisé, afin de ne pas peser sur le marché local du logement. Les biens résidentiels sous les programmes de l'EDB restent accessibles aux titulaires du Golden Visa comme résidence, mais ne comptent pas dans le million USD.",
-      ] },
-      { heading: "Notre rôle", body: [
-        "Nous conseillons sur le choix entre le Golden Visa et une voie existante, préparons la demande et le dossier de diligence, structurons l'entité réceptrice de l'investissement lorsqu'elle est nécessaire et gérons le volet conciergerie de l'installation. Dès la publication des lignes directrices de l'EDB, nous présenterons ici l'ensemble des exigences documentaires.",
-      ] },
+      {
+        heading: "À qui il convient",
+        body: [
+          "Une famille disposant de capitaux à déployer, qui veut s'installer rapidement à Maurice et détenir un permis long qui ne soit lié ni à la possession d'un logement ni à la gestion quotidienne d'une entreprise. Le Golden Visa ne confère pas, à lui seul, le droit de travailler à Maurice. Le titulaire qui souhaite travailler ou diriger une entreprise peut demander un Occupation Permit, et celui âgé de 50 ans ou plus un permis Retraité non-citoyen.",
+          "Il se situe entre les voies existantes. Il exige plus de capital que le permis Investisseur ou le seuil immobilier, mais il permet, à l'issue de la première année, de demander une résidence permanente de vingt ans et laisse au titulaire le choix de l'investissement.",
+        ],
+      },
+      {
+        heading: "Déroulement de la demande",
+        body: [
+          "Les demandes se déposent sur le National E-Licensing System. L'EDB examine chaque dossier et recommande ceux qui remplissent les critères au Passport and Immigration Office, qui délivre le visa. Les lignes directrices prévoient un délai de cinq jours ouvrables à compter du moment où le dossier est complet, sans frais de traitement.",
+          "Le dossier comprend le formulaire de demande, le passeport, un plan d'affaires détaillé présentant les actionnaires, le projet et son calendrier de mise en œuvre ainsi que son financement, l'engagement d'investissement signé, un relevé bancaire faisant apparaître au moins 1 million USD, une assurance voyage et santé, et un justificatif d'hébergement. C'est sur l'origine des fonds que les dossiers sont mis à l'épreuve ; nous la documentons au niveau qu'exigent les autorités, en nous appuyant sur la pratique de conformité du groupe.",
+        ],
+      },
+      {
+        heading: "Logement",
+        body: [
+          "La demande doit être accompagnée d'un justificatif d'hébergement : réservation d'hôtel, contrat de location ou lettre d'invitation d'un hôte. Les titulaires peuvent aussi acheter un logement dans le cadre des programmes IRS, RES, PDS ou Smart City, ou un appartement R+2. L'immobilier résidentiel ne figure pas parmi les secteurs éligibles : un logement ne compte donc pas dans le million USD.",
+        ],
+      },
+      {
+        heading: "Notre rôle",
+        body: [
+          "Nous conseillons sur le choix entre le Golden Visa et une voie existante, préparons la demande et le dossier sur l'origine des fonds, structurons l'entité réceptrice de l'investissement lorsqu'elle est nécessaire et gérons le volet conciergerie de l'installation, y compris les permis de travail accélérés que le dispositif prévoit pour le personnel de maison.",
+        ],
+      },
     ],
     related: [
       { label: "Permis Investisseur", href: "/residency/investor-permit" },
@@ -214,7 +230,7 @@ export const residencyFr: Record<string, Partial<ServiceEntry>> = {
       { label: "Conciergerie", href: "/concierge" },
     ],
     metaTitle: "Golden Visa de Maurice | start.mu",
-    metaDescription: "Le Golden Visa de Maurice : 1 million USD investis en douze mois, un permis de deux ans à entrées multiples et l'éligibilité à une résidence permanente de vingt ans. État actuel et ce qu'il faut attendre.",
+    metaDescription: "Le Golden Visa de Maurice selon les lignes directrices de l'EDB d'août 2026 : 1 million USD dans des secteurs éligibles en douze mois, un visa de deux ans à entrées multiples, sans frais de traitement, et l'éligibilité à une demande de résidence permanente de vingt ans.",
     index: { audience: "Familles fortunées", threshold: "1 million USD en 12 mois", duration: "2 ans, puis éligible pour demander une RP de 20 ans" },
   },
   "premium-visa": {
@@ -372,9 +388,10 @@ export const faqsFr: Record<string, Faq[]> = {
     { q: "Puis-je détenir le bien via une société ou un trust ?", a: "Oui. Une Domestic Company mauricienne peut acquérir un bien sous programme et ses parts peuvent être détenues en trust. Le permis de résidence peut être obtenu via la structure, sous réserve des conditions de l'EDB. La structure doit être en place avant l'acte." },
   ],
   "golden-visa": [
-    { q: "Le Golden Visa est-il disponible maintenant ?", a: "Le cadre a été approuvé par le Conseil des ministres en avril 2026 et introduit par les mesures budgétaires, mais les lignes directrices de l'EDB et l'entrée en vigueur du dispositif restent à finaliser. Nous confirmerons les exigences applicables avant d'accepter tout mandat." },
-    { q: "L'achat d'un logement compte-t-il dans le million USD ?", a: "Non. Les biens résidentiels sous les programmes de l'EDB sont exclus de l'investissement éligible. Vous pouvez acheter un logement sous les programmes en plus de celui-ci." },
-    { q: "Puis-je travailler à Maurice avec le Golden Visa ?", a: "Le visa ne confère pas, à lui seul, le droit de travailler. L'attente est un investissement dans des secteurs éligibles plutôt qu'un emploi." },
+    { q: "Le Golden Visa est-il disponible maintenant ?", a: "Oui. L'EDB a publié les lignes directrices du dispositif en août 2026, et les demandes se déposent sur le National E-Licensing System. Un dossier complet doit être traité en cinq jours ouvrables, sans frais de traitement." },
+    { q: "Mes revenus doivent-ils provenir de l'étranger ?", a: "Oui. Les lignes directrices exigent que la source initiale de revenus du demandeur se situe hors de Maurice, et le justificatif de fonds est un relevé bancaire du pays d'origine faisant apparaître au moins 1 million USD." },
+    { q: "L'achat d'un logement compte-t-il dans le million USD ?", a: "Non. L'investissement doit porter sur une activité économique relevant de l'un des secteurs éligibles, et l'immobilier résidentiel n'en fait pas partie. Les lignes directrices permettent toutefois aux titulaires d'acheter en plus un logement dans les programmes immobiliers de l'EDB, ou un appartement R+2." },
+    { q: "Puis-je travailler à Maurice avec le Golden Visa ?", a: "Pas avec le visa lui-même. Les lignes directrices permettent au titulaire qui souhaite travailler ou diriger une entreprise de demander un Occupation Permit, et à celui âgé de 50 ans ou plus de demander un permis Retraité non-citoyen." },
     { q: "Comment se compare-t-il au permis Investisseur ?", a: "Il exige dix fois plus de capital mais ouvre la voie à une demande de résidence permanente de vingt ans après la première année, plutôt qu'à un permis de dix ans assorti de conditions de chiffre d'affaires. Le permis Investisseur convient à celui qui dirigera une entreprise ; le Golden Visa à celui qui déploiera des capitaux." },
   ],
   "premium-visa": [
@@ -392,6 +409,6 @@ export const faqsFr: Record<string, Faq[]> = {
   "permanent-residence": [
     { q: "Quand puis-je faire la demande ?", a: "Après cinq ans de permis, à condition que les seuils de votre catégorie aient été atteints chacune de ces années, et au plus tard six mois après qu'ils sont remplis." },
     { q: "Les seuils sont-ils les mêmes que pour le permis lui-même ?", a: "Non. Ils sont nettement plus élevés : 15 millions MUR de chiffre d'affaires annuel pour un investisseur, 400 000 MUR par mois pour un professionnel, 3 millions MUR par an pour un indépendant, et 200 000 USD de transferts cumulés pour un retraité. La préparation commence en année 1." },
-    { q: "Le Golden Visa mène-t-il plus vite à la résidence permanente ?", a: "Potentiellement. La réalisation de l'investissement de 1 million USD dans les douze mois rend le titulaire éligible pour demander le permis de vingt ans, une fois le dispositif opérationnel. C'est une voie d'éligibilité, non un octroi automatique." },
+    { q: "Le Golden Visa mène-t-il plus vite à la résidence permanente ?", a: "Potentiellement. La réalisation de l'investissement de 1 million USD dans les douze mois rend le titulaire éligible pour demander le permis de vingt ans. C'est une voie d'éligibilité, non un octroi automatique." },
   ],
 };

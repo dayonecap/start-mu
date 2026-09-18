@@ -25,7 +25,7 @@ export const faqs: Record<string, Faq[]> = {
     },
     {
       q: "Is the Investor permit the right route if I only want to invest passively?",
-      a: "Usually not. The permit assumes an owner who directs the business and whose company earns revenue in Mauritius. A passive investor is generally better served by residence through property, or by the Golden Visa once operational.",
+      a: "Usually not. The permit assumes an owner who directs the business and whose company earns revenue in Mauritius. A passive investor is generally better served by residence through property, or by the Golden Visa.",
     },
   ],
   "professional-permit": [
@@ -125,15 +125,19 @@ export const faqs: Record<string, Faq[]> = {
   "golden-visa": [
     {
       q: "Is the Golden Visa available now?",
-      a: "The framework was approved by Cabinet in April 2026 and legislated through the Budget measures, but the EDB's application guidelines and the commencement of the scheme remain to be finalised. We will confirm the operative requirements before accepting any instruction.",
+      a: "Yes. The EDB published the scheme's guidelines in August 2026, and applications are filed on the National E-Licensing System. A complete application is to be processed within five working days, and there is no processing fee.",
+    },
+    {
+      q: "Must my income come from abroad?",
+      a: "Yes. The guidelines require the applicant's initial source of income to be outside Mauritius, and the evidence of funds is a bank statement from the country of origin showing at least USD 1 million.",
     },
     {
       q: "Does buying a home count towards the USD 1 million?",
-      a: "No. Residential property under the EDB schemes is excluded from the qualifying investment. You may buy a home under the schemes in addition to it.",
+      a: "No. The investment must go into a business activity in one of the qualifying sectors, and residential property is not one of them. The guidelines do allow holders to buy a home under the EDB property schemes, or a ground-plus-two apartment, alongside it.",
     },
     {
       q: "Can I work in Mauritius on the Golden Visa?",
-      a: "The visa does not, on its own, confer the right to work. The expectation is investment into qualifying sectors rather than employment.",
+      a: "Not on the visa itself. The guidelines allow a holder who wants to work or run a business to apply for an Occupation Permit, and a holder aged 50 or over to apply for a Retired Non-Citizen permit.",
     },
     {
       q: "How does it compare with the Investor permit?",
@@ -187,7 +191,7 @@ export const faqs: Record<string, Faq[]> = {
     },
     {
       q: "Does the Golden Visa lead to permanent residence sooner?",
-      a: "Potentially. Completing the USD 1 million investment within twelve months makes the holder eligible to apply for the twenty-year permit, once the scheme is operational. It is an eligibility route, not an automatic grant.",
+      a: "Potentially. Completing the USD 1 million investment within twelve months makes the holder eligible to apply for the twenty-year permit. It is an eligibility route, not an automatic grant.",
     },
   ],
   "domestic-company": [

@@ -297,40 +297,44 @@ export const residency: ServiceEntry[] = [
     intro:
       "The Golden Visa is a multiple-entry visa for high-net-worth individuals and their immediate dependents, approved by Cabinet in April 2026 and legislated through the 2026-27 Budget measures. A holder who invests USD 1 million in Mauritius within twelve months of issue becomes eligible to apply for a twenty-year Permanent Residence Permit. Eligibility is not the same as approval: the application is assessed on its merits, and completing the investment does not convert the visa automatically.",
     status:
-      "The framework has been enacted in principle but the EDB's application guidelines and the commencement of the scheme remain to be finalised. We are tracking the guidelines closely and will confirm the operative requirements before accepting any instruction.",
+      "The EDB published the scheme's guidelines in August 2026, and applications are now filed online through the National E-Licensing System. The requirements on this page follow those guidelines, and we confirm them with the EDB before preparing any application.",
     facts: [
-      { label: "Investment undertaking", value: "USD 1 million, invested within twelve months of issue, confirmed by a written undertaking at application" },
-      { label: "Qualifying investment", value: "Any business activity other than the acquisition of residential property under the EDB property schemes. Sectors highlighted include fintech, artificial intelligence, biotechnology, renewable energy and global treasury" },
+      { label: "Investment undertaking", value: "At least USD 1 million, invested in qualifying sectors within the first twelve months of residence, confirmed by a written undertaking at application. The EDB follows up on progress" },
+      { label: "Qualifying sectors", value: "Financial services, fintech, ICT, tourism and hospitality, manufacturing, healthcare and wellness, education, renewable energy, the blue economy, innovative or knowledge-based activities, and creative industries" },
+      { label: "Evidence of funds", value: "A bank statement from the applicant's country of origin showing at least USD 1 million, in the applicant's name or that of an entity they beneficially own" },
+      { label: "Source of income", value: "The applicant's initial source of income must be outside Mauritius" },
       { label: "Initial permit", value: "Up to two years, multiple entry, renewable" },
       { label: "On completion of the investment", value: "Eligible to apply for a 20-year Permanent Residence Permit. Not an automatic conversion" },
-      { label: "Dependents", value: "Spouse and dependent children" },
-      { label: "Processing target", value: "Five working days, announced by the Prime Minister" },
-      { label: "Expected volume", value: "Around 100 recipients a year" },
+      { label: "Dependents", value: "Spouse and children" },
+      { label: "Fees", value: "No processing fee" },
+      { label: "Processing", value: "Five working days from a complete application, under a service-level agreement set out in the guidelines" },
+      { label: "Authorities", value: "Screening by the Economic Development Board; the visa is issued by the Passport and Immigration Office" },
     ],
     sections: [
       {
         heading: "Who it suits",
         body: [
-          "A family with capital to deploy, who want to relocate to Mauritius quickly and hold a long permit that is not tied to owning a home or running a business day to day. The Golden Visa does not, on its own, confer the right to work in Mauritius; the expectation is investment into qualifying sectors rather than employment.",
+          "A family with capital to deploy, who want to relocate to Mauritius quickly and hold a long permit that is not tied to owning a home or running a business day to day. The Golden Visa does not, on its own, confer the right to work in Mauritius. A holder who wants to work or run a business can apply for an Occupation Permit, and one aged 50 or over for a Retired Non-Citizen permit.",
           "It sits between the existing routes. It requires more capital than the Investor permit or the property threshold, but at the end of the first year it makes the holder eligible to apply for twenty-year permanent residence, and it leaves the choice of where to invest to the holder.",
         ],
       },
       {
-        heading: "Due diligence",
+        heading: "How an application runs",
         body: [
-          "Applications will pass through the EDB with inter-agency screening involving the Financial Crimes Commission, the Financial Intelligence Unit, the Financial Services Commission, the Bank of Mauritius and the Passport and Immigration Office. Source of funds and source of wealth will be examined properly. We prepare that file to the standard the agencies will apply, drawing on the group's compliance practice.",
+          "Applications are filed on the National E-Licensing System. The EDB screens each one and recommends those that meet the criteria to the Passport and Immigration Office, which issues the visa. The guidelines commit to five working days from the date an application is complete, and there is no processing fee.",
+          "The file comprises the application form, the passport, a detailed business plan covering the background of the shareholders, the project and its implementation schedule and how it is financed, the signed investment undertaking, a bank statement showing at least USD 1 million, travel and health insurance, and evidence of where you will stay. Source of funds is where a file is tested, and we prepare it to the standard the authorities apply, drawing on the group's compliance practice.",
         ],
       },
       {
-        heading: "Housing during the initial period",
+        heading: "Housing",
         body: [
-          "The framework contemplates that holders will live in hotels or in residential property that is already open to foreign buyers while the investment is made, so as not to add pressure to the local housing market. Residential property under the EDB schemes remains available to Golden Visa holders as a home, but does not count towards the USD 1 million.",
+          "The application needs evidence of where you will stay: a hotel booking, a rental agreement or a letter of invitation from a host. Holders may also buy a home under the Integrated Resort, Real Estate, Property Development or Smart City schemes, or an apartment in a building of at least ground plus two floors. Residential property is not one of the qualifying sectors, so a home does not count towards the USD 1 million.",
         ],
       },
       {
         heading: "Our role",
         body: [
-          "We advise on whether the Golden Visa or an existing route is the better fit, prepare the application and the due diligence file, structure the receiving entity for the investment where one is needed, and manage the concierge side of the relocation. Once the EDB guidelines are published, we will set out the documentary requirements here in full.",
+          "We advise on whether the Golden Visa or an existing route is the better fit, prepare the application and the source-of-funds file, structure the receiving entity for the investment where one is needed, and manage the concierge side of the relocation, including the fast-track work permits the scheme offers for domestic staff.",
         ],
       },
     ],
@@ -342,7 +346,7 @@ export const residency: ServiceEntry[] = [
     ],
     metaTitle: "Mauritius Golden Visa | start.mu",
     metaDescription:
-      "The Mauritius Golden Visa: USD 1 million investment within twelve months, a two-year multiple-entry permit, and eligibility for twenty-year permanent residence. Current status and what to expect.",
+      "The Mauritius Golden Visa under the EDB's August 2026 guidelines: USD 1 million in qualifying sectors within twelve months, a two-year multiple-entry visa, no processing fee, and eligibility to apply for twenty-year permanent residence.",
     index: { audience: "High-net-worth families", threshold: "USD 1 million within 12 months", duration: "2 years, then eligible to apply for 20-year PR" },
   },
   {

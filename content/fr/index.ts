@@ -93,7 +93,7 @@ const residency: Record<string, Partial<ServiceEntry>> = {
       {
         heading: "À qui il convient",
         body: [
-          "Le permis est conçu pour un dirigeant-propriétaire : quelqu'un qui détiendra des parts d'une société mauricienne, la dirigera et bâtira une activité générant des revenus à Maurice. Ce n'est pas une voie d'investissement passif. Celui qui n'a pas l'intention de diriger l'entreprise en pratique sera généralement mieux servi par un permis de résidence via l'immobilier, ou par le Golden Visa une fois opérationnel.",
+          "Le permis est conçu pour un dirigeant-propriétaire : quelqu'un qui détiendra des parts d'une société mauricienne, la dirigera et bâtira une activité générant des revenus à Maurice. Ce n'est pas une voie d'investissement passif. Celui qui n'a pas l'intention de diriger l'entreprise en pratique sera généralement mieux servi par un permis de résidence via l'immobilier, ou par le Golden Visa.",
           "La plupart de nos clients investisseurs arrivent à Maurice avec une activité déjà établie ailleurs : conseil, commerce, logiciels, services professionnels ou distribution régionale. La société mauricienne devient alors l'entité opérationnelle de cette activité, ou une base régionale depuis laquelle l'entreprise peut servir ses marchés et développer ses activités à l'échelle régionale.",
         ],
       },
@@ -136,7 +136,7 @@ const faqs: Record<string, Faq[]> = {
     { q: "Puis-je détenir le permis avec un associé ?", a: "Oui. Lorsque l'investisseur est une société à plusieurs propriétaires, chaque actionnaire qui en est aussi administrateur demande son propre permis, et chacun doit remplir les critères à titre individuel." },
     { q: "Que se passe-t-il si le chiffre d'affaires est insuffisant en année 3 ?", a: "L'EDB compare le chiffre d'affaires déclaré au seuil de 5 millions MUR et peut radier un titulaire qui ne l'atteint pas, ce qui annule le permis. En pratique, la question est soulevée avant d'être sanctionnée, et il reste généralement du temps pour corriger le cap si l'écart est identifié tôt. C'est la raison principale pour laquelle nous suivons les déclarations dès la première année." },
     { q: "Mon conjoint peut-il travailler à Maurice ?", a: "Pas avec un permis de personne à charge. Un conjoint qui souhaite travailler demande son propre Occupation Permit, souvent en tant que Professionnel employé par la même société, ou un permis de travail." },
-    { q: "Le permis Investisseur convient-il si je souhaite seulement investir passivement ?", a: "Généralement, non. Le permis est destiné à un investisseur qui participe activement à la gestion de son entreprise et dont la société génère des revenus à Maurice. Pour un investissement purement passif, la résidence par l'acquisition d'un bien immobilier peut être plus adaptée, ou le Golden Visa une fois celui-ci opérationnel." },
+    { q: "Le permis Investisseur convient-il si je souhaite seulement investir passivement ?", a: "Généralement, non. Le permis est destiné à un investisseur qui participe activement à la gestion de son entreprise et dont la société génère des revenus à Maurice. Pour un investissement purement passif, la résidence par l'acquisition d'un bien immobilier peut être plus adaptée, ou le Golden Visa." },
   ],
 };
 

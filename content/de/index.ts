@@ -93,7 +93,7 @@ const residency: Record<string, Partial<ServiceEntry>> = {
       {
         heading: "Für wen es passt",
         body: [
-          "Die Genehmigung ist für den Eigentümer-Unternehmer gedacht: jemanden, der Anteile an einer mauritischen Gesellschaft hält, sie leitet und ein Geschäft aufbaut, das auf Mauritius Umsatz erzielt. Für rein passive Investitionen eignet es sich nicht. Wer das Unternehmen nicht tatsächlich führen will, ist mit einer Aufenthaltsgenehmigung über eine Immobilie oder, sobald es in Kraft ist, mit dem Golden Visa meist besser bedient.",
+          "Die Genehmigung ist für den Eigentümer-Unternehmer gedacht: jemanden, der Anteile an einer mauritischen Gesellschaft hält, sie leitet und ein Geschäft aufbaut, das auf Mauritius Umsatz erzielt. Für rein passive Investitionen eignet es sich nicht. Wer das Unternehmen nicht tatsächlich führen will, ist mit einer Aufenthaltsgenehmigung über eine Immobilie oder mit dem Golden Visa meist besser bedient.",
           "Die meisten unserer Investor-Mandanten kommen mit einer bestehenden Tätigkeit: Beratung, Handel, Software, freie Berufe, regionaler Vertrieb. Die mauritische Gesellschaft wird zur operativen Einheit dieser Tätigkeit oder zu einer regionalen Basis, von der aus das Gesamtgeschäft bedient wird.",
         ],
       },
@@ -136,7 +136,7 @@ const faqs: Record<string, Faq[]> = {
     { q: "Kann ich die Genehmigung mit einem Geschäftspartner halten?", a: "Ja. Ist der Investor eine Gesellschaft mit mehreren Eigentümern, beantragt jeder Gesellschafter, der zugleich Direktor ist, seine eigene Genehmigung, und jeder muss die Kriterien selbst erfüllen." },
     { q: "Was passiert, wenn der Umsatz im dritten Jahr zu niedrig ist?", a: "Das EDB gleicht den erklärten Umsatz mit der Schwelle von 5 Millionen MUR ab und kann einen Inhaber, der sie nicht erreicht, streichen, womit die Genehmigung erlischt. In der Praxis wird die Frage aufgeworfen, bevor sie durchgesetzt wird, und wer die Lücke früh erkennt, hat meist Zeit gegenzusteuern. Das ist der Hauptgrund, warum wir die Erklärungen vom ersten Jahr an verfolgen." },
     { q: "Darf mein Ehepartner auf Mauritius arbeiten?", a: "Nicht mit einer Genehmigung als Familienangehöriger. Ein Ehepartner, der arbeiten möchte, beantragt ein eigenes Occupation Permit, häufig als Angestellter derselben Gesellschaft, oder eine Arbeitserlaubnis." },
-    { q: "Ist das Investor Permit die richtige Wahl, wenn ich nur passiv investieren will?", a: "In der Regel nicht. Die Genehmigung setzt einen Eigentümer voraus, der das Unternehmen leitet und dessen Gesellschaft auf Mauritius Umsatz erzielt. Ein passiver Investor ist meist mit dem Aufenthalt über eine Immobilie oder, sobald in Kraft, mit dem Golden Visa besser bedient." },
+    { q: "Ist das Investor Permit die richtige Wahl, wenn ich nur passiv investieren will?", a: "In der Regel nicht. Die Genehmigung setzt einen Eigentümer voraus, der das Unternehmen leitet und dessen Gesellschaft auf Mauritius Umsatz erzielt. Ein passiver Investor ist meist mit dem Aufenthalt über eine Immobilie oder mit dem Golden Visa besser bedient." },
   ],
 };
 
