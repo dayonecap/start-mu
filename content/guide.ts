@@ -68,7 +68,7 @@ export const guide = {
       <tr><td>Retired Non-Citizen Residence Permit</td><td>Anyone aged 50 or over living on foreign income</td><td>Bank statement showing USD 24,000; USD 2,000 transferred within 60 days; then USD 2,000 a month or USD 24,000 a year. <span class="mk mk-v">Verified</span></td><td>10 years, renewable</td><td class="num">1,000 + 50</td><td>After 5 years with USD 200,000 aggregate transfers</td></tr>
       <tr><td>Residence by property</td><td>Buyers in an EDB scheme or a G+2 apartment</td><td>Purchase at USD 375,000 or more, at the Bank of Mauritius selling rate on the deed date <span class="mk mk-v">Verified</span></td><td>While the property is held</td><td class="num">Scheme fee, see §7</td><td>Not time-based. The permit lasts as long as ownership does</td></tr>
       <tr><td>Golden Visa</td><td>High-net-worth individuals and families</td><td>Undertaking to invest USD 1m within 12 months in qualifying sectors. Residential scheme property does not count. <span class="mk mk-v">Verified</span></td><td>2 years, multi-entry, renewable</td><td class="num">None</td><td>Eligible to apply once the USD 1m is invested. Eligibility is not approval</td></tr>
-      <tr><td>Premium Visa</td><td>Remote workers and long-stay visitors paid from abroad</td><td>No official floor. Firms cite USD 1,500 a month plus USD 500 per child. <span class="mk mk-p">Practitioner</span></td><td>Up to 1 year, renewable</td><td class="num">None</td><td>None. Convert to an OP or Retired permit without leaving</td></tr>
+      <tr><td>Premium Visa</td><td>Remote workers and long-stay visitors paid from abroad</td><td>Proof of USD 1,500 a month per adult and USD 500 a month per dependent child, with three months of bank statements. <span class="mk mk-v">Verified</span></td><td>Up to 1 year, renewable</td><td class="num">None</td><td>None. Convert to an OP or Retired permit without leaving</td></tr>
     </tbody>
   </table>
   </div>
@@ -128,7 +128,7 @@ export const guide = {
     <article class="persona">
       <h3>Paid from abroad, working remotely</h3>
       <div class="route">Premium Visa, then convert if you stay</div>
-      <dl><dt>Test</dt><dd>Income from outside Mauritius. No official floor; USD 1,500 a month is the figure firms use <span class="mk mk-p">Practitioner</span></dd><dt>Validity</dt><dd>Up to 1 year, renewable</dd><dt>Statutory fee</dt><dd>None</dd><dt>Work rights</dt><dd>Foreign clients and employers only</dd></dl>
+      <dl><dt>Test</dt><dd>Income from outside Mauritius of USD 1,500 a month per adult and USD 500 per child <span class="mk mk-v">Verified</span></dd><dt>Validity</dt><dd>Up to 1 year, renewable</dd><dt>Statutory fee</dt><dd>None</dd><dt>Work rights</dt><dd>Foreign clients and employers only</dd></dl>
       <p class="path">Apply on the EDB portal before you fly or after arriving on a tourist entry. Bring insurance, accommodation proof and income evidence. Past 183 days you become tax resident; income spent through foreign cards is not treated as remitted. Convert to an Investor, Self-Employed or Retired permit without leaving.</p>
     </article>
     <article class="persona">
@@ -221,7 +221,7 @@ export const guide = {
   <h3>Premium Visa</h3>
   <ul>
     <li><strong>Terms.</strong> Valid for more than six months and up to a year, renewable, free of charge. Apply on the EDB portal. Nationals of roughly 114 listed countries may apply directly; others apply after arriving on a tourist entry. Your main place of business and income source must be outside Mauritius, and you may not enter the local labour market. <span class="mk mk-v">Verified</span></li>
-    <li><strong>Income.</strong> USD 1,500 a month per adult plus USD 500 per child. The EDB page states no floor; this is the figure applied in practice. <span class="mk mk-p">Practitioner</span></li>
+    <li><strong>Income.</strong> USD 1,500 a month per adult plus USD 500 per child, evidenced by an employment contract or income attestation and the last three months of bank statements. Set out in the EDB and Passport and Immigration Office application requirements. <span class="mk mk-v">Verified</span></li>
     <li><strong>Documents.</strong> Proof of long-stay plans, travel and health insurance, accommodation, proof of income.</li>
     <li><strong>Tax.</strong> Foreign employment income is taxed only if remitted. Spending through international cards is not deemed remitted. Deposits declared as already taxed abroad are not taxed again. <span class="mk mk-v">Verified</span></li>
   </ul>
@@ -724,7 +724,6 @@ export const guide = {
   <ul>
     <li>Pet quarantine: the ministry guidelines say a minimum of five days at Réduit; two relocation guides say 21 days. The official figure is used.</li>
     <li>Retired permit minimum stay: one 2025 guide states 180 days a year; the EDB guidelines contain no minimum stay.</li>
-    <li>Premium Visa income floor: USD 1,500 a month appears in consultancy guides, not on the EDB page.</li>
     <li>Occupation Permit application fee: USD 50 in the EDB guidelines; one consultancy still quotes MUR 5,000.</li>
     <li>Imported used-car age limits: 3 and 4 years, 18 to 48 months, and 5 years all appear. The customs page gives rates, not age limits.</li>
     <li>Domestic company incorporation fee: reported as nil and as MUR 4,950.</li>
@@ -754,7 +753,7 @@ export const guide = {
     <li>Villa-Vie, The Finance Bill 2026 and foreign property buyers, August 2026. <a href="https://www.villa-vie.com/en/2026/08/the-finance-bill-2026-what-it-means-for-foreign-property-buyers-in-mauritius/">villa-vie.com</a></li>
     <li>ENSafrica, Mauritius National Budget 2026-27, 20 June 2026. <a href="https://www.ensafrica.com/news/detail/12007/mauritius-national-budget-2026-27-">ensafrica.com</a></li>
     <li>Fragomen, New conditions for Occupation Permit, Young Professional Permit and PRP, 12 September 2025. <a href="https://www.fragomen.com/insights/mauritius-new-conditions-for-occupation-permit-young-professional-permit-and-permanent-residency-applications.html">fragomen.com</a></li>
-    <li>EDB, Premium Visa. <a href="https://residency.mu/live/mauritius-premium-visa/">residency.mu</a></li>
+    <li>EDB, Premium Visa, and the Premium Visa FAQ and document checklist; Passport and Immigration Office, Premium Visa. <a href="https://residency.mu/live/mauritius-premium-visa/">residency.mu</a>, <a href="https://edbmauritius.org/wp-content/uploads/2023/12/FAQs-Premium-Visa.pdf">edbmauritius.org</a>, <a href="https://passport.govmu.org/passport/?page_id=595">passport.govmu.org</a></li>
     <li>EDB, Permanent Residence Permit. <a href="https://residency.mu/live/permanent-residence-permit/">residency.mu</a></li>
     <li>EDB, Retired Non-Citizen. <a href="https://residency.mu/retire/retired-non-citizen-50-years/">residency.mu</a></li>
     <li>EDB, Young Professional Occupation Permit. <a href="https://residency.mu/work/young-professional-occupation-permit-ypop/">residency.mu</a></li>
