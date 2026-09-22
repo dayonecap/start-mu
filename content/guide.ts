@@ -259,11 +259,11 @@ export const guide = {
   <p class="intro">The EDB publishes no processing-time commitment except for the Golden Visa. What follows separates the official steps from the timings firms actually observe.</p>
 
   <ol class="steps">
-    <li><span class="h">Prepare the file</span><span class="d">2 to 4 weeks, practitioner</span><br>Passport biodata, birth certificate with an official translation from the issuing country if not in English or French, three photos 3.5 by 4.5 cm, police clearance for retirees, employment contract or business plan on the EDB template, certified bank statement, signed undertaking and the charter for foreign residents.</li>
+    <li><span class="h">Prepare the file</span><span class="d">2 to 4 weeks, practitioner</span><br>Passport biodata, birth certificate with an official translation from the issuing country if not in English or French, four photos 3.5 by 4.5 cm, police clearance for retirees, employment contract or business plan on the EDB template, certified bank statement, signed undertaking and the charter for foreign residents.</li>
     <li><span class="h">File on the National E-Licensing System</span><span class="d">business.edbmauritius.org</span><br>Pay the USD 50 application fee by card. Non-refundable. You do not need to be in Mauritius to file.</li>
     <li><span class="h">Validation and Joint Committee</span><span class="d">3 to 6 weeks to approval, practitioner</span><br>The EDB's permit unit and the Passport and Immigration Office validate, then a committee chaired by the Prime Minister's Office decides. Firms report 15 to 20 working days at best and around 90 days end to end in practice. One refusal appeal is allowed within 30 days.</li>
     <li><span class="h">Approval in Principle</span><span class="d">valid 90 days; 30 days on renewal</span><br>Pay the permit fee by card at the EDB; the dependant permit fees are paid the same way once each dependant is approved. Book the medical at a registered clinic in Mauritius: blood tests and chest X-ray, certificate less than six months old, about MUR 7,000 per adult paid at the clinic. <span class="mk mk-p">Practitioner</span> Children under 12 need only a local GP certificate.</li>
-    <li><span class="h">Appointment and issue</span><span class="d">days to 1 week</span><br>Attend in person with originals for biometrics. The employer's manager attends for Professional permits. Immigration issues the card. There is no national identity card for non-citizens; the residence permit card is your identity document.</li>
+    <li><span class="h">Appointment and issue</span><span class="d">days to 1 week</span><br>Attend in person with originals for biometrics. The employer's manager attends for Professional permits. Immigration issues the permit and the card. Both are identity documents: the A4 permit itself carries more weight than the UID card, so keep the original safe and carry a copy.</li>
     <li><span class="h">Post-issue obligations</span><span class="d">60-day clock</span><br>Investors and the self-employed transfer USD 100,000 or USD 50,000 into the Mauritian account; retirees transfer USD 2,000. Dependant applications are filed after the principal permit issues, though a well-prepared file lodges them together.</li>
   </ol>
 
@@ -619,7 +619,7 @@ export const guide = {
 
   <h3>Identity, SIM, utilities</h3>
   <ul>
-    <li>No national identity card for non-citizens: the residence permit card is your identity. There is no municipal address registration; the lease is proof of address for everything.</li>
+    <li>No national identity card for non-citizens: the A4 residence permit and the UID card issued with it are your identity documents, the permit itself more than the card. There is no municipal address registration; the lease is proof of address for everything.</li>
     <li>SIM registration is mandatory: passport, proof of address, permit where applicable and a selfie match. Airport tourist SIMs cost MUR 750 to 1,500 and will do for the first weeks.</li>
     <li>Electricity and water accounts usually stay in the landlord's name. Deposits for a new electricity account are MUR 200 to 1,200. Fibre installation takes two to three weeks. Buy a small UPS for the router; storm cuts are routine and the grid ran on red alerts through 2025.</li>
     <li>Water supply, not quality, is the issue: the main reservoir was at 44% in June 2026 after the driest February in a century, with scheduled supply hours in some areas. Rent a house with a tank and pump.</li>
