@@ -220,9 +220,10 @@ export const guide = {
 
   <h3>Premium Visa</h3>
   <ul>
-    <li>Valid for more than six months and up to a year, renewable, free of charge. Apply on the EDB portal. Nationals of roughly 114 listed countries may apply directly; others apply after arriving on a tourist entry. Your main place of business and income source must be outside Mauritius, and you may not enter the local labour market. <span class="mk mk-v">Verified</span></li>
-    <li>Documents: proof of long-stay plans, travel and health insurance, accommodation, proof of income.</li>
-    <li>Tax: foreign employment income is taxed only if remitted. Spending through international cards is not deemed remitted. Deposits declared as already taxed abroad are not taxed again. <span class="mk mk-v">Verified</span></li>
+    <li><strong>Terms.</strong> Valid for more than six months and up to a year, renewable, free of charge. Apply on the EDB portal. Nationals of roughly 114 listed countries may apply directly; others apply after arriving on a tourist entry. Your main place of business and income source must be outside Mauritius, and you may not enter the local labour market. <span class="mk mk-v">Verified</span></li>
+    <li><strong>Income.</strong> USD 1,500 a month per adult plus USD 500 per child. The EDB page states no floor; this is the figure applied in practice. <span class="mk mk-p">Practitioner</span></li>
+    <li><strong>Documents.</strong> Proof of long-stay plans, travel and health insurance, accommodation, proof of income.</li>
+    <li><strong>Tax.</strong> Foreign employment income is taxed only if remitted. Spending through international cards is not deemed remitted. Deposits declared as already taxed abroad are not taxed again. <span class="mk mk-v">Verified</span></li>
   </ul>
 
   <h3>Golden Visa</h3>
