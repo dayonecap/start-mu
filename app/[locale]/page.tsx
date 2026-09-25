@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "@/components/Link";
 import { Container } from "@/components/Container";
 import { ClosingCta } from "@/components/ClosingCta";
@@ -36,23 +35,17 @@ export default async function HomePage({ params }: { params: Promise<Params> }) 
   return (
     <>
       <section className="py-24 lg:py-36">
-        <Container className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-10">
-          <div className="lg:col-span-7">
-            <p className="reveal t-ui text-green">{t.eyebrow}</p>
-            <h1 className="reveal reveal-2 t-display mt-6 max-w-[22ch]">{t.h1}</h1>
-            {t.lead ? <p className="reveal reveal-3 t-lead mt-8 max-w-[52ch]">{t.lead}</p> : null}
-            <div className="reveal reveal-3 mt-10 flex flex-col gap-6 sm:flex-row sm:items-center">
-              <Link href="/contact" className="btn btn-solid">
-                {ui[locale].nav.consult}
-              </Link>
-              <Link href="/residency/route-finder" className="link-rule text-[1.05rem] text-green">
-                {t.finder}
-              </Link>
-            </div>
-          </div>
-          <div className="reveal reveal-3 hidden w-full max-w-[30rem] justify-self-center lg:col-span-5 lg:block">
-            {/* Lazy, not priority: a lazy image inside display:none is never fetched, so phones skip the download. */}
-            <Image src="/images/home-flight.webp" alt="" width={939} height={1019} sizes="30rem" className="h-auto w-full" />
+        <Container>
+          <p className="reveal t-ui text-green">{t.eyebrow}</p>
+          <h1 className="reveal reveal-2 t-display mt-6 max-w-[22ch]">{t.h1}</h1>
+          {t.lead ? <p className="reveal reveal-3 t-lead mt-8 max-w-[52ch]">{t.lead}</p> : null}
+          <div className="reveal reveal-3 mt-10 flex flex-col gap-6 sm:flex-row sm:items-center">
+            <Link href="/contact" className="btn btn-solid">
+              {ui[locale].nav.consult}
+            </Link>
+            <Link href="/residency/route-finder" className="link-rule text-[1.05rem] text-green">
+              {t.finder}
+            </Link>
           </div>
         </Container>
       </section>
