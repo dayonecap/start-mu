@@ -50,8 +50,9 @@ export default async function HomePage({ params }: { params: Promise<Params> }) 
               </Link>
             </div>
           </div>
-          <div className="reveal reveal-3 mx-auto w-full max-w-[22rem] lg:col-span-5 lg:max-w-[30rem]">
-            <Image src="/images/home-arrival.webp" alt="" width={1000} height={1042} priority sizes="(min-width: 1024px) 30rem, 22rem" className="h-auto w-full" />
+          <div className="reveal reveal-3 hidden w-full max-w-[30rem] justify-self-center lg:col-span-5 lg:block">
+            {/* Lazy, not priority: a lazy image inside display:none is never fetched, so phones skip the download. */}
+            <Image src="/images/home-flight.webp" alt="" width={939} height={1019} sizes="30rem" className="h-auto w-full" />
           </div>
         </Container>
       </section>
