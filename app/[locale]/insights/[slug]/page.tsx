@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const { slug, locale: l } = await params;
   const locale: Locale = isLocale(l) ? l : "en";
   const i = (await getInsights(locale)).find((x) => x.slug === slug);
-  return i ? { title: i.title, description: i.summary, alternates: alternates(`/insights/${slug}`, locale) } : {};
+  return i ? { title: i.metaTitle ? { absolute: i.metaTitle } : i.title, description: i.metaDescription ?? i.summary, alternates: alternates(`/insights/${slug}`, locale) } : {};
 }
 
 export default async function InsightPage({ params }: { params: Promise<Params> }) {

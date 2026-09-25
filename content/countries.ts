@@ -17,8 +17,9 @@ export const countries: CountryPage[] = [
     slug: "south-africa",
     country: "South Africa",
     title: "Moving to Mauritius from South Africa",
-    metaTitle: "Moving to Mauritius from South Africa | start.mu",
-    metaDescription: "The permits South African families use, exchange control and the 60-day transfer, schools, banking and what the first year costs. Residency and establishment handled from Mauritius.",
+    metaTitle: "Moving to Mauritius from South Africa: Permits & Costs",
+    metaDescription:
+      "Emigrating from South Africa to Mauritius: which permit fits, exchange control and moving funds, schools, banking and what the first year costs.",
     intro: "South Africans are the largest group of foreign residents arriving in Mauritius. A four-hour flight, the same time zone, English-speaking schools, a stable currency and a functioning state. The question is rarely whether, but which door and in what order.",
     sections: [
       { heading: "The routes South Africans use", body: ["An entrepreneur who will run a business here takes the Investor Occupation Permit: USD 100,000 into a Mauritian company, turnover conditions from Year 3, ten years. A consultant working alone takes the Self-Employed permit at USD 50,000. Anyone over 50 living on South African income takes the Retired Non-Citizen permit on transfers of USD 24,000 a year. A purchase in an approved scheme at USD 375,000 or above carries residence for as long as the property is held, and suits families who were going to buy anyway.", "A common pattern is one spouse on the Investor permit and the other employed by the same company on a Professional permit, which puts both partners in the business legitimately."] },

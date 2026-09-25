@@ -175,9 +175,9 @@ export const establishment: ServiceEntry[] = [
       { label: "Domestic Company", href: "/establishment/domestic-company" },
       { label: "Investor permit", href: "/residency/investor-permit" },
     ],
-    metaTitle: "Bank Account Opening Mauritius | start.mu",
+    metaTitle: "Open a Bank Account in Mauritius: Personal & Corporate",
     metaDescription:
-      "Opening personal and corporate bank accounts in Mauritius: which banks, what they require, how long it takes, and how the account is coordinated with a permit application.",
+      "How non-residents open a personal or business current account in Mauritius: MCB, SBM, AfrAsia and others, the documents banks ask for, 2 to 6 weeks.",
   },
   {
     slug: "registered-office-and-secretary",

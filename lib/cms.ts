@@ -14,6 +14,10 @@ export type Insight = {
   slug: string;
   title: string;
   summary: string;
+  /** Search-result title, used in place of the headline when set. Rendered as-is, without the site suffix. */
+  metaTitle?: string;
+  /** Search-result description, used in place of the summary when set. */
+  metaDescription?: string;
   publishedAt: string; // ISO date
   /** ISO date the article was last checked against source. Omit until it has actually been re-checked. */
   reviewedAt?: string;

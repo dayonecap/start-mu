@@ -151,9 +151,9 @@ export const residency: ServiceEntry[] = [
       { label: "Bank account opening", href: "/establishment/bank-account-opening" },
       { label: "Premium Visa", href: "/residency/premium-visa" },
     ],
-    metaTitle: "Self-Employed Occupation Permit Mauritius | start.mu",
+    metaTitle: "Mauritius Self-Employed Permit: Requirements & Costs 2026",
     metaDescription:
-      "The Mauritius Self-Employed Occupation Permit: USD 50,000 initial investment, three letters of intent, income conditions from Year 3 and Year 5, and how the business plan is prepared.",
+      "Work for yourself in Mauritius on a 10-year permit: USD 50,000 investment, three letters of intent and the income needed by Years 3 and 5 to renew.",
     index: { audience: "Sole practitioners in services", threshold: "USD 50,000 investment", duration: "Up to 10 years" },
   },
   {
@@ -240,9 +240,9 @@ export const residency: ServiceEntry[] = [
       { label: "Premium Visa", href: "/residency/premium-visa" },
       { label: "Concierge", href: "/concierge" },
     ],
-    metaTitle: "Retired Non-Citizen Residence Permit Mauritius | start.mu",
+    metaTitle: "Mauritius Retirement Visa: Retired Residence Permit 2026",
     metaDescription:
-      "The Mauritius Retired Non-Citizen Residence Permit for those aged 50 and over: USD 24,000 a year transferred from abroad, ten-year validity, tax residence, and the path to permanent residence.",
+      "Retire to Mauritius from age 50 on USD 24,000 a year from abroad. No property purchase needed, 10-year validity and a path to permanent residence.",
     index: { audience: "Individuals and couples aged 50 and over", threshold: "USD 24,000 a year from abroad", duration: "10 years" },
   },
   {
@@ -344,9 +344,9 @@ export const residency: ServiceEntry[] = [
       { label: "Permanent residence", href: "/residency/permanent-residence" },
       { label: "Concierge", href: "/concierge" },
     ],
-    metaTitle: "Mauritius Golden Visa | start.mu",
+    metaTitle: "Mauritius Golden Visa 2026: USD 1M, 20-Year Residence",
     metaDescription:
-      "The Mauritius Golden Visa under the EDB's August 2026 guidelines: USD 1 million in qualifying sectors within twelve months, a two-year multiple-entry visa, no processing fee, and eligibility to apply for twenty-year permanent residence.",
+      "Invest USD 1M within 12 months to become eligible for 20-year permanent residence. Qualifying sectors, documents and how to apply under the 2026 EDB rules.",
     index: { audience: "High-net-worth families", threshold: "USD 1 million within 12 months", duration: "2 years, then eligible to apply for 20-year PR" },
   },
   {

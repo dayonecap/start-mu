@@ -233,6 +233,9 @@ export const insights: Insight[] = [
   {
     slug: "golden-visa-what-it-adds",
     title: "The Golden Visa: what it adds to the existing routes",
+    metaTitle: "Golden Visa vs Investor & Retired Permits in Mauritius",
+    metaDescription:
+      "USD 1M Golden Visa, USD 100k Investor permit, USD 375k property or Retired permit? How they compare on cost, work rights and permanent residence.",
     summary: "Mauritius's USD 1 million Golden Visa opens a route to apply for twenty-year permanent residence, and the EDB has now published its guidelines. Where it sits alongside the permits that already exist, and who it is for.",
     publishedAt: "2026-09-02",
     reviewedAt: "2026-09-18",

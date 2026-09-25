@@ -256,8 +256,9 @@ const en = {
   },
   guidePage: {
     title: "The start.mu Guide to Moving to Mauritius",
-    metaTitle: "The Guide to Moving to Mauritius, edition 2026.09 | start.mu",
-    meta: "The rules for moving to Mauritius as they stand after the Finance Act 2026: every permit, the property and tax rules, what it costs to live here, with each figure dated, sourced and marked by how well it is confirmed.",
+    metaTitle: "Moving to Mauritius 2026: Permits, Tax, Property & Costs",
+    meta:
+      "Every Mauritius residence permit, property and tax rules, and real living costs after the Finance Act 2026, with each figure dated and sourced.",
     eyebrow: "Versioned reference",
     lead: "The rules as they stand after the 2026-27 Budget and the Finance Act 2026, with every figure dated, sourced and marked by how well it is confirmed. Written for the person who will sign the transfer, not the person browsing brochures.",
     contents: "Contents",

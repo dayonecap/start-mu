@@ -43,6 +43,9 @@ export const insightsDe: Record<string, Partial<Insight>> = {
 
   "healthcare-mauritius-what-to-arrange": {
     title: "Gesundheitsversorgung auf Mauritius: was es gibt, was nicht, und was vor der Ankunft zu regeln ist",
+    metaTitle: "Gesundheitsversorgung auf Mauritius: Kliniken & Versicherung",
+    metaDescription:
+      "Ärztliche Versorgung auf Mauritius: gute Privatkliniken, was das öffentliche System leistet, was Versicherung kostet und warum Evakuierungsschutz zählt.",
     summary:
       "Gute Privatkliniken, ein kostenfreies öffentliches System, das die meisten Ansässigen meiden, und eine kleine Zahl von Erkrankungen, die im Ausland behandelt werden. Warum der Evakuierungsschutz die eine Klausel ist, auf die es ankommt.",
     body: `

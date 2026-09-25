@@ -12,7 +12,15 @@ type Params = { locale: string };
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { locale: l } = await params;
   const locale: Locale = isLocale(l) ? l : "en";
-  return { alternates: alternates("/", locale) };
+  const meta =
+    locale === "en"
+      ? {
+          title: { absolute: "Relocation & Residency Services in Mauritius | start.mu" },
+          description:
+            "Moving to Mauritius? Residence permits, company setup, bank accounts and property, handled end to end by start.mu, part of the Intrasia Group.",
+        }
+      : {};
+  return { ...meta, alternates: alternates("/", locale) };
 }
 
 const homeRoutes = ["investor-permit", "self-employed-permit", "retired-residence-permit", "property-acquisition", "golden-visa", "premium-visa"];

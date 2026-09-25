@@ -15,13 +15,13 @@ type Params = { locale: string };
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { locale: l } = await params;
   const locale: Locale = isLocale(l) ? l : "en";
-  const titles = { en: "Residency in Mauritius: every route compared", fr: "Résidence à Maurice : toutes les voies comparées", de: "Alle Aufenthaltsmöglichkeiten auf Mauritius im Vergleich" };
+  const titles = { en: "Mauritius Residency: Every Permit & Visa Compared (2026)", fr: "Résidence à Maurice : toutes les voies comparées | start.mu", de: "Alle Aufenthaltsmöglichkeiten auf Mauritius im Vergleich | start.mu" };
   const desc = {
-    en: "Occupation permits, residence permits, the Golden Visa and the Premium Visa compared by audience, threshold and duration. Which route fits, and how start.mu handles the application.",
+    en: "Eight routes to residence in Mauritius compared: business, work, retirement, property, Golden Visa and Premium Visa, with each threshold and duration.",
     fr: "Permis d'occupation, permis de résidence, Golden Visa et Premium Visa comparés selon le public, le seuil et la durée. Quelle voie convient, et comment start.mu gère la demande.",
     de: "Occupation Permits, Aufenthaltsgenehmigungen, Golden Visa und Premium Visa im Vergleich nach Zielgruppe, Schwelle und Dauer. Welche Aufenthaltsmöglichkeit passt und wie start.mu den Antrag begleitet.",
   };
-  return { title: titles[locale], description: desc[locale], alternates: alternates("/residency", locale) };
+  return { title: { absolute: titles[locale] }, description: desc[locale], alternates: alternates("/residency", locale) };
 }
 
 export default async function ResidencyPage({ params }: { params: Promise<Params> }) {

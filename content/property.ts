@@ -40,9 +40,9 @@ export const property: ServiceEntry[] = [
       { label: "Residency by property", href: "/residency/property-acquisition" },
       { label: "Domestic Company", href: "/establishment/domestic-company" },
     ],
-    metaTitle: "Property Development Scheme Mauritius | start.mu",
+    metaTitle: "PDS Mauritius: Property Development Scheme Buyer's Guide",
     metaDescription:
-      "Buying under the Mauritius Property Development Scheme: eligibility, the USD 375,000 residence threshold, the purchase sequence, VEFA off-plan sales, and holding through a company and trust.",
+      "Buying under Mauritius's PDS as a foreigner: who can buy, USD 375,000 for residence, 5% registration duty, off-plan (VEFA) rules and resale.",
     index: { audience: "New villas, townhouses and apartments in approved developments", threshold: "No minimum; USD 375,000 for residence", duration: "Current scheme for new projects" },
   },
   {
@@ -76,9 +76,9 @@ export const property: ServiceEntry[] = [
       { label: "Real Estate Scheme", href: "/property/real-estate-scheme" },
       { label: "Residency by property", href: "/residency/property-acquisition" },
     ],
-    metaTitle: "Integrated Resort Scheme Mauritius | start.mu",
+    metaTitle: "IRS Mauritius: Buying in an Integrated Resort Scheme Estate",
     metaDescription:
-      "Buying a resale unit in a Mauritius Integrated Resort Scheme estate: current status, residence entitlement at USD 375,000, and how the purchase proceeds.",
+      "IRS villas in Anahita, Tamarina, Valriche and Azuri: resale only since PDS replaced the scheme. Residence from USD 375,000, 5% duty, how buying works.",
     index: { audience: "Resale units in established resort estates", threshold: "USD 375,000 for residence", duration: "Closed to new projects" },
   },
   {
