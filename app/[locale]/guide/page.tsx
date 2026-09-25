@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "../../guide.css";
-import { isLocale, dateLocale, type Locale } from "@/lib/i18n";
+import { isLocale, dateLocale, href, type Locale } from "@/lib/i18n";
 import { alternates } from "@/lib/meta";
 import { ui } from "@/content/ui";
 import { site } from "@/content/site";
@@ -41,6 +41,8 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
     publisher: { "@type": "Organization", name: site.name, url: site.url },
     mainEntityOfPage: `${site.url}/guide`,
   };
+  // The body is English-only, but its internal links should keep French and German readers on their locale.
+  const body = guide.body.replace(/href="(\/[^"/][^"]*|\/)"/g, (_, path: string) => `href="${href(locale, path)}"`);
   const stamp = [
     { k: t.stamp.verified, v: verified, s: t.stamp.verifiedNote },
     { k: t.stamp.baseline, v: "Finance Act 2026", s: t.stamp.baselineNote },
@@ -88,7 +90,7 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
                 </ol>
               </div>
             </nav>
-            <article className="guide lg:col-span-9" dangerouslySetInnerHTML={{ __html: guide.body }} />
+            <article className="guide lg:col-span-9" dangerouslySetInnerHTML={{ __html: body }} />
           </div>
         </Container>
       </section>

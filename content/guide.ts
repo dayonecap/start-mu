@@ -72,7 +72,7 @@ export const guide = {
     </tbody>
   </table>
   </div>
-  <p class="tnote">Sources 1, 3, 4, 5, 13, 14, 15, 16. The USD 50 application fee applies to the principal applicant's Occupation or Residence Permit application filed since 1 December 2025 and is not refunded on refusal. Dependants cost USD 400 each on all routes, with no separate application fee. <span class="mk mk-p">Practitioner</span></p>
+  <p class="tnote">Sources 1, 3, 4, 5, 13, 14, 15, 16. The USD 50 application fee applies to the principal applicant's Occupation or Residence Permit application filed since 1 December 2025 and is not refunded on refusal. Dependants cost USD 400 each on all routes, with no separate application fee. <span class="mk mk-p">Practitioner</span> Each route is set out, with who it suits and how the application runs, in <a href="/residency">Mauritius residency routes compared</a>.</p>
 
   <div class="figs" role="list">
     <div role="listitem"><div class="k">Tax residence</div><div class="v">183 days</div><div class="s">or 270 days over three years. Foreign income taxed only when remitted.</div></div>
@@ -147,13 +147,13 @@ export const guide = {
       <h3>Consultant or freelancer serving clients</h3>
       <div class="route">Self-Employed Occupation Permit</div>
       <dl><dt>Test</dt><dd>USD 50,000 transferred within 60 days; three letters of intent, two from Mauritian clients</dd><dt>Later tests</dt><dd>Income MUR 2m a year from year 3; MUR 3m from year 5</dd><dt>Validity</dt><dd>Up to 10 years</dd><dt>Statutory fee</dt><dd>USD 50 + 1,000</dd></dl>
-      <p class="path">Services only. You may employ one local administrative assistant. The year-3 income test is MUR 2m, about USD 42,000, so the route suits an established practice, not someone hoping to find clients after arrival. If your clients are all abroad, compare the Premium Visa first.</p>
+      <p class="path">Services only. You may employ one local administrative assistant. The year-3 income test is MUR 2m, about USD 42,000, so the route suits an established practice, not someone hoping to find clients after arrival. If your clients are all abroad, compare the Premium Visa first. Requirements and costs: <a href="/residency/self-employed-permit">Mauritius self-employed permit</a>.</p>
     </article>
     <article class="persona">
       <h3>Aged 50 or over, living on foreign income</h3>
       <div class="route">Retired Non-Citizen Residence Permit</div>
       <dl><dt>Test</dt><dd>Statement showing USD 24,000; USD 2,000 transferred within 60 days; then USD 24,000 a year</dd><dt>Validity</dt><dd>10 years, renewable</dd><dt>Statutory fee</dt><dd>USD 50 + 1,000</dd><dt>Work rights</dt><dd>None on this permit; may hold shares in a business</dd></dl>
-      <p class="path">No property purchase and no minimum stay appear in the official guidelines. A spouse under 50 joins as a dependant. Keep the transfers regular and documented: the permanent-residence test is USD 200,000 aggregate over five years, and the EDB shares your declared tax residences with the tax authority.</p>
+      <p class="path">No property purchase and no minimum stay appear in the official guidelines. A spouse under 50 joins as a dependant. Keep the transfers regular and documented: the permanent-residence test is USD 200,000 aggregate over five years, and the EDB shares your declared tax residences with the tax authority. Full requirements: <a href="/residency/retired-residence-permit">Mauritius retirement visa (Retired Non-Citizen Permit)</a>.</p>
     </article>
     <article class="persona">
       <h3>Buying a home to live in</h3>
@@ -202,7 +202,7 @@ export const guide = {
   <ul>
     <li><strong>Threshold.</strong> USD 50,000 transferred into a Mauritian bank account within 60 days of issue; services sector only; at least three letters of intent from prospective clients, two of them local. <span class="mk mk-v">Verified</span></li>
     <li><strong>Income tests.</strong> MUR 2m a year from year 3; MUR 3m a year from year 5 to renew. <span class="mk mk-v">Verified</span></li>
-    <li><strong>Form.</strong> Registered sole trader or one-person company. One local administrative employee is permitted.</li>
+    <li><strong>Form.</strong> Registered sole trader or one-person company. One local administrative employee is permitted. How we prepare the file: <a href="/residency/self-employed-permit">self-employed permit in Mauritius</a>.</li>
   </ul>
 
   <h3>Young Professional Occupation Permit</h3>
@@ -215,7 +215,7 @@ export const guide = {
     <li><strong>Age and funds.</strong> 50 or over at application. A bank statement showing at least USD 24,000. An initial transfer of at least USD 2,000 into a Mauritian bank within 60 days of issue, then USD 2,000 a month or USD 24,000 a year. <span class="mk mk-v">Verified</span></li>
     <li><strong>Validity.</strong> 10 years, renewable. Fee USD 1,000 plus USD 50.</li>
     <li><strong>Work.</strong> No paid employment on this permit. You may invest in a business as a shareholder provided you are not employed by it. Employment in specific sectors requires a separate work or occupation permit. Remote work for a foreign employer is not addressed in the guidelines; firms report it is tolerated. <span class="mk mk-u">Unverified</span></li>
-    <li><strong>Other conditions.</strong> Police clearance covering the last 10 years, less than six months old. You must disclose other countries of residence and tax residence; the EDB shares this with the tax authority under the Common Reporting Standard. No minimum stay and no property requirement appear in the official text. One 2025 guide claims a 180-day presence rule; the guidelines do not contain it. <span class="mk mk-u">Unverified</span></li>
+    <li><strong>Other conditions.</strong> Police clearance covering the last 10 years, less than six months old. You must disclose other countries of residence and tax residence; the EDB shares this with the tax authority under the Common Reporting Standard. No minimum stay and no property requirement appear in the official text. One 2025 guide claims a 180-day presence rule; the guidelines do not contain it. <span class="mk mk-u">Unverified</span> How we handle the application: <a href="/residency/retired-residence-permit">retiring to Mauritius on the retirement permit</a>.</li>
   </ul>
 
   <h3>Premium Visa</h3>
@@ -320,9 +320,9 @@ export const guide = {
   <div class="tw"><table>
     <thead><tr><th>Scheme</th><th>What it is</th><th>Residence permit at USD 375,000</th><th>Notes</th></tr></thead>
     <tbody>
-      <tr><td>Integrated Resort Scheme (IRS)</td><td>Large luxury estates, often with golf, from the 2002 era</td><td>Yes</td><td>Freehold on private land. Highest service charges.</td></tr>
+      <tr><td><a href="/property/integrated-resort-scheme">Integrated Resort Scheme (IRS)</a></td><td>Large luxury estates, often with golf, from the 2002 era</td><td>Yes</td><td>Freehold on private land. Highest service charges.</td></tr>
       <tr><td>Real Estate Scheme (RES)</td><td>Smaller estates on plots under 10 hectares</td><td>Yes</td><td>Freehold. Many resale opportunities.</td></tr>
-      <tr><td>Property Development Scheme (PDS)</td><td>The current scheme for new estates, including Senior Living</td><td>Yes; Senior Living has no minimum for over-50s</td><td>Freehold. Most new coastal supply.</td></tr>
+      <tr><td><a href="/property/property-development-scheme">Property Development Scheme (PDS)</a></td><td>The current scheme for new estates, including Senior Living</td><td>Yes; Senior Living has no minimum for over-50s</td><td>Freehold. Most new coastal supply.</td></tr>
       <tr><td>Smart City Scheme</td><td>Mixed-use towns: Moka, Beau Plan, Cap Tamarin, Uniciti, Côte d'Or</td><td>Yes</td><td>Tax incentives revoked from 5 June 2025. Inland, near schools and offices.</td></tr>
       <tr><td>Invest Hotel Scheme</td><td>Hotel rooms and villas leased back to the operator</td><td>Yes</td><td>Owner use limited to a set number of nights.</td></tr>
       <tr><td>G+2 apartments</td><td>Any apartment in a building with at least two floors above ground, minimum price MUR 6m <span class="mk mk-p">Practitioner</span></td><td>Yes at USD 375,000</td><td>No new State-land leases permitting sale to non-citizens; 10% vendor levy on State-land resales unless reserved before 19 June 2026. Ask which land the building sits on before reserving.</td></tr>
@@ -364,7 +364,7 @@ export const guide = {
       <tr><td>Flic en Flac (west)</td><td class="num">1,580</td><td>Apartments from MUR 6m; family villas</td></tr>
       <tr><td>Moka, Highlands (centre)</td><td class="num">1,250</td><td>Smart City apartments and townhouses</td></tr>
     </tbody></table></div>
-  <p class="tnote">Single private index, September 2026. <span class="mk mk-u">Unverified</span> Two-bed PDS apartments trade around USD 550,000 to 650,000; three-bed villas USD 700,000 to 1.2m; an entry G+2 apartment from about USD 135,000. Gross long-let yields 5 to 7%, net 3 to 4%. Real-estate foreign direct investment was USD 530m in 2024. Source 26, 29.</p>
+  <p class="tnote">Single private index, September 2026. <span class="mk mk-u">Unverified</span> Two-bed <a href="/property/property-development-scheme">PDS apartments</a> trade around USD 550,000 to 650,000; three-bed villas USD 700,000 to 1.2m; an entry G+2 apartment from about USD 135,000. Gross long-let yields 5 to 7%, net 3 to 4%. Real-estate foreign direct investment was USD 530m in 2024. Source 26, 29.</p>
 
   <h3>Renting</h3>
   <div class="tw"><table>
@@ -450,7 +450,7 @@ export const guide = {
     <thead><tr><th>From</th><th>What to settle before you count on the Mauritian rate</th></tr></thead>
     <tbody>
       <tr><td>United Kingdom</td><td>Run the Statutory Residence Test for the split year and the following years; UK ties, not Mauritian days, decide it. Pension transfers to a Mauritian QROPS avoid the 25% overseas transfer charge only when scheme and member are in the same country; the overseas transfer allowance is GBP 1,073,100. Rental income and UK-source gains on property stay UK-taxed. <span class="mk mk-p">Practitioner</span></td></tr>
-      <tr><td>South Africa</td><td>Complete SARS tax emigration; the deemed disposal exit charge excludes South African immovable property. Retirement annuity withdrawal only after three years of non-residence. Reserve Bank allowances govern the outward transfer; the 60-day permit transfer must be planned around them. The treaty allocates pensions, interest and dividends. <span class="mk mk-p">Practitioner</span></td></tr>
+      <tr><td>South Africa</td><td>Complete SARS tax emigration; the deemed disposal exit charge excludes South African immovable property. Retirement annuity withdrawal only after three years of non-residence. Reserve Bank allowances govern the outward transfer; the 60-day permit transfer must be planned around them. The treaty allocates pensions, interest and dividends. <span class="mk mk-p">Practitioner</span> See <a href="/moving-to-mauritius-from/south-africa">moving to Mauritius from South Africa</a>.</td></tr>
       <tr><td>France</td><td>Register the departure with the tax office and the consular register. The treaty is old and favourable on pensions and dividends; French-source rental income stays French-taxed. Wealth tax on real estate continues on French property.</td></tr>
       <tr><td>Germany, Austria, Switzerland</td><td>Deregistration ends unlimited liability, but extended limited liability can follow German citizens moving to low-tax jurisdictions for up to ten years on German-source income. Swiss cantonal exit and pension-pillar rules differ by canton. Take advice before the move, not after.</td></tr>
       <tr><td>United States</td><td>Citizens and green-card holders file worldwide regardless. Use the foreign earned income exclusion and foreign tax credits; no treaty, so Mauritian tax is creditable only under domestic rules. FBAR and FATCA filings continue.</td></tr>
@@ -580,7 +580,7 @@ export const guide = {
     <li><strong>What it costs at MCB.</strong> Savings account no minimum, 3.35% above MUR 10,000; current account MUR 28.75 a month; foreign-currency accounts in USD, EUR, GBP, AUD and ZAR with no minimum; outward SWIFT MUR 250 online plus 0.125%, minimum USD 10, maximum USD 75; foreign ATM 1%; card currency conversion 2.5%; Visa Platinum MUR 1,725 a year. <span class="mk mk-v">Verified</span></li>
     <li><strong>Exchange control.</strong> None since 1994. You may hold foreign currency and remit freely. Cheques remain common for rent.</li>
     <li><strong>Fintech.</strong> Wise sends to rupees but does not issue accounts or cards to Mauritian residents; Revolut is not available to residents, though foreign-issued cards work. Budget for a local card early.</li>
-    <li><strong>Company accounts.</strong> Slower than personal: expect two to six weeks of know-your-customer review for a domestic company and longer for a Global Business Company. Start it the day the company is incorporated, because the Investor permit's 60-day transfer needs the account to exist.</li>
+    <li><strong>Company accounts.</strong> Slower than personal: expect two to six weeks of know-your-customer review for a domestic company and longer for a Global Business Company. Start it the day the company is incorporated, because the Investor permit's 60-day transfer needs the account to exist. We arrange both: <a href="/establishment/bank-account-opening">opening a personal or corporate bank account in Mauritius</a>.</li>
   </ul>
 </section>
 
