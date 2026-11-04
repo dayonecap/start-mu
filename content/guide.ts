@@ -171,6 +171,19 @@ export const guide = {
 
   <div class="note"><span class="t">Families</span>
   <p>Since the Family Occupation Permit was abolished, every family relies on dependant permits under one principal holder. A dependant is a spouse or common-law partner of the opposite sex, an unmarried child up to 24 including stepchildren and adopted children, or a parent. Dependants may not take paid work; a working spouse needs their own Occupation Permit. Same-sex partners are not covered by the current wording. Sources 3, 4.</p></div>
+
+  <div class="note"><span class="t">Common-law partners: proving cohabitation</span>
+  <p>The Passport and Immigration Office requires a Certificate of Cohabitation, issued by the relevant authorities in the country of origin, as evidence that common-law partners live together. <span class="mk mk-p">Practitioner</span></p>
+  <p>Where the country of origin does not issue such a certificate, an affidavit may be submitted instead. It should ideally be sworn before a court. A notarial affidavit is also accepted for countries such as Germany, where the courts do not issue such affidavits.</p>
+  <p>The affidavit should confirm that both partners live under the same roof as cohabiting or common-law partners, and include, among other things:</p>
+  <ul>
+    <li>the full names and passport numbers of both partners;</li>
+    <li>the full residential address;</li>
+    <li>how long they have lived together, including the start date;</li>
+    <li>confirmation that neither partner is married to another person; and</li>
+    <li>confirmation that the relationship is genuine and ongoing.</li>
+  </ul>
+  <p>The affidavit should also be apostilled. If the affidavit or the apostille is in a language other than English or French, both documents should be translated by a court-sworn translator.</p></div>
 </section>
 
 <!-- ============ 4 PERMITS IN DETAIL ============ -->
@@ -675,7 +688,7 @@ export const guide = {
     <li>Pick the route in §3 and read its permit in §4. Note the year-3 and year-5 tests, not only the entry threshold.</li>
     <li>Apply to schools. Pay deposits. This is the earliest deadline you face.</li>
     <li>Take home-country tax advice on the exit year (§8) and plan the capital transfer around exchange-control or pension rules.</li>
-    <li>Order police clearances, apostilled birth and marriage certificates, sworn translations if not in English or French.</li>
+    <li>Order police clearances, apostilled birth and marriage certificates, sworn translations if not in English or French. Common-law partners need a Certificate of Cohabitation or an apostilled affidavit (§3).</li>
     <li>Start the pet protocol: microchip, rabies vaccination, titre test, three-month wait.</li>
     <li>Book a recce of two weeks. Visit the shortlisted areas on a weekday at 08:00 and 17:00.</li>
   </ul>
@@ -736,6 +749,7 @@ export const guide = {
     <tbody>
       <tr><td>2026.09</td><td>12 September 2026</td><td>First edition, on the Finance Act 2026 baseline: Investor USD 100,000; Professional MUR 50,000; Self-Employed income tests; Family OP abolished; 35% band; duty doubling repealed; State-land G+2 restriction; Golden Visa.</td></tr>
       <tr><td>2026.09</td><td>14 September 2026</td><td>Corrections: no USD 50 application fee for dependants (§1, §5); Professional permit fee tiers USD 400, 500, 800, 1,000 (§1, §3); medical about MUR 7,000 per adult (§5); rental agency commission carries 15% VAT (§7); CSG for the self-employed (§8); sole-trader registration MUR 125 a year and trade-fee exemptions (§16); Northfields and Westcoast 2026-27 one-off and tuition fees (§11). Later the same day: permit and dependant fees paid by card at the EDB; official translations from the issuing country (§5, §18).</td></tr>
+      <tr><td>2026.09</td><td>4 November 2026</td><td>Added: evidence of cohabitation for common-law partners, a Certificate of Cohabitation or an apostilled affidavit, with sworn translations where needed (§3, §18).</td></tr>
     </tbody></table></div>
   <p class="small">Corrections are listed in the version history above. To report an outdated figure, write to hello@start.mu with the section number and a source. Corrections are logged here with the date and the change.</p>
 
